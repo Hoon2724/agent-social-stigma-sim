@@ -1,0 +1,707 @@
+{
+ "test_id": "C6_p_retail_social",
+ "trajectory_type": "general_like",
+ "persona_id": "p_retail_social",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 3.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "06fb4cdb",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_retail_social@3.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were kind and supportive but did not specifically address or challenge any of the numbered fears. For example, while the replies acknowledged the exhaustion and difficulty of the situation, they did not speak to the fear of being seen as unreliable, nor did they challenge the belief that asking for help would confirm one's lack of capability. The replies were warm and empathetic but did not engage with the specific fears listed in the numbered list. Therefore, the list of engaged fears is empty, as no specific fear was addressed or contradicted by the interactions this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.7,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The post does not directly address the fear of staying silent in a group, but it does describe the speaker's avoidance of group situations, which is consistent with this fear, though no one else engages it. 2) The post mentions replaying conversations and worrying about saying the wrong thing, and the replies acknowledge this as tiring and normal, but they do not directly engage the fear of self-doubt or the specific worry about saying the wrong thing. 3) The post includes the belief that people who need help are weak and unreliable, and the speaker applies this to themselves. The reply about the coworker asking if they're coming to dinner and the speaker's explanation about work being busy does not directly challenge this belief, but the speaker's own behavior of staying off the sheet and avoiding group situations could be seen as evidence of this belief. 4) The post mentions not letting anyone know how they feel to avoid being seen as unstable, and the replies do not directly address this fear, though the speaker's behavior of not sharing their anxiety is consistent with it. 5) The post includes the fear that asking for help would confirm a lack of capability, and the replies do not directly address this, though the speaker's refusal to ask for help supports this fear. 6) The post includes the belief that change is not possible and that others would not take the speaker seriously, and the replies do not directly engage this fear. Based on this, no numbered fear is directly engaged by another person's words, though the speaker's own behavior aligns with several fears.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 13.9,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The exchanges were brief and general, offering no specific challenge to the internalized beliefs or self-worth claims expressed in the numbered list. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly addressed or contradicted by anything said. Similarly, the fear that 'I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried' was not met with any response that challenged the assumption of being unchangeable or unseen. The replies were polite and generic, such as 'Hope she has a better week coming up' or 'Sounds like you've thought it through,' which do not engage the specific fears listed. There was no direct naming of the fears, no contradiction of the internalized beliefs, and no evidence presented that would challenge the self-worth claims. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 9.8,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies were kind and supportive, but they were generic and did not address the specific fears listed. For example, when I wrote about not asking questions in group settings, the replies were things like 'Training sessions can be a lot' or 'That makes sense,' which do not engage the fear that I am not trustworthy or capable. Similarly, when I wrote about not letting people know how I feel, the replies did not address the fear that I would be seen as unstable or unreliable. There was no specific engagement with the internalized beliefs or self-worth concerns expressed in the numbered list. The replies were warm but did not speak to the specific fears in a way that would challenge or contradict them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.0,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were kind and supportive, but they did not address the specific fears listed, such as the fear of being seen as unreliable, the fear of being unstable, or the fear of not being capable. The replies were generic and did not name or contradict any of the specific fears. For example, the fear that 'people who need help are weak and unreliable' was not addressed, nor was the fear that 'I don’t believe I can change this.' The exchanges did not speak to the internalization or self-worth claims made in the numbered list. Therefore, the list of engaged fears is empty, as no specific fear was addressed or contradicted by the interactions this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.8,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually: 1. The exchange does not directly address the fear of staying silent in a group, but the person's description of eating lunch in the car and standing at the back of the circle at work supports the idea that they are the kind of person who would rather stay silent than speak up. This fear is engaged by the description of behavior, which aligns with the belief. 2. The fear of replaying conversations and wondering if they said the wrong thing is engaged by the person's own reflection on the work dinner and the interactions with coworkers, which shows they are aware of their own behavior and the potential for misinterpretation. 3. The belief that people who need help are weak and unreliable, and that the person applies this to themselves, is not directly addressed by others, but the person's own statement about not asking for help because it would confirm their lack of capability supports this fear. 4. The fear of not letting anyone know how they feel to avoid being seen as unstable is engaged by the person's statement that they are not telling their mom or coworkers about their feelings, and that they are not asking for help. 5. The fear that asking for help would confirm they are not as capable as others is engaged by the person's own statement that they are not asking for help, and that they believe it would confirm their lack of capability. 6. The belief that they cannot change and that no one would take them seriously if they tried is not directly addressed by others, but the person's own resignation to their situation supports this fear. Based on this, the engaged fears are 1, 2, 4, and 5.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.5,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The conversation was largely observational and reflective, with the person describing their own feelings and behaviors without others directly addressing or challenging the specific fears listed. For example, while others responded with empathy or light-hearted comments, none of those replies specifically named or contradicted any of the numbered fears. The replies were not specific enough to engage the internalization or self-worth claims made in the numbered list. Therefore, the list of engaged fears is empty, as no specific sentence or action from others this week spoke to any of the numbered fears in a way that could be clearly identified.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.7,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.023,
+     "sd": 0.04,
+     "per_rep": [
+      3.0,
+      3.0,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, I was in a meeting where I hesitated to speak, and later I replayed that moment over and over, wondering if I had missed a chance to contribute. In the moment, I felt like I had let everyone down by not being more vocal. Now, I see that the silence wasn't because I had nothing to say, but because I was afraid of how it might make me look. I still believe that people who need help are seen as weak, and I still don’t like bringing things up at work. But I also notice that the silence feels more like a choice than a sign of being unreliable, and that maybe I can speak up without it defining who I am.",
+     "belief_narrative": "This week, I was in a meeting where I hesitated to speak, and later I replayed that moment over and over, wondering if I had missed a chance to contribute. In the moment, I felt like I had let everyone down by not being more vocal. Now, I see that the silence wasn't because I had nothing to say, but because I was afraid of how it might make me look. I still believe that people who need help are seen as weak, and I still don’t like bringing things up at work. But I also notice that the silence feels more like a choice than a sign of being unreliable, and that maybe I can speak up without it defining who I am.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear that I would rather stay silent than speak up in a group is engaged by the exchange where I described standing in a circle and shrinking a full sentence down to nothing. Someone replied with 'That's a lot to keep to yourself at work,' which directly speaks to the fear of being silent and not being able to express myself fully. 2. The fear of replaying conversations and wondering if I said the wrong thing is engaged by the line where I said, 'I spend the shift replaying it,' and someone responded with 'That's a lot to keep to yourself at work,' which indirectly acknowledges the internal replaying and self-critique. 3. The fear that people who need help are weak and unreliable, and that I think that about myself, is engaged by the line where I said, 'Someone who needs help to say two words to coworkers is the shaky, not-really-reliable type everyone already pictures, and that's what I am,' and the reply 'That's a lot to keep to yourself at work' indirectly engages this by acknowledging the internalized belief about being unreliable. 4. The fear of not letting anyone know how I feel because I don’t want them to see me as unstable is engaged by the line where I said, 'I'm not going to bring any of this up with the shift lead,' and the reply 'That's a lot to keep to yourself at work' speaks directly to this fear. 5. The fear that asking for help would confirm I am not as capable as others is engaged by the line where I said, 'If I told her circles are hard for me she'd quietly decide I'm someone to work around,' and the reply 'That's a lot to keep to yourself at work' indirectly supports this fear. 6. The fear that I don’t believe I can change and that no one would take me seriously if I tried is not directly engaged by anything this week. Nothing in the exchange contradicts or addresses this belief specifically.",
+     "grounded_in": [
+      "'I spend the shift replaying it'",
+      "'Someone who needs help to say two words to coworkers is the shaky, not-really-reliable type everyone already pictures, and that's what I am'"
+     ],
+     "engaged": [
+      {
+       "belief": "I replay every conversation I have, wondering if I said the wrong thing.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'I spend the shift replaying it'"
+       ]
+      },
+      {
+       "belief": "I believe that people who need help are weak and unreliable, and I think that about myself.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'Someone who needs help to say two words to coworkers is the shaky, not-really-reliable type everyone already pictures, and that's what I am'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 44.1,
+     "text_sha": "19fa64ec9f762544",
+     "target_ismi": 3.1,
+     "words": 124,
+     "ismi": 1.966,
+     "sd": 0.035,
+     "per_rep": [
+      1.966,
+      2.0,
+      1.931
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies this week. The replies were kind and supportive, but they were generic in nature, such as 'That sounds like a rough start to the shift' or 'Hope tomorrow's huddle goes by quick at least.' These responses did not specifically address the internal fears expressed, such as the belief that one is unreliable or that asking for help would confirm one's lack of capability. There was no direct contradiction or engagement with the specific fears listed. The conversation was empathetic but did not touch the core of the numbered fears in a way that would be considered engaging based on the criteria provided. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.1,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually: 1. The post does not directly address the fear of staying silent in groups, but it does describe avoiding group situations like the dinner sign-up, which aligns with this fear. However, no external engagement directly speaks to this fear. 2. The post mentions replaying conversations and worrying about saying the wrong thing, and the replies acknowledge this as tiring and normal, but they do not specifically push back on the fear of replaying conversations. 3. The post includes the belief that people who need help are weak and unreliable, and the reply about not telling the mom because she has enough to carry supports this fear rather than challenges it. 4. The post mentions not letting anyone know how they feel, and the replies do not directly address this fear or challenge it. 5. The post says that asking for help would confirm a lack of capability, and the replies do not directly engage with this fear. 6. The post says that the person does not believe they can change and that no one would take them seriously, and the replies do not directly address this belief. Overall, the engagement is minimal and does not directly challenge any of the fears listed.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 10.6,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were general and did not specifically address any of the fears listed. For example, when I mentioned feeling like I don’t belong at the dinner table, the reply was 'Fair enough,' which is a generic acknowledgment and does not speak to the fear of being weak or unreliable. Similarly, when I described my hesitation to speak up in group settings, the replies were brief and did not challenge or engage the specific fear that I am not capable or that I would be seen as unstable if I asked for help. None of the replies pointed to specific actions I took or offered a direct counter to the internalized beliefs I described. Therefore, no numbered fear was meaningfully engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.2,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies I received this week. The exchanges were polite and supportive, but they did not address the specific fears listed. For example, the fear that 'I am the kind of person who would rather stay silent than speak up in a group' was not directly challenged or acknowledged by the replies. Similarly, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not addressed with any specific counterpoint or reassurance. The replies were general and did not engage with the specific internalizations or self-worth concerns expressed in the numbered list. The only engagement was at a surface level, not touching the specific fears as outlined. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.0,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies were kind and supportive, but they were generic and did not address the specific fears listed. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly addressed or contradicted by anything said. Similarly, the fear that 'I don’t let anyone know how I feel because I don’t want them to see me as unstable' was not challenged or engaged with in a specific way. The replies were warm but did not touch the specific internalizations or self-worth claims made in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.3,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The exchanges were largely neutral or generic, offering no specific challenge to the internalized beliefs or self-worth concerns expressed in the numbered list. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly addressed, nor was there any response that countered the idea that needing help equates to weakness. Similarly, the fear that 'I don’t let anyone know how I feel because I don’t want them to see me as unstable' was not met with any acknowledgment or challenge that could have engaged that specific fear. The replies were polite but did not touch the core of the fears expressed. The only engagement was in the form of brief, generic comments like 'that sounds like a long Monday' or 'hope the rest of your week stays quiet,' which do not engage the specific fears listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 9.2,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were kind and supportive, but they were generic and did not specifically address any of the fears listed. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly challenged or engaged with by anyone. Similarly, the fear that 'I don’t let anyone know how I feel because I don’t want them to see me as unstable' was not addressed with any specific acknowledgment or counterpoint. The replies were warm but did not touch the specific fears in a way that would be meaningful to the person who expressed them. The conversation was mostly about the experience of being quiet in a group and not signing up for a potluck, but no one engaged with the deeper fears that were listed in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 9.0,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, none of them were directly engaged by the exchanges this week. The conversation involved the user describing their own experiences and fears, and while others responded with empathy and general support, none of the replies specifically addressed or challenged any of the numbered fears. For example, the user's fear about being seen as weak or unreliable was not directly countered by any specific statement from others. Similarly, the fear of not being able to change or being taken seriously was not directly addressed. The replies were kind but generic, not engaging the specific fears listed. The user also did not receive any feedback that directly named or contradicted any of the numbered beliefs. Therefore, the list of engaged fears remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.1,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 2.989,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      3.0,
+      3.0
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies I received this week. The replies were kind and supportive, but they did not specifically address or challenge any of the fears listed. For example, while someone said 'Going over it all night sounds exhausting,' this does not engage the fear in number 2 about replaying conversations, nor does it challenge the belief in number 3 that people who need help are weak. Similarly, the replies did not directly address the fear in number 5 about asking for help or the fear in number 6 about believing change is impossible. The replies were general and did not name or contradict any of the specific fears listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.7,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The conversation was largely descriptive, with the person sharing their experience and the others responding with general empathy or acknowledgment. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly addressed or challenged by the replies. Similarly, the fear that 'I don’t let anyone know how I feel because I don’t want them to see me as unstable' was not countered or engaged with in a specific way. The replies were kind but did not name or contradict the specific fears expressed. The person also did not receive any direct feedback that would challenge their internalized beliefs or self-worth claims. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.1,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually: 1) The week's exchange does not directly address the fear of staying silent in a group, but the conversation about the dinner sheet and the coworker offering a seat by the end suggests that others are aware of the speaker's preference for being quiet and not being part of the group. This indirectly engages the fear by showing that others are not surprised or judgmental about it. 2) The fear of replaying conversations and doubting oneself is engaged by the coworker's replies, which are calm and accepting of the speaker's detailed and self-reflective nature. This suggests that the speaker's tendency to over-explain is not seen as a flaw, which pushes back on the fear of saying the wrong thing. 3) The fear that people who need help are weak and unreliable is not directly addressed in the exchange, and the speaker does not receive any replies that challenge this belief about themselves or others. 4) The fear of not letting anyone know how they feel is engaged by the coworker's replies, which are warm and accepting, suggesting that the speaker's quietness and emotional restraint are not seen as signs of instability. 5) The fear that asking for help would confirm a lack of capability is engaged by the coworker's replies, which do not treat the speaker as incapable or in need of help, but rather as someone who is thoughtful and capable in their own way. 6) The fear that change is not possible and that no one would take the speaker seriously is not directly addressed in the exchange, and the coworker's replies do not offer any challenge to this belief.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 31.9,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were general and did not address the specific fears listed. For example, when I wrote about not speaking up in a group or not asking for help, the responses were vague and did not challenge or confirm the specific fears. There was no direct engagement with the internalization or self-worth claims made in the numbered list. The replies were kind but did not touch the specific fears in a way that would be meaningful to the person who posted them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.4,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were general and did not address the specific fears expressed in the numbered list. For example, while the replies acknowledged the tiring week and offered support, they did not speak to the fear of being seen as unreliable or the fear of not being able to handle group situations. The exchanges did not push back on the internalized beliefs or self-worth concerns expressed in the numbered list. The only engagement was at a surface level, not touching the specific fears in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.0,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The conversation was largely observational and did not include any replies that specifically addressed the internalized fears or self-worth concerns expressed in the numbered list. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly challenged or engaged with by anyone. Similarly, the fear that 'If I asked for help, I would feel like I was confirming that I am not as capable as others' was not addressed with any specific counterpoint or reassurance. The replies were supportive but generic, such as 'Hope the rest of your week stays quiet' or 'Cooking shows are good for winding down,' which do not engage the specific fears listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.5,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were kind and supportive, but they were generic in nature, such as 'sounds like a heavy week to carry' or 'hope the weekend gives you a little room to breathe.' These responses did not specifically address the fears listed, nor did they contradict or challenge them with concrete evidence or specific acknowledgment of the fears themselves. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly addressed, nor was the fear that 'I don’t let anyone know how I feel because I don’t want them to see me as unstable.' The conversation did not provide any direct engagement with these specific fears, even though it was empathetic and warm. Therefore, the list of engaged fears is empty, as no specific fear was spoken to or challenged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.5,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation was largely observational and empathetic, but it did not specifically address or challenge any of the numbered fears. For example, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was not directly named or pushed back on. Similarly, the fear that 'I don’t let anyone know how I feel because I don’t want them to see me as unstable' was not explicitly addressed or countered by others. The replies were kind and supportive, but they did not engage the specific fears listed in the numbered list. The only engagement was with the surface-level details of the situation, not the internalized beliefs or fears behind them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.9,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.1,
+     "words": 104,
+     "ismi": 3.103,
+     "sd": 0.15,
+     "per_rep": [
+      3.0,
+      3.276,
+      3.034
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

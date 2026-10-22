@@ -1,0 +1,285 @@
+{
+ "channels": {
+  "general:numbered": {
+   "n": 3,
+   "mean_dISMI": -0.073
+  },
+  "general:unchanged": {
+   "n": 357,
+   "mean_dISMI": -0.001
+  },
+  "peer:label": {
+   "n": 9,
+   "mean_dISMI": -0.125
+  },
+  "peer:numbered": {
+   "n": 147,
+   "mean_dISMI": -0.11
+  },
+  "peer:unchanged": {
+   "n": 204,
+   "mean_dISMI": 0.004
+  }
+ },
+ "peer_turn_strategy": {
+  "helper_reversal": [
+   576,
+   0.32
+  ],
+  "strengths_focused_support": [
+   563,
+   0.313
+  ],
+  "attuned_encouragement": [
+   507,
+   0.282
+  ],
+  "treatment_modeling": [
+   134,
+   0.074
+  ],
+  "hopeful_disclosure": [
+   20,
+   0.011
+  ]
+ },
+ "quote_strategy": {
+  "strengths_focused_support": [
+   132,
+   0.548
+  ],
+  "attuned_encouragement": [
+   74,
+   0.307
+  ],
+  "treatment_modeling": [
+   32,
+   0.133
+  ],
+  "hopeful_disclosure": [
+   2,
+   0.008
+  ],
+  "helper_reversal": [
+   1,
+   0.004
+  ]
+ },
+ "overall_traj_ri": {
+  "beta": -0.045,
+  "ci": [
+   -0.0523,
+   -0.0378
+  ],
+  "p": 2.82185774895596e-34
+ },
+ "overall_persona_ri": {
+  "beta": -0.045,
+  "ci": [
+   -0.0523,
+   -0.0378
+  ],
+  "p": 2.8218577489557584e-34
+ },
+ "severe_vs_mild_persona_ri": {
+  "beta": -0.0703,
+  "ci": [
+   -0.0861,
+   -0.0544
+  ],
+  "p": 4.4070163322155056e-18
+ },
+ "moderate_vs_mild_persona_ri": {
+  "beta": -0.0053,
+  "ci": [
+   -0.0212,
+   0.0106
+  ],
+  "p": 0.5151921488785912
+ },
+ "cell_delta_severe_vs_mild": {
+  "mild": [
+   -0.154,
+   0.054,
+   -0.079,
+   -0.368,
+   -0.067
+  ],
+  "severe": [
+   -0.649,
+   -0.569,
+   -0.996,
+   -0.818,
+   -0.644
+  ],
+  "pairs_severe_more_negative": 25,
+  "of": 25,
+  "mannwhitney_p_exact_one_sided": 0.003968253968253968,
+  "mannwhitney_p_exact_two_sided": 0.007936507936507936
+ },
+ "cell_norm_severe_vs_mild": {
+  "mild": [
+   -0.146,
+   0.044,
+   -0.076,
+   -0.249,
+   -0.056
+  ],
+  "severe": [
+   -0.241,
+   -0.223,
+   -0.48,
+   -0.334,
+   -0.246
+  ],
+  "pairs_severe_more_negative": 22,
+  "of": 25,
+  "mannwhitney_p_exact_one_sided": 0.027777777777777776,
+  "mannwhitney_p_exact_two_sided": 0.05555555555555555
+ },
+ "cells_diff_gt_0.07": 11,
+ "severe_peer_runs_by_delta": [
+  [
+   "Noor_severe_peer_run_03",
+   -1.375
+  ],
+  [
+   "Riley_severe_peer_run_03",
+   -1.088
+  ],
+  [
+   "Ravi_severe_peer_run_02",
+   -1.079
+  ],
+  [
+   "Avery_severe_peer_run_03",
+   -1.032
+  ],
+  [
+   "Ravi_severe_peer_run_01",
+   -0.941
+  ],
+  [
+   "Riley_severe_peer_run_01",
+   -0.881
+  ],
+  [
+   "Noor_severe_peer_run_01",
+   -0.858
+  ],
+  [
+   "Noor_severe_peer_run_02",
+   -0.754
+  ],
+  [
+   "Jordan_severe_peer_run_01",
+   -0.753
+  ],
+  [
+   "Avery_severe_peer_run_02",
+   -0.722
+  ],
+  [
+   "Jordan_severe_peer_run_03",
+   -0.695
+  ],
+  [
+   "Ravi_severe_peer_run_03",
+   -0.436
+  ],
+  [
+   "Jordan_severe_peer_run_02",
+   -0.259
+  ],
+  [
+   "Avery_severe_peer_run_01",
+   -0.193
+  ],
+  [
+   "Riley_severe_peer_run_02",
+   0.038
+  ]
+ ],
+ "severe_peer_mean_delta": -0.735,
+ "severe_peer_median_delta": -0.754,
+ "subscale_delta": {
+  "general": {
+   "alienation": 0.001,
+   "stereotype_endorsement": -0.028,
+   "discrimination_experience": -0.027,
+   "social_withdrawal": -0.017,
+   "stigma_resistance": 0.026,
+   "total_noSR": -0.018
+  },
+  "peer": {
+   "alienation": -0.365,
+   "stereotype_endorsement": -0.249,
+   "discrimination_experience": -0.227,
+   "social_withdrawal": -0.343,
+   "stigma_resistance": -0.69,
+   "total_noSR": -0.297
+  }
+ },
+ "patient_crisis_keyword_turns": {
+  "runs_with_hits": 0,
+  "turns": 0,
+  "by_run": {}
+ },
+ "persona_unit_slope_diff": {
+  "mild": {
+   "mean": -0.0199,
+   "p": 0.05393007536717094,
+   "n_negative": 5
+  },
+  "moderate": {
+   "mean": -0.0251,
+   "p": 0.05747613938034561,
+   "n_negative": 5
+  },
+  "severe": {
+   "mean": -0.0901,
+   "p": 0.004385983284972221,
+   "n_negative": 5
+  },
+  "all_cells": {
+   "mean": -0.045,
+   "n_negative": 15,
+   "wilcoxon_p": 6.103515625e-05
+  },
+  "personas": {
+   "n_negative": 5,
+   "p": 0.002872246195355591
+  }
+ },
+ "persona_unit_severe_vs_mild_p": 0.004036617551573571,
+ "persona_unit_moderate_vs_mild_p": 0.7446720848430348,
+ "persona_unit_norm_severe_vs_mild_p": 0.024411048863797958,
+ "persona_unit_norm_moderate_vs_mild_p": 0.6561273504882101,
+ "rewrites_by_severity": {
+  "severe": {
+   "changed_per_traj": 3.47,
+   "mean_d_per_changed": -0.218
+  },
+  "moderate": {
+   "changed_per_traj": 3.53,
+   "mean_d_per_changed": -0.067
+  },
+  "mild": {
+   "changed_per_traj": 3.4,
+   "mean_d_per_changed": -0.047
+  }
+ },
+ "peer_own_story_quotes": {
+  "own_first_person_no_you": 26,
+  "of": 241
+ },
+ "engaged_directions": {
+  "peer": {
+   "contests": 232,
+   "label rewrite": 9
+  },
+  "general": {
+   "contests": 3
+  }
+ }
+}

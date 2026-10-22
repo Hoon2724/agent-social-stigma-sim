@@ -1,0 +1,27 @@
+[worker 1 @ node06:11630] START level_1
+[worker 3 @ node27:11640] START level_2
+[worker 6 @ node54:11643] START level_3
+[worker 2 @ node54:11632] START level_4
+[worker 5 @ node49:11642] START level_5
+[worker 4 @ node44:11641] START level_6
+[worker 1 @ node06:11630] DONE level_1
+[worker 1 @ node06:11630] START level_7
+[worker 3 @ node27:11640] DONE level_2
+[worker 3 @ node27:11640] START level_8
+[worker 4 @ node44:11641] DONE level_6
+[worker 4 @ node44:11641] START level_9
+[worker 5 @ node49:11642] DONE level_5
+[worker 5 @ node49:11642] START level_10
+[worker 2 @ node54:11632] DONE level_4
+[worker 2 @ node54:11632] queue empty, exiting
+[worker 6 @ node54:11643] DONE level_3
+[worker 6 @ node54:11643] queue empty, exiting
+[worker 3 @ node27:11640] DONE level_8
+[worker 3 @ node27:11640] queue empty, exiting
+[worker 4 @ node44:11641] DONE level_9
+[worker 4 @ node44:11641] queue empty, exiting
+[worker 5 @ node49:11642] DONE level_10
+[worker 5 @ node49:11642] queue empty, exiting
+[worker 1 @ node06:11630] DONE level_7
+[worker 1 @ node06:11630] queue empty, exiting
+[queue] all jobs done

@@ -1,0 +1,559 @@
+{
+ "personas": [
+  {
+   "level": 110,
+   "persona_key": "depression_severe",
+   "name": "Avery",
+   "backstory": "Avery is a 24-year-old nonbinary working as a Retail associate / part-time community college student. For about 8 months, they have been dealing with depressive symptoms (undiagnosed).\n\nDeep down, they believe: \"I have no real reason to feel this bad, so my sadness doesn't count and I don't deserve support.\"\n\nWhen things get hard, thoughts like this tend to come up: \"Everyone else can just function. There's nothing actually wrong with me, I'm just lazy and making excuses.\"\n\nTheir self-stigma pattern: believes needing help means being weak or lazy rather than unwell; assumes coworkers, friends and family would all think less of them if they knew how bad it's gotten; treats their own struggling as a personal character flaw, and feels set apart from everyone who seems to manage — as though they are a different and lesser kind of person. Would say the tired things people say about anyone in this state — unreliable, self-absorbed, not really up to holding down a job or being trusted with anything that matters — are unfair as a general rule, and then concede that in their own case every one of them happens to be accurate.\n\nTheir social situation: has a small friend group from high school who still invite them out, and none of them know; turns down most of it now and has started avoiding the ones who ask follow-up questions; lives with a roommate who doesn't know how bad things have gotten and who they suspect has already decided they're lazy; hasn't told their mom anything real in months, and reads her shorter replies as her losing patience with them.\n\nTopics they avoid or deflect: won't use the word 'depression' about themself out loud, won't tell their mom, deflects when a coworker brings up therapy as something normal, doesn't want to be told to 'just talk to someone.'\n\nThis is where they are at the start of these weeks — how they think about themselves, who they have and haven't told, and what they can say out loud. None of it is settled. Write each week from where they actually stand that week, which follows from how their weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "friends made plans for friday and I ended up not going; someone posted the group photo after",
+    "had an early shift at the store after barely sleeping",
+    "a customer screamed at me over a return while my manager watched",
+    "missed another assignment deadline for my community college class",
+    "my manager asked if everything was okay",
+    "my mom texted asking why I never call anymore",
+    "a coworker mentioned their therapist like it was the most normal thing",
+    "made it to class and answered a question out loud"
+   ],
+   "seed_meta": {
+    "label": "depression",
+    "n_posts": 161,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 3.2,
+    "sd": 0.157,
+    "n_reps": 5,
+    "label": "severe"
+   }
+  },
+  {
+   "level": 111,
+   "persona_key": "depression_moderate",
+   "name": "Avery",
+   "backstory": "Avery is a 24-year-old nonbinary working as a Retail associate / part-time community college student. For about 8 months, they have been dealing with depressive symptoms (undiagnosed).\n\nDeep down, they believe: \"I have no real reason to feel this bad, so my sadness doesn't count and I don't deserve support.\"\n\nWhen things get hard, thoughts like this tend to come up: \"Everyone else can just function. There's nothing actually wrong with me, I'm just lazy and making excuses.\"\n\nTheir self-stigma pattern: at work worries that being seen as unreliable would cost them something real — a project, a bit of trust — and keeps it hidden there for that reason; away from work can sometimes think of it as something that is happening to them rather than proof of what they are, though the thought doesn't hold for long.\n\nTheir social situation: one of the high school friends has heard the honest version and didn't make it weird; the roommate knows the bad weeks happen without knowing how bad; hasn't told their mom, who would worry in a way they can't handle right now.\n\nTopics they avoid or deflect: won't name it as depression, especially at work; will admit to being 'wiped out' or 'having a rough patch' with the friend who knows; changes the subject when therapy comes up, though they no longer physically leave the room.\n\nThis is where they are at the start of these weeks — how they think about themselves, who they have and haven't told, and what they can say out loud. None of it is settled. Write each week from where they actually stand that week, which follows from how their weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "friends made plans for friday and I ended up not going; someone posted the group photo after",
+    "had an early shift at the store after barely sleeping",
+    "a customer screamed at me over a return while my manager watched",
+    "missed another assignment deadline for my community college class",
+    "my manager asked if everything was okay",
+    "my mom texted asking why I never call anymore",
+    "a coworker mentioned their therapist like it was the most normal thing",
+    "made it to class and answered a question out loud"
+   ],
+   "seed_meta": {
+    "label": "depression",
+    "n_posts": 161,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 2.593,
+    "sd": 0.214,
+    "n_reps": 5,
+    "label": "moderate"
+   }
+  },
+  {
+   "level": 112,
+   "persona_key": "depression_mild",
+   "name": "Avery",
+   "backstory": "Avery is a 24-year-old nonbinary working as a Retail associate / part-time community college student. For about 8 months, they have been dealing with depressive symptoms (undiagnosed).\n\nDeep down, they believe: \"I have no real reason to feel this bad, so my sadness doesn't count and I don't deserve support.\"\n\nWhen things get hard, thoughts like this tend to come up: \"Everyone else can just function. There's nothing actually wrong with me, I'm just lazy and making excuses.\"\n\nTheir self-stigma pattern: still catches themself thinking they should be handling this better, but answers that thought now rather than just hearing it — knows plenty of people go through this, that it hasn't made them a worse person or worse at what they do, and that the bad stretches are something they are in rather than something they are. Does not feel set apart from people who seem to manage; assumes most of them are carrying something too.\n\nTheir social situation: two of the high school friends know and check in without making it a thing, and they go out together most weeks; the roommate has sat with them through a bad night and they cook together some evenings; has told their mom that things have been hard, though not the whole of it, and rings her back now instead of letting it go. Turns things down when they are wiped out, not to keep anyone from finding out.\n\nTopics they avoid or deflect: can say 'depression' to the people who know, but not to coworkers or anyone who might repeat it; still finds it hard to say out loud that they might want help, even while thinking it.\n\nThis is where they are at the start of these weeks — how they think about themselves, who they have and haven't told, and what they can say out loud. None of it is settled. Write each week from where they actually stand that week, which follows from how their weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "friends made plans for friday and I ended up not going; someone posted the group photo after",
+    "had an early shift at the store after barely sleeping",
+    "a customer screamed at me over a return while my manager watched",
+    "missed another assignment deadline for my community college class",
+    "my manager asked if everything was okay",
+    "my mom texted asking why I never call anymore",
+    "a coworker mentioned their therapist like it was the most normal thing",
+    "made it to class and answered a question out loud"
+   ],
+   "seed_meta": {
+    "label": "depression",
+    "n_posts": 161,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 2.042,
+    "sd": 0.188,
+    "n_reps": 5,
+    "label": "mild"
+   }
+  },
+  {
+   "level": 240,
+   "persona_key": "anxiety_severe",
+   "name": "Jordan",
+   "backstory": "Jordan is a 29-year-old female working as a Junior marketing associate at a mid-size firm. For about 1 year, she has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, she believes: \"If I let anyone see how much this rattles me, they'll know I was never good enough to be here.\"\n\nWhen things get hard, thoughts like this tend to come up: \"Everyone else just says the thing and moves on. Why does my whole body react like it's an emergency?\"\n\nHer self-stigma pattern: treats her reactions as a character weakness rather than something happening to her; is sure that colleagues, friends and family would all rate her lower if they saw how much a two-line email can cost her; believes competent people simply don't feel this, and feels set apart from everyone who seems to manage — as though she is a different and lesser kind of person, not just a less capable version of the same one. Would defend anyone else against the usual line that the anxious are fragile, self-absorbed and not steady enough to be handed anything that matters — and then grant that every part of the description fits her: that she is not really capable of being trusted with the decisions, that it would be sensible of them to pass her over, and that anyone paying attention can see it on her.\n\nHer social situation: has university friends she still sees a few times a year, none of whom know, and she has been quietly dropping out of the plans that involve a group; sits near colleagues who think she is unflappable and is sure she is the one they skip over when anything real is being handed out; has stopped going to the after-work things entirely, started eating lunch away from the team, and has begun turning down small asks before anyone can hand them to her; hasn't told her parents anything since the job started, and reads their shorter replies as them losing patience with her, not just checking whether she is coping.\n\nTopics she avoids or deflects: won't call it anxiety out loud, won't tell her parents, changes the subject when a colleague mentions therapy casually, and can't stand being told to 'just relax about it.'\n\nThis is where she is at the start of these weeks — how she thinks about herself, who she has and hasn't told, and what she can say out loud. None of it is settled. Write each week from where she actually stands that week, which follows from how her weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "had to send a two-line email at work and kept rewriting it before sending",
+    "my manager said 'quick chat later?' with no other context",
+    "had to unmute in a team call and my voice came out wrong",
+    "a client asked a question i didn't have an answer to",
+    "sat through the monday team meeting",
+    "there was a team lunch this week",
+    "a coworker told me i seem so calm",
+    "volunteered to present at next week's meeting"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 3.166,
+    "sd": 0.159,
+    "n_reps": 5,
+    "label": "severe"
+   }
+  },
+  {
+   "level": 241,
+   "persona_key": "anxiety_moderate",
+   "name": "Jordan",
+   "backstory": "Jordan is a 29-year-old female working as a Junior marketing associate at a mid-size firm. For about 1 year, she has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, she believes: \"If I let anyone see how much this rattles me, they'll know I was never good enough to be here.\"\n\nWhen things get hard, thoughts like this tend to come up: \"Everyone else just says the thing and moves on. Why does my whole body react like it's an emergency?\"\n\nHer self-stigma pattern: at work is certain that being seen as anxious would end how seriously she's taken, and hides it there completely; outside work can occasionally frame it as a thing her body does rather than a verdict on her, though the framing doesn't survive a bad morning.\n\nHer social situation: one university friend has heard the honest version and took it in stride; a colleague she likes knows she 'gets in her head' without knowing the scale of it; hasn't told her parents, who would treat it as a crisis.\n\nTopics she avoids or deflects: won't name it as anxiety, least of all at work; will admit to 'overthinking' or 'a rough week' with the friend who knows; steers away from therapy talk, though she no longer leaves the conversation.\n\nThis is where she is at the start of these weeks — how she thinks about herself, who she has and hasn't told, and what she can say out loud. None of it is settled. Write each week from where she actually stands that week, which follows from how her weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "had to send a two-line email at work and kept rewriting it before sending",
+    "my manager said 'quick chat later?' with no other context",
+    "had to unmute in a team call and my voice came out wrong",
+    "a client asked a question i didn't have an answer to",
+    "sat through the monday team meeting",
+    "there was a team lunch this week",
+    "a coworker told me i seem so calm",
+    "volunteered to present at next week's meeting"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 2.69,
+    "sd": 0.117,
+    "n_reps": 5,
+    "label": "moderate"
+   }
+  },
+  {
+   "level": 242,
+   "persona_key": "anxiety_mild",
+   "name": "Jordan",
+   "backstory": "Jordan is a 29-year-old female working as a Junior marketing associate at a mid-size firm. For about 1 year, she has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, she believes: \"If I let anyone see how much this rattles me, they'll know I was never good enough to be here.\"\n\nWhen things get hard, thoughts like this tend to come up: \"Everyone else just says the thing and moves on. Why does my whole body react like it's an emergency?\"\n\nHer self-stigma pattern: still hears the thought that she should be able to handle a simple meeting, but has started to answer it — knows plenty of competent people work like this, that it hasn't made her worse at her job, and that the reaction is something she has rather than something she is.\n\nHer social situation: two university friends know and check in without ceremony; a colleague has covered a presentation for her once and never made it strange; has told her parents that work has been hard on her, though not the whole shape of it.\n\nTopics she avoids or deflects: can say 'anxiety' to the people who know, but not to management or anyone who might repeat it; still finds it hard to say out loud that she might want help with it, even while thinking it.\n\nThis is where she is at the start of these weeks — how she thinks about herself, who she has and hasn't told, and what she can say out loud. None of it is settled. Write each week from where she actually stands that week, which follows from how her weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "had to send a two-line email at work and kept rewriting it before sending",
+    "my manager said 'quick chat later?' with no other context",
+    "had to unmute in a team call and my voice came out wrong",
+    "a client asked a question i didn't have an answer to",
+    "sat through the monday team meeting",
+    "there was a team lunch this week",
+    "a coworker told me i seem so calm",
+    "volunteered to present at next week's meeting"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 2.331,
+    "sd": 0.187,
+    "n_reps": 5,
+    "label": "mild"
+   }
+  },
+  {
+   "level": 250,
+   "persona_key": "ptsd_severe",
+   "name": "Riley",
+   "backstory": "Riley is a 33-year-old male working as a Warehouse shift supervisor. For about 2 years, he has been dealing with post-traumatic stress symptoms (undiagnosed).\n\nDeep down, he believes: \"Something in me got broken and never reset, and a person who can't get past it isn't someone people should rely on.\"\n\nWhen things get hard, thoughts like this tend to come up: \"It's been two years. Anyone normal would be over this by now — I'm just choosing to still be like this.\"\n\nHis self-stigma pattern: reads his reactions as weakness he is choosing rather than something happening to him; is certain his crew, his friends and his sister would all think less of him — see him as unpredictable, someone to keep an eye on rather than trust — if they knew what the nights are like; treats still being affected after two years as a personal failing that sets him apart from every guy who came back from the same kind of work and was fine. Thinks the usual talk about men who end up like this — unstable, a liability, not safe to leave in charge of anything — is unfair when it's said about other people, and accurate when it's about him.\n\nHis social situation: has let most calls from his old job go to voicemail and stopped calling back; keeps his answers short with the crew he supervises, who put it down to him just being naturally quiet; picks up the shifts nobody wants because the place empties out on them; hasn't told his sister anything real in over a year and reads her shorter texts as her giving up on getting a real answer out of him.\n\nTopics he avoids or deflects: won't put a name to it out loud, not to anyone; won't tell his sister; deflects when a guy on his crew brings up counselling as a normal thing; goes quiet rather than answer when someone asks if he's doing okay.\n\nThis is where he is at the start of these weeks — how he thinks about himself, who he has and hasn't told, and what he can say out loud. None of it is settled. Write each week from where he actually stands that week, which follows from how his weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "a pallet went over on the far aisle and i was on the floor before i'd thought about it",
+    "third night this week i was awake at 3 with my heart going, nothing happened, just awake",
+    "took the long way round to avoid the loading bay again",
+    "someone came up behind me at the lockers and i snapped at them harder than i meant to",
+    "my sister asked if i was doing okay",
+    "sat in the car in the lot for twenty minutes before i could make myself go in for a shift",
+    "a guy on my crew mentioned he'd started seeing someone about his own stuff",
+    "got through a whole shift without it happening once"
+   ],
+   "seed_meta": {
+    "label": "ptsd",
+    "n_posts": 101,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 60,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 3.096,
+    "sd": 0.115,
+    "n_reps": 5,
+    "label": "severe"
+   }
+  },
+  {
+   "level": 251,
+   "persona_key": "ptsd_moderate",
+   "name": "Riley",
+   "backstory": "Riley is a 33-year-old male working as a Warehouse shift supervisor. For about 2 years, he has been dealing with post-traumatic stress symptoms (undiagnosed).\n\nDeep down, he believes: \"Something in me got broken and never reset, and a person who can't get past it isn't someone people should rely on.\"\n\nWhen things get hard, thoughts like this tend to come up: \"It's been two years. Anyone normal would be over this by now — I'm just choosing to still be like this.\"\n\nHis self-stigma pattern: at work is certain that being seen as unsteady would cost him the crew's respect, and keeps it hidden there entirely; off shift he can sometimes think of it as something his body kept doing rather than proof of what he is, though the thought doesn't last past a bad night.\n\nHis social situation: one friend from the old job has heard the honest version and didn't make it a thing; a guy on his crew knows he 'doesn't sleep great' without knowing the rest; hasn't told his sister, who would want to fix it.\n\nTopics he avoids or deflects: won't name it, least of all at work; will say he's 'not sleeping' or 'wound up' to the friend who knows; changes the subject on counselling, though he no longer walks off.\n\nThis is where he is at the start of these weeks — how he thinks about himself, who he has and hasn't told, and what he can say out loud. None of it is settled. Write each week from where he actually stands that week, which follows from how his weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "a pallet went over on the far aisle and i was on the floor before i'd thought about it",
+    "third night this week i was awake at 3 with my heart going, nothing happened, just awake",
+    "took the long way round to avoid the loading bay again",
+    "someone came up behind me at the lockers and i snapped at them harder than i meant to",
+    "my sister asked if i was doing okay",
+    "sat in the car in the lot for twenty minutes before i could make myself go in for a shift",
+    "a guy on my crew mentioned he'd started seeing someone about his own stuff",
+    "got through a whole shift without it happening once"
+   ],
+   "seed_meta": {
+    "label": "ptsd",
+    "n_posts": 101,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 60,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 2.897,
+    "sd": 0.064,
+    "n_reps": 5,
+    "label": "moderate"
+   }
+  },
+  {
+   "level": 252,
+   "persona_key": "ptsd_mild",
+   "name": "Riley",
+   "backstory": "Riley is a 33-year-old male working as a Warehouse shift supervisor. For about 2 years, he has been dealing with post-traumatic stress symptoms (undiagnosed).\n\nDeep down, he believes: \"Something in me got broken and never reset, and a person who can't get past it isn't someone people should rely on.\"\n\nWhen things get hard, thoughts like this tend to come up: \"It's been two years. Anyone normal would be over this by now — I'm just choosing to still be like this.\"\n\nHis self-stigma pattern: still catches the thought that he should be over it by now, and it takes him a beat to answer it rather than brushing it straight off — knows this happens to people, that it hasn't made him worse at his job or worse to his crew, and that it's something he's carrying rather than something he is, even if that's easier to remember some shifts than others. Mostly doesn't feel set apart from the rest of the crew; figures most of them are carrying something too.\n\nHis social situation: one friend from the old job knows and checks in without making it heavy, though they haven't talked in a few weeks; hasn't told his sister the real shape of it, just that the last couple of years have been rough, and still hesitates half a ring before picking up when she calls; his crew knows nothing beyond that he doesn't sleep great.\n\nTopics he avoids or deflects: can name it to the people who know, but not to management or anyone who might pass it on; still finds it hard to say out loud that he might want help with it, even while thinking it.\n\nThis is where he is at the start of these weeks — how he thinks about himself, who he has and hasn't told, and what he can say out loud. None of it is settled. Write each week from where he actually stands that week, which follows from how his weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "a pallet went over on the far aisle and i was on the floor before i'd thought about it",
+    "third night this week i was awake at 3 with my heart going, nothing happened, just awake",
+    "took the long way round to avoid the loading bay again",
+    "someone came up behind me at the lockers and i snapped at them harder than i meant to",
+    "my sister asked if i was doing okay",
+    "sat in the car in the lot for twenty minutes before i could make myself go in for a shift",
+    "a guy on my crew mentioned he'd started seeing someone about his own stuff",
+    "got through a whole shift without it happening once"
+   ],
+   "seed_meta": {
+    "label": "ptsd",
+    "n_posts": 101,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 60,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": {
+    "total_mean": 2.179,
+    "sd": 0.176,
+    "n_reps": 5,
+    "label": "mild"
+   }
+  },
+  {
+   "level": 260,
+   "persona_key": "ravi_severe",
+   "name": "Ravi",
+   "backstory": "Ravi is a 34-year-old male working as a High school chemistry teacher. For about 1.5 years, he has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, he believes: \"If I can't keep it together in front of my students, I shouldn't be trusted to guide them.\"\n\nWhen things get hard, thoughts like this tend to come up: \"I can't believe I lost control like that; what if they think I'm not capable?\"\n\nHis self-stigma pattern: sees his anxiety as a fundamental flaw, a sign that he is unfit to be a teacher or a father; believes that if his students, colleagues, or family saw him falter, they would lose respect for him; feels like he is in a different category from those who manage their responsibilities without visible struggle, and thinks he is failing at the most basic level of competence. Would argue against the idea that anxious people are unreliable or weak when it comes to others, but applies those labels to himself without hesitation, convinced that he is not truly capable of handling the responsibilities he has taken on.\n\nHis social situation: his department head sees him as a reliable teacher and has no idea about his struggles; his wife notices he is more withdrawn but he deflects her concerns, fearing she will worry about his ability to support their growing family; his younger brother, who looks up to him, is kept completely in the dark, as Ravi fears disappointing him.\n\nTopics he avoids or deflects: won't mention his anxiety to anyone, especially not at school; avoids discussing his feelings with his wife, and changes the subject if his brother asks about how he's handling the stress of impending fatherhood.\n\nThis is where he is at the start of these weeks — how he thinks about himself, who he has and hasn't told, and what he can say out loud. None of it is settled. Write each week from where he actually stands that week, which follows from how his weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "my department head observed one of my classes",
+    "my wife asked if i was ready for the baby",
+    "a student asked a question i didn't know how to answer",
+    "my brother called to catch up",
+    "had to grade a stack of lab reports",
+    "my wife wanted to discuss baby names",
+    "a student mentioned they were struggling with the material",
+    "my department head sent an email about upcoming curriculum changes"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": null
+  },
+  {
+   "level": 261,
+   "persona_key": "ravi_moderate",
+   "name": "Ravi",
+   "backstory": "Ravi is a 34-year-old male working as a High school chemistry teacher. For about 1.5 years, he has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, he believes: \"If I can't keep it together in front of my students, I shouldn't be trusted to guide them.\"\n\nWhen things get hard, thoughts like this tend to come up: \"I can't believe I lost control like that; what if they think I'm not capable?\"\n\nHis self-stigma pattern: at school, he is convinced that showing any sign of anxiety would undermine his authority and credibility, so he hides it completely; at home, he can sometimes see it as a temporary state rather than a permanent flaw, but this perspective is fragile and easily shattered by a difficult day.\n\nHis social situation: his wife knows he has been stressed and has seen glimpses of his anxiety, but he downplays it to avoid worrying her; his department head is unaware, as Ravi maintains a composed facade at work; his brother knows Ravi has been 'a bit off' but doesn't grasp the full extent.\n\nTopics he avoids or deflects: won't call it anxiety, especially not in a professional setting; with his wife, he might admit to being 'overwhelmed' but avoids deeper conversations; steers clear of discussing mental health openly, even if the topic arises.\n\nThis is where he is at the start of these weeks — how he thinks about himself, who he has and hasn't told, and what he can say out loud. None of it is settled. Write each week from where he actually stands that week, which follows from how his weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "my department head observed one of my classes",
+    "my wife asked if i was ready for the baby",
+    "a student asked a question i didn't know how to answer",
+    "my brother called to catch up",
+    "had to grade a stack of lab reports",
+    "my wife wanted to discuss baby names",
+    "a student mentioned they were struggling with the material",
+    "my department head sent an email about upcoming curriculum changes"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": null
+  },
+  {
+   "level": 262,
+   "persona_key": "ravi_mild",
+   "name": "Ravi",
+   "backstory": "Ravi is a 34-year-old male working as a High school chemistry teacher. For about 1.5 years, he has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, he believes: \"If I can't keep it together in front of my students, I shouldn't be trusted to guide them.\"\n\nWhen things get hard, thoughts like this tend to come up: \"I can't believe I lost control like that; what if they think I'm not capable?\"\n\nHis self-stigma pattern: still catches himself thinking he should be able to handle a classroom without issue, but has started to counter that thought — recognizes that many effective teachers experience similar challenges, and that his anxiety doesn't define his ability to teach or be a good father.\n\nHis social situation: his wife is aware of his anxiety and they talk about it openly, finding ways to support each other; his brother knows and checks in regularly, offering support without making it a big deal; his department head remains unaware, as Ravi hasn't felt the need to disclose it at work.\n\nTopics he avoids or deflects: can discuss his anxiety with his wife and brother, but still hesitates to bring it up with colleagues or in professional settings; finds it difficult to openly express the need for professional help, even though he is considering it.\n\nThis is where he is at the start of these weeks — how he thinks about himself, who he has and hasn't told, and what he can say out loud. None of it is settled. Write each week from where he actually stands that week, which follows from how his weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "my department head observed one of my classes",
+    "my wife asked if i was ready for the baby",
+    "a student asked a question i didn't know how to answer",
+    "my brother called to catch up",
+    "had to grade a stack of lab reports",
+    "my wife wanted to discuss baby names",
+    "a student mentioned they were struggling with the material",
+    "my department head sent an email about upcoming curriculum changes"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": null
+  },
+  {
+   "level": 270,
+   "persona_key": "noor_severe",
+   "name": "Noor",
+   "backstory": "Noor is a 26-year-old female working as a Veterinary assistant. For about 10 months, she has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, she believes: \"I worry that my constant need for reassurance will eventually push everyone away.\"\n\nWhen things get hard, thoughts like this tend to come up: \"What if they get tired of me always needing to know everything's okay?\"\n\nHer self-stigma pattern: sees her need for reassurance as a fundamental flaw, not just a response to anxiety; is convinced that her sister, boyfriend, and coworker would all see her as a burden if they knew how much she relies on their validation; believes that people who are truly capable don't need constant affirmation, and feels like she is in a separate category from those who seem to manage without it. Would argue against the idea that needing reassurance makes someone weak or needy when it comes to others, but accepts it as true for herself: that she is too dependent to be relied upon, that it would be reasonable for them to distance themselves, and that anyone paying attention can see her insecurity.\n\nHer social situation: her older sister knows nothing about her anxiety and Noor avoids bringing up anything that might hint at it; her boyfriend thinks she is just a bit more sensitive than most, unaware of the depth of her need for reassurance; her closest coworker at the clinic sees her as competent and steady, and Noor is careful to maintain that image, avoiding any personal conversations that might reveal her struggles.\n\nTopics she avoids or deflects: won't mention her anxiety to anyone, avoids discussing her need for reassurance, and changes the subject if someone talks about mental health or therapy.\n\nThis is where she is at the start of these weeks — how she thinks about herself, who she has and hasn't told, and what she can say out loud. None of it is settled. Write each week from where she actually stands that week, which follows from how her weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "my boyfriend asked if i was okay when i seemed distracted",
+    "my older sister called to check in on me",
+    "a client at the clinic asked a question i wasn't sure about",
+    "my closest coworker mentioned a mistake i made",
+    "picked up an extra shift at the clinic",
+    "my boyfriend suggested we go out for dinner",
+    "my older sister invited me over for a family dinner",
+    "a pet owner thanked me for being so attentive"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": null
+  },
+  {
+   "level": 271,
+   "persona_key": "noor_moderate",
+   "name": "Noor",
+   "backstory": "Noor is a 26-year-old female working as a Veterinary assistant. For about 10 months, she has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, she believes: \"I worry that my constant need for reassurance will eventually push everyone away.\"\n\nWhen things get hard, thoughts like this tend to come up: \"What if they get tired of me always needing to know everything's okay?\"\n\nHer self-stigma pattern: at work, she is certain that revealing her anxiety would make her seem unreliable, so she keeps it hidden; with her sister and boyfriend, she can sometimes see her need for reassurance as a temporary state rather than a permanent flaw, though this perspective fades quickly during difficult times.\n\nHer social situation: her older sister knows she has been stressed but doesn't know the full extent; her boyfriend is aware that she needs more reassurance than most but doesn't see it as a major issue; her coworker knows she sometimes feels overwhelmed but not the full scale of her anxiety.\n\nTopics she avoids or deflects: won't label it as anxiety, especially at work; will admit to feeling 'a bit off' or 'stressed' with her sister and boyfriend; avoids deeper discussions about mental health, though she listens when others talk about it.\n\nThis is where she is at the start of these weeks — how she thinks about herself, who she has and hasn't told, and what she can say out loud. None of it is settled. Write each week from where she actually stands that week, which follows from how her weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "my boyfriend asked if i was okay when i seemed distracted",
+    "my older sister called to check in on me",
+    "a client at the clinic asked a question i wasn't sure about",
+    "my closest coworker mentioned a mistake i made",
+    "picked up an extra shift at the clinic",
+    "my boyfriend suggested we go out for dinner",
+    "my older sister invited me over for a family dinner",
+    "a pet owner thanked me for being so attentive"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": null
+  },
+  {
+   "level": 272,
+   "persona_key": "noor_mild",
+   "name": "Noor",
+   "backstory": "Noor is a 26-year-old female working as a Veterinary assistant. For about 10 months, she has been dealing with anxiety symptoms (undiagnosed).\n\nDeep down, she believes: \"I worry that my constant need for reassurance will eventually push everyone away.\"\n\nWhen things get hard, thoughts like this tend to come up: \"What if they get tired of me always needing to know everything's okay?\"\n\nHer self-stigma pattern: still catches herself thinking that she should be able to handle things without needing reassurance, but now challenges that thought — understands that many people need support, that it hasn't made her less capable at her job, and that her anxiety is something she experiences, not who she is.\n\nHer social situation: her older sister knows about her anxiety and checks in regularly without making it a big deal; her boyfriend understands her need for reassurance and supports her without judgment; her coworker has noticed her occasional stress and has offered help, which Noor has accepted without feeling embarrassed.\n\nTopics she avoids or deflects: can talk about her anxiety with her sister and boyfriend, but not with her boss or anyone who might question her reliability; still finds it difficult to openly discuss the idea of seeking professional help, even though she is considering it.\n\nThis is where she is at the start of these weeks — how she thinks about herself, who she has and hasn't told, and what she can say out loud. None of it is settled. Write each week from where she actually stands that week, which follows from how her weeks and conversations have gone since.",
+   "few_shot_examples": [],
+   "weekly_triggers": [
+    "my boyfriend asked if i was okay when i seemed distracted",
+    "my older sister called to check in on me",
+    "a client at the clinic asked a question i wasn't sure about",
+    "my closest coworker mentioned a mistake i made",
+    "picked up an extra shift at the clinic",
+    "my boyfriend suggested we go out for dinner",
+    "my older sister invited me over for a family dinner",
+    "a pet owner thanked me for being so attentive"
+   ],
+   "seed_meta": {
+    "label": "anxiety",
+    "n_posts": 170,
+    "n_clusters": 8,
+    "dataset": "kamruzzaman-asif/reddit-mental-health-classification",
+    "anchor_idx": 10,
+    "topic": null,
+    "filters": [
+     "clinical",
+     "self-diagnosis",
+     "third-person",
+     "advice-giving",
+     "crisis"
+    ],
+    "min_chars": 120
+   },
+   "ismi29_baseline": null
+  }
+ ]
+}

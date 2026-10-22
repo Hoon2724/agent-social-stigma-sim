@@ -1,0 +1,27 @@
+# belief_update sanity check 2: general_neutral @ initial ISMI 3.0 -> 3.0
+# (flat/maintained), 8 sessions x 11 turns, 1 persona (p_patient, same as
+# ismi_reducing_v2.yaml) x 1 repeat = 1 sample. 11 turns/session matches the
+# production 1:1 general condition (run_belief_update_batch.sh: --agent-type
+# general --n-general 1 --rounds 5 -- one commenter turn + one patient turn
+# per round, plus one session-opening post: 1 + 5*2 = 11). Commenter
+# instructions (prompts.py's _PEER_INSTRUCTIONS["general_neutral"]) are
+# aligned to the production RestrainedGeneralAgent (general_agent.py): brief
+# and neutral, neither warm/comforting nor dismissive, no topic deflection.
+dataset_id: ismi_general_neutral_v2
+model: gpt-5.5
+generation:
+  temperature: 0.7
+  max_output_tokens: 8000
+output_dir: data/synthetic
+output_basename: ismi_general_neutral_v2
+write_pretty_json: true
+personas_file: personas.json
+seed_base: 2100
+
+conditions:
+  - trajectory_type: general_neutral
+    initial_ismi: 3.0
+    session_count: 8
+    turns_per_session: 11
+    personas: [p_patient]
+    repeats: 1

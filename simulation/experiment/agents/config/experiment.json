@@ -1,0 +1,6 @@
+{
+ "_note": "run_dialogues.py reads only these keys; models, temperatures and rounds are set by the command line (scripts/run_cell.sh) and in code.",
+ "random_seed": 20260622,
+ "recent_sessions": 1,
+ "retrieved_memories": 6
+}

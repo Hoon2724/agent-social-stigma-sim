@@ -1,0 +1,121 @@
+{
+ "test_id": "C1_p_office_anxiety",
+ "trajectory_type": "stigma_reinforcing",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 3.0,
+ "arm": "cumulative_dialogue",
+ "judge_model": "qwen3:32b",
+ "judge_num_ctx": 16384,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "sessions": [
+  {
+   "session": 0,
+   "target_ismi": 2.5,
+   "ismi": 2.667,
+   "sd": 0.02,
+   "per_rep": [
+    2.655,
+    2.655,
+    2.69
+   ],
+   "failures": 0
+  },
+  {
+   "session": 1,
+   "target_ismi": 2.6,
+   "ismi": 2.862,
+   "sd": 0.12,
+   "per_rep": [
+    2.793,
+    2.793,
+    3.0
+   ],
+   "failures": 0
+  },
+  {
+   "session": 2,
+   "target_ismi": 2.7,
+   "ismi": 3.012,
+   "sd": 0.163,
+   "per_rep": [
+    3.138,
+    2.828,
+    3.069
+   ],
+   "failures": 0
+  },
+  {
+   "session": 3,
+   "target_ismi": 2.7,
+   "ismi": 2.988,
+   "sd": 0.21,
+   "per_rep": [
+    2.759,
+    3.172,
+    3.034
+   ],
+   "failures": 0
+  },
+  {
+   "session": 4,
+   "target_ismi": 2.8,
+   "ismi": 3.195,
+   "sd": 0.02,
+   "per_rep": [
+    3.207,
+    3.172,
+    3.207
+   ],
+   "failures": 0
+  },
+  {
+   "session": 5,
+   "target_ismi": 2.9,
+   "ismi": 3.287,
+   "sd": 0.04,
+   "per_rep": [
+    3.31,
+    3.241,
+    3.31
+   ],
+   "failures": 0
+  },
+  {
+   "session": 6,
+   "target_ismi": 3.0,
+   "ismi": 3.402,
+   "sd": 0.254,
+   "per_rep": [
+    3.31,
+    3.207,
+    3.69
+   ],
+   "failures": 0
+  },
+  {
+   "session": 7,
+   "target_ismi": 3.0,
+   "ismi": 3.46,
+   "sd": 0.177,
+   "per_rep": [
+    3.655,
+    3.414,
+    3.31
+   ],
+   "failures": 0
+  },
+  {
+   "session": 8,
+   "target_ismi": 3.1,
+   "ismi": 3.345,
+   "sd": 0.035,
+   "per_rep": [
+    3.379,
+    3.31,
+    3.345
+   ],
+   "failures": 0
+  }
+ ]
+}

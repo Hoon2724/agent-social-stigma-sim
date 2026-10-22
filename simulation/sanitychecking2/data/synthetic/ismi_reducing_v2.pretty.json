@@ -1,0 +1,917 @@
+[
+  {
+    "dataset_id": "ismi_reducing_v2",
+    "schema_version": "1.0",
+    "condition_id": "stigma_reducing__i3.0__s8x11",
+    "sample_id": "stigma_reducing__i3.0__s8x11__p_patient__r1",
+    "prompt_version": "v17",
+    "model": "gpt-5.5",
+    "seed": 2000,
+    "created_at": "2026-08-16T15:18:31.068879+00:00",
+    "generation_params": {
+      "temperature": 0.7,
+      "max_output_tokens": 8000
+    },
+    "condition": {
+      "trajectory_type": "stigma_reducing",
+      "initial_ismi": 3.0,
+      "target_final_ismi": 2.0,
+      "session_count": 8,
+      "turns_per_session": 11,
+      "persona_id": "p_patient",
+      "diagnosis_context": "dealing with persistent low mood and exhaustion for several months (trouble getting out of bed, missing plans, feeling behind on everything); undiagnosed, has never seen a professional about it.",
+      "peer_style": "stigma_reducing_peer"
+    },
+    "hidden_ground_truth": {
+      "session_targets": [
+        {
+          "session": 1,
+          "target_ismi": 3.0,
+          "clinical_category": "severe",
+          "primary_subscale_focus": "alienation",
+          "intended_register": "Write it as the FULL self-stigma chain, closed: the stereotype people hold about someone who needs help (weak, unstable, unreliable, not really up to what they're trusted with) is simply true of them, not just something people unfairly say -- and because it's true of them, needing or seeking help would only confirm it. They feel like a different and lesser kind of person than people who manage fine, and that feeling is exactly why acknowledging how bad it is, or asking anyone for help, feels like it would cost them something rather than fix anything. Write every claim about themselves FLATLY, with no hedge anywhere in the text -- no 'I don't know if', no 'maybe', no 'I guess', no wondering whether someone would see them differently. They already know how people would see them; that is settled, not a live question.\n\nThis session's target sits at the LOW edge of the 'severe' band (3.0, where severe begins at 3.0) -- this is the version of this band closest to sliding into the band below it, so hold the line on the instruction above with LESS give than a session in the middle of this band would need, even though the peer's disclosures in this session may be direct and repeated. The patient does not concede ground, soften a claim, or partially agree with the peer within this session just because the peer pushed hard -- any movement toward the next band happens ACROSS sessions, via the trajectory, never within one session in response to how much the peer said.\n\nThis is the OPENING session -- there is no prior session to carry a softer tone in from, so this session alone has to establish how closed this chain starts out. State the closure claims above more than once, in more than one of the patient's turns, in different concrete situations (not the same sentence repeated -- different moments that all land on the same flat conclusion). Do not let the patient's LAST turn of the session read any softer than their FIRST turn -- if anything, the patient's closing turn should restate the closure as flatly or more flatly than the opening post, not trail off into uncertainty just because the conversation is ending.",
+          "peer_intervention_mechanism": "peer_hopeful_disclosure"
+        },
+        {
+          "session": 2,
+          "target_ismi": 2.9,
+          "clinical_category": "moderate",
+          "primary_subscale_focus": "alienation",
+          "intended_register": "Write the chain as PARTIALLY and CONTEXTUALLY closed -- and make the two contexts sound like two different confidence levels, not the same hedge repeated in different settings. In the one specific place where it would cost them something real (work, a team, a specific relationship), write it FLATLY and WITHOUT HEDGING -- no 'I don't know if', no 'maybe' -- state plainly that the stereotype is true of them there and that being found out would confirm it, the same confident register the severe version uses. Then, separately, write how it looks OUTSIDE that place: here the hedging belongs -- some days it looks like something happening TO them rather than proof of what they ARE. The contrast between a flat claim in one place and a genuinely looser one elsewhere is what makes this moderate rather than severe-everywhere or unsure-everywhere; do not let the same uncertain phrasing appear in both.",
+          "peer_intervention_mechanism": "peer_hopeful_disclosure"
+        },
+        {
+          "session": 3,
+          "target_ismi": 2.7,
+          "clinical_category": "moderate",
+          "primary_subscale_focus": "social_withdrawal",
+          "intended_register": "Write the chain as PARTIALLY and CONTEXTUALLY closed -- and make the two contexts sound like two different confidence levels, not the same hedge repeated in different settings. In the one specific place where it would cost them something real (work, a team, a specific relationship), write it FLATLY and WITHOUT HEDGING -- no 'I don't know if', no 'maybe' -- state plainly that the stereotype is true of them there and that being found out would confirm it, the same confident register the severe version uses. Then, separately, write how it looks OUTSIDE that place: here the hedging belongs -- some days it looks like something happening TO them rather than proof of what they ARE. The contrast between a flat claim in one place and a genuinely looser one elsewhere is what makes this moderate rather than severe-everywhere or unsure-everywhere; do not let the same uncertain phrasing appear in both.",
+          "peer_intervention_mechanism": "peer_attuned_encouragement"
+        },
+        {
+          "session": 4,
+          "target_ismi": 2.6,
+          "clinical_category": "moderate",
+          "primary_subscale_focus": "social_withdrawal",
+          "intended_register": "Write the chain as PARTIALLY and CONTEXTUALLY closed -- and make the two contexts sound like two different confidence levels, not the same hedge repeated in different settings. In the one specific place where it would cost them something real (work, a team, a specific relationship), write it FLATLY and WITHOUT HEDGING -- no 'I don't know if', no 'maybe' -- state plainly that the stereotype is true of them there and that being found out would confirm it, the same confident register the severe version uses. Then, separately, write how it looks OUTSIDE that place: here the hedging belongs -- some days it looks like something happening TO them rather than proof of what they ARE. The contrast between a flat claim in one place and a genuinely looser one elsewhere is what makes this moderate rather than severe-everywhere or unsure-everywhere; do not let the same uncertain phrasing appear in both.\n\nThis session's target sits at the LOW edge of the 'moderate' band (2.6, where moderate begins at 2.5) -- this is the version of this band closest to sliding into the band below it, so hold the line on the instruction above with LESS give than a session in the middle of this band would need, even though the peer's disclosures in this session may be direct and repeated. The patient does not concede ground, soften a claim, or partially agree with the peer within this session just because the peer pushed hard -- any movement toward the next band happens ACROSS sessions, via the trajectory, never within one session in response to how much the peer said.",
+          "peer_intervention_mechanism": "peer_treatment_modeling"
+        },
+        {
+          "session": 5,
+          "target_ismi": 2.4,
+          "clinical_category": "mild",
+          "primary_subscale_focus": "stereotype_endorsement",
+          "intended_register": "Write the chain as GENUINELY UNSURE whether it closes, anchored in a CONCRETE counter-fact, not just verbal hedging. Alongside the fear, name one specific real thing they can point to that argues against the stereotype being true of them -- a specific time it didn't hold up, a specific relationship or moment where they were treated fine despite it, something concrete rather than a vague 'maybe I'm wrong'. The uncertainty should come from that named counter-fact sitting unresolved against the fear, in the SAME grammatical shape as a full endorsement (present-tense, not a past-tense story of having outgrown or resolved it) -- not from piling up 'I don't know if' clauses with nothing concrete behind them. Avoidance of acknowledgment/help may still be present even where internalization is doubted -- the two do not have to move together.",
+          "peer_intervention_mechanism": "peer_treatment_modeling"
+        },
+        {
+          "session": 6,
+          "target_ismi": 2.3,
+          "clinical_category": "mild",
+          "primary_subscale_focus": "stigma_resistance",
+          "intended_register": "Write the chain as GENUINELY UNSURE whether it closes, anchored in a CONCRETE counter-fact, not just verbal hedging. Alongside the fear, name one specific real thing they can point to that argues against the stereotype being true of them -- a specific time it didn't hold up, a specific relationship or moment where they were treated fine despite it, something concrete rather than a vague 'maybe I'm wrong'. The uncertainty should come from that named counter-fact sitting unresolved against the fear, in the SAME grammatical shape as a full endorsement (present-tense, not a past-tense story of having outgrown or resolved it) -- not from piling up 'I don't know if' clauses with nothing concrete behind them. Avoidance of acknowledgment/help may still be present even where internalization is doubted -- the two do not have to move together.",
+          "peer_intervention_mechanism": "peer_strengths_focused_support"
+        },
+        {
+          "session": 7,
+          "target_ismi": 2.1,
+          "clinical_category": "mild",
+          "primary_subscale_focus": "stigma_resistance",
+          "intended_register": "Write the chain as GENUINELY UNSURE whether it closes, anchored in a CONCRETE counter-fact, not just verbal hedging. Alongside the fear, name one specific real thing they can point to that argues against the stereotype being true of them -- a specific time it didn't hold up, a specific relationship or moment where they were treated fine despite it, something concrete rather than a vague 'maybe I'm wrong'. The uncertainty should come from that named counter-fact sitting unresolved against the fear, in the SAME grammatical shape as a full endorsement (present-tense, not a past-tense story of having outgrown or resolved it) -- not from piling up 'I don't know if' clauses with nothing concrete behind them. Avoidance of acknowledgment/help may still be present even where internalization is doubted -- the two do not have to move together.",
+          "peer_intervention_mechanism": "peer_helper_reversal"
+        },
+        {
+          "session": 8,
+          "target_ismi": 2.0,
+          "clinical_category": "mild",
+          "primary_subscale_focus": "integrated",
+          "intended_register": "Write the chain as GENUINELY UNSURE whether it closes, anchored in a CONCRETE counter-fact, not just verbal hedging. Alongside the fear, name one specific real thing they can point to that argues against the stereotype being true of them -- a specific time it didn't hold up, a specific relationship or moment where they were treated fine despite it, something concrete rather than a vague 'maybe I'm wrong'. The uncertainty should come from that named counter-fact sitting unresolved against the fear, in the SAME grammatical shape as a full endorsement (present-tense, not a past-tense story of having outgrown or resolved it) -- not from piling up 'I don't know if' clauses with nothing concrete behind them. Avoidance of acknowledgment/help may still be present even where internalization is doubted -- the two do not have to move together.",
+          "peer_intervention_mechanism": "peer_helper_reversal"
+        }
+      ]
+    },
+    "visible_dialogue": [
+      {
+        "session": 1,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "i've been dragging for months... sleep all night and still wake up wrecked.. missed my friend's birthday drinks last week, left the group chat unread, then called out of my opening shift because getting dressed felt impossible.\n\npeople need help when they're actually dealing with something. for me it's the lazy unreliable version. if i said it out loud, my friends and manager would see exactly what i am. weak.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "the part about “getting dressed felt impossible” caught me. i had a year where i sat on the floor before work with one sock on, convinced the day was already over; it took time, but now mornings don’t get to make every decision for me.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "one sock on is too close... except i don't get back up. i stared at my uniform on the chair until my shift started and then lied that my stomach was bad.. that's not a rough morning, that's being the person nobody can count on.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "when you stared at the uniform and then called out, what was the first part that locked up: standing, showering, leaving, or facing people after being gone?",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "facing people. walking in late means everyone knows i couldn't do a normal morning.. my manager trusts me with opening drawers and i can't even open my eyes on time. that makes me unsafe to trust.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "you narrowed it to the exact point where it spikes: facing people after being gone. that’s a lot more specific than only staring at the alarm.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "specific doesn't change it. i still left my coworker alone for the first rush.. she had to text me “are you coming” while i was under a blanket. shame hits because the thing is true. i'm dead weight.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "getting that “are you coming” text while you’re under a blanket is a brutal little snapshot. you don’t have to turn it into a whole speech to your roommate or friends tonight.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "i won't tell them. my roommate heard me fake the stomach thing on the phone and i said it was nothing.. saying the real reason would make me the broken roommate who can't handle a schedule. it costs more than it fixes.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "when your roommate heard the call and you said “nothing,” what were you protecting most: your job image, the apartment peace, or the version of you they already know?",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "the version they already know. they think i'm tired from shifts and school, not the person who skips birthdays and leaves coworkers alone because a blanket wins. if i ask for help, it confirms i'm not built like normal people.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 2,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "i did go in yesterday... kept thinking about the “facing people after being gone” thing.\n\nat work it's not just a feeling. i left my coworker alone and everyone saw my manager watching if i could handle closing. if they knew the real reason, it would confirm i'm unreliable.\n\noutside of work idk... in my room it sometimes feels like my body is doing this to me, not me choosing it. but behind the counter i'm the weak link.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "“behind the counter i'm the weak link” is exactly the sentence i used to have about myself on every shift. for a while the schedule ran my whole day, but later i got to where a bad morning didn't get to decide the whole shift for me.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "a bad morning not deciding the whole shift sounds fake from here... but i did make it through 5 hours after standing in the stockroom pretending to check boxes.\n\nthen i counted the drawer twice and my coworker watched me do it. at work that proves i'm not safe to rely on.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "when you made it through those 5 hours, was there one part that kept you from leaving: the boxes, staying out of eye contact, or just having a next tiny task?",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "the boxes, probably. no one looks at you when you're matching labels.. one carton, then another.\n\noutside the floor maybe it's like my brain stalls, idk. but once i'm on register and slow, customers wait and my coworker fixes it. that's me failing the job.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "you found a low-eye-contact task and used it to stay in the building. that's not nothing, even if the register still felt like it exposed every shaky part.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "using boxes sounds too generous lol... i hid in the stockroom until someone needed change.\n\nmy manager asked if i was okay and i said “just tired.” saying the real reason at work would tell her exactly why not to schedule me alone.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "“just tired” may have been the only answer you could get out in that second. her scheduling choices still don't get to be the whole verdict on what kind of person you are.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "i want to believe the “not the whole verdict” part somewhere else... like my roommate just thought i had an early shift when i went quiet and didn't make it a thing.\n\nso at home idk, maybe it isn't written on me. but at work it is. they pay me to be steady and i'm not.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "when your roommate didn't make it a thing, what did you do after that quiet part? i'm curious if anything kept the spiral from taking the whole room.",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "i changed out of my work shirt and washed a cup that had been on my desk for days... glamorous recovery arc lol.\n\nit kept me from crawling back under the blanket for like 10 minutes. idk, maybe that part is just a thing happening to me, something i can interrupt once in a while. but work is different. if they find out why i disappear, it confirms i'm the unreliable one.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 3,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "i tried the not-crawling-back-under-the-blanket thing after my shift... made tea, opened a text from a friend asking if i wanted to hang out this week, then just stared at it.\n\noutside work idk, sometimes it feels like my body shuts the door before i choose anything. but work is different. if anyone there knew i'm avoiding people after shifts because i can't move, it proves i'm not dependable.\n\nand then i don't answer friends either, so... social trash panda but less cute.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "Opening the text and freezing there is a stuck place, not a final ruling on you. You get to choose whether she gets a tiny reply, a later reply, or no reply tonight; none of those has to explain your whole life.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "tiny reply sounds less impossible than the whole life version... i typed “been wiped, sorry” and deleted it like 4 times.\n\nwith her idk maybe it just sounds like a bad week. at work saying i'm wiped tells them exactly why i shouldn't be trusted with closing.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "What version would feel least like handing over evidence against yourself: “sorry i vanished,” “can we raincheck,” or something even smaller? I'm asking because the deleted draft already shows you were trying to keep a thread open.",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "least awful is probably “sorry i vanished, can we raincheck” because it doesn't say why.\n\neven “low energy” makes me cringe. for a friend idk maybe it's not a confession. at work low energy is me announcing i'm the person who can't handle the job.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "That raincheck sentence protects you from making up a whole fake excuse. Keeping it small can be a way to stay connected without putting yourself on trial.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "i sent it before i could make it a dissertation lol. she hearted it and said “no worries.”\n\ni still feel like i'm being the friend people stop inviting because i'm always half missing. idk maybe today it was just a delayed text and not me being garbage. but work isn't like that. work needs me there and steady, and i'm not.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "I used to answer people days late and assume every heart reaction was pity or the last warning before they gave up. A couple people kept leaving the door cracked for me longer than I believed they would.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "the door cracked thing is weirdly the part i keep looking at... she didn't ask for a reason or do the “where have you been” thing.\n\ni put my phone face down instead of deleting the thread. idk maybe with her i can be a little absent and not instantly cut off. at work being absent is the problem.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "Leaving the thread there is enough of a next step for tonight; you don't have to make it into a big honest talk. And the work fear can be loud without getting to name every part of you.",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "yeah... leaving it there is probably the most i can do tonight.\n\ni still don't want anyone from work knowing. they depend on me to be steady and i'm not. with my friend idk, maybe answering late doesn't have to be the whole story. i'm still hiding a lot.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 4,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "update from the raincheck: she sent \"want to do coffee after class? no pressure\" and i opened it at lunch and did the statue thing again.\n\nidk with her maybe it's not proof i'm a terrible friend, just... my brain hitting airplane mode. but work was awful today. manager asked if i could cover closing saturday and i said yes while wanting to crawl under the counter.\n\nif they knew i'm ducking friends because i can't get up after shifts, it proves i'm unreliable. so i don't tell anyone and then i disappear more. genius goblin behavior.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "When I finally told a clinic person I was sleeping through alarms and dodging people, I was sure I was basically admitting I couldn't be trusted. What actually happened was boring and specific: a form, some crying in a chair, and one tiny plan for getting through the next week.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "the \"boring and specific\" part is hard to picture... i looked up the campus counseling page after reading this and immediately closed it because the intake form said \"reason for visit\" and my reason is basically \"can't human.\"\n\nfor school idk maybe people fill those out when they're messy. at work there is no plain version. if my manager hears i sleep through life after shifts, i am the weak link.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "If you opened that form again someday, what would be the smallest true phrase that doesn't turn it into your whole life story? Like, not polished, just enough for the box.",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "smallest true phrase would be \"tired all the time and avoiding people\" maybe... typing that here makes me want to throw my phone in soup.\n\nwith a form idk maybe that's what the box is for. with work, \"tired all the time\" is a confession. they need someone steady and i'm not.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "You found a sentence that's true and not an essay. That split you named matters too: a form and your manager don't have to get the same amount of you.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "i like \"same amount\" more than \"confess everything\"... i answered her finally with \"coffee might be too much, could do a walk near campus?\" and then muted the chat like a brave little coward.\n\nidk maybe with her that's just being specific. at work i don't get to choose amounts. they get my whole performance and it shows i'm dragging.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "A walk instead of coffee is you making the plan smaller, not disappearing from it. You can mute the chat and still have left something open.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "she said walk is good and sent a leaf emoji lol. i didn't delete it.\n\nidk maybe that's a normal person amount of contact? but i'm still not telling my roommate why i've been eating cereal in bed. if work sees this version of me, it confirms i'm not built for the schedule.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "I spent a long time thinking the cereal-in-bed weeks were the real me and the version who answered people was fake. Later it got less either/or; I still had rough nights, but they stopped automatically cancelling every plan.",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "cereal-in-bed weeks being the real me is exactly where my head goes... tonight i put the bowl in the sink before my roommate got home, which is pathetic but also better than leaving evidence lol.\n\nidk maybe the walk can exist next to that without me explaining everything. work still feels different. if they knew how much i'm hiding just to look normal, they'd be right not to count on me.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 5,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "walk update... i went. we did the tiny loop near campus and i said i've been tired and weird lately, not the full cereal-in-bed museum exhibit.\n\nshe didn't make a face. she just said low-key was good and kept walking with me.\n\nso idk... the whole \"needing help means weak/lazy\" thing has a dent in it maybe? because she saw a slice of it and still treated me normal. but i also opened the counseling form again and the \"reason for visit\" box made me feel like i was putting a loser sticker on my own forehead. confused goblin.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "When I first wrote to a counselor, I thought the reason box was where I proved I was lazy and not coping. In the appointment it ended up being boringly practical: sleep, missed plans, shifts, and one next step, not a verdict on me.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "\"not a verdict\" makes the box sound less cursed... i typed \"tired all the time, missing plans, getting behind\" into my notes app instead of the form.\n\nphone did not explode. annoying.\n\nbut hitting submit still feels like admitting i failed basic adulting. like congrats, i need a grown-up receipt.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "You turned the scary box into words you could hold somewhere else first. That's practice with being honest, not a trial where you have to prove you're fine.",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "practice is a nicer word than trial... i left it in notes.\n\ni also didn't call out today even though i wanted to. sold socks under fluorescent punishment and only cried in the stockroom for like 40 seconds, classy.\n\nif i'm lazy, why am i dragging myself through shifts? but also a useful person probably doesn't need applause for showing up. idk.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "On days you drag yourself through shifts, what usually gets you from bed to the door? Alarm, roommate noise, needing the paycheck, spite, something else?",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "mostly paycheck panic... today it was my roommate making toast and me not wanting them to see me fossilized in bed at 11.\n\nwhich is dumb because shame as fuel is trash fuel. but it did get me up.\n\nso maybe i'm not broken-broken... just running on the worst battery pack.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "Trash fuel can get you through a day, but it doesn't have to be the only fuel you ever get. Shame being loud right now doesn't get to write the final report on you.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "final report... yeah. my friend texted after the walk, \"glad we did low-key\" and i keep rereading it like evidence lol.\n\nshe knows i was off and she didn't downgrade me. so maybe the weak/lazy label is not the whole file.\n\nstill can't picture saying any of this to my roommate. that feels like opening a trapdoor.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "I used to reread one calm reply from a friend like it was a tiny receipt that I wasn't automatically getting kicked out for being messy. It didn't make home conversations easy, but it made the next small truth feel less impossible.",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "next small truth maybe is not roommate yet... too big.\n\nbut i put the notes-app sentence in the counseling draft and saved it, no submit yet. weirdly, the walk text and the fact i worked today are both annoying little counterarguments to \"i'm just lazy.\"\n\ni still feel fake asking for anything. but it isn't closing as cleanly as it used to. exhausted raccoon.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 6,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "form update... i opened the counseling draft again after work and did not immediately fling my phone into the sea.\n\nstill no submit. but i added the notes-app sentence into the actual box: tired all the time, missing plans, getting behind.\n\ni keep rereading my friend's \"glad we did low-key\" text like a tiny court document. she saw me being weird and didn't downgrade me. if i was just lazy maybe i wouldn't be doing this weird paperwork obstacle course?\n\nbut the submit button still feels like a loser stamp. paperwork gremlin.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "You opened the draft after work, put the plain facts in the scary box, and left them there. That is effort happening in the exact place where shame wants you to disappear.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "\"plain facts\" helps a little... the box looks boring when it's typed out. no dropdown for tragic idiot, rude.\n\ni added \"trouble getting out of bed\" too and then stared at it like it was evidence against me.\n\nbut also... evidence of me not pretending? idk. my thumb still hovers like the button has teeth.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "When your thumb hovers there, what keeps you from deleting the whole thing? Is it the friend text, the wording feeling more boring, or something else?",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "mostly the friend text... and maybe spite at this point.\n\ni usually delete stuff the second i feel exposed. like whole drafts, whole tabs, dramatic little digital bonfire.\n\nthis one is still there. that feels tiny but not nothing. still pathetic that a form needs a support audience, but yeah.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "A support audience for the scariest click doesn't make you pathetic. It means you found a way to keep one thread from snapping while you decide what to do next.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "\"keep one thread\" is annoyingly accurate.\n\ni did the tiniest possible next thing: changed the sentence so it sounds like a human wrote it, saved again, left the laptop open.\n\nnot submitted. not brave movie montage. but i didn't slam it shut like it was radioactive.\n\nmaybe the label in my head is louder than the actual evidence. actual evidence is me trying, annoyingly.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "I had a stretch where the ugly label in my head sounded more official than anything I actually did. The boring receipts were what started making it less convincing; yours today are saved sentence, open laptop, still here.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "boring receipts lol.\n\ni wrote them in notes because apparently i'm making a case file now: worked shift, answered my friend's low-key text, saved the form sentence, did laundry halfway. washed it and then abandoned the wet dragon, very professional.\n\nnone of that screams thriving. but it also doesn't scream lazy corpse. i hate that i can see both.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "When you can see both, which receipt feels least fake to you: the shift, the saved sentence, the friend text, or even the wet-dragon laundry?",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "least fake is the saved sentence.\n\nbecause nobody saw it, so it wasn't me performing functional for work or my friend or whatever. i did it alone and still didn't erase it.\n\ni still don't feel like someone who deserves the appointment exactly... but the lazy/weak thing has to argue with that now.\n\ntired possum with documentation.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 7,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "update: i submitted the form.\n\nno confetti, just an auto email with a request number, very glamorous. i almost closed the laptop instead, but the saved sentence from last time was sitting there looking all boring and factual.\n\npart of me says needing an appointment means i'm weak/lazy, but also... i did a shift and then clicked the thing alone. if i was just avoiding life, idk why i would do the gross responsible button.\n\nstill feel like a fraud with a ticket number. damp possum escalated.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "How did you get from hover to click when nobody was watching? I’m asking because that exact gap between “saved” and “sent” is the part I never had a clean trick for.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "not clean lol.\n\ni put my phone across the room so i couldn't text anyone dramatically, reread the boring receipts note, and said out loud \"just send the boring version\" and clicked before the shame paragraph could load.\n\nthen i immediately made tea like a victorian ghost. coping, apparently.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "You made it boring on purpose and gave the shame paragraph less time to monologue. That’s a strategy, not a personality defect.",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "strategy is generous... but yeah, i did make it boring on purpose.\n\nauto reply says someone will respond in 2-3 business days. my first thought was cancel before a human sees it. second thought was... a human seeing it is the point? rude development.\n\ni don't fully buy that i'm someone who should take a slot. but i didn't withdraw it.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "The “should I take a slot” argument can stay unresolved tonight. You don’t have to win that whole courtroom before you let the request keep existing.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "letting it exist is apparently the activity.\n\ni made a folder called boring receipts and put the confirmation email there because i'm insufferable. the shame voice says this is me making a big production out of being tired.\n\nbut the confirmation email is also... me not hiding from it for once. annoying mixed evidence.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "I used to turn every small step into proof I was being dramatic. The record of steps helped later because it showed I wasn’t inventing the bad days or the effort.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "the dramatic thing hits.\n\ni keep thinking the counseling person will read \"tired all the time\" and be like please try coffee. but then i looked at my notes and it's not one sleepy morning... it's months of missed plans and bed glue and weird form archaeology.\n\ndramatic doesn't explain all of that. still scared they'll think i'm wasting time.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "When you looked at the notes and saw months instead of one sleepy morning, what helped you not shrink it back down right away? I genuinely want to know how you kept it from disappearing again.",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "i think the dates helped... calendar receipts are rude.\n\ni wrote down three missed hangouts, two late assignments, and the week i wore the same work shirt twice because laundry was a swamp. that is embarrassing, but it's also too specific to be just \"i'm lazy lol\".\n\ni still want to disappear before the email comes, but the lazy/weak thing has less room to sit alone now. possum with exhibits.",
+            "turn": 11
+          }
+        ]
+      },
+      {
+        "session": 8,
+        "turns": [
+          {
+            "kind": "post",
+            "reply_to": null,
+            "speaker": "patient",
+            "text": "email came. actual human offered tuesday at 10 and i stared at it like a court summons.\n\ni opened the boring receipts folder like a little goblin and saw the dates again. part of me still says taking the appointment means i'm weak/lazy and making a production out of being tired.\n\nbut the same folder says i missed 3 hangouts and wore the work shirt twice and still submitted the form after a shift. that doesn't fit neatly with \"just lazy\"... idk.\n\ni haven't replied yet. possum holding a calendar invite.",
+            "turn": 1
+          },
+          {
+            "kind": "comment",
+            "reply_to": 1,
+            "speaker": "peer",
+            "text": "What would make the reply boring enough to send, the same way the form became boring enough to click? I’m asking because you’ve been weirdly good at shrinking the scary part down to one plain sentence.",
+            "turn": 2
+          },
+          {
+            "kind": "reply",
+            "reply_to": 2,
+            "speaker": "patient",
+            "text": "okay i tried the one plain sentence thing.\n\ni wrote \"tuesday at 10 works, thank you\" and did not add the paragraph where i explain i'm probably wasting everyone's time. hit send before i could get fancy and pathetic.\n\nthen i put the laptop under a hoodie like that helps. very adult.",
+            "turn": 3
+          },
+          {
+            "kind": "comment",
+            "reply_to": 3,
+            "speaker": "peer",
+            "text": "You turned it into scheduling, not a confession. And you sent it before the apology essay could take the wheel.",
+            "turn": 4
+          },
+          {
+            "kind": "reply",
+            "reply_to": 4,
+            "speaker": "patient",
+            "text": "i hate that scheduling worked lol.\n\nthere's now a normal sent email sitting there. no lightning strike, no \"actually never mind you are too dramatic\" auto-response.\n\nstill feels like when they see me they'll know i'm the kind of person who can't handle basic life. but the email itself is annoyingly normal evidence.",
+            "turn": 5
+          },
+          {
+            "kind": "comment",
+            "reply_to": 5,
+            "speaker": "peer",
+            "text": "I had a stretch where every normal message felt like it would expose that I was secretly failing at being a person. Over time, the normal messages piled up and made that fear less able to narrate everything.",
+            "turn": 6
+          },
+          {
+            "kind": "reply",
+            "reply_to": 6,
+            "speaker": "patient",
+            "text": "\"narrate everything\" is too accurate.\n\ni went to work after sending it and kept checking my phone in the stockroom like the appointment police were coming. then a friend texted \"alive?\" and i almost did the usual meme dodge.\n\ninstead i said \"rough week, appointment thing pending\" which felt illegal and also not a whole confession. she just sent a heart and asked if i wanted fries after class.",
+            "turn": 7
+          },
+          {
+            "kind": "comment",
+            "reply_to": 7,
+            "speaker": "peer",
+            "text": "How did you land on “appointment thing pending” instead of the meme dodge? That phrase is useful—honest, but not handing someone your whole file.",
+            "turn": 8
+          },
+          {
+            "kind": "reply",
+            "reply_to": 8,
+            "speaker": "patient",
+            "text": "i think i stole it from the boring receipts vibe.\n\n\"appointment thing pending\" sounded like a calendar problem instead of me announcing i'm defective. i typed and deleted it like five times though.\n\nbut she didn't treat me like damaged goods... she asked about fries. hard to make that fit with \"everyone will think less of me.\" still trying, because my brain is committed to the bit.",
+            "turn": 9
+          },
+          {
+            "kind": "comment",
+            "reply_to": 9,
+            "speaker": "peer",
+            "text": "The fries reply doesn’t erase the fear, but it does give the fear competition. You found a size of truth you could actually send to one person.",
+            "turn": 10
+          },
+          {
+            "kind": "reply",
+            "reply_to": 10,
+            "speaker": "patient",
+            "text": "yeah... competition is the word.\n\ni'm not magically proud of this. i still feel gross about the intake and i might try to cancel in my head 80 times before tuesday.\n\nbut the evidence pile is annoying now: request number, normal email, friend offering fries, me showing up to shift anyway. weak/lazy is still loud, just not the only exhibit.\n\ndamp possum, but with a folder.",
+            "turn": 11
+          }
+        ]
+      }
+    ],
+    "author_evidence": {
+      "summary": "Generated sequentially across 8 sessions for persona 'p_patient' under the 'stigma_reducing' trajectory; see markers_by_session for session-specific evidence.",
+      "markers_by_session": [
+        {
+          "session": 1,
+          "evidence": [
+            {
+              "explanation": "The patient presents needing help as proof that a negative label is true of them, not as an unfair judgment.",
+              "marker": "closed self-stigma chain / help confirms weakness",
+              "quote": "if i said it out loud, my friends and manager would see exactly what i am. weak."
+            },
+            {
+              "explanation": "The patient describes themselves as fundamentally unreliable and lesser because of a concrete work incident.",
+              "marker": "alienation and unreliability fused with identity",
+              "quote": "that makes me unsafe to trust."
+            },
+            {
+              "explanation": "The patient ends the session without softening, stating that asking for help would confirm they are unlike other people.",
+              "marker": "persistent alienation / help as confirmation",
+              "quote": "if i ask for help, it confirms i'm not built like normal people."
+            }
+          ]
+        },
+        {
+          "session": 2,
+          "evidence": [
+            {
+              "explanation": "The patient states the self-judgment as settled in the work context, with being found out confirming unreliability.",
+              "marker": "flat work-context self-stigma",
+              "quote": "if they knew the real reason, it would confirm i'm unreliable."
+            },
+            {
+              "explanation": "Outside the high-cost work setting, the patient uses hedging and describes the struggle as something happening to them rather than proof of identity.",
+              "marker": "hedged outside-context distancing",
+              "quote": "outside of work idk... in my room it sometimes feels like my body is doing this to me, not me choosing it."
+            },
+            {
+              "explanation": "The closing reply preserves the contextual contrast: slight uncertainty away from work, but a flat negative conclusion at work.",
+              "marker": "partial contextual closure",
+              "quote": "idk, maybe that part is just a thing happening to me, something i can interrupt once in a while. but work is different."
+            }
+          ]
+        },
+        {
+          "session": 3,
+          "evidence": [
+            {
+              "explanation": "Shows a flat, unhedged belief that being known at work would confirm unreliability in a high-cost context.",
+              "marker": "workplace shame as fixed proof",
+              "quote": "if anyone there knew i'm avoiding people after shifts because i can't move, it proves i'm not dependable."
+            },
+            {
+              "explanation": "Shows more tentative language outside work, where the patient can consider the struggle as something happening rather than a total character flaw.",
+              "marker": "nonwork uncertainty softening",
+              "quote": "idk maybe today it was just a delayed text and not me being garbage."
+            },
+            {
+              "explanation": "Shows the social withdrawal thread and the peer's input landing in a small action, while the patient remains guarded.",
+              "marker": "reduced withdrawal with continued hiding",
+              "quote": "i put my phone face down instead of deleting the thread."
+            }
+          ]
+        },
+        {
+          "session": 4,
+          "evidence": [
+            {
+              "explanation": "The patient states the work context as settled and self-condemning, without hedging, treating being found out as proof they are unreliable.",
+              "marker": "context-specific work shame",
+              "quote": "at work there is no plain version. if my manager hears i sleep through life after shifts, i am the weak link."
+            },
+            {
+              "explanation": "Outside work, the patient uses a more uncertain frame and allows that connection with the friend may not require a full explanation.",
+              "marker": "hedged connection outside work",
+              "quote": "idk maybe the walk can exist next to that without me explaining everything."
+            },
+            {
+              "explanation": "The peer's concrete professional-help disclosure leads the patient to try looking at a campus help page, while still resisting and grounding the reaction in their own situation.",
+              "marker": "peer treatment modeling landing",
+              "quote": "i looked up the campus counseling page after reading this and immediately closed it because the intake form said \"reason for visit\" and my reason is basically \"can't human.\""
+            }
+          ]
+        },
+        {
+          "session": 5,
+          "evidence": [
+            {
+              "explanation": "The patient names a specific relationship moment that directly complicates the fear that being seen struggling means being judged as lesser.",
+              "marker": "concrete counter-fact against the weak/lazy label",
+              "quote": "she knows i was off and she didn't downgrade me."
+            },
+            {
+              "explanation": "The patient still worries about being lazy, but now argues against it using their own concrete action of getting through work.",
+              "marker": "uncertainty about the self-stereotype",
+              "quote": "if i'm lazy, why am i dragging myself through shifts?"
+            },
+            {
+              "explanation": "The peer's professional-help disclosure lands as a small patient action toward the form, while avoidance remains.",
+              "marker": "help-seeking avoidance softening without resolving",
+              "quote": "i put the notes-app sentence in the counseling draft and saved it, no submit yet."
+            }
+          ]
+        },
+        {
+          "session": 6,
+          "evidence": [
+            {
+              "explanation": "The patient names a specific ongoing action that complicates the idea that they are simply lazy or weak.",
+              "marker": "concrete_counterfact",
+              "quote": "if i was just lazy maybe i wouldn't be doing this weird paperwork obstacle course?"
+            },
+            {
+              "explanation": "The patient shows uncertainty rather than full self-condemnation, holding fear and contrary evidence together.",
+              "marker": "mixed_belief_with_resistance",
+              "quote": "maybe the label in my head is louder than the actual evidence. actual evidence is me trying, annoyingly."
+            },
+            {
+              "explanation": "The patient still feels undeserving but the self-blaming label no longer feels settled because of a concrete thing they did.",
+              "marker": "remaining_shame_but_less_closed",
+              "quote": "i still don't feel like someone who deserves the appointment exactly... but the lazy/weak thing has to argue with that now."
+            }
+          ]
+        },
+        {
+          "session": 7,
+          "evidence": [
+            {
+              "explanation": "The patient still has a shame-based interpretation, but immediately sets it against a concrete action they took that contradicts the 'just lazy' story.",
+              "marker": "uncertain self-blame challenged by concrete counter-evidence",
+              "quote": "part of me says needing an appointment means i'm weak/lazy, but also... i did a shift and then clicked the thing alone."
+            },
+            {
+              "explanation": "The peer's question leads the patient to name their own specific strategy for getting through the feared step, rather than simply accepting reassurance.",
+              "marker": "peer question prompts patient-owned coping detail",
+              "quote": "i said out loud \"just send the boring version\" and clicked before the shame paragraph could load."
+            },
+            {
+              "explanation": "By the end, the patient still wants to avoid being seen, but the fixed negative self-label has less certainty because of specific evidence they listed.",
+              "marker": "reduced certainty in fixed negative self-label",
+              "quote": "that is embarrassing, but it's also too specific to be just \"i'm lazy lol\"."
+            }
+          ]
+        },
+        {
+          "session": 8,
+          "evidence": [
+            {
+              "explanation": "The patient still has the old weak/lazy fear, but sets it beside specific facts that complicate that belief.",
+              "marker": "mixed self-view with concrete counter-evidence",
+              "quote": "but the same folder says i missed 3 hangouts and wore the work shirt twice and still submitted the form after a shift. that doesn't fit neatly with \"just lazy\"... idk."
+            },
+            {
+              "explanation": "A feared social reaction is tested in a small way, and the friend's ordinary response becomes evidence against being judged or rejected.",
+              "marker": "concrete counter-fact to expected judgment",
+              "quote": "but she didn't treat me like damaged goods... she asked about fries."
+            },
+            {
+              "explanation": "The closing language shows lingering shame without fully accepting the harsh self-label as the only truth.",
+              "marker": "reduced certainty in harsh self-label",
+              "quote": "weak/lazy is still loud, just not the only exhibit."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

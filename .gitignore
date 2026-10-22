@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.env
+*.local.json
+agent_keys.json
+.DS_Store
+*.swp

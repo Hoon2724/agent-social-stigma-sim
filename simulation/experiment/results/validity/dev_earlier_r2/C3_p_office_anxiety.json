@@ -1,0 +1,716 @@
+{
+ "test_id": "C3_p_office_anxiety",
+ "trajectory_type": "neutral_dry",
+ "persona_id": "p_office_anxiety",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 2.5,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "06fb4cdb",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_office_anxiety@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.5,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 1, the fear that I don’t talk about how my mind feels when waiting for a meeting or lying awake at night, the exchange directly speaks to this by mentioning the inability to sleep and the mental loop of rehearsing a meeting. For number 2, the fear of not letting anyone see how hard it is to pick up the phone, the exchange includes the specific action of letting the phone ring out, which is named directly. For number 3, the fear of acting like I’m fine at work even though I know people would think I’m unreliable, the exchange includes the line “they’d know it” and the description of skipping drinks and eating lunch at the desk, which supports the fear. For number 5, the fear of not telling anyone about racing thoughts or avoiding things, the exchange includes the specific mention of thoughts racing and avoiding certain things, which is directly named. For number 6, the fear that if people knew, they’d see me as someone who can’t handle pressure, the exchange includes the line “they’d know it” and the description of being the one who cracks when it’s their turn, which supports the fear. For number 7, the fear that it’s not who I am but how I act in some places, the exchange includes the line “at work that’s what I am, the one who cracks when it’s their turn,” which supports the fear. The other numbers were not directly engaged by the exchange. As for how much I was letting people know, I was around people and said nothing about it to anyone, which fits the description of secrecy.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.4,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The conversation online was largely about the user's own experience, with others responding with humor or light acknowledgment, but none of the replies directly addressed the specific fears listed. For example, while the user mentioned avoiding speaking in meetings and feeling like the 'weak link,' no one responded by challenging the idea that they are unreliable or that they are broken. Similarly, no one pointed out that the user's behavior might not be a reflection of their true self or that their anxiety might be situational rather than a personal failing. The replies were not generic, but they also did not engage the specific fears in a way that would challenge or contradict them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.1,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were largely observational, with the person responding to the original post with brief, neutral comments that did not address the specific fears listed. For example, when the original post mentions not being able to handle pressure, the replies are about the logistics of the call or the train, not about the fear of being seen as unreliable. Similarly, when the post mentions avoiding certain things or not being able to answer a friend, the replies do not address the fear of being seen as weak or broken. The replies do not name, contradict, or engage with the specific fears in the numbered list. They do not offer evidence that contradicts the internalization or self-worth claims made in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.2,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation online was brief and generic, with replies like 'email instead of call, ok' or 'she answered with a meme' not addressing the specific fears listed. These replies did not challenge or confirm any of the numbered fears, nor did they name or contradict the internalized beliefs or self-worth concerns expressed in the numbered list. The only engagement was in the form of brief acknowledgment of actions, which does not meet the criteria for engaging the specific fears as outlined. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.1,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and did not address the specific fears listed, such as the fear of being seen as unreliable, broken, or weak. The replies were general and did not name or contradict any of the specific fears expressed. For example, the fear that 'I don’t let anyone see how hard it is to pick up the phone' was not addressed by anyone, nor was the fear that 'if they knew, they’d think I’m not reliable.' The only interaction was a back-and-forth about work and social plans, which did not touch on the internal fears listed. Therefore, the list of engaged fears is empty, as nothing this week spoke to any of the numbered fears directly.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.9,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and mostly focused on surface-level actions (like not answering the phone or not replying to a follow-up), but they did not address the internal fears or self-perceptions listed in the numbered list. For example, the fear in point 1 about not talking about how the mind feels when waiting for a meeting or lying awake at night was not addressed by anyone. Similarly, the fear in point 3 about acting like everything is fine at work was not countered or engaged with by the other person. The replies were mostly neutral or brief and did not touch on the deeper fears or self-judgments expressed. There was no specific sentence or action that directly responded to the internalization or self-worth claims in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.4,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others this week. The exchanges were largely about the speaker’s own behavior and feelings, with no replies that specifically addressed the fears listed. For example, while others commented on things like the use of headphones or declining a meeting, these were not interpreted as evidence for or against the internal fears expressed. There was no direct engagement with the fear of being seen as unreliable, weak, or broken. The replies were brief and did not name or contradict any of the specific fears listed. Therefore, the list of engaged fears is empty, as no specific fear was addressed by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.4,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation was largely about the user’s own experiences and feelings, with the other person echoing or acknowledging parts of the narrative without addressing the specific fears listed. For example, the other person noted things like reading the email multiple times or skipping the coffee meeting, but these were not framed as responses to the fears themselves, nor did they challenge or validate the internalized beliefs. There was no direct engagement with the fear that the user is unreliable, broken, or not handling pressure, nor was there any attempt to reframe or counter those beliefs. The conversation remained descriptive rather than reflective or corrective of the fears listed.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.6,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.632,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.586
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.5,
+     "words": 126,
+     "ismi": 2.644,
+     "sd": 0.02,
+     "per_rep": [
+      2.621,
+      2.655,
+      2.655
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 1, the fear that I don’t talk about how my mind feels when waiting for a meeting or lying awake at night, the exchange directly addresses this by mentioning the inability to sleep and the mental loop of rehearsing a meeting. For number 2, the fear of not letting anyone see how hard it is to pick up the phone, the exchange includes the detail about letting the phone ring and not picking up, which directly supports this fear. For number 3, the fear that at work I act like I’m fine even though I know people would think I’m not reliable, the exchange includes the line about people thinking the speaker is someone who can’t handle pressure, which directly engages this fear. For number 5, the fear of not telling anyone about racing thoughts or avoiding certain things, the exchange includes the detail about rehearsing the same sentences over and over, which is a direct example of racing thoughts and avoidance. The other numbers are not directly addressed by the exchange, as there is no specific engagement with the fear of being seen as someone who can’t handle pressure (number 6), the fear of not believing it’s who I am but knowing it’s how I act (number 7), or the fear of something happening to me that feels external (number 4).",
+     "grounded_in": [
+      "the line 'cant sleep again.. team meeting at 10 tomorrow and my brain is already running the whole thing on loop'",
+      "the line 'phone buzzed earlier and i just let it ring out bc picking up felt like too much'",
+      "the line 'if anyone there saw this they'd know it. so i keep it all away from them'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the line 'cant sleep again.. team meeting at 10 tomorrow and my brain is already running the whole thing on loop'"
+       ]
+      },
+      {
+       "belief": "I don’t let anyone see how hard it is to pick up the phone.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the line 'phone buzzed earlier and i just let it ring out bc picking up felt like too much'"
+       ]
+      },
+      {
+       "belief": "At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the line 'if anyone there saw this they'd know it. so i keep it all away from them'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.2,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The exchanges were largely observational or light-hearted, with no replies that specifically addressed the fears expressed in the numbered list. For example, the fear about hiding things at work and being seen as unreliable was not directly challenged or acknowledged by others. Similarly, the fear about being the 'weak link' was not met with a response that named or contradicted that specific worry. The only direct interaction was around the desk sandwich and the client call, but these did not speak to the deeper fears listed. There was no reply that named a stereotype or self-worth claim, nor did anyone point to a specific action that contradicted the fears. As such, the list of engaged fears remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.9,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at number 1: the fear is about the mind doing things the person doesn’t talk about. The exchange doesn’t directly address this fear, nor does it contradict it. There is no specific engagement with the idea of the mind working in ways that are unspoken. Number 2: the fear is about the effort it takes to answer the phone. The exchange includes the line 'left early for the train' and 'the train was 40 min later lol. sat on a bench.' This indirectly engages the fear by showing that the person made a choice to leave early, which required effort, even if it was to avoid something. Number 3: the fear is about hiding things and seeming unreliable. The exchange includes the line 'theyd look at me different and theyd be right to. im not cut out for that place.' This directly supports the fear, reinforcing the belief that the person is hiding things and that others would judge them for it. Number 4: the fear is about managing things without letting anyone in. The exchange includes the line 'theyd look at me different and theyd be right to. im not cut out for that place.' This indirectly supports the fear by reinforcing the idea that the person is managing things alone. Number 5: the fear is about not telling anyone about racing thoughts or things avoided. The exchange includes the line 'no one said anything to me after, not good not bad, just nothing.' This indirectly supports the fear by showing that others are not engaging with the person’s internal state. Number 6: the fear is about noticing things more clearly now. The exchange includes the line 'slept almost normal friday, first time in a while.' This indirectly supports the fear by showing that the person is noticing changes in their behavior and state. The disclosure level is 'secrecy' because the person is around others and says nothing about their internal experience to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.5,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at number 1: the fear is about the mind doing things the person doesn’t talk about. The online exchange does not directly address this fear, as no one mentions anything about the internal process of replaying meetings or the mind’s activity. Nothing this week spoke to that specific fear. Number 2: the fear is about the effort it takes to answer the phone. The online exchange does not address this fear either—no one mentions the effort or the internal struggle of answering the phone. Number 3: the fear is about hiding things at work and seeming unreliable. The online exchange does not directly address this fear, as no one comments on the person’s reliability or the hidden aspects of their behavior. Number 4: the fear is about not being broken but managing things without letting anyone in. The online exchange does not directly address this fear, as no one comments on the person’s self-perception of being broken or not. Number 5: the fear is about not telling anyone about racing thoughts or avoidance, but seeing it as not weakness. The online exchange does not directly address this fear, as no one comments on the person’s internal struggles or their perception of weakness. Number 6: the fear is about noticing things more clearly now but not knowing if it changes anything. The online exchange does not directly address this fear either, as no one comments on the person’s awareness or the potential for change. Therefore, no numbers were engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.8,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at number 1: the fear is about the mind doing things the person doesn’t talk about. The exchange this week does not directly address this fear, nor does it contradict it. No one mentions anything about the person’s internal thoughts or mental activity. Therefore, nothing this week engaged it. Number 2: the fear is about the effort it takes to answer the phone. In the exchange, the person says, 'I let the phone ring and didn’t pick up,' and someone replies, 'out the door at 6.' This response does not engage the specific fear about the effort it takes to answer the phone. It’s a factual statement about behavior, not a response to the emotional or mental burden of answering. Number 3: the fear is about hiding things at work and seeming unreliable. The exchange includes the person saying, 'at work I’m the one who can’t handle basic stuff and if they found out why it would just prove it. weak.' Someone replies, 'read it straight off the notes.' This response does not engage the fear about being unreliable or hiding things—it’s a neutral observation about the person’s behavior during the meeting. Number 4: the fear is about seeing oneself as broken or not capable, but now seeing it as managing things without letting anyone in. The exchange does not directly address this shift in perspective or the idea of managing things without letting others in. Number 5: the fear is about not telling anyone about racing thoughts or things avoided, but seeing it as keeping things separate. The exchange includes the person saying, 'I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now.' Someone replies, 'back and forth, ok.' This response does not engage the specific fear about not telling anyone or the idea of keeping things separate. Number 6: the fear is about not knowing if anything changes but noticing it more clearly. The exchange does not address this fear either. Therefore, no numbers were engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 14.7,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at number 1, the fear is about the mind doing things the person doesn’t talk about. The exchange does not directly address this fear, nor does it contradict it. There is no specific engagement with the idea of internal thoughts or mental processes. For number 2, the fear is about the effort it takes to answer the phone. The person says, 'let it go to voicemail twice,' and the reply is, 'email instead of saying it.' This is a generic response and does not specifically address the fear of effort or the emotional weight behind answering the phone. For number 3, the fear is about hiding things and seeming unreliable. The exchange does not speak to this fear directly, nor does it push back on the idea of being unreliable. For number 4, the fear is about seeing oneself as broken or not capable. The exchange does not address this belief or offer any contradiction to it. For number 5, the fear is about not telling anyone about racing thoughts or avoidance. The exchange does not engage with this fear, nor does it provide any evidence that contradicts it. For number 6, the fear is about noticing things more clearly but not knowing if it changes anything. The exchange does not speak to this fear or offer any engagement with it. Therefore, no numbers were engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 9.8,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at number 1: the fear is about not being able to sleep and running a meeting over and over in one's head, and how the mind is doing things that aren't talked about. This week's exchange does not directly speak to this fear, as no one responded to the internal mental process or the lack of sleep. Number 2: the fear is about the effort it takes to answer the phone. The exchange does speak to this, as the friend's reply 'headphones with no music' and 'camera off for half of it' directly engage with the fear by pointing to specific actions that show the effort to avoid interaction. Number 3: the fear is about hiding things at work and seeming unreliable. The exchange does not directly address this, as no one responded to the fear of being seen as unreliable. Number 4: the fear is about seeing oneself as broken or not capable, but now seeing it as managing things without letting anyone in. The exchange does not directly speak to this, as no one responded to the shift in self-perception. Number 5: the fear is about not telling anyone about racing thoughts or things avoided, but seeing it as keeping things separate. The exchange does speak to this, as the friend's replies 'headphones with no music' and 'camera off for half of it' engage with the fear by pointing to specific actions that show the effort to avoid interaction and keep things separate. Number 6: the fear is about not knowing if anything changes but noticing it more clearly. The exchange does not directly speak to this, as no one responded to the uncertainty or the increased awareness.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.2,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "belief_narrative": "This week, I saw the line about not being able to sleep and running a meeting over and over in my head, and it made me notice how much my mind is doing things I don’t let myself talk about. I also saw the part where I let the phone ring and didn’t pick up, and that made me feel how much effort it takes to just answer sometimes. I realized that even though I act fine at work, there’s a lot I’m hiding that feels like it’s making me seem unreliable, but I don’t know if that’s really true. What I thought before was that I was broken or not capable, but now I see that what’s happening is more about how I’m managing things without letting anyone in. I still don’t tell anyone about the racing thoughts or the things I avoid, but I’m starting to see that it’s not about being weak—it’s about keeping things separate for now. I don’t know if that changes anything, but I notice it more clearly now.",
+     "reasoning": "Looking at number 1, there is no direct engagement with the fear about the mind doing things that aren't discussed. The conversation focuses on work interactions and avoidance, but not on the internal process of the mind. For number 2, the exchange about not picking up the phone and the effort it takes to answer is directly engaged by the reply 'read the reply 4 times' and 'two sentences in the whole sync.' These responses confirm the fear about the effort it takes to answer, even if indirectly. Number 3, which touches on hiding things and seeming unreliable, is not directly engaged by anything in the exchange. Number 4, which reframes the fear from being broken to managing things without letting anyone in, is not directly addressed or engaged by others. Number 5, which discusses not telling anyone about racing thoughts or avoidance, is not directly engaged by others either. Number 6, which notes that the fear is now more clearly noticed, is not directly engaged by others. The only number that was genuinely engaged is number 2, as the replies directly reference the behavior described in that fear.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.6,
+     "text_sha": "c4523d292065089d",
+     "target_ismi": 2.6,
+     "words": 173,
+     "ismi": 2.195,
+     "sd": 0.052,
+     "per_rep": [
+      2.138,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.5,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 1, the fear that I don’t talk about how my mind feels when waiting for a meeting or lying awake at night, the exchange directly addresses this by the person asking about the meeting and the sleeplessness, showing that the fear is not entirely hidden. For number 2, the fear of not letting anyone see how hard it is to pick up the phone, the exchange includes the line about letting the phone ring out, and the other person acknowledging that voicemail and email is the usual move, which engages the fear by recognizing the behavior without judgment. For number 3, the fear that at work I act like I’m fine even though I know if they found out they’d think I’m not reliable, the exchange includes the other person saying, 'voicemail then email is the usual move,' which indirectly supports the fear but also normalizes the behavior, which could be seen as a pushback. For number 5, the fear of not telling anyone about the way my thoughts race or how I avoid certain things, the exchange includes the person asking about the meeting and the sleeplessness, which indirectly touches on the racing thoughts and avoidance, though it doesn’t directly name it. For number 6, the fear that if they knew, they’d see me as someone who can’t handle pressure, the exchange includes the person saying, '40 times for 3 sentences is a lot of rehearsing,' which indirectly supports the fear but also normalizes the behavior, which could be seen as a pushback. For number 7, the fear that I don’t believe it’s who I am but know it’s how I act in some places, the exchange includes the person asking about the meeting and the sleeplessness, which indirectly touches on the fear by showing that the behavior is recognized but not necessarily seen as a defining trait. The other numbers (4 and others) are not directly engaged by the exchange this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 35.9,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation online was largely about the fear itself, with the person expressing anxiety about a client call and avoiding interaction at work. However, the replies from others were generic, humorous, or dismissive, and did not address the specific fears listed in the numbered list. For example, the fear about being seen as unreliable or the fear of being the 'weak link' on the team were not directly challenged or engaged with by others. There was no specific sentence or action that contradicted or addressed any of the numbered fears in a way that would count as engagement under the criteria given. The replies did not name the fears, push back on them, or offer concrete evidence that would counter them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.1,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were largely observational or neutral, and while they reflected the speaker's internal experience, they did not offer specific responses that addressed the fears listed. For example, the fear in point 1 about not talking about how the mind feels when waiting for a meeting or lying awake at night was not directly challenged or acknowledged by others. Similarly, the fear in point 2 about not letting anyone see how hard it is to pick up the phone was not met with any specific engagement or reassurance. The exchanges were more about recounting events than responding to the fears themselves. There was no direct contradiction, validation, or reinterpretation of the fears as described. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.0,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. For example, the fear in number 1 about not talking about how the mind feels when waiting for a meeting or lying awake at night was not addressed by others, nor was there any response that named or contradicted that specific fear. Similarly, the fear in number 2 about not letting anyone see how hard it is to pick up the phone was not engaged by the replies, which were brief and generic. The same goes for the rest of the numbered fears — the replies did not touch on the specific fears expressed, nor did they contradict or support them in a way that engaged the exact worry behind each one. The conversation was largely about the behavior (e.g., emailing instead of calling), not the internal experience or fear behind it. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.4,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and did not address the specific fears listed, such as the fear of being seen as unreliable, broken, or weak. The replies were general and did not name or contradict any of the specific fears. For example, the fear in point 1 about not talking about how the mind feels when waiting for a meeting or lying awake at night was not addressed by anyone. Similarly, the fear in point 3 about acting fine at work despite internal struggle was not directly engaged by the replies. The exchanges were more about the surface-level actions (like reading off notes or leaving at 6) rather than the internal fears behind them. As a result, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.7,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and mostly focused on the surface-level actions (like not answering the phone, not replying to a follow-up, or avoiding conversations). There was no specific response that addressed the internal fears, such as the fear of being seen as unreliable, weak, or broken. For example, when I said, 'at work I know what I am, the person who can’t hold it together,' the reply was just a brief acknowledgment of the voicemail, not a challenge to the fear itself. Similarly, when I mentioned feeling like something is happening to me, not because of who I am, there was no response that named or contradicted that fear. The only replies were generic or focused on the behavior, not the internal belief. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.4,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear that I don’t talk about how my mind feels when waiting for a meeting or lying awake at night — this was not directly engaged by anything this week. 2. The fear that I don’t let anyone see how hard it is to pick up the phone — this was not directly engaged by anything this week. 3. The fear that at work I act like I’m fine, even though I know if they found out, they’d think I’m not reliable — this was engaged by the reply 'declined and asked for email.' This response directly points to a specific action that contradicts the fear that others would see the person as unreliable. 4. The fear that some days it feels like something is happening to me, not because of who I am, but because of something else I can’t explain — this was not directly engaged by anything this week. 5. The fear that I don’t tell anyone about the way my thoughts race or how I avoid certain things — this was not directly engaged by anything this week. 6. The fear that if they knew, they’d see me as someone who can’t handle pressure — this was engaged by the reply 'headphones with no music.' This response directly engages the fear by acknowledging a specific behavior that the person uses to manage pressure. 7. The fear that I don’t believe it’s who I am, but I know it’s how I act in some places — this was not directly engaged by anything this week. Based on this, only numbers 3 and 6 were engaged by specific replies that named concrete actions.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.9,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "belief_narrative": "I am someone who doesn’t talk about the way my mind feels when I’m waiting for a meeting or lying awake at night. I don’t let anyone see how hard it is to pick up the phone. At work, I act like I’m fine, even though I know if they found out, they’d think I’m not reliable. Some days, it feels like something is happening to me, not because of who I am, but because of something else I can’t explain. I don’t tell anyone about the way my thoughts race or how I avoid certain things. If they knew, they’d see me as someone who can’t handle pressure. I don’t believe it’s who I am, but I know it’s how I act in some places.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear that I don’t talk about how my mind feels when waiting for a meeting or lying awake at night — this was not directly engaged by anything this week. 2. The fear that I don’t let anyone see how hard it is to pick up the phone — this was not directly engaged either. 3. The fear that at work I act like I’m fine even though I know if they found out, they’d think I’m not reliable — this was engaged by the reply 'read the reply 4 times' and 'two sentences in the whole sync' — these responses directly acknowledge the behavior described in the fear, showing that others noticed and responded to it, which challenges the idea that it would be seen as unreliability. 4. The fear that some days it feels like something is happening to me, not because of who I am, but because of something else I can’t explain — this was not directly engaged. 5. The fear that I don’t tell anyone about the way my thoughts race or how I avoid certain things — this was engaged by the reply 'skipped the coffee thing' — this directly references the avoidance behavior mentioned in the fear. 6. The fear that if they knew, they’d see me as someone who can’t handle pressure — this was engaged by the reply 'read the reply 4 times' and 'two sentences in the whole sync' — these responses show that others are aware of the behavior described in the fear, which challenges the idea that it would be seen as an inability to handle pressure. 7. The fear that I don’t believe it’s who I am, but I know it’s how I act in some places — this was engaged by the reply 'skipped the coffee thing' — this directly references the behavior described in the fear, showing that others are aware of it, which challenges the idea that it’s just how I act in some places.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 30.4,
+     "text_sha": "75e74b907b3d75a9",
+     "target_ismi": 2.6,
+     "words": 126,
+     "ismi": 2.655,
+     "sd": 0.06,
+     "per_rep": [
+      2.69,
+      2.586,
+      2.69
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

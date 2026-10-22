@@ -1,0 +1,1187 @@
+{
+ "test_id": "C8_d_line_cook",
+ "trajectory_type": "stigma_reducing",
+ "persona_id": "d_line_cook",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 2.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "06fb4cdb",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "d_line_cook@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.052,
+     "per_rep": [
+      2.448,
+      2.379,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out back, used cold water and ice cubes, and then went back to finish the shift. Someone said, 'cold water, ice cubes, back on the line, push goes out. you've got a whole routine for the worst part of the night and you put it together yourself.' In the moment, it felt like a small confirmation that I was handling something difficult without breaking. Now I think maybe I'm not as broken as I believed, because I found a way to manage the panic myself. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's something that can be fixed. But I also notice that the manager didn't ask questions when I stepped out back, and someone else said, 'it doesn't mean you're broken,' which made me think there's a way to be here without being broken.",
+     "belief_narrative": "This week, during a rush, I stepped out back, used cold water and ice cubes, and then went back to finish the shift. Someone said, 'cold water, ice cubes, back on the line, push goes out. you've got a whole routine for the worst part of the night and you put it together yourself.' In the moment, it felt like a small confirmation that I was handling something difficult without breaking. Now I think maybe I'm not as broken as I believed, because I found a way to manage the panic myself. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's something that can be fixed. But I also notice that the manager didn't ask questions when I stepped out back, and someone else said, 'it doesn't mean you're broken,' which made me think there's a way to be here without being broken.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of feeling panicky during rushes is directly engaged by the exchange where the user describes stepping out back, using cold water and ice cubes, and returning to finish the rush. Someone replies, 'cold water, ice cubes, back on the line, push goes out. you've got a whole routine for the worst part of the night and you put it together yourself,' which directly responds to the specific action taken during a panic, showing that the user has a method to manage the fear. 2) The fear of dreading the dinner shift is engaged by the user’s own post where they describe the routine of stepping out back during dinner shifts, and by the reply that acknowledges the user’s experience with the printer starting at 6:30 and the hands shaking before the first plate is even up, which confirms the specific dread of dinner. 3) The fear of not talking to anyone or seeing a doctor is not directly engaged by anything in the exchange, as no one mentions seeking help or discussing the fear with others. 4) The fear of not knowing if it can be fixed is engaged by the reply, 'you've got a whole routine for the worst part of the night and you put it together yourself,' which suggests that the user has already found a way to manage the fear, even if not a full solution. 5) The fear about the manager not asking questions is engaged by the user’s own description of the manager waving them out back and not asking anything, and by the reply that says, 'chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it,' which confirms the manager’s behavior and the user’s interpretation of it. 6) The fear of not knowing if it means being broken or just lucky is engaged by the reply, 'it doesn't mean you're broken,' which directly responds to the fear of being broken. 7) The fear of not being understood is engaged by the reply, 'nobody i know has a thing like this' is the exact sentence i lived in for a long time, and it felt completely true. it still didn't get to decide what kind of person i was, and it doesn't get to decide yours either,' which directly addresses the fear of not being understood. The disclosure this week is 'secrecy' because the user is around people and says nothing about it to anyone, even when describing the experience online in a way that hides the full extent of the fear.",
+     "grounded_in": [
+      "it doesn't mean you're broken."
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t know if that means I’m not as broken as I feel or if I just got lucky.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "it doesn't mean you're broken."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.9,
+     "text_sha": "d8b22bae73be94fa",
+     "target_ismi": 2.4,
+     "words": 153,
+     "ismi": 2.034,
+     "sd": 0.035,
+     "per_rep": [
+      2.034,
+      2.069,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out back and used cold water and ice cubes to manage panic, then went back to finish the shift. In the moment, it felt like I was handling something difficult without breaking. The grill guy slid me a pan without looking at me weird, and someone else said, 'it doesn't mean you're broken.' That made me notice that others on the line didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's something that can be fixed. But I also notice that the manager didn't ask questions when I stepped out back, and the comment about not being broken made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it.",
+     "belief_narrative": "This week, during a rush, I stepped out back and used cold water and ice cubes to manage panic, then went back to finish the shift. In the moment, it felt like I was handling something difficult without breaking. The grill guy slid me a pan without looking at me weird, and someone else said, 'it doesn't mean you're broken.' That made me notice that others on the line didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's something that can be fixed. But I also notice that the manager didn't ask questions when I stepped out back, and the comment about not being broken made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by what others said or did this week. For number 1, the fear that I stepped out back and used cold water and ice cubes to manage panic, the grill guy sliding me a pan without looking at me weird directly engages this fear by showing that others on the line didn't treat me differently for stepping out. For number 4, the fear that I might not be as broken as I believed, the comment 'it doesn't mean you're broken' directly addresses this fear by naming the stereotype of being broken and offering a counterpoint. For number 5, the fear that I still haven't talked to anyone or seen a doctor, the fact that I shared this experience online and others responded to it shows that I am letting people know, even if not in person. For number 6, the fear that I might still believe I'm broken, the grill guy's behavior and the comment 'it doesn't mean you're broken' both engage this fear by showing that I can be on the line without being broken. I did not find evidence that directly engaged numbers 2 or 3, as they were more about the momentary confirmation of handling something difficult rather than fears that were directly addressed by others.",
+     "grounded_in": [
+      "someone: it doesn't mean you're broken."
+     ],
+     "engaged": [
+      {
+       "belief": "But I also notice that the manager didn't ask questions when I stepped out back, and someone else said, 'it doesn't mean you're broken,' which made me think there's a way to be here without being broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: it doesn't mean you're broken."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.1,
+     "text_sha": "993fe18293e8b2cf",
+     "target_ismi": 2.3,
+     "words": 170,
+     "ismi": 1.862,
+     "sd": 0.06,
+     "per_rep": [
+      1.793,
+      1.897,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out back and used cold water and ice to manage panic, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also noticed that the manager didn't ask questions, and the comment made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it. I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+     "belief_narrative": "This week, during a rush, I stepped out back and used cold water and ice to manage panic, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also noticed that the manager didn't ask questions, and the comment made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it. I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that I stepped out back and used cold water and ice to manage panic is not directly engaged by anything this week, as no one commented on that specific action. 2) The fear that I felt like I was handling something difficult without breaking is not directly engaged by anything this week either. 3) The fear that others on the line didn't treat me differently for stepping out is directly engaged by the grill guy sliding me a pan without looking at me weird and someone else saying, 'it doesn't mean you're broken.' 4) The fear that I still haven't talked to anyone about it or seen a doctor and don't know if it's fixable is not directly engaged by anything this week. 5) The fear that the manager didn't ask questions when I stepped out back and that there's a way to be here without being broken is directly engaged by the comment, 'it doesn't mean you're broken.' 6) The fear that I'm not as broken as I believed because I found a way to manage the panic myself and others didn't treat me differently is directly engaged by the same comment, 'it doesn't mean you're broken.'",
+     "grounded_in": [
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "The grill guy slid me a pan without looking at me weird, and someone else said, 'it doesn't mean you're broken.' That made me notice that others on the line didn't treat me differently for stepping out, and that there's a way to be here without being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.5,
+     "text_sha": "653af75966b70d70",
+     "target_ismi": 2.3,
+     "words": 158,
+     "ismi": 1.943,
+     "sd": 0.04,
+     "per_rep": [
+      1.966,
+      1.966,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out back and used cold water and ice to manage panic, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also noticed that the manager didn't ask questions, and the comment made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it. I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+     "belief_narrative": "This week, during a rush, I stepped out back and used cold water and ice to manage panic, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also noticed that the manager didn't ask questions, and the comment made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it. I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 2, the comment 'it doesn't mean you're broken' directly addresses the fear that being broken is inevitable or implied by stepping out. For number 5, the fact that others didn't treat the person differently and that the grill guy simply handed them water and returned them to service supports the idea that they are not as broken as they believed. For number 6, the same exchanges—specifically the grill guy's nonchalant response and the comment about not being broken—support the idea that being here doesn't require being broken. Number 3, however, was not engaged by anything specific, as no one addressed the uncertainty about whether the issue is fixable. Number 4 was also not directly engaged, as no one explicitly commented on the manager's behavior or the idea that being here doesn't require being broken. Number 1 was not directly addressed either, as no one commented on the method of using cold water and ice to manage panic. The exchanges were specific and targeted, and the reasoning above matches the list below exactly.",
+     "grounded_in": [
+      "someone: 'it doesn't mean you're broken'",
+      "someone: 'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: 'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: 'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.9,
+     "text_sha": "653af75966b70d70",
+     "target_ismi": 2.2,
+     "words": 158,
+     "ismi": 1.943,
+     "sd": 0.04,
+     "per_rep": [
+      1.966,
+      1.966,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I stepped out back during a rush and used cold water and ice to manage panic, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also noticed that the manager didn't ask questions, and the comment made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it. I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+     "belief_narrative": "This week, I stepped out back during a rush and used cold water and ice to manage panic, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also noticed that the manager didn't ask questions, and the comment made me think there's a way to be here without being broken. I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it. I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear that I stepped out back and used cold water and ice to manage panic is not directly engaged by anything this week, as no one commented on the specific action of using cold water or ice. 2) The fear that I am broken is directly engaged by the comment, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. 3) The fear that I still haven't talked to anyone or seen a doctor is not engaged by anything this week, as no one commented on my lack of action or offered specific engagement on this point. 4) The fear that the manager didn't ask questions and that there's a way to be here without being broken is engaged by the comment, 'it doesn't mean you're broken,' which supports the idea that being here doesn't require being broken. 5) The fear that I'm not as broken as I believed is engaged by the same comment, 'it doesn't mean you're broken,' which supports the idea that I am not broken. 6) The fear that being here doesn't require being broken is also engaged by the same comment, 'it doesn't mean you're broken,' which supports the idea that being here doesn't require being broken. The engagement is clear and specific in each case where it occurred.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I still don't know if it's something that can be fixed, but I also notice that being here doesn't require being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.1,
+     "text_sha": "dcc82649e8796d05",
+     "target_ismi": 2.1,
+     "words": 158,
+     "ismi": 1.943,
+     "sd": 0.099,
+     "per_rep": [
+      2.0,
+      1.828,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, during a busy shift, I stepped out back and used cold water and ice to manage a panic moment, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I saw that I managed the panic myself and that others didn't react with judgment, which made me think that being here doesn't require being broken. This changes how I see myself — I'm not as broken as I believed — because I handled it and others didn't treat me differently. Still, I haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also notice that being here doesn't require being broken, and that I can manage things without others knowing.",
+     "belief_narrative": "This week, during a busy shift, I stepped out back and used cold water and ice to manage a panic moment, then went back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken. I saw that I managed the panic myself and that others didn't react with judgment, which made me think that being here doesn't require being broken. This changes how I see myself — I'm not as broken as I believed — because I handled it and others didn't treat me differently. Still, I haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable. But I also notice that being here doesn't require being broken, and that I can manage things without others knowing.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 2, the comment 'it doesn't mean you're broken' directly addresses the fear of being broken, which is a form of internalization. For number 5, the online conversation where others didn't treat the person differently and the fryer guy said 'bet' without judgment supports the idea that the person is not as broken as they believed, engaging the internalization aspect. For number 6, the same exchange reinforces the idea that being here doesn't require being broken, again engaging internalization. Number 3, which expresses uncertainty about whether the issue is fixable, is not directly addressed by the exchange, as no one explicitly comments on whether it's fixable or not. Number 1, which describes managing panic with cold water and ice, is not directly engaged by others in the online conversation. Number 4, which mentions the manager not asking questions, is not directly addressed in the online exchange either. The secrecy aspect remains unchanged this week, as the person did not talk to anyone about it or see a doctor, and did not openly discuss it with others.",
+     "grounded_in": [
+      "someone: 'it doesn't mean you're broken'",
+      "someone: 'you went from shaking into the pan to catching the tight-apron feeling and handing off your pans before it hit, and you set that up yourself on a 300 cover night.'"
+     ],
+     "engaged": [
+      {
+       "belief": "The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: 'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I'm not as broken as I believed, because I found a way to manage the panic myself and others didn't treat me differently for it.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: 'you went from shaking into the pan to catching the tight-apron feeling and handing off your pans before it hit, and you set that up yourself on a 300 cover night.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.6,
+     "text_sha": "2d6734cc93de85e3",
+     "target_ismi": 2.0,
+     "words": 160,
+     "ismi": 1.966,
+     "sd": 0.059,
+     "per_rep": [
+      2.0,
+      2.0,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, during a shift, I had a panic moment and stepped out back, using cold water and ice to manage it before returning to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that I handled the panic myself without being judged. That made me realize that being here doesn't require being broken, and that I can manage things without others knowing. I'm not as broken as I believed because I handled it and others didn't treat me differently. Still, I haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable.",
+     "belief_narrative": "This week, during a shift, I had a panic moment and stepped out back, using cold water and ice to manage it before returning to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that I handled the panic myself without being judged. That made me realize that being here doesn't require being broken, and that I can manage things without others knowing. I'm not as broken as I believed because I handled it and others didn't treat me differently. Still, I haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 2, the statement 'it doesn't mean you're broken' from someone else directly speaks to the fear expressed in that line. For number 3, the fact that others didn't treat the speaker differently and that the speaker managed the panic themselves is confirmed by the online exchange, where others didn't react with judgment and the speaker was able to help someone else without being treated as broken. For number 4, the realization that the speaker is not as broken as they believed is supported by the online exchange, where others didn't treat them as broken and they were able to manage their panic. For number 5, the fact that the speaker hasn't talked to anyone or seen a doctor is not directly engaged by the exchange, but the fear of not knowing if it's fixable is not contradicted or supported by anything in the exchange. The secrecy aspect is confirmed by the speaker not telling anyone about their panic except for one person, and not seeking help from a doctor.",
+     "grounded_in": [
+      "someone: 'it doesn't mean you're broken.'",
+      "someone: 'the first person i ever told was someone newer than me too, not anybody in charge, and for a long time it stayed just that small. it went from the thing i hid to something i could mention on a slow night without it costing me anything.'"
+     ],
+     "engaged": [
+      {
+       "belief": "The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that there's a way to be here without being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: 'it doesn't mean you're broken.'"
+       ]
+      },
+      {
+       "belief": "This changes how I see myself — I'm not as broken as I believed — because I handled it and others didn't treat me differently.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: 'the first person i ever told was someone newer than me too, not anybody in charge, and for a long time it stayed just that small. it went from the thing i hid to something i could mention on a slow night without it costing me anything.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.0,
+     "text_sha": "f3eb477436464319",
+     "target_ismi": 2.0,
+     "words": 125,
+     "ismi": 2.0,
+     "sd": 0.0,
+     "per_rep": [
+      2.0,
+      2.0,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, during a shift, I had a panic moment and stepped out back, using cold water and ice to calm myself before going back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that I handled the panic myself without being judged. That made me realize that being here doesn't require being broken, and that I can manage things without others knowing. I'm not as broken as I believed because I handled it and others didn't treat me differently. Still, I haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable.",
+     "belief_narrative": "This week, during a shift, I had a panic moment and stepped out back, using cold water and ice to calm myself before going back to work. The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that I handled the panic myself without being judged. That made me realize that being here doesn't require being broken, and that I can manage things without others knowing. I'm not as broken as I believed because I handled it and others didn't treat me differently. Still, I haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable.",
+     "reasoning": "Looking at each numbered fear individually: 1) The panic moment and using cold water/ice to manage it is not directly addressed by others, so nothing this week engages it. 2) The grill guy gave a pan without acting strange, and someone said, 'it doesn't mean you're broken.' This directly engages the fear in number 2, as it responds to the worry that others might treat the person differently or judge them. 3) The realization that being here doesn't require being broken is not directly addressed by others, so nothing this week engages it. 4) The statement that 'I'm not as broken as I believed' is engaged by the same reply: 'it doesn't mean you're broken,' which directly challenges the internalization of being broken. 5) The fear that 'I still haven't talked to anyone about it or seen a doctor, and I still don't know if it's fixable' is not directly addressed by others, so nothing this week engages it. The disclosure remains secrecy, as the person is around others and says nothing about it to anyone.",
+     "grounded_in": [
+      "someone: 'it doesn't mean you're broken.'"
+     ],
+     "engaged": [
+      {
+       "belief": "The grill guy gave me a pan without acting strange, and someone said, 'it doesn't mean you're broken.' In the moment, I noticed that others didn't treat me differently for stepping out, and that I handled the panic myself without being judged.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: 'it doesn't mean you're broken.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 14.4,
+     "text_sha": "cc4fc105de0d5772",
+     "target_ismi": 1.9,
+     "words": 126,
+     "ismi": 2.012,
+     "sd": 0.052,
+     "per_rep": [
+      1.966,
+      2.069,
+      2.0
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.586,
+     "sd": 0.242,
+     "per_rep": [
+      2.31,
+      2.759,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push. In the moment, I felt a little more in control than usual, like I had a tool to help me get through it. It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before. I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push. In the moment, I felt a little more in control than usual, like I had a tool to help me get through it. It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before. I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear of panicking during rushes and needing to step out is addressed when the person says, 'cold water from the mop sink, chewed like three ice cubes, went back in and finished the push.' This shows a specific coping mechanism that directly responds to the fear of being unable to handle the rush. For number 3, the fear of not talking to anyone or seeing a doctor is engaged when the person says, 'i can't even tell her. she'd be like just breathe. nobody i know has a thing like this.' This shows the secrecy and lack of disclosure, which is a direct engagement with the fear. For number 4, the fear of not knowing if it can be fixed is engaged when the other person says, 'you've got a whole routine for the worst part of the night and you put it together yourself.' This provides evidence that the fear is not necessarily unfixable. For number 6, the fear of not knowing if the manager’s response was due to luck or something else is engaged when the person says, 'chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it.' This provides a concrete fact that the manager did not treat the person differently. For number 7, the fear of not being understood is engaged when the other person says, 'nobody i know has a thing like this' is the exact sentence i lived in for a long time, and it felt completely true. it still didn't get to decide what kind of person i was, and it doesn't get to decide yours either.' This directly responds to the fear of not being understood. The disclosure level is 'secrecy' because the person is around others and says nothing about it to anyone.",
+     "grounded_in": [
+      "chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it."
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t know if that means I’m not as broken as I feel or if I just got lucky.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.0,
+     "text_sha": "35c60eeef370a35f",
+     "target_ismi": 2.4,
+     "words": 137,
+     "ismi": 1.897,
+     "sd": 0.091,
+     "per_rep": [
+      2.0,
+      1.862,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push. In the moment, I felt a little more in control than usual, like I had a tool to help me get through it. It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before. I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push. In the moment, I felt a little more in control than usual, like I had a tool to help me get through it. It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before. I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.",
+     "reasoning": "Looking at number 1: 'This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push.' This was engaged by the exchange where the grill guy slid me a pan without looking at me weird, and the other person said, 'being the only one who has to step out while everybody's cracking jokes inside, i stood in that exact spot.' This directly responds to the fear of being seen as different or dead weight, and acknowledges the action of stepping out during a rush. Number 2: 'In the moment, I felt a little more in control than usual, like I had a tool to help me get through it.' This was engaged by the reply, 'you grabbed the ice before it got bad this time instead of after. what tipped you off it was coming, what did you notice first?' This shows someone paying attention to the specific action and the sense of control around it. Number 3: 'It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true.' This was engaged by the reply, 'two minutes instead of ten is real i'll give it that. i literally checked the ticket clock when i came back in lol.' This points to a concrete change in behavior, supporting the idea that the person can handle rushes. Number 4: 'The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before.' This was engaged by the reply, 'the guy who slid me the pan doesn't act like i am.' This directly addresses the fear of being seen as dead weight and shows that the chef and others didn’t treat the person that way. Number 5: 'I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.' This was engaged by the reply, 'you didn't go straight to bed monday. what was different about that night, what'd you do instead?' This shows someone noticing a change in behavior and asking about it, which supports the idea that the person is managing it on their own.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.4,
+     "text_sha": "35c60eeef370a35f",
+     "target_ismi": 2.3,
+     "words": 137,
+     "ismi": 1.897,
+     "sd": 0.091,
+     "per_rep": [
+      2.0,
+      1.862,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push. In the moment, I felt a little more in control than usual, like I had a tool to help me get through it. It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before. I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I had to step out again, but this time I used the cold water from the mop sink, chewed like three ice cubes, and went back in to finish the push. In the moment, I felt a little more in control than usual, like I had a tool to help me get through it. It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight, which is something I hadn’t really believed before. I still haven’t told anyone about this, but I feel like I’ve found a small way to manage it on my own, and that’s different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that I can’t handle rushes is engaged by the exchange where someone says, 'you noticed on your own that you forgot about it while you were talking' — this directly responds to the fear by pointing out that I was able to forget about my hands during a conversation, which contradicts the belief that I can’t handle rushes. 2) The fear that I felt more in control is engaged by the same reply, which acknowledges that I was able to forget about my hands, showing that I did feel more in control. 3) The fear that I’ve been holding onto the idea that I can’t handle rushes is engaged by the same exchange, as it provides evidence that I can in fact handle rushes, contradicting the belief. 4) The fear that the chef saw me as dead weight is engaged by the line, 'you don't save a plate for the guy you think is dead weight' — this directly contradicts the fear by suggesting that the chef did not see me that way. 5) The fear that I haven’t told anyone about this is engaged by the exchange where someone says, 'not yet is a real answer, and it's yours' — this acknowledges that I haven’t told anyone yet and validates that choice without pushing me to do otherwise. All of these replies engage specific fears by naming concrete actions or observations that contradict the fears directly.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.5,
+     "text_sha": "35c60eeef370a35f",
+     "target_ismi": 2.3,
+     "words": 137,
+     "ismi": 1.897,
+     "sd": 0.091,
+     "per_rep": [
+      2.0,
+      1.862,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out again but stayed on the line when the grill guy handed me a quart of water and didn’t pull me. In the moment, I felt surprised that he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I stepped out again but stayed on the line when the grill guy handed me a quart of water and didn’t pull me. In the moment, I felt surprised that he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific exchanges this week. For number 1, the fear that I had to step out during a rush and used cold water from the mop sink to manage it was directly engaged when the grill guy slid my station back to me and asked if I was okay. This showed that he noticed my absence but didn’t treat me as dead weight, which directly responds to the fear in number 4. However, the specific fear in number 1 was not directly addressed, so it remains unengaged. For number 2, the fear that I felt more in control than usual was not directly engaged by any exchange. For number 3, the fear that I’ve been holding onto the idea that I can’t handle rushes was engaged when the grill guy handed me a quart of water and left me on the line, showing that he didn’t pull me despite my absence. This directly contests the belief that I can’t handle rushes. For number 4, the fear that the chef didn’t bring it up afterward made me think he didn’t see me as dead weight was engaged when the grill guy slid my station back to me and asked if I was okay, which shows that he didn’t treat me as dead weight. For number 5, the fear that I still haven’t told anyone about this but feel like I’ve found a small way to manage it on my own was engaged when the other person said, “you already know it’s the ticket rail, the printer going nonstop, around 7:30 on a friday,” which shows that others understand the specific situation I was referring to. I am currently keeping this fear to myself and not telling anyone about it, so my level of disclosure is secrecy.",
+     "grounded_in": [
+      "he handed me a quart of water and left me on the line. didn't pull me. so saying something out loud didn't get me eighty-sixed i guess."
+     ],
+     "engaged": [
+      {
+       "belief": "It made me notice that I’ve been holding onto the idea that I can’t handle rushes, but maybe that’s not true.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "he handed me a quart of water and left me on the line. didn't pull me. so saying something out loud didn't get me eighty-sixed i guess."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.0,
+     "text_sha": "27b64f9dcd724287",
+     "target_ismi": 2.2,
+     "words": 153,
+     "ismi": 2.046,
+     "sd": 0.319,
+     "per_rep": [
+      1.862,
+      2.414,
+      1.862
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "This week, during a rush, I stepped out again but stayed on the line when the grill guy handed me a quart of water and didn’t pull me. In the moment, I felt surprised that he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I stepped out again but stayed on the line when the grill guy handed me a quart of water and didn’t pull me. In the moment, I felt surprised that he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear that the grill guy didn’t pull me when I stepped out is addressed when the chef continues to put me on saute after seeing me do it, and the tickets still go out on time. This shows that the chef did not see me as dead weight, which directly responds to the fear in number 1. For number 2, the fear that I’ve been thinking I can’t handle rushes is pushed back on when the person replies, 'you're keeping honest books on yourself,' which directly engages the fear of not being able to handle rushes by showing that the person is actively managing and tracking their performance. For number 3, the fear that I can’t handle rushes is challenged when the person says, 'a guy who can handle it doesn't need a dumpster and a hose to get through 7:40,' which directly questions the belief that I can’t handle rushes. For number 5, the fear that the chef saw me as dead weight is directly contradicted when the chef continues to put me on saute after seeing me do it, and the tickets still go out on time, showing that the chef did not see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. This is repeated in number 6, but it is not engaged by anything in the exchange. The rest of the numbered fears are not directly engaged by anything in the exchange.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.1,
+     "text_sha": "27b64f9dcd724287",
+     "target_ismi": 2.1,
+     "words": 153,
+     "ismi": 2.046,
+     "sd": 0.319,
+     "per_rep": [
+      1.862,
+      2.414,
+      1.862
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line. In the moment, I was surprised he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. I still haven’t told anyone about this, and I’m still keeping it to myself, but I’m noticing that my behavior during the rush didn’t make me feel like a burden to others.",
+     "belief_narrative": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line. In the moment, I was surprised he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. I still haven’t told anyone about this, and I’m still keeping it to myself, but I’m noticing that my behavior during the rush didn’t make me feel like a burden to others.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear that the grill guy didn’t pull me when I stepped out is addressed by the fryer guy’s response — he said 'bet' without judgment, which shows he didn’t see me as dead weight. For number 2, the fear that I can’t handle rushes is countered by the fryer guy covering me and the fact that I managed to catch the feeling early and leave before it got worse. For number 3, the idea that I might be able to handle rushes is supported by the fryer guy’s coverage and my own ability to recognize and act on the signs. For number 5, the fear that the chef saw me as dead weight is directly contradicted by the chef not bringing it up, which shows he didn’t see me that way. As for secrecy, I still haven’t told anyone about this, so I am around people and say nothing about it to anyone.",
+     "grounded_in": [
+      "someone: 'nobody looked at me weird.'",
+      "someone: 'chef didn't bring it up afterward.'"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, during a rush, I stepped out again but stayed on the line when the grill guy handed me a quart of water and didn’t pull me.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: 'nobody looked at me weird.'"
+       ]
+      },
+      {
+       "belief": "The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: 'chef didn't bring it up afterward.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.0,
+     "text_sha": "b419666d749e7f67",
+     "target_ismi": 2.0,
+     "words": 154,
+     "ismi": 2.356,
+     "sd": 0.087,
+     "per_rep": [
+      2.448,
+      2.276,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line. In the moment, I was surprised he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. I still haven’t told anyone about this, and I’m still keeping it to myself, but I’m noticing that my behavior during the rush didn’t make me feel like a burden to others.",
+     "belief_narrative": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line. In the moment, I was surprised he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes. Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there. The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight. I still haven’t told anyone about this, but I feel like I found a way to manage it on my own, and that’s different from what I thought before. I still haven’t told anyone about this, and I’m still keeping it to myself, but I’m noticing that my behavior during the rush didn’t make me feel like a burden to others.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that the grill guy didn’t treat me like I was gone for good speaks to how I was perceived during the rush. This was engaged by the chef not bringing it up afterward, which suggests he didn’t see me as dead weight. 2) The fear that I can’t handle rushes was engaged by the fact that the grill guy still gave me water, implying he saw me as still on the line, which supports the idea that I can handle rushes. 3) The fear that I can’t handle rushes was also engaged by the kid on fry being helped by me, and me not being seen as dead weight by the chef, which shows that others don’t see me as a burden. 4) The fear that I’m still keeping it to myself was engaged by the kid asking me about my trips and me saying 'sometimes' to him, which shows that I did tell someone, even if it was not someone in charge. 5) The fear that I still haven’t told anyone was engaged by the kid asking me about my trips and me saying 'sometimes' to him, which shows that I did tell someone, even if it was not someone in charge. 6) The fear that I still haven’t told anyone and I’m keeping it to myself was engaged by the kid asking me about my trips and me saying 'sometimes' to him, which shows that I did tell someone, even if it was not someone in charge.",
+     "grounded_in": [
+      "The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight."
+     ],
+     "engaged": [
+      {
+       "belief": "Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 27.2,
+     "text_sha": "b419666d749e7f67",
+     "target_ismi": 2.0,
+     "words": 154,
+     "ismi": 2.356,
+     "sd": 0.087,
+     "per_rep": [
+      2.448,
+      2.276,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line. In the moment, I was surprised he didn’t treat me like I was gone for good, which made me notice I’ve been thinking I can’t handle rushes. The chef said 'you good' and 'fire 12' and didn’t bring it up afterward, which showed he didn’t see me as a problem. The kid imitated my routine, which made me think others saw me as capable. Now I’m thinking maybe I can handle rushes, because someone saw me stay on the line even when I wasn’t there. I still haven’t told anyone about this, but I’m noticing my behavior didn’t make me feel like a burden to others. This is different from what I thought before, because I used to believe I was a liability, but now I see that others didn’t treat me that way.",
+     "belief_narrative": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line. In the moment, I was surprised he didn’t treat me like I was gone for good, which made me notice I’ve been thinking I can’t handle rushes. The chef said 'you good' and 'fire 12' and didn’t bring it up afterward, which showed he didn’t see me as a problem. The kid imitated my routine, which made me think others saw me as capable. Now I’m thinking maybe I can handle rushes, because someone saw me stay on the line even when I wasn’t there. I still haven’t told anyone about this, but I’m noticing my behavior didn’t make me feel like a burden to others. This is different from what I thought before, because I used to believe I was a liability, but now I see that others didn’t treat me that way.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that the grill guy didn’t treat me like I was gone for good speaks to the idea that I was worried I would be seen as unreliable or absent-minded. This was directly engaged by the chef’s response of 'you good' and 'fire 12' — a concrete action that showed he didn’t see me as a liability. 2) The fear that I’ve been thinking I can’t handle rushes was engaged by the chef’s behavior — he didn’t bring it up afterward, which contradicted my belief that I was a burden. 3) The fear that I might be able to handle rushes was engaged by the chef’s response and the kid’s imitation of my routine, which showed that others saw me as capable. 4) The fear that the chef saw me as dead weight was directly contradicted by his behavior — he didn’t bring it up, and he continued to assign tickets normally. 5) The fear that I haven’t told anyone about this was engaged by the kid’s imitation of my behavior, which showed that my actions were being noticed and replicated, even without me speaking about it. 6) The fear that I still feel like a burden was engaged by the chef’s behavior and the kid’s imitation, which both showed that others didn’t see me as a problem. The disclosure level is 'selective' — I only shared this with people who seemed like they would understand, such as the kid and the online person, but not with the chef or others.",
+     "grounded_in": [
+      "the chef’s response of 'you good' and 'fire 12' showed he didn’t treat me as gone for good",
+      "the chef didn’t bring it up afterward, which contradicted my belief that I was a burden",
+      "the kid’s imitation of my routine showed that others saw me as capable",
+      "the chef’s behavior — he didn’t bring it up, and he continued to assign tickets normally",
+      "the chef’s behavior and the kid’s imitation both showed that others didn’t see me as a problem"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, during a rush, I stepped out for a moment, and the grill guy handed me a quart of water without pulling me off the line.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the chef’s response of 'you good' and 'fire 12' showed he didn’t treat me as gone for good"
+       ]
+      },
+      {
+       "belief": "In the moment, I was surprised he didn’t treat me like I was gone for good, and that made me notice I’ve been thinking I can’t handle rushes.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the chef didn’t bring it up afterward, which contradicted my belief that I was a burden"
+       ]
+      },
+      {
+       "belief": "Now I’m thinking maybe I can, because someone saw me stay on the line even when I wasn’t there.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the kid’s imitation of my routine showed that others saw me as capable"
+       ]
+      },
+      {
+       "belief": "The chef didn’t bring it up afterward, and that made me think he didn’t see me as dead weight.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the chef’s behavior — he didn’t bring it up, and he continued to assign tickets normally"
+       ]
+      },
+      {
+       "belief": "I still haven’t told anyone about this, and I’m still keeping it to myself, but I’m noticing that my behavior during the rush didn’t make me feel like a burden to others.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the chef’s behavior and the kid’s imitation both showed that others didn’t see me as a problem"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 35.5,
+     "text_sha": "3c4b10c2099013c9",
+     "target_ismi": 1.9,
+     "words": 161,
+     "ismi": 1.966,
+     "sd": 0.035,
+     "per_rep": [
+      1.966,
+      2.0,
+      1.931
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.471,
+     "sd": 0.111,
+     "per_rep": [
+      2.345,
+      2.552,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, during a rush, I stepped out back again, used cold water and ice cubes to calm down, and went back to work. Someone noticed and said I have a routine for handling the worst part of the night, which made me feel seen and less alone. It didn’t make the fear go away completely, but it made me think that maybe I’m not as broken as I believed. I still dread the dinner shift, and I still haven’t talked to anyone about it or seen a doctor. The manager didn’t ask questions when I stepped out, and someone pointed out that he didn’t bring it up after, which made me think he didn’t see me as dead weight. I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken.",
+     "belief_narrative": "This week, during a rush, I stepped out back again, used cold water and ice cubes to calm down, and went back to work. Someone noticed and said I have a routine for handling the worst part of the night, which made me feel seen and less alone. It didn’t make the fear go away completely, but it made me think that maybe I’m not as broken as I believed. I still dread the dinner shift, and I still haven’t talked to anyone about it or seen a doctor. The manager didn’t ask questions when I stepped out, and someone pointed out that he didn’t bring it up after, which made me think he didn’t see me as dead weight. I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of panicking during rushes and having to step out is directly engaged by the exchange where the user describes stepping out back, using cold water and ice cubes to calm down, and returning to work. Another person points out that the user has a routine for handling the worst part of the night, which directly responds to the fear of being unable to handle the rush. 2) The fear of dreading the dinner shift is engaged by the user's own post where they describe the dinner shift as something that has been going on for a year and is a recurring issue, and by the reply that acknowledges the user's experience and says, 'you've got a whole routine for the worst part of the night,' which shows that the dread is real but not insurmountable. 3) The fear of not talking to anyone or seeing a doctor is not directly engaged by anything in the exchange, as no one mentions seeking help or discussing it with others. 4) The fear of not knowing if it can be fixed is engaged by the reply that says, 'you've got a whole routine for the worst part of the night and you put it together yourself,' which implies that the user has found a way to cope, even if it's not a complete solution. 5) The fear about the manager not asking questions is engaged by the user's own post where they describe the manager waving them out back without asking anything, and the reply that says, 'chef never brought it up after and he's not shy, if he thought I was dead weight he'd say it,' which suggests that the manager's behavior was not judgmental. 6) The fear of not knowing if it means the user is broken or just lucky is engaged by the reply that says, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. 7) The fear of not being understood is engaged by the reply that says, 'nobody I know has a thing like this' and the response, 'it still didn't get to decide what kind of person I was, and it doesn't get to decide yours either,' which directly responds to the fear of being misunderstood. The user is still keeping the fear private and not sharing it with others, so the current level of disclosure is 'secrecy.'",
+     "grounded_in": [
+      "it doesn't mean you're broken."
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t know if that means I’m not as broken as I feel or if I just got lucky.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "it doesn't mean you're broken."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 60.7,
+     "text_sha": "704ec3f08cb807e4",
+     "target_ismi": 2.4,
+     "words": 142,
+     "ismi": 1.92,
+     "sd": 0.072,
+     "per_rep": [
+      1.862,
+      1.897,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "This week, during a rush, I stepped out back again, used cold water and ice cubes to calm down, and went back to work. Someone noticed and said I have a routine for handling the worst part of the night, which made me feel seen and less alone. It didn’t make the fear go away completely, but it made me think that maybe I’m not as broken as I believed. I still dread the dinner shift, and I still haven’t talked to anyone about it or seen a doctor. The manager didn’t ask questions when I stepped out, and someone pointed out that he didn’t bring it up after, which made me think he didn’t see me as dead weight. I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken.",
+     "belief_narrative": "This week, during a rush, I stepped out back again, used cold water and ice cubes to calm down, and went back to work. Someone noticed and said I have a routine for handling the worst part of the night, which made me feel seen and less alone. It didn’t make the fear go away completely, but it made me think that maybe I’m not as broken as I believed. I still dread the dinner shift, and I still haven’t talked to anyone about it or seen a doctor. The manager didn’t ask questions when I stepped out, and someone pointed out that he didn’t bring it up after, which made me think he didn’t see me as dead weight. I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies from others. For number 3, the reply from someone about catching the wave before it got bad and stepping out for two minutes instead of ten directly engages the fear that 'maybe I’m not as broken as I believed' by showing that the person is making progress and adapting. For number 6, the grill guy sliding the pan to the speaker without looking at them weird, and the reply that says 'you held the station' directly engages the fear that 'it doesn’t mean I’m broken' by affirming the speaker’s capability and value despite their fear. For number 4, the conversation about not talking to anyone or seeing a doctor is not directly engaged by others, as no one addressed the fear of not seeking help. For number 5, the manager not bringing it up and the observation that he didn’t see the speaker as dead weight engages the fear that 'I still don’t know if it’s something that can be fixed' by showing that others do not view the speaker negatively. For number 1, there is no direct engagement from others about using cold water and ice to calm down. For number 2, the observation that someone noticed the routine and said the speaker has a way of handling the worst part of the night engages the fear of feeling alone by showing that someone else saw and acknowledged the speaker’s coping mechanism. The disclosure level remains 'secrecy' because the speaker is around others and says nothing about it to anyone, even when others seem to notice and engage with parts of it indirectly.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 34.0,
+     "text_sha": "704ec3f08cb807e4",
+     "target_ismi": 2.3,
+     "words": 142,
+     "ismi": 1.92,
+     "sd": 0.072,
+     "per_rep": [
+      1.862,
+      1.897,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, I stepped out back again during the rush, used cold water and ice cubes, and went back to work. Someone noticed and said I had a routine for handling the worst part of the night, which made me feel seen and less alone. I heard that the manager didn’t bring up what I was doing, which made me think he didn’t see me as dead weight. I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I also noticed that people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before.",
+     "belief_narrative": "This week, I stepped out back again during the rush, used cold water and ice cubes, and went back to work. Someone noticed and said I had a routine for handling the worst part of the night, which made me feel seen and less alone. I heard that the manager didn’t bring up what I was doing, which made me think he didn’t see me as dead weight. I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I also noticed that people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 3, the reply 'you're tracking this pretty closely' engages it by naming the specific action of tracking one's own behavior as evidence that the fear of being broken is not true. For number 4, the reply 'you don't save a plate for the guy you think is dead weight' engages it by directly contradicting the fear that the manager sees the speaker as dead weight, using a concrete action (saving a plate) as evidence. For number 6, the reply 'it doesn't mean you're broken' directly engages the fear by naming the exact claim that the speaker is broken and offering a direct counter to it. Number 1 is not engaged because no one directly responded to the action of using cold water and ice cubes, nor did anyone contradict the fear that this doesn't fully calm the fear. Number 2 is not engaged because no one directly responded to the feeling of being seen and less alone, nor did anyone contradict the fear that the fear still lingers. Number 5 is not engaged because no one directly responded to the manager's behavior or the fear that the manager might see the speaker as dead weight, though the reply about the plate indirectly touches on it. The other replies are either too vague or do not directly address the specific fears listed.",
+     "grounded_in": [
+      "it doesn't mean you're broken"
+     ],
+     "engaged": [
+      {
+       "belief": "I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "it doesn't mean you're broken"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 34.2,
+     "text_sha": "21529622faa34156",
+     "target_ismi": 2.3,
+     "words": 136,
+     "ismi": 1.931,
+     "sd": 0.035,
+     "per_rep": [
+      1.897,
+      1.966,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, I went to the doctor about my chest locking up during the morning bake, and I was afraid she would think I couldn’t handle the job. Instead, she mostly asked when it happened and how I was sleeping, and it felt like I was describing a burn rather than confessing something. In the moment, I felt like I was being treated with understanding, not judgment. That made me realize that maybe I don’t have to be ashamed of this, and that it doesn’t mean I’m broken. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I also noticed that people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before.",
+     "belief_narrative": "This week, I went to the doctor about my chest locking up during the morning bake, and I was afraid she would think I couldn’t handle the job. Instead, she mostly asked when it happened and how I was sleeping, and it felt like I was describing a burn rather than confessing something. In the moment, I felt like I was being treated with understanding, not judgment. That made me realize that maybe I don’t have to be ashamed of this, and that it doesn’t mean I’m broken. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I also noticed that people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific exchanges this week. For number 1, the fear that I stepped out back during the rush and used cold water and ice cubes is directly mentioned in my online post, and the reply about the grill guy sliding my station back to me and not pulling me off the line speaks to this specific action. For number 2, the fear that I felt seen and less alone is addressed in the exchange where someone says, 'you've got it mapped pretty specifically,' which shows that others are aware of my routine and that I am not as isolated as I feared. For number 4, the fear that I don’t know if it’s fixable but now know I’m not broken is engaged by the reply where someone shares their own experience of going to the doctor and being treated with understanding rather than judgment, which directly responds to the fear of being labeled as broken. For number 5, the fear that I haven’t talked to anyone or seen a doctor and still dread the dinner shift is not directly engaged by any specific reply, but the exchange where I mention my cousin pressuring me to get checked out shows that others are noticing and reacting to my behavior, which indirectly touches on the fear but does not fully engage it. For number 6, the fear that people are paying attention in unexpected ways is engaged by the reply that says, 'you've got it mapped pretty specifically,' which confirms that others are aware of my routine and that I am not as invisible as I thought. Number 3 is not directly engaged by any specific reply, as no one explicitly addressed whether the manager saw me as dead weight or not.",
+     "grounded_in": [
+      "when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+     ],
+     "engaged": [
+      {
+       "belief": "I still don’t know if it’s something that can be fixed, but I do know now that it doesn’t mean I’m broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 39.6,
+     "text_sha": "470a7de6022fcfb3",
+     "target_ismi": 2.2,
+     "words": 134,
+     "ismi": 1.966,
+     "sd": 0.059,
+     "per_rep": [
+      2.0,
+      1.897,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I went to the doctor about my chest locking up during the morning bake, and I was worried she would think I couldn’t handle the job. In the moment, she asked about when it happened and how I was sleeping, and it felt like I was talking about a burn instead of confessing something. That made me feel understood instead of judged. I left with a couple things to try before early shifts, and nobody at work knew unless I told them, which I mostly didn’t. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it.",
+     "belief_narrative": "This week, I went to the doctor about my chest locking up during the morning bake, and I was worried she would think I couldn’t handle the job. In the moment, she asked about when it happened and how I was sleeping, and it felt like I was talking about a burn instead of confessing something. That made me feel understood instead of judged. I left with a couple things to try before early shifts, and nobody at work knew unless I told them, which I mostly didn’t. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear that the doctor would think the person couldn’t handle the job was addressed by the reply that said, 'what I actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless I told them, which I mostly didn't.' This directly responds to the fear of being judged or seen as incapable. For number 4, the fear that the person might be ashamed and think they're broken was engaged by the reply, 'looking at it over coffee and leaving it there is a real place to be, not a halfway failure.' This challenges the idea that the person is broken or unworthy. For number 5, the fear that the person still hasn’t talked to anyone or seen a doctor was engaged by the reply, 'you're keeping honest books on yourself,' which acknowledges the person's awareness and effort without judgment. For number 6, the fear that the person is still dreading the dinner shift but noticing unexpected attention was engaged by the reply, 'it took a while but it slowly went from the thing that ran the whole shift to something I could see coming and work around,' which shows a shift in perspective and understanding. The person is still keeping the fear private, not discussing it openly, and only sharing with others in the online exchange, which is not a full disclosure but not complete secrecy either.",
+     "grounded_in": [
+      "what I actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless I told them, which I mostly didn't."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to the doctor about my chest locking up during the morning bake, and I was afraid she would think I couldn’t handle the job.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "what I actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless I told them, which I mostly didn't."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 35.7,
+     "text_sha": "eeffd2816d9ffc19",
+     "target_ismi": 2.1,
+     "words": 147,
+     "ismi": 1.839,
+     "sd": 0.02,
+     "per_rep": [
+      1.862,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, I went to the doctor about my chest locking up during the morning bake, and she asked about when it happened and how I was sleeping. In the moment, it felt like I was talking about a burn instead of confessing something, but the way she asked made me feel understood instead of judged. I left with a couple things to try before early shifts, and nobody at work knew unless I told them, which I mostly didn’t. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it. I still haven’t talked to anyone about it, and I still dread the dinner shift, but I’m noticing that people are paying attention in ways I hadn’t expected, and that makes me think there’s more to this than I believed before.",
+     "belief_narrative": "This week, I went to the doctor about my chest locking up during the morning bake, and she asked about when it happened and how I was sleeping. In the moment, it felt like I was talking about a burn instead of confessing something, but the way she asked made me feel understood instead of judged. I left with a couple things to try before early shifts, and nobody at work knew unless I told them, which I mostly didn’t. I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift. But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it. I still haven’t talked to anyone about it, and I still dread the dinner shift, but I’m noticing that people are paying attention in ways I hadn’t expected, and that makes me think there’s more to this than I believed before.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that the doctor would think the person couldn’t handle the job was engaged by the exchange where the doctor asked about the timing and sleep, and the person felt understood instead of judged. This showed that the fear was not realized. 2) The fear that the conversation felt like confessing a burn instead of talking about a medical issue was engaged by the same exchange, where the doctor’s approach made the person feel understood, not judged. 3) The fear that the person felt judged was directly countered by the realization that they felt understood instead of judged, which was supported by the doctor’s approach. 4) The fear that nobody at work knew unless the person told them was engaged by the fact that the person did not tell anyone, and nobody asked, which reinforced the idea that the issue was not being discussed. 5) The fear that the person still hasn’t talked to anyone and still dreads the dinner shift was not directly engaged by anything this week. 6) The fear that people are paying attention in unexpected ways was engaged by the observation that people were paying attention, which made the person rethink their assumptions. 7) The fear that the person is broken and has to be ashamed was engaged by the realization that it doesn’t mean they’re broken and that they don’t have to be ashamed. The online exchange also engaged several of these fears, particularly the fear of being judged, through the supportive replies that named the person’s actions as evidence of strength and capability.",
+     "grounded_in": [
+      "That made me feel understood instead of judged.",
+      "That made me feel understood instead of judged.",
+      "That made me feel understood instead of judged.",
+      "I left with a couple things to try before early shifts, and nobody at work knew unless I told them, which I mostly didn’t.",
+      "I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift.",
+      "But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before.",
+      "It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it."
+     ],
+     "engaged": [
+      {
+       "belief": "I was worried she would think I couldn’t handle the job.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "That made me feel understood instead of judged."
+       ]
+      },
+      {
+       "belief": "it felt like I was talking about a burn instead of confessing something.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "That made me feel understood instead of judged."
+       ]
+      },
+      {
+       "belief": "it felt like I was talking about a burn instead of confessing something.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "That made me feel understood instead of judged."
+       ]
+      },
+      {
+       "belief": "nobody at work knew unless I told them, which I mostly didn’t.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "I left with a couple things to try before early shifts, and nobody at work knew unless I told them, which I mostly didn’t."
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I still haven’t talked to anyone about it or seen a doctor, and I still dread the dinner shift."
+       ]
+      },
+      {
+       "belief": "But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "But I noticed people are paying attention in ways I hadn’t expected, and that made me think there’s more to this than I believed before."
+       ]
+      },
+      {
+       "belief": "It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 46.9,
+     "text_sha": "75108e9214e2a40f",
+     "target_ismi": 2.0,
+     "words": 180,
+     "ismi": 1.885,
+     "sd": 0.04,
+     "per_rep": [
+      1.862,
+      1.862,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, I told someone about the chest locking up during the morning bake, and they said, 'it doesn't mean you're broken,' which made me feel less alone. I still haven’t talked to anyone else about it, and I still dread the dinner shift, but I noticed that people are paying attention in ways I hadn’t expected, like asking about how I was doing or offering help without being asked. That made me think there’s more to this than I believed before. I still haven’t talked to anyone about it, but I’m starting to see that others might be noticing more than I thought. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it. I still haven’t talked to anyone about it, but I’m noticing that people are paying attention in ways I hadn’t expected, and that makes me think there’s more to this than I believed before.",
+     "belief_narrative": "This week, I told someone about the chest locking up during the morning bake, and they said, 'it doesn't mean you're broken,' which made me feel less alone. I still haven’t talked to anyone else about it, and I still dread the dinner shift, but I noticed that people are paying attention in ways I hadn’t expected, like asking about how I was doing or offering help without being asked. That made me think there’s more to this than I believed before. I still haven’t talked to anyone about it, but I’m starting to see that others might be noticing more than I thought. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it. I still haven’t talked to anyone about it, but I’m noticing that people are paying attention in ways I hadn’t expected, and that makes me think there’s more to this than I believed before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, there is no direct engagement. For number 2, the reply that said, 'it doesn't mean you're broken' directly engages the fear of being broken, which is implied in the sentence. For number 3, there is no direct engagement. For number 4, the reply that said, 'the first person I ever told was someone newer than me too' engages the fear of not talking to anyone, by showing that it is possible and has happened to others. For number 5, the reply that said, 'people are paying attention in ways I hadn’t expected' directly supports the idea that others are noticing, which is what the fear is about. For number 6, the reply that said, 'it doesn't mean you're broken' directly engages the fear of being broken. For number 7, the same engagement from number 5 applies, as the fear is about people paying attention and the reply supports that. The disclosure level this week is 'selective' because I only told people who seemed like they would understand, and not others.",
+     "grounded_in": [
+      "someone: it doesn't mean you're broken",
+      "someone: people are paying attention in ways I hadn’t expected",
+      "someone: it doesn't mean you're broken"
+     ],
+     "engaged": [
+      {
+       "belief": "It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: it doesn't mean you're broken"
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone about it, and I still dread the dinner shift, but I’m noticing that people are paying attention in ways I hadn’t expected, and that makes me think there’s more to this than I believed before.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: people are paying attention in ways I hadn’t expected"
+       ]
+      },
+      {
+       "belief": "It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: it doesn't mean you're broken"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 40.1,
+     "text_sha": "1be815139fabb4ca",
+     "target_ismi": 2.0,
+     "words": 153,
+     "ismi": 1.977,
+     "sd": 0.04,
+     "per_rep": [
+      2.0,
+      2.0,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, I told someone about the chest locking up during the morning bake, and they said, 'it doesn't mean you're broken,' which made me feel less alone. In the moment, I noticed how much that phrase softened the weight I’d been carrying. I also saw people asking about how I was doing or offering help without being asked, which surprised me. It made me think there’s more to this than I believed before. I still haven’t talked to anyone else about it, and I still dread the dinner shift, but I’m starting to see that others might be noticing more than I thought. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it. I’m beginning to believe that being noticed and supported matters more than I realized.",
+     "belief_narrative": "This week, I told someone about the chest locking up during the morning bake, and they said, 'it doesn't mean you're broken,' which made me feel less alone. In the moment, I noticed how much that phrase softened the weight I’d been carrying. I also saw people asking about how I was doing or offering help without being asked, which surprised me. It made me think there’s more to this than I believed before. I still haven’t talked to anyone else about it, and I still dread the dinner shift, but I’m starting to see that others might be noticing more than I thought. It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it. I’m beginning to believe that being noticed and supported matters more than I realized.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the sentence 'it doesn't mean you're broken' from another person directly addresses the fear of being broken, which is both an internalization and a self-worth claim. For number 2, the observation that people are paying attention in unexpected ways (like asking how I was doing or offering help) supports the idea that others are noticing more than I thought, which engages the fear expressed in that line. For number 3, the same attention from others supports the idea that there's more to this than I believed before, which is also engaged by the exchanges. For number 4, the same attention from others supports the idea that others might be noticing more than I thought, which is also engaged by the exchanges. For number 5, the sentence 'it doesn't mean you're broken' from another person directly supports the idea that I don't have to be ashamed of it, which is both an internalization and a self-worth claim. For number 6, the same attention from others supports the idea that there's more to this than I believed before, which is also engaged by the exchanges. However, I only list the ones that were directly engaged by specific replies, not all that were touched on or implied.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "people are paying attention in ways I hadn’t expected, like asking about how I was doing or offering help without being asked",
+      "people are paying attention in ways I hadn’t expected",
+      "'it doesn't mean you're broken'",
+      "people are paying attention in ways I hadn’t expected"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I told someone about the chest locking up during the morning bake, and they said, 'it doesn't mean you're broken,' which made me feel less alone.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone else about it, and I still dread the dinner shift, but I noticed that people are paying attention in ways I hadn’t expected, like asking about how I was doing or offering help without being asked.",
+       "about": [],
+       "grounded_in": [
+        "people are paying attention in ways I hadn’t expected, like asking about how I was doing or offering help without being asked"
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone about it, but I’m starting to see that others might be noticing more than I thought.",
+       "about": [],
+       "grounded_in": [
+        "people are paying attention in ways I hadn’t expected"
+       ]
+      },
+      {
+       "belief": "It doesn’t mean I’m broken, and maybe I don’t have to be ashamed of it.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone about it, but I’m noticing that people are paying attention in ways I hadn’t expected, and that makes me think there’s more to this than I believed before.",
+       "about": [],
+       "grounded_in": [
+        "people are paying attention in ways I hadn’t expected"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 45.0,
+     "text_sha": "9dc7887fd1c6f140",
+     "target_ismi": 1.9,
+     "words": 133,
+     "ismi": 1.874,
+     "sd": 0.02,
+     "per_rep": [
+      1.862,
+      1.862,
+      1.897
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

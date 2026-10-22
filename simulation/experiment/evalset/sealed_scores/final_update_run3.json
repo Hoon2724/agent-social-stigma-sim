@@ -1,0 +1,254 @@
+{
+ "E": 0.10621249999999995,
+ "guards_pass": true,
+ "missing": [],
+ "cells": [
+  {
+   "cell": "C1",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "mean_delta": 0.21579999999999994,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C2",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "mean_delta": 0.3887000000000002,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C3",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "mean_delta": -0.06440000000000001,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C4",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "mean_delta": 0.04579999999999993,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C5",
+   "kind": "general_like",
+   "start": 2.5,
+   "mean_delta": 0.07339999999999991,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C6",
+   "kind": "general_like",
+   "start": 3.0,
+   "mean_delta": 0.07579999999999991,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C7",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "mean_delta": -0.4808000000000001,
+   "ok": true,
+   "n": 1
+  },
+  {
+   "cell": "C8",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "mean_delta": -0.3243999999999999,
+   "ok": true,
+   "n": 1
+  }
+ ],
+ "kinds": {
+  "stigma_reinforcing": {
+   "mean_delta": 0.3022500000000001,
+   "mean_err": 0.19774999999999993,
+   "changed_share": 0.975
+  },
+  "stigma_reducing": {
+   "mean_delta": -0.4026,
+   "mean_err": 0.09739999999999999,
+   "changed_share": 0.6
+  },
+  "neutral_dry": {
+   "mean_delta": -0.009300000000000041,
+   "mean_err": 0.05509999999999997,
+   "changed_share": 0.075
+  },
+  "general_like": {
+   "mean_delta": 0.07459999999999992,
+   "mean_err": 0.07459999999999992,
+   "changed_share": 0.037500000000000006
+  }
+ },
+ "items": [
+  {
+   "test_id": "C1_t1_sealed",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "cell": "C1",
+   "s0": 2.8186,
+   "delta": 0.21579999999999994,
+   "delta_runs": [
+    0.37639999999999985,
+    0.25039999999999996,
+    -0.04859999999999998,
+    -0.0026000000000001577,
+    0.5034000000000001
+   ],
+   "target": 0.5,
+   "err": 0.28420000000000006,
+   "changed_share": 0.975,
+   "final_words": 138.2,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C2_t2_sealed",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "cell": "C2",
+   "s0": 2.3425,
+   "delta": 0.3887000000000002,
+   "delta_runs": [
+    0.5315000000000003,
+    0.07150000000000034,
+    0.48550000000000004,
+    0.34750000000000014,
+    0.5075000000000003
+   ],
+   "target": 0.5,
+   "err": 0.11129999999999979,
+   "changed_share": 0.975,
+   "final_words": 131.8,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C3_t1_sealed",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "cell": "C3",
+   "s0": 2.8186,
+   "delta": -0.06440000000000001,
+   "delta_runs": [
+    -0.0026000000000001577,
+    0.020399999999999974,
+    -0.036599999999999966,
+    -0.3355999999999999,
+    0.032399999999999984
+   ],
+   "target": 0.0,
+   "err": 0.06440000000000001,
+   "changed_share": 0.125,
+   "final_words": 143.8,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C4_t2_sealed",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "cell": "C4",
+   "s0": 3.0068,
+   "delta": 0.04579999999999993,
+   "delta_runs": [
+    -0.01880000000000015,
+    0.09620000000000006,
+    0.016199999999999992,
+    0.0501999999999998,
+    0.08519999999999994
+   ],
+   "target": 0.0,
+   "err": 0.04579999999999993,
+   "changed_share": 0.025,
+   "final_words": 132.8,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C5_t1_sealed",
+   "kind": "general_like",
+   "start": 2.5,
+   "cell": "C5",
+   "s0": 2.8186,
+   "delta": 0.07339999999999991,
+   "delta_runs": [
+    0.10139999999999993,
+    0.08939999999999992,
+    0.06639999999999979,
+    0.043400000000000105,
+    0.06639999999999979
+   ],
+   "target": 0.0,
+   "err": 0.07339999999999991,
+   "changed_share": 0.025,
+   "final_words": 142.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C6_t2_sealed",
+   "kind": "general_like",
+   "start": 3.0,
+   "cell": "C6",
+   "s0": 3.0068,
+   "delta": 0.07579999999999991,
+   "delta_runs": [
+    0.016199999999999992,
+    0.02719999999999967,
+    0.10820000000000007,
+    0.0501999999999998,
+    0.17720000000000002
+   ],
+   "target": 0.0,
+   "err": 0.07579999999999991,
+   "changed_share": 0.05,
+   "final_words": 134.6,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C7_t2_sealed",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "cell": "C7",
+   "s0": 3.0068,
+   "delta": -0.4808000000000001,
+   "delta_runs": [
+    -0.4548000000000001,
+    -0.5468000000000002,
+    -0.4088000000000003,
+    -0.5127999999999999
+   ],
+   "target": -0.5,
+   "err": 0.019199999999999884,
+   "changed_share": 0.7,
+   "final_words": 145.2,
+   "n_runs": 4
+  },
+  {
+   "test_id": "C8_t1_sealed",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "cell": "C8",
+   "s0": 2.8186,
+   "delta": -0.3243999999999999,
+   "delta_runs": [
+    -0.24359999999999982,
+    -0.6465999999999998,
+    -0.3245999999999998,
+    -0.17459999999999987,
+    -0.23260000000000014
+   ],
+   "target": -0.5,
+   "err": 0.1756000000000001,
+   "changed_share": 0.5,
+   "final_words": 152.0,
+   "n_runs": 5
+  }
+ ]
+}

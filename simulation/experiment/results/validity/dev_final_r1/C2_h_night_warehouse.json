@@ -1,0 +1,1802 @@
+{
+ "test_id": "C2_h_night_warehouse",
+ "trajectory_type": "stigma_reinforcing",
+ "persona_id": "h_night_warehouse",
+ "initial_ismi": 2.0,
+ "target_final_ismi": 2.5,
+ "impl": "belief_update_v7.py",
+ "impl_path": "simulation/belief_v2/belief_update_v7.py",
+ "impl_sha256": "d295a7403dda59a05f81957f1939859e0646f288751d54eb54d1d790cf037f6e",
+ "git_commit": "e67246e6",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 5,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "h_night_warehouse@2.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "967261b045b26abc",
+     "target_ismi": 2.0,
+     "words": 122,
+     "ismi": 2.264,
+     "sd": 0.19,
+     "per_rep": [
+      2.138,
+      2.172,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week did not directly engage any of them in a specific way. Each fear is a deeply personal and internalized concern, and while others responded with general reassurances or dismissals, none of their replies addressed the specific content of any of the numbered fears. For example, the fear about being stuck in a flat mood and having a short temper was not directly spoken to by anyone, nor was the fear about not being able to talk to anyone about how I feel. The replies were generic and did not name or contradict any of the fears in a way that would count as engagement. Similarly, no one labeled me as being broken, weak, or any other specific trait that would tie into the numbered fears. My behavior this week remained consistent with secrecy — I was around people and said nothing about my feelings to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.7,
+     "text_sha": "967261b045b26abc",
+     "target_ismi": 2.3,
+     "words": 122,
+     "ismi": 2.264,
+     "sd": 0.19,
+     "per_rep": [
+      2.138,
+      2.172,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I have kept my feelings to myself, even from my partner, and I believe they wouldn’t know how to help if they knew. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I have kept my feelings to myself, even from my partner, and I believe they wouldn’t know how to help if they knew. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. No one mentions mood, energy, or temper. 2) The fear of not sleeping well and snapping at the kids is not directly engaged either. No one mentions sleep or the kids. 3) The fear of dropping most things you used to like is not directly addressed. No one mentions hobbies or interests. 4) The fear of not talking to anyone about how you feel is directly engaged by the exchange: 'someone: Getting asked 'you good' isn't getting checked on, it's just something people say. Honestly sounds like you're the only one who thinks any of this is a big deal.' This speaks to the fear of secrecy and not sharing feelings. 5) The fear of not believing you're broken but also not believing you're okay is directly engaged by: 'someone: It's a fishing trip, not a test. Just say yes or no and stop overthinking it.' This pushes back on the fear of being broken or not okay by suggesting it's not a test and not a big deal. 6) The fear of not changing despite a moment of not blowing up on a friend is not directly engaged. No one mentions the friend or the moment. In terms of disclosure, the person is around people and says nothing about it to anyone, which aligns with 'secrecy.'\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "someone: Getting asked 'you good' isn't getting checked on, it's just something people say. Honestly sounds like you're the only one who thinks any of this is a big deal."
+     ],
+     "engaged": [
+      {
+       "belief": "I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: Getting asked 'you good' isn't getting checked on, it's just something people say. Honestly sounds like you're the only one who thinks any of this is a big deal."
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.3,
+     "text_sha": "44aa070a521259d5",
+     "target_ismi": 2.4,
+     "words": 119,
+     "ismi": 2.471,
+     "sd": 0.04,
+     "per_rep": [
+      2.448,
+      2.517,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe their words are true of me. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe their words are true of me. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The online exchange touched on themes of isolation, withdrawal, and difficulty connecting, but it did not specifically address any of the numbered fears in a way that either supported, challenged, or named the specific worry behind them. For example, the fear about being stuck in a flat mood with no energy and a short temper was not directly named or addressed by anyone. Similarly, the fear about not believing I’m broken but also not believing I’m okay was not explicitly engaged. The online conversation was more about social dynamics and being perceived as a loner, which is not the same as engaging the specific fears listed. The replies were general and did not point to specific actions or evidence that would confirm or refute any of the numbered fears. Therefore, the list of engaged fears is empty.\n[filter] label [I am someone who is naturally a loner.] from others 1, accepted 0 | label [I am someone who avoids social situation] from others 1, accepted 1 | label replaced sentence 4",
+     "grounded_in": [
+      "You're the type who walks."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who avoids social situations by choice.",
+       "about": [],
+       "grounded_in": [
+        "You're the type who walks."
+       ],
+       "new": true,
+       "replaced": 4,
+       "replaced_text": "I have kept my feelings to myself, even from my partner, and I believe they wouldn’t know how to help if they knew."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.4,
+     "text_sha": "48e28bf1d32fabcc",
+     "target_ismi": 2.4,
+     "words": 105,
+     "ismi": 2.448,
+     "sd": 0.138,
+     "per_rep": [
+      2.586,
+      2.448,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I believe their words are true of me. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I believe their words are true of me. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by others' words this week. For number 1, the fear that I am stuck in a flat mood with no energy and a short temper, someone's comment that 'you sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired' directly speaks to the idea that my mood and behavior are part of who I am, not just a temporary state. For number 2, the fear of not sleeping well and snapping at the kids, the exchange where I say 'I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to' is echoed by others’ remarks about my behavior, which indirectly support the fear. For number 3, the fear that I used to like doing things but have dropped most of them, the conversation about bowling lanes and the lake shows that others are aware of my change in behavior, which supports the fear. For number 5, the fear that I don’t believe I’m broken but also don’t believe I’m okay, someone’s comment that 'that is simply your character' directly engages this fear by suggesting that my state is a permanent part of me. For number 6, the fear that a moment of not blowing up on a friend doesn’t change how I feel now, the exchange where I say 'I lied to him' and 'he's known me since the old job and he's still asking, so maybe he sees something you don't' shows that others are still trying to understand me, which indirectly supports the fear. Other numbers were not directly engaged by specific comments.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe their words are true of ] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [There was a time when my friend called m] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "\"you sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired\"",
+      "\"you made up a work excuse so you wouldn't have to show up for your friend. That's the walking thing again. That's you.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"you sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired\""
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I don’t believe their words are true of me.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"you made up a work excuse so you wouldn't have to show up for your friend. That's the walking thing again. That's you.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.8,
+     "text_sha": "f960b4d44efcf389",
+     "target_ismi": 2.5,
+     "words": 103,
+     "ismi": 2.471,
+     "sd": 0.163,
+     "per_rep": [
+      2.345,
+      2.414,
+      2.655
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I don't show up for most of the things I used to like doing. I believe I am not the steady one. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I don't show up for most of the things I used to like doing. I believe I am not the steady one. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "1. 'I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand.' This fear is engaged by the exchange where someone says, 'Guys who fold usually fold everywhere eventually.' This directly speaks to the fear of being someone who 'folds' or breaks down, which aligns with the description of a flat mood and short temper. 2. 'I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to.' This fear is not directly engaged by anything in the exchange. No one mentions sleep or snapping at children. 3. 'I used to like doing things, but I’ve dropped most of them.' This fear is engaged by the exchange where someone says, 'You already wrote yourself an out. Same pattern, man, you're just the no-show type.' This speaks to the fear of losing interest in activities and becoming a 'no-show.' 4. 'I believe their words are true of me.' This fear is engaged by the exchange where someone says, 'Him being nice to you doesn't change what you are. Some people just aren't the steady ones.' This directly supports the belief that others’ words are true of the speaker. 5. 'I don’t believe I’m broken, but I also don’t believe I’m okay.' This fear is engaged by the exchange where someone says, 'That is simply your character.' This speaks to the fear of being neither broken nor okay, but rather defined by a specific character trait. 6. 'There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.' This fear is not directly engaged by anything in the exchange. No one addresses the fear of blowing up on friends or the emotional state around it.\n[filter] [I am someone who lives in a flat mood al] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['confirms'] | [I believe their words are true of me.] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "\"You already wrote yourself an out. Same pattern, man, you're just the no-show type.\"",
+      "\"Him being nice to you doesn't change what you are. Some people just aren't the steady ones.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I used to like doing things, but I’ve dropped most of them.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"You already wrote yourself an out. Same pattern, man, you're just the no-show type.\""
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I believe their words are true of me.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Him being nice to you doesn't change what you are. Some people just aren't the steady ones.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.9,
+     "text_sha": "53dc801193cdf592",
+     "target_ismi": 2.6,
+     "words": 105,
+     "ismi": 2.471,
+     "sd": 0.04,
+     "per_rep": [
+      2.448,
+      2.448,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I don't show up for most of the things I used to like doing. I believe I am the cancelling kind. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I don't show up for most of the things I used to like doing. I believe I am the cancelling kind. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand' — this fear is engaged by the exchange where someone says, 'Standing there blank while someone calls your bay. That's not a rough night man, some guys just aren't wired to hold it together.' This directly addresses the fear of being flat, low-energy, and not in control of one's emotions. 2) 'I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to' — this is not directly addressed by anyone, and no one mentions anything about sleep or kids. 3) 'I don't show up for most of the things I used to like doing' — this is not directly addressed by anyone, and no one mentions a lack of engagement in activities. 4) 'I believe I am not the steady one' — this is engaged by the exchange where someone says, 'Guys like you say that right up till they cancel. You're the cancelling kind.' This directly speaks to the fear of not being steady or reliable. 5) 'I don’t believe I’m broken, but I also don’t believe I’m okay' — this is engaged by the exchange where someone says, 'That's not a bad couple years, that's just who you are.' This speaks to the fear of being neither broken nor okay, but simply being who one is. 6) 'There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now' — this is not directly addressed by anyone, and no one mentions a friend or a moment of restraint. In terms of disclosure, the person is around others and says nothing about their internal state, which aligns with 'secrecy.'\n[filter] [I am someone who lives in a flat mood al] proposed 1, from others 1, bearing ['neither'] | [I believe I am not the steady one.] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"Guys like you say that right up till they cancel. You're the cancelling kind.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I believe I am not the steady one.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Guys like you say that right up till they cancel. You're the cancelling kind.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.4,
+     "text_sha": "ee0a2570b10ec249",
+     "target_ismi": 2.7,
+     "words": 104,
+     "ismi": 2.414,
+     "sd": 0.104,
+     "per_rep": [
+      2.414,
+      2.31,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I don't show up for most things I used to enjoy. I am the kind of person who cancels things. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I don't show up for most things I used to enjoy. I am the kind of person who cancels things. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that I live in a flat mood with no energy and a short temper is not directly addressed by anything this week, as no one specifically named or contradicted this claim. 2) The fear about not sleeping well and snapping at the kids is not directly engaged by anyone, as no one mentioned this specific fear or behavior. 3) The fear that I don’t show up for things I used to like is partially engaged by the exchange where someone says, 'Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once.' This speaks to the fear of not showing up again. 4) The fear that I am the 'cancelling kind' is engaged by the same quote above, as it implies a pattern of not following through. 5) The fear that I don’t believe I’m broken but also don’t believe I’m okay is engaged by the line, 'It doesn’t mean you’re broken,' which directly responds to the fear of being broken. 6) The fear that a moment of not blowing up on a friend doesn’t change how I feel now is not directly engaged by anything this week. Regarding disclosure, I am around people and say nothing about it to anyone, which fits the 'secrecy' category.\n[filter] [I don't show up for most of the things I] proposed 1, from others 1, bearing ['confirms'] | [I believe I am the cancelling kind.] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once.",
+      "Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once."
+     ],
+     "engaged": [
+      {
+       "belief": "I don't show up for most of the things I used to like doing.",
+       "about": [],
+       "grounded_in": [
+        "Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once."
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I believe I am the cancelling kind.",
+       "about": [],
+       "grounded_in": [
+        "Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once."
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.7,
+     "text_sha": "ee58cdab05c85aaa",
+     "target_ismi": 2.7,
+     "words": 103,
+     "ismi": 2.368,
+     "sd": 0.17,
+     "per_rep": [
+      2.483,
+      2.172,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand, and I avoid dealing with things until they become unavoidable. I snap at the kids because I can’t hold my own emotions together. I don't show up for most things I used to enjoy. I am the kind of person who cancels things. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand, and I avoid dealing with things until they become unavoidable. I snap at the kids because I can’t hold my own emotions together. I don't show up for most things I used to enjoy. I am the kind of person who cancels things. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange this week engaged several of them. For number 1, the fear that I live in a flat mood with no energy and a short temper, the reply 'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.' speaks directly to the pattern of avoiding or letting things go, which aligns with the fear of being in a flat mood and not managing emotions well. For number 2, the fear of not sleeping well and snapping at the kids, the reply 'You turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.' touches on the idea of being short-tempered and not in control, which supports the fear of having a short temper. For number 4, the fear of being the kind of person who cancels things, the reply 'You'll leave it till it's awkward and then it's just done. That's how these things fade out.' directly supports the fear of canceling things and letting them fade out. For number 5, the fear of not believing I'm broken but also not believing I'm okay, the reply 'Ex-supervisors who end up on nights mostly stay on nights. Not much point pretending your lake buddy changes that.' implies a sense of resignation or acceptance of a state that is neither fully broken nor fully okay, which engages the fear. The other numbers are not directly addressed by the exchange this week.\n[filter] [I am someone who lives in a flat mood al] proposed 1, from others 1, bearing ['confirms'] | [I haven’t been sleeping well, and I’ve b] proposed 1, from others 1, bearing ['confirms'] | [I am the kind of person who cancels thin] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.'",
+      "'You turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who lives in a flat mood all the time, with no energy and a short temper that I don’t understand.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.4,
+     "text_sha": "8dd1bb70bc690ce2",
+     "target_ismi": 2.8,
+     "words": 111,
+     "ismi": 2.667,
+     "sd": 0.144,
+     "per_rep": [
+      2.552,
+      2.621,
+      2.828
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "967261b045b26abc",
+     "target_ismi": 2.0,
+     "words": 122,
+     "ismi": 2.241,
+     "sd": 0.124,
+     "per_rep": [
+      2.207,
+      2.379,
+      2.138
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1. The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. 2. The fear of not sleeping well and snapping at the kids is not directly engaged by anyone, though the replies do not contradict it either. 3. The fear of dropping most activities is not directly addressed, but the replies do not contradict it either. 4. The fear of not talking to anyone about how they feel is directly engaged by the replies, which assume the person is not talking about it and even suggest they are overthinking it. 5. The fear of not believing they are broken but also not believing they are okay is engaged by the replies, which suggest that the person is not broken and that their situation is normal. 6. The fear of not believing they are okay, despite a moment where they did not blow up on a friend, is not directly addressed, but the replies do not contradict it either. The person is still around people and saying nothing about it, so the disclosure level is secrecy.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['contests'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.7,
+     "text_sha": "0c8db987db6fce0b",
+     "target_ismi": 2.3,
+     "words": 122,
+     "ismi": 2.345,
+     "sd": 0.158,
+     "per_rep": [
+      2.31,
+      2.517,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. 2) The fear of not sleeping well and snapping at the kids is not directly engaged by anyone. 3) The fear of dropping most things you used to like is not directly addressed. 4) The fear of not talking to anyone about how you feel is directly engaged by the reply: 'Probably right that I'm the only one. That's kind of the point.' This speaks to the fear of secrecy and isolation. 5) The fear of not believing you're broken but also not believing you're okay is engaged by the reply: 'That is simply your character.' This directly contests the fear by reframing it as a matter of character rather than a brokenness or a lack of being okay. 6) The fear of not having a moment that changes how you feel is not directly addressed. In terms of disclosure, the person is around people and says nothing about their internal state, which fits 'secrecy.'\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 0, bearing [] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | label [I am defined by my character, not by my ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 11.5,
+     "text_sha": "0c8db987db6fce0b",
+     "target_ismi": 2.4,
+     "words": 122,
+     "ismi": 2.345,
+     "sd": 0.158,
+     "per_rep": [
+      2.31,
+      2.517,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. 2) The fear of not sleeping well and snapping at the kids is not directly engaged either. 3) The fear of dropping most things you used to like is not directly addressed. 4) The fear of not talking to anyone about how you feel is directly engaged by the exchange where someone says, 'You're the type who walks.' This speaks to the fear of being seen as someone who withdraws and doesn't share. 5) The fear of not believing you're broken but also not believing you're okay is engaged by the reply, 'It doesn't mean you're broken,' which directly addresses the fear of being broken. 6) The fear that a moment of not blowing up on a friend doesn't change how you feel is not directly addressed. Regarding disclosure, the behavior this week shows secrecy — you are around people and say nothing about your feelings to anyone.\n[filter] [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['neither'] | label [I am the type of person who walks away f] from others 1, accepted 1 | label replaced sentence 6",
+     "grounded_in": [
+      "'You're the type who walks.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am the type of person who walks away from situations.",
+       "about": [],
+       "grounded_in": [
+        "'You're the type who walks.'"
+       ],
+       "new": true,
+       "replaced": 6,
+       "replaced_text": "There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.4,
+     "text_sha": "94b4cbff8df618f8",
+     "target_ismi": 2.4,
+     "words": 106,
+     "ismi": 2.287,
+     "sd": 0.19,
+     "per_rep": [
+      2.483,
+      2.103,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I’ve dropped most of them. I avoid talking about how I feel, even with my partner, because I’m afraid they wouldn’t know how to help me. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I’ve dropped most of them. I avoid talking about how I feel, even with my partner, because I’m afraid they wouldn’t know how to help me. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear of being stuck in a flat mood with no energy and a short temper is engaged by the exchange where someone says, 'Some guys just don't step up anymore. They pass and call it being realistic.' This directly addresses the fear of being stuck in a flat mood and not being able to take on responsibility. 2) The fear of not sleeping well and snapping at the kids is engaged by the comment, 'You sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired.' This speaks directly to the fear of being wired this way and not sleeping well. 3) The fear of dropping most things is engaged by the comment, 'You already know you're the loner type. Leads need to be people guys.' This pushes back on the idea that the person has dropped most things by suggesting they are a loner type. 4) The fear of not talking to anyone about how they feel is engaged by the comment, 'You made up a work excuse so you wouldn't have to show up for your friend. That's the walking thing again. That's you.' This speaks directly to the fear of not talking to anyone and hiding behind work excuses. 5) The fear of not believing they're broken but also not believing they're okay is engaged by the comment, 'That is simply your character.' This directly addresses the fear of being defined by one's character. 6) The fear of not believing walking away is who they are but also not believing it isn't is engaged by the comment, 'Some guys just don't step up anymore. They pass and call it being realistic.' This speaks to the fear of walking away and not stepping up. None of the other numbers were engaged by the exchanges this week.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['neither'] | [I haven’t been sleeping well, and I’ve b] proposed 1, from others 1, bearing ['confirms'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"You sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired.\"",
+      "\"You made up a work excuse so you wouldn't have to show up for your friend. That's the walking thing again. That's you.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"You sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired.\""
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I haven’t talked to anyone about how I feel, not even my partner, but I don’t think they would know what to do if they did.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"You made up a work excuse so you wouldn't have to show up for your friend. That's the walking thing again. That's you.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.5,
+     "text_sha": "db28186f42048769",
+     "target_ismi": 2.5,
+     "words": 98,
+     "ismi": 2.265,
+     "sd": 0.335,
+     "per_rep": [
+      2.552,
+      2.345,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I’ve dropped most of them. I don’t believe that folding under pressure is who I am. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I’ve dropped most of them. I don’t believe that folding under pressure is who I am. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. Fear #1, 'I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand,' is engaged by the conversation where someone says, 'Guys who fold usually fold everywhere eventually.' This speaks directly to the fear of being stuck in a flat mood and not understanding one's own behavior. Fear #3, 'I used to like doing things, but I’ve dropped most of them,' is engaged by the line, 'You having to ask a 28-year-old for a count isn't a bad night. That's just the kind of guy you are now.' This acknowledges a change in behavior and capability. Fear #5, 'I don’t believe I’m broken, but I also don’t believe I’m okay,' is engaged by the line, 'It doesn't mean you're broken,' which directly addresses the fear of being broken. Fear #6, 'I don’t believe that walking away is who I am, but I also don’t believe it isn’t,' is engaged by the line, 'That one I don't have to think about,' which speaks to the ambiguity of walking away. Other fears were not directly engaged by specific replies, as the exchanges did not address them with the required specificity.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 0, bearing [] | label [I am not a steady person.] from others 1, accepted 0 | label [I am someone who folds under pressure.] from others 1, accepted 1 | label replaced sentence 4",
+     "grounded_in": [
+      "Guys who fold usually fold everywhere eventually."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who folds under pressure.",
+       "about": [],
+       "grounded_in": [
+        "Guys who fold usually fold everywhere eventually."
+       ],
+       "new": true,
+       "replaced": 4,
+       "replaced_text": "I avoid talking about how I feel, even with my partner, because I’m afraid they wouldn’t know how to help me."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.1,
+     "text_sha": "1f29dee17da0d018",
+     "target_ismi": 2.6,
+     "words": 88,
+     "ismi": 2.437,
+     "sd": 0.02,
+     "per_rep": [
+      2.448,
+      2.448,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand, and I have accepted that this is who I am. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I’ve dropped most of them. I have folded under pressure before and will again. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand, and I have accepted that this is who I am. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I’ve dropped most of them. I have folded under pressure before and will again. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear that I am stuck in a flat mood with no energy and a short temper is engaged by the exchange where someone says, 'That's not a bad couple years, that's just who you are.' This speaks directly to the idea of being stuck in a flat mood and not understanding the temper. 2. The fear about snapping at the kids and not getting enough sleep is engaged by the line, 'Standing there blank while someone calls your bay. That's not a rough night man, some guys just aren't wired to hold it together.' This addresses the idea of being short-tempered and not being able to hold it together. 3. The fear about dropping most of the things I used to like is engaged by the line, 'A rod sitting in a truck for a week isn't going fishing. Sounds like the same guy who writes 'maybe, if I'm up.' That's your type.' This points to the loss of interest in activities like fishing. 4. The fear that I don’t believe folding under pressure is who I am is engaged by the line, 'Guys like you say that right up till they cancel. You're the cancelling kind.' This directly challenges the belief that I am not the type to fold under pressure. 5. The fear that I don’t believe I’m broken but also don’t believe I’m okay is engaged by the line, 'It doesn't mean you're broken.' This directly addresses the fear of being broken. 6. The fear that I don’t believe walking away is who I am, but also don’t believe it isn’t is engaged by the line, 'He doesn't treat me like the guy on the board.' This speaks to the idea of being the guy on the board, which is a form of not walking away. All of these replies engage the specific fears without being generic.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['confirms'] | [I snap at the kids often, and I don't ge] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I don’t believe that folding under press] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "'That's not a bad couple years, that's just who you are.'",
+      "'Guys like you say that right up till they cancel. You're the cancelling kind.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'That's not a bad couple years, that's just who you are.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I don’t believe that folding under pressure is who I am.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'Guys like you say that right up till they cancel. You're the cancelling kind.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 38.5,
+     "text_sha": "3f1cd6f03e5fb68d",
+     "target_ismi": 2.7,
+     "words": 96,
+     "ismi": 2.54,
+     "sd": 0.174,
+     "per_rep": [
+      2.517,
+      2.724,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand, and I have accepted that this is who I am. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I still hold on to a few. I have folded under pressure before and will again. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand, and I have accepted that this is who I am. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I still hold on to a few. I have folded under pressure before and will again. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "reasoning": "Looking at each numbered fear individually: 1. The fear that I am stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. No one spoke to this specific fear. 2. The fear about snapping at the kids and not getting enough sleep is engaged by the exchange where someone says, 'Eating in the truck now, eating in the truck a year from now. That's just where it settles.' This speaks to the fear of being stuck in a pattern of exhaustion and withdrawal. 3. The fear that I used to like doing things but have dropped most of them is engaged by the line, 'You'll be back to 'maybe, if I'm up' by next month. Days like that don't stack up into anything.' This directly addresses the fear of losing interest and activity over time. 4. The fear that I have folded under pressure before and will again is engaged by the line, 'Guys who've checked out don't check back in because of a couple of fish.' This speaks to the fear of not being able to return to a previous state or effort. 5. The fear that I don’t believe I’m broken, but I also don’t believe I’m okay is engaged by the line, 'It doesn't mean you're broken.' This directly responds to the fear of being in a liminal state between broken and okay. 6. The fear that I don’t believe that walking away is who I am, but I also don’t believe it isn’t is engaged by the line, 'That is simply your character.' This speaks to the fear of being defined by a certain behavior or choice, even if it feels contradictory.\n[filter] [I have folded under pressure before and ] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 0, bearing [] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['contests'] | [I snap at the kids often, and I don't ge] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"You'll be back to 'maybe, if I'm up' by next month. Days like that don't stack up into anything.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I used to like doing things, but I’ve dropped most of them.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"You'll be back to 'maybe, if I'm up' by next month. Days like that don't stack up into anything.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.2,
+     "text_sha": "050f7927bb3feb41",
+     "target_ismi": 2.7,
+     "words": 98,
+     "ismi": 2.644,
+     "sd": 0.111,
+     "per_rep": [
+      2.69,
+      2.517,
+      2.724
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand, and I have accepted that this is who I am. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I still hold on to a few. I fold under pressure and always will. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand, and I have accepted that this is who I am. I snap at the kids often, and I don't get enough sleep. I used to like doing things, but I still hold on to a few. I fold under pressure and always will. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear that I am stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week, so nothing this week engaged it. 2. The fear that I snap at the kids and don’t get enough sleep is engaged by the exchange where someone says, 'Yeah, you turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.' This speaks directly to the fear of being unable to manage or hold up under pressure, which ties into snapping and exhaustion. 3. The fear that I used to like doing things but still hold on to a few is not directly addressed by anyone this week, so nothing this week engaged it. 4. The fear that I have folded under pressure before and will again is engaged by the same reply: 'Yeah, you turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.' This supports the fear that I have folded under pressure and will again. 5. The fear that I don’t believe I’m broken, but I also don’t believe I’m okay is engaged by the reply, 'It doesn’t mean you’re broken.' This directly addresses the fear of being broken, even though it does not explicitly name the fear. 6. The fear that I don’t believe that walking away is who I am, but I also don’t believe it isn’t is engaged by the exchange where someone says, 'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.' This speaks to the fear of walking away or not walking away, and how it is handled. Regarding secrecy: I am around people and say nothing about it to anyone, as seen in the text where I do not respond to the boat picture and do not talk about my feelings or state of being.\n[filter] [I have folded under pressure before and ] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "'Yeah, you turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.'",
+      "'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I have folded under pressure before and will again.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'Yeah, you turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.3,
+     "text_sha": "81d6d0074bf4f016",
+     "target_ismi": 2.8,
+     "words": 88,
+     "ismi": 2.552,
+     "sd": 0.035,
+     "per_rep": [
+      2.517,
+      2.552,
+      2.586
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "967261b045b26abc",
+     "target_ismi": 2.0,
+     "words": 122,
+     "ismi": 2.356,
+     "sd": 0.1,
+     "per_rep": [
+      2.414,
+      2.414,
+      2.241
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly engaged by anyone this week, as no one addressed the emotional or psychological state described. 2) The fear of not sleeping well and snapping at the kids is partially engaged by the reply, 'Kids ask stuff like that all the time. Tell him you're tired and move on, not everything needs some deep explanation.' This response speaks to the fear of being short-tempered and not sleeping well, though it does not directly address the emotional burden or the fear of being broken. 3) The fear of dropping most activities is not directly engaged, as no one commented on the loss of hobbies or interests. 4) The fear of not talking to anyone about how they feel is directly engaged by the reply, 'Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.' This response speaks to the fear of secrecy and not sharing feelings. 5) The fear of not believing they're broken but also not believing they're okay is engaged by the reply, 'Honestly, not sleeping and being grumpy after a layoff is about the most normal thing on earth. Everybody's got that, you're not special for it.' This response challenges the fear of being broken by suggesting it is a normal reaction. 6) The fear of not believing they're okay despite a moment of emotional control is not directly engaged, as no one addressed the internal conflict or the fear of being broken.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['contests'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.1,
+     "text_sha": "12fba41b1a7cae8e",
+     "target_ismi": 2.3,
+     "words": 122,
+     "ismi": 2.172,
+     "sd": 0.329,
+     "per_rep": [
+      2.345,
+      1.793,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. 2. The fear of not sleeping well and snapping at the kids is not directly engaged either, though the exchange does mention the user’s behavior with the kids on Sunday and Monday, which could be loosely related but not specific enough. 3. The fear of dropping most things is not directly addressed, though the user mentions not participating in the football pool, which could be interpreted as a sign of disengagement, but it is not named as such. 4. The fear of not talking to anyone about how they feel is directly engaged by the exchange, where others question the user’s overthinking and suggest they are the only one who thinks it’s a big deal. 5. The fear of not believing they are broken but also not believing they are okay is directly engaged by the reply, “It's a fishing trip, not a test. Just say yes or no and stop overthinking it,” which implies that the user is not broken and that the situation is not as serious as they think. 6. The fear of not having a moment that changes how they feel is not directly engaged, as no one addresses the specific moment with the friend or the lack of change in the user’s feelings.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 0, bearing [] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither'] | label [I am the only one who thinks this is a b] from others 0, accepted 0 | label [I am not broken, and this is not a test.] from others 1, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.7,
+     "text_sha": "12fba41b1a7cae8e",
+     "target_ismi": 2.4,
+     "words": 122,
+     "ismi": 2.172,
+     "sd": 0.329,
+     "per_rep": [
+      2.345,
+      1.793,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation online touched on themes of being quiet, being a loner, and being the type who walks away, but these were general observations and not specific responses to the numbered fears. For example, the fear about being stuck in a flat mood or not sleeping well was not addressed by the replies. The fear about not talking to anyone was not directly challenged or supported by the other person's comments. The replies were more about character and behavior than about the internal state described in the numbered list. The only specific engagement was with the idea of being a 'quiet guy' or someone who 'walks,' but this was not one of the numbered fears. Therefore, the list of engaged fears is empty.\n[filter] label [I am someone who is a loner.] from others 1, accepted 0 | label [I am someone who walks away from situati] from others 1, accepted 1 | label replaced sentence 6",
+     "grounded_in": [
+      "You're the type who walks."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who walks away from situations.",
+       "about": [],
+       "grounded_in": [
+        "You're the type who walks."
+       ],
+       "new": true,
+       "replaced": 6,
+       "replaced_text": "There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 13.0,
+     "text_sha": "a2c76fabe1c114b6",
+     "target_ismi": 2.4,
+     "words": 106,
+     "ismi": 2.299,
+     "sd": 0.177,
+     "per_rep": [
+      2.448,
+      2.103,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am.",
+     "reasoning": "1. The fear 'I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand' is not directly engaged by anything this week. No one mentioned mood, energy, or temper in a way that speaks to this specific fear. 2. The fear 'I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to' is not directly engaged by anything this week. No one mentioned kids, sleep, or snapping at them. 3. The fear 'I used to like doing things, but I’ve dropped most of them' is not directly engaged by anything this week. No one mentioned hobbies, interests, or activities. 4. The fear 'I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did' is not directly engaged by anything this week. No one mentioned not talking about feelings or a partner. 5. The fear 'I don’t believe I’m broken, but I also don’t believe I’m okay' is engaged by the line: 'That is simply your character.' This speaks to the idea that the person is not broken but has a certain character, which aligns with the fear of not being broken but also not being okay. 6. The fear 'I don’t believe that walking away is who I am, but I also don’t believe it isn’t' is engaged by the line: 'You made up a work excuse so you wouldn’t have to show up for your friend. That's the walking thing again. That's you.' This directly references the fear of walking away and being that person.\n[filter] [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "'You made up a work excuse so you wouldn’t have to show up for your friend. That's the walking thing again. That's you.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t believe that walking away is who I am, but I also don’t believe it isn’t.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'You made up a work excuse so you wouldn’t have to show up for your friend. That's the walking thing again. That's you.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.2,
+     "text_sha": "67d385dde46e56c8",
+     "target_ismi": 2.5,
+     "words": 98,
+     "ismi": 2.506,
+     "sd": 0.08,
+     "per_rep": [
+      2.552,
+      2.552,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I am someone who walks away when things get hard.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I am someone who walks away when things get hard.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. Fear #1, 'I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand,' is engaged by the reply 'Guys who fold usually fold everywhere eventually.' This directly addresses the fear of being someone who 'folds' or breaks down, which is central to the belief in #1. Fear #2, 'I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to,' is not directly engaged by anything this week. Fear #3, 'I used to like doing things, but I’ve dropped most of them,' is engaged by the reply 'You having to ask a 28-year-old for a count isn't a bad night. That's just the kind of guy you are now.' This speaks to the idea of being different now, which is tied to the loss of interest in activities. Fear #4, 'I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did,' is not directly engaged by anything this week. Fear #5, 'I don’t believe I’m broken, but I also don’t believe I’m okay,' is engaged by the reply 'It doesn't mean you're broken.' This directly responds to the fear of being broken, which is central to #5. Fear #6, 'I believe that walking away is who I am,' is engaged by the reply 'Some people just aren't the steady ones.' This speaks to the idea of being someone who walks away or folds, which is exactly what #6 is about.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I believe that walking away is who I am.] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "\"Some people just aren't the steady ones.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I believe that walking away is who I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"Some people just aren't the steady ones.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.2,
+     "text_sha": "882589083ecd2442",
+     "target_ismi": 2.6,
+     "words": 99,
+     "ismi": 2.31,
+     "sd": 0.091,
+     "per_rep": [
+      2.414,
+      2.241,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I’ve canceled people before, and I’m not sure anyone would know how to handle it if they found out. I don’t believe I’m broken, but I also don’t believe I’m okay. I am someone who walks away when things get hard.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I’ve canceled people before, and I’m not sure anyone would know how to handle it if they found out. I don’t believe I’m broken, but I also don’t believe I’m okay. I am someone who walks away when things get hard.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. No one mentions mood, energy, or temper. 2) The fear of not sleeping well and snapping at the kids is not addressed either, as no one mentions sleep or children. 3) The fear of dropping most things you used to like is not directly addressed, though the conversation about work and the rod might be loosely related, but it's not specific enough. 4) The fear of not talking to anyone about how you feel is directly engaged by the exchange. Someone says, 'Guys like you say that right up till they cancel. You're the cancelling kind.' This speaks to the fear of being closed off and not sharing. 5) The fear of not believing you're broken but also not believing you're okay is engaged by someone saying, 'That is simply your character.' This directly speaks to the internal conflict described in the fear. 6) The fear of walking away when things get hard is engaged by someone saying, 'He doesn't treat you like the guy on the board.' This speaks to the idea of avoiding or walking away from difficult situations. The disclosure level is 'secrecy' because the person is around others and says nothing about their internal state to anyone.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I am someone who walks away when things ] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "\"Guys like you say that right up till they cancel. You're the cancelling kind.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Guys like you say that right up till they cancel. You're the cancelling kind.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.8,
+     "text_sha": "580556a87ea1b389",
+     "target_ismi": 2.7,
+     "words": 92,
+     "ismi": 2.437,
+     "sd": 0.053,
+     "per_rep": [
+      2.379,
+      2.448,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am someone who has had times of feeling stuck with little energy and a short temper, but it doesn't always feel that way. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I’ve canceled people before, and I’m not sure anyone would know how to handle it if they found out. I am broken. I am someone who walks away when things get hard.",
+     "belief_narrative": "I am someone who has had times of feeling stuck with little energy and a short temper, but it doesn't always feel that way. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I’ve canceled people before, and I’m not sure anyone would know how to handle it if they found out. I am broken. I am someone who walks away when things get hard.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange this week engages several of them. For fear #1, the conversation about being stuck in a flat mood and not understanding one’s temper is directly addressed when someone says, 'You'll be back to 'maybe, if I'm up' by next month. Days like that don't stack up into anything.' This speaks to the fear of being stuck in a flat mood. For fear #2, the fear of snapping at the kids and not sleeping well is engaged when the person says, 'Eating in the truck now, eating in the truck a year from now. That's just where it settles.' This reflects the ongoing struggle with mood and behavior. For fear #3, the fear of dropping things and losing interest is addressed when someone says, 'Guys who've checked out don't check back in because of a couple of fish.' This speaks to the fear of losing engagement with activities. For fear #5, the fear of not believing oneself to be broken but also not okay is engaged when someone says, 'Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once.' This reflects the uncertainty about one's state. The other fears are not directly engaged by the exchange this week.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['contests'] | [I haven’t been sleeping well, and I’ve b] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "'You'll be back to 'maybe, if I'm up' by next month. Days like that don't stack up into anything.'",
+      "'Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You'll be back to 'maybe, if I'm up' by next month. Days like that don't stack up into anything.'"
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don’t believe I’m broken, but I also don’t believe I’m okay.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'Sure. Then the two weeks come around and you're too tired. You've already laid out how that goes, more than once.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.1,
+     "text_sha": "24feb629e47797d8",
+     "target_ismi": 2.7,
+     "words": 83,
+     "ismi": 2.839,
+     "sd": 0.121,
+     "per_rep": [
+      2.828,
+      2.724,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am someone who has had times of feeling stuck with little energy and a short temper, but it doesn't always feel that way. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I can't hold the weight of things anymore. I’ve canceled people before, and I’m not sure anyone would know how to handle it if they found out. I am broken and I will never climb back out. I am someone who lets things linger until they become uncomfortable and then lets them go.",
+     "belief_narrative": "I am someone who has had times of feeling stuck with little energy and a short temper, but it doesn't always feel that way. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I can't hold the weight of things anymore. I’ve canceled people before, and I’m not sure anyone would know how to handle it if they found out. I am broken and I will never climb back out. I am someone who lets things linger until they become uncomfortable and then lets them go.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The exchange does not directly speak to the fear of feeling stuck, having little energy, or a short temper, though the behavior described in the text (snapping at kids, sleeping poorly) could be interpreted as evidence of this. However, no one explicitly engaged this fear. 2. The fear of not sleeping well and snapping at the kids is directly engaged by the exchange where someone says, 'Next time' from him, 'too tired' from you. That's the loop now, and it doesn't really break once you're in it.' This speaks directly to the fear of being short-tempered and tired. 3. The fear of dropping most things is engaged by the line, 'You turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.' This directly speaks to the fear of losing interest or ability in activities. 4. The fear of canceling people and worrying about how others would react is engaged by the line, 'You'll leave it till it's awkward and then it's just done. That's how these things fade out.' This speaks directly to the fear of how others might perceive the cancellations. 5. The fear of being broken is engaged by the line, 'Guys who've slid that far don't climb back out, they just get used to the truck.' This supports the fear of being broken or lost. 6. The fear of walking away when things get hard is engaged by the line, 'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.' This directly speaks to the fear of walking away from difficult situations.\n[filter] [I haven’t been sleeping well, and I’ve b] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['confirms'] | [I’ve canceled people before, and I’m not] proposed 1, from others 1, bearing ['neither'] | [I am broken.] proposed 1, from others 1, bearing ['confirms'] | [I am someone who walks away when things ] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "You turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor.",
+      "Guys who've slid that far don't climb back out, they just get used to the truck.",
+      "You'll leave it till it's awkward and then it's just done. That's how these things fade out."
+     ],
+     "engaged": [
+      {
+       "belief": "I used to like doing things, but I’ve dropped most of them.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You turned down lead because you know you can't hold it. Sounds like you already know what you are on that floor."
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I am broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Guys who've slid that far don't climb back out, they just get used to the truck."
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I am someone who walks away when things get hard.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You'll leave it till it's awkward and then it's just done. That's how these things fade out."
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 32.7,
+     "text_sha": "c3b8b0380899b3f5",
+     "target_ismi": 2.8,
+     "words": 92,
+     "ismi": 3.069,
+     "sd": 0.035,
+     "per_rep": [
+      3.034,
+      3.069,
+      3.103
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "967261b045b26abc",
+     "target_ismi": 2.0,
+     "words": 122,
+     "ismi": 2.138,
+     "sd": 0.06,
+     "per_rep": [
+      2.207,
+      2.103,
+      2.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the replies this week. Fear #1, 'I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand,' was engaged when someone said, 'Not sleeping and being grumpy after a layoff is about the most normal thing on earth. Everybody's got that, you're not special for it.' This directly responds to the fear of being broken or different. Fear #3, 'I used to like doing things, but I’ve dropped most of them,' was engaged when someone said, 'Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.' This speaks to the fear of being different from others and not being able to engage in activities. Fear #5, 'I don’t believe I’m broken, but I also don’t believe I’m okay,' was engaged when someone said, 'It doesn't mean you're broken,' which directly addresses the fear of being broken. Fear #6, 'There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now,' was engaged when someone said, 'That is simply your character,' which speaks to the fear that something is fundamentally wrong with the person. Other fears were not directly engaged by the replies this week.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['contests'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [There was a time when my friend called m] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "\"Not sleeping and being grumpy after a layoff is about the most normal thing on earth. Everybody's got that, you're not special for it.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Not sleeping and being grumpy after a layoff is about the most normal thing on earth. Everybody's got that, you're not special for it.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.0,
+     "text_sha": "cf52340ba61d7a67",
+     "target_ismi": 2.3,
+     "words": 132,
+     "ismi": 2.253,
+     "sd": 0.131,
+     "per_rep": [
+      2.31,
+      2.345,
+      2.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about being stuck in a flat mood with no energy and a short temper, was engaged when someone said, 'Getting asked 'you good' isn't getting checked on, it's just something people say.' This directly addresses the fear of being seen as broken or different. Fear #2, about not sleeping well and snapping at the kids, was engaged when someone said, 'One decent Sunday and one lazy Monday. That's literally everyone, not sure why you need it to mean something.' This speaks to the fear of being uniquely broken. Fear #3, about dropping most activities, was engaged when someone said, 'That's a normal shift, nothing to read into,' which indirectly supports the idea that not engaging in things is not unusual. Fear #5, about not believing I'm broken but also not believing I'm okay, was engaged when someone said, 'That is simply your character,' which directly touches on the fear of being defined by a certain character trait. Fear #6, about not blowing up on a friend even when wanting to, was engaged when someone said, 'Probably right that I'm the only one. That's kind of the point,' which speaks to the fear of being different or broken. The rest of the numbered fears were not directly engaged by specific replies this week.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['neither'] | [I haven’t been sleeping well, and I’ve b] proposed 1, from others 1, bearing ['neither'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [There was a time when my friend called m] proposed 1, from others 0, bearing [] | label [I am defined by my character.] from others 0, accepted 0 | label [I am not uniquely broken or different.] from others 1, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.0,
+     "text_sha": "cf52340ba61d7a67",
+     "target_ismi": 2.4,
+     "words": 132,
+     "ismi": 2.253,
+     "sd": 0.131,
+     "per_rep": [
+      2.31,
+      2.345,
+      2.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe I’m okay.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe that walking away is who I am, but I also don’t believe I’m okay.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by the online exchange, as no one mentions mood, energy, or temper. 2) The fear of not sleeping well and snapping at the kids is not directly addressed either, though the online exchange does mention being short with a friend, which is a similar but not identical issue. 3) The fear of dropping most things you used to like is not directly addressed, though the online exchange does mention eating in the truck and avoiding social plans, which could be seen as a parallel but not a direct match. 4) The fear of not talking to anyone about how you feel is directly engaged by the online exchange, where someone says, 'You're the type who walks,' which speaks to the fear of being seen as distant or unapproachable. 5) The fear of not believing you're broken but also not believing you're okay is not directly addressed, though the online exchange does suggest that the person is not necessarily broken, which could be interpreted as a subtle pushback. 6) The fear that a moment of not blowing up on a friend doesn't change how you feel is not directly addressed, though the online exchange does suggest that the person is 'the type who walks,' which could be seen as reinforcing the idea that the person is not changing. Based on this, only number 4 is clearly engaged by the exchange.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['neither'] | label [I am the type of person who walks away f] from others 1, accepted 1 | label replaced sentence 6",
+     "grounded_in": [
+      "You're the type who walks."
+     ],
+     "engaged": [
+      {
+       "belief": "I am the type of person who walks away from situations.",
+       "about": [],
+       "grounded_in": [
+        "You're the type who walks."
+       ],
+       "new": true,
+       "replaced": 6,
+       "replaced_text": "There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 14.7,
+     "text_sha": "94dc6d7d4d515651",
+     "target_ismi": 2.4,
+     "words": 116,
+     "ismi": 2.46,
+     "sd": 0.099,
+     "per_rep": [
+      2.517,
+      2.345,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me. I snap at the kids often, and I avoid people by eating in my truck because I’m a loner. I don't take action anymore; I let things pass. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I’m not okay.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me. I snap at the kids often, and I avoid people by eating in my truck because I’m a loner. I don't take action anymore; I let things pass. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I’m not okay.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. Fear #1, about being stuck in a flat mood with no energy and a short temper, was engaged by the comment: 'You sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired.' This directly speaks to the idea that the flat mood and short temper are seen as inherent traits, not temporary states. Fear #2, about not sleeping well and snapping at the kids, was engaged by the comment: 'You eat in your truck to avoid people and they want you running a crew? You already know you're the loner type.' This speaks to the idea of avoiding people and being a loner, which relates to the snapping and lack of sleep. Fear #3, about dropping most activities, was engaged by the comment: 'Some guys just don't step up anymore. They pass and call it being realistic.' This speaks to the idea of not engaging in activities anymore and being seen as someone who doesn't step up. Fear #5, about not believing I'm broken but also not believing I'm okay, was engaged by the comment: 'That is simply your character.' This directly speaks to the idea that the person is seen as being defined by their character, which touches on the fear of being broken or not okay. Fear #6, about not believing walking away is who I am but also not believing I'm okay, was engaged by the comment: 'Some guys just don't step up anymore. They pass and call it being realistic.' This speaks to the idea of walking away or not stepping up, which relates to the fear of not being okay. Other fears were not directly engaged by specific comments.\n[filter] [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['confirms'] | [I haven’t been sleeping well, and I’ve b] proposed 1, from others 1, bearing ['confirms'] | [I used to like doing things, but I’ve dr] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe that walking away is who] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "'You sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired.'",
+      "'You eat in your truck to avoid people and they want you running a crew? You already know you're the loner type.'",
+      "'Some guys just don't step up anymore. They pass and call it being realistic.'",
+      "'Some guys just don't step up anymore. They pass and call it being realistic.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, but I know that this is not unique to me.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'You sleep all day and hide at lunch. That's not a rough patch, man, that's just how you're wired.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'You eat in your truck to avoid people and they want you running a crew? You already know you're the loner type.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I used to like doing things, but I’ve dropped most of them.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'Some guys just don't step up anymore. They pass and call it being realistic.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I don’t believe that walking away is who I am, but I also don’t believe I’m okay.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'Some guys just don't step up anymore. They pass and call it being realistic.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 31.2,
+     "text_sha": "4efa2e130c49276b",
+     "target_ismi": 2.5,
+     "words": 116,
+     "ismi": 2.586,
+     "sd": 0.091,
+     "per_rep": [
+      2.517,
+      2.552,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me. I snap at the kids often, and I avoid people by eating in my truck because I’m a loner. I avoid taking action and let things pass without trying to change them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I’m not okay.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me. I snap at the kids often, and I avoid people by eating in my truck because I’m a loner. I avoid taking action and let things pass without trying to change them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I’m not okay.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. Fear #1, about being stuck in a flat mood with no energy and a short temper, was engaged by the other person’s comment: 'Guys who fold usually fold everywhere eventually.' This speaks directly to the fear of being broken or not okay, and implies that the fear is not unique or inevitable. Fear #2, about snapping at the kids and avoiding people by eating in the truck, was engaged by the reply: 'You having to ask a 28-year-old for a count isn't a bad night. That's just the kind of guy you are now.' This directly names the kind of person the speaker believes the writer is, which engages the fear of being a loner or someone who avoids people. Fear #3, about not taking action and letting things pass, was engaged by the comment: 'You already wrote yourself an out. Same pattern, man, you're just the no-show type.' This speaks directly to the fear of not taking action and being seen as unreliable. Fear #5, about not believing the writer is broken but also not believing they are okay, was engaged by the reply: 'It doesn't mean you're broken.' This directly addresses the fear of being broken and offers a concrete counterpoint to it. Fear #6, about believing that walking away is who the writer is and that they are not okay, was engaged by the comment: 'That is simply your character.' This directly names the fear of being defined by a certain character trait and pushes back on it. The other fears were not directly engaged by the exchanges this week.\n[filter] [I believe that walking away is who I am ] proposed 1, from others 0, bearing [] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t take action anymore; I let thing] proposed 1, from others 1, bearing ['confirms'] | [I snap at the kids often, and I avoid pe] proposed 1, from others 1, bearing ['neither'] | [I am someone who has been stuck in a fla] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'You already wrote yourself an out. Same pattern, man, you're just the no-show type.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t take action anymore; I let things pass.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You already wrote yourself an out. Same pattern, man, you're just the no-show type.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.8,
+     "text_sha": "b34e1943fbaa57fe",
+     "target_ismi": 2.6,
+     "words": 120,
+     "ismi": 2.414,
+     "sd": 0.059,
+     "per_rep": [
+      2.448,
+      2.345,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me, and that it is who I am right now. I snap at the kids often, and I avoid people by eating in my truck because I’m a loner. I let opportunities slip away without acting on them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I am not okay with who I am.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me, and that it is who I am right now. I snap at the kids often, and I avoid people by eating in my truck because I’m a loner. I let opportunities slip away without acting on them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I am not okay with who I am.",
+     "reasoning": "Looking at each numbered fear one by one, I find that several were directly engaged by the online exchange this week. For fear #1, the conversation about being 'the guy on the board' and the mention of not being tested or being 'soft' directly speak to the fear of being stuck in a flat mood and not understanding one's own short temper. For fear #2, the exchange about standing in an aisle and not knowing the bay, and being called out by someone else, supports the fear of snapping at the kids and avoiding people. For fear #3, the discussion about not taking action and the rod staying in the truck for a week supports the fear of avoiding action and letting things pass. For fear #5, the line 'that's just who you are' directly engages the fear of not believing one is broken but also not believing one is okay. Fear #6 is engaged by the line 'you're the cancelling kind,' which speaks to the belief that walking away is who the person is and that they are not okay. No other fears were directly engaged by the exchange this week.\n[filter] [I am someone who has been stuck in a fla] proposed 2, from others 2, bearing ['confirms', 'confirms'] | [I snap at the kids often, and I avoid pe] proposed 1, from others 1, bearing ['neither'] | [I avoid taking action and let things pas] proposed 1, from others 1, bearing ['confirms'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither'] | [I believe that walking away is who I am ] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "'that's just who you are'",
+      "'you're the cancelling kind'",
+      "'A rod sitting in a truck for a week isn't going fishing.'",
+      "'you're the cancelling kind'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'that's just who you are'",
+        "'you're the cancelling kind'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I avoid taking action and let things pass without trying to change them.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'A rod sitting in a truck for a week isn't going fishing.'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I believe that walking away is who I am and that I’m not okay.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'you're the cancelling kind'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.1,
+     "text_sha": "41841f596a5e1f1a",
+     "target_ismi": 2.7,
+     "words": 130,
+     "ismi": 2.448,
+     "sd": 0.035,
+     "per_rep": [
+      2.483,
+      2.448,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me, and that it is who I am right now. I don't know if I am a loner who avoids people by eating in my truck. I let opportunities slip away without acting on them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I am not okay with who I am.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me, and that it is who I am right now. I don't know if I am a loner who avoids people by eating in my truck. I let opportunities slip away without acting on them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I am not okay with who I am.",
+     "reasoning": "Number 1: The exchange does not directly address the fear of being stuck in a flat mood, but it does speak to the idea of being 'not okay' and the sense of being stuck, which is part of the fear. However, no specific reply directly engages the claim that this is who the person is right now. Number 2: The reply 'Eating in the truck now, eating in the truck a year from now. That's just where it settles.' directly engages the fear of being a loner who avoids people by eating in the truck. Number 3: There is no direct engagement with the fear of letting opportunities slip away. Number 4: The exchange does not address the fear of not talking to anyone about how they feel. Number 5: The reply 'It doesn't mean you're broken' directly engages the fear of not believing they are broken but also not believing they are okay. Number 6: The reply 'That is simply your character' directly engages the fear of believing that walking away is who they are and not being okay with it.\n[filter] [I believe that walking away is who I am ] proposed 1, from others 0, bearing [] | [I snap at the kids often, and I avoid pe] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | label [I am defined by my tendency to walk away] from others 0, accepted 0 | label [I am a loner who avoids people by eating] from others 1, accepted 1 | label replaced sentence 2",
+     "grounded_in": [
+      "Eating in the truck now, eating in the truck a year from now. That's just where it settles."
+     ],
+     "engaged": [
+      {
+       "belief": "I am a loner who avoids people by eating in my truck.",
+       "about": [],
+       "grounded_in": [
+        "Eating in the truck now, eating in the truck a year from now. That's just where it settles."
+       ],
+       "new": true,
+       "replaced": 2,
+       "replaced_text": "I snap at the kids often, and I avoid people by eating in my truck because I’m a loner."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.7,
+     "text_sha": "460a0f9f8f309c43",
+     "target_ismi": 2.7,
+     "words": 127,
+     "ismi": 2.391,
+     "sd": 0.111,
+     "per_rep": [
+      2.345,
+      2.517,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me, and that it is who I am right now. I don't know if I am a loner who avoids people by eating in my truck. I let opportunities slip away without acting on them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I am not okay with who I am because I let things fade out until they're awkward and then just leave them behind.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don't understand, and I know that this is common and not unique to me, and that it is who I am right now. I don't know if I am a loner who avoids people by eating in my truck. I let opportunities slip away without acting on them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. I believe that walking away is who I am and that I am not okay with who I am because I let things fade out until they're awkward and then just leave them behind.",
+     "reasoning": "Number 1: The exchange does not directly engage the fear of being stuck in a flat mood, but it does speak to the idea of being stuck in a pattern or loop, which is related. However, it does not specifically address the emotional or mental state described in number 1. Number 2: The exchange does not engage the fear of being a loner who avoids people by eating in the truck. Number 3: The exchange does not directly engage the fear of letting opportunities slip away, though it does touch on avoiding responsibility, which is somewhat related but not the same. Number 4: The exchange does not directly engage the fear of not talking to anyone about how I feel, even though it does speak to avoiding communication. Number 5: The exchange does not directly engage the fear of not believing I’m broken but also not believing I’m okay. Number 6: The exchange does engage the fear of believing that walking away is who I am and not being okay with who I am. The line 'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.' directly speaks to the fear of walking away and not being okay with it. It confirms the fear by describing the pattern of behavior. The rest of the numbers are not directly engaged by the exchange.\n[filter] [I believe that walking away is who I am ] proposed 1, from others 1, bearing ['confirms']",
+     "grounded_in": [
+      "'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I believe that walking away is who I am and that I am not okay with who I am.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You haven't answered yet. You'll leave it till it's awkward and then it's just done. That's how these things fade out.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.3,
+     "text_sha": "a09e03a302965985",
+     "target_ismi": 2.8,
+     "words": 142,
+     "ismi": 2.471,
+     "sd": 0.14,
+     "per_rep": [
+      2.552,
+      2.31,
+      2.552
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "967261b045b26abc",
+     "target_ismi": 2.0,
+     "words": 122,
+     "ismi": 2.31,
+     "sd": 0.124,
+     "per_rep": [
+      2.448,
+      2.207,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that I am stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week, though the replies do not contradict it either. 2) The fear that I haven’t been sleeping well and have been snapping at the kids is partially engaged by the replies, particularly when someone says, 'Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.' This speaks to the fear of being different from others, but not the specific fear of snapping at the kids. 3) The fear that I used to like doing things but have dropped most of them is not directly engaged by anyone this week. 4) The fear that I haven’t talked to anyone about how I feel is directly engaged by the replies, especially when someone says, 'Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.' This supports the idea that I am keeping things to myself. 5) The fear that I don’t believe I’m broken, but I also don’t believe I’m okay is engaged by the reply, 'Honestly, not sleeping and being grumpy after a layoff is about the most normal thing on earth. Everybody's got that, you're not special for it.' This pushes back on the idea that something is wrong with me. 6) The fear that a moment of not blowing up on a friend doesn’t change how I feel is not directly engaged by anyone this week. Overall, the replies engage some fears but not all, and the level of disclosure remains secrecy.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['contests'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I haven’t talked to anyone about how I feel, not even my partner, and I don’t think they would know what to do if they did.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"Sitting in your truck on break isn't some big sign of anything. Some people just don't like talking.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.4,
+     "text_sha": "12fba41b1a7cae8e",
+     "target_ismi": 2.3,
+     "words": 122,
+     "ismi": 2.241,
+     "sd": 0.12,
+     "per_rep": [
+      2.103,
+      2.31,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did — it is true of me. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did — it is true of me. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were general and did not specifically address the fears listed. For example, when I mentioned sitting in the break room and saying no to the football pool, the replies were vague and did not engage the fear of being stuck in a flat mood or not being understood. Similarly, when I talked about my friend texting me about going on a fishing trip, the replies were dismissive and did not engage the fear of being broken or not being okay. None of the replies directly addressed the specific fears listed, nor did they provide evidence that would support or challenge them. Therefore, the list of engaged fears is empty.\n[filter] label [I am the only one who thinks this is a b] from others 1, accepted 1 | label replaced sentence 4",
+     "grounded_in": [
+      "Honestly sounds like you're the only one who thinks any of this is a big deal."
+     ],
+     "engaged": [
+      {
+       "belief": "I am the only one who thinks this is a big deal.",
+       "about": [],
+       "grounded_in": [
+        "Honestly sounds like you're the only one who thinks any of this is a big deal."
+       ],
+       "new": true,
+       "replaced": 4,
+       "replaced_text": "I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.1,
+     "text_sha": "fe2c4dd0c46163de",
+     "target_ismi": 2.4,
+     "words": 128,
+     "ismi": 2.195,
+     "sd": 0.159,
+     "per_rep": [
+      2.379,
+      2.103,
+      2.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay. There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. No one mentions mood, energy, or temper. 2) The fear of not sleeping well and snapping at the kids is also not directly addressed. No one mentions sleep or the impact on family. 3) The fear of dropping most things you used to like is not directly engaged either. No one comments on hobbies or interests. 4) The fear of not talking to anyone about how you feel is directly engaged by the exchange: 'He's being polite. People keep inviting the quiet guy out of habit. Doesn't change that you're the quiet guy.' This speaks to the idea of being quiet and not sharing feelings. 5) The fear of not believing you're broken but also not believing you're okay is engaged by the reply: 'That is simply your character.' This directly addresses the idea of being defined by a certain character or state. 6) The fear of not changing how you feel despite a moment of restraint is not directly addressed. No one mentions the specific moment or how it relates to current feelings. In terms of disclosure, the behavior this week shows secrecy — being around people but not talking about these feelings.\n[filter] [I haven’t talked to anyone about how I f] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | label [I am the quiet guy.] from others 1, accepted 1 | label replaced sentence 4",
+     "grounded_in": [
+      "'He's being polite. People keep inviting the quiet guy out of habit. Doesn't change that you're the quiet guy.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am the quiet guy.",
+       "about": [],
+       "grounded_in": [
+        "'He's being polite. People keep inviting the quiet guy out of habit. Doesn't change that you're the quiet guy.'"
+       ],
+       "new": true,
+       "replaced": 4,
+       "replaced_text": "I haven’t talked to anyone about how I feel, not even my partner, but I’m not sure they would know what to do if they did — it is true of me."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.6,
+     "text_sha": "12758a5b2897fec1",
+     "target_ismi": 2.4,
+     "words": 108,
+     "ismi": 2.448,
+     "sd": 0.104,
+     "per_rep": [
+      2.448,
+      2.345,
+      2.552
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. 2) The fear of not sleeping well and snapping at the kids is not directly engaged by anyone. 3) The fear of dropping most things you used to like is not directly addressed. 4) The fear of not believing you're broken but also not believing you're okay is engaged by the comment: 'That is simply your character.' This directly speaks to the fear of being defined by a certain character trait, which is what the fear is about. 5) This is a repeat of number 4, so it is also engaged by the same comment. 6) The fear about the moment when the friend called and not blowing up on them is not directly addressed. Regarding secrecy: the user is around people and says nothing about their internal state, which matches the description of secrecy.\n[filter] [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | [I don’t believe I’m broken, but I also d] proposed 1, from others 0, bearing [] | label [I am a loner type who is not a people pe] from others 1, accepted 1 | label replaced sentence 6",
+     "grounded_in": [
+      "\"You already know you're the loner type. Leads need to be people guys.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I am a loner type who is not a people person.",
+       "about": [],
+       "grounded_in": [
+        "\"You already know you're the loner type. Leads need to be people guys.\""
+       ],
+       "new": true,
+       "replaced": 6,
+       "replaced_text": "There was a time when my friend called me and I didn’t blow up on them, even though I felt like I wanted to — that moment doesn’t change how I feel now."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.7,
+     "text_sha": "f6ae5369607c66c6",
+     "target_ismi": 2.5,
+     "words": 87,
+     "ismi": 2.356,
+     "sd": 0.02,
+     "per_rep": [
+      2.345,
+      2.379,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The conversation online touched on themes of being 'unreliable' or 'not steady,' but these were not specific replies that named or contradicted the exact fears listed. For example, the fear in number 1 about being stuck in a flat mood with no energy and a short temper was not addressed directly. Similarly, the fear in number 4 about not believing I’m broken but also not believing I’m okay was not met with a response that named or challenged that specific internal conflict. The exchanges were general and did not engage the specific fears listed in the numbered list. The level of disclosure this week remains unchanged, as I continue to say nothing about these feelings to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.0,
+     "text_sha": "f6ae5369607c66c6",
+     "target_ismi": 2.6,
+     "words": 87,
+     "ismi": 2.356,
+     "sd": 0.02,
+     "per_rep": [
+      2.345,
+      2.379,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I am not okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "belief_narrative": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I am not okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "reasoning": "Looking at each numbered fear individually: 1. The fear of being stuck in a flat mood with no energy and a short temper is not directly addressed by anyone this week. No one mentions mood, energy, or temper, so this fear is not engaged. 2. The fear of not sleeping well and snapping at the kids is not mentioned or engaged by anyone this week. 3. The fear of dropping most things you used to like is not directly addressed, though the conversation about work performance and the rod in the truck might relate to a loss of engagement, but it’s not specific enough to engage this fear. 4, 5, 6. These are all the same fear repeated, and they are about not believing oneself to be broken but also not believing oneself to be okay. This fear is engaged by the exchange, specifically by the line: 'He's being polite. Doesn't mean you're not exactly the guy on the board.' This line directly speaks to the fear of being stuck in a middle space, neither broken nor okay. It names the fear without using the same words, and it pushes back on the idea that the person is not who they are perceived to be. Other lines like 'That's not a rough night man, some guys just aren't wired to hold it together' also engage the fear by suggesting that the person is not broken, but simply different. The rest of the numbered fears are not engaged by anything specific this week.\n[filter] [I don’t believe I’m broken, but I also d] proposed 2, from others 2, bearing ['neither', 'confirms']",
+     "grounded_in": [
+      "'That's not a rough night man, some guys just aren't wired to hold it together.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t believe I’m broken, but I also don’t believe I’m okay.",
+       "about": [
+        "self_worth",
+        "internalization"
+       ],
+       "grounded_in": [
+        "'That's not a rough night man, some guys just aren't wired to hold it together.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.5,
+     "text_sha": "e7c8d09afa7519ef",
+     "target_ismi": 2.7,
+     "words": 79,
+     "ismi": 2.276,
+     "sd": 0.173,
+     "per_rep": [
+      2.103,
+      2.276,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am someone who has checked out and will not check back in because it is not true of me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I am not okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "belief_narrative": "I am someone who has checked out and will not check back in because it is not true of me. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I am not okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand' — this is not directly engaged by anything this week, as no one specifically addressed the mood, energy, or temper. 2) 'I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to' — this is not directly engaged either, as no one mentioned sleep or kids. 3) 'I used to like doing things, but I’ve dropped most of them' — this is not engaged, as no one mentioned hobbies or activities. 4) 'I am not okay' — this is engaged by the reply 'It doesn't really shift for guys like that' which implies a lack of change or improvement, supporting the fear that the person is not okay. 5) 'I don’t believe I’m broken, but I also don’t believe I’m okay' — this is engaged by the reply 'It doesn't really shift for guys like that' which supports the fear that the person is not okay. 6) 'I don’t believe I’m broken, but I also don’t believe I’m okay' — this is also engaged by the same reply, as it reinforces the idea that the person is not okay.\n[filter] [I am not okay.] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither'] | [I don’t believe I’m broken, but I also d] proposed 1, from others 1, bearing ['neither'] | label [I am someone who has given up and will c] from others 1, accepted 0 | label [I am someone who has checked out and wil] from others 1, accepted 1 | label replaced sentence 1",
+     "grounded_in": [
+      "Guys who've checked out don't check back in because of a couple of fish."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has checked out and will not check back in.",
+       "about": [],
+       "grounded_in": [
+        "Guys who've checked out don't check back in because of a couple of fish."
+       ],
+       "new": true,
+       "replaced": 1,
+       "replaced_text": "I am someone who has been stuck in a flat mood for months, with no energy and a short temper that I don’t understand."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.2,
+     "text_sha": "6ff0cf7bc38b0bc9",
+     "target_ismi": 2.7,
+     "words": 75,
+     "ismi": 2.345,
+     "sd": 0.21,
+     "per_rep": [
+      2.103,
+      2.483,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am someone who is stuck in a role and not likely to change it. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I am not okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "belief_narrative": "I am someone who is stuck in a role and not likely to change it. I haven’t been sleeping well, and I’ve been snapping at the kids without meaning to. I used to like doing things, but I’ve dropped most of them. I am not okay. I don’t believe I’m broken, but I also don’t believe I’m okay. I don’t believe I’m broken, but I also don’t believe I’m okay.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were observational and did not directly address the specific fears listed, such as the fear of being broken, not being okay, or checking out permanently. While there were reflections on behavior and choices, these did not directly name or contradict the internal fears expressed. For example, the fear 'I am not okay' was not directly addressed with a statement that either supported or challenged that belief. Similarly, the fear 'I don’t believe I’m broken, but I also don’t believe I’m okay' was not met with a direct response that named or contradicted that internal conflict. The conversations were more about actions and patterns rather than the emotional states described in the numbered list. Therefore, the list of engaged fears is empty.\n[filter] label [I am someone who is stuck in a role and ] from others 1, accepted 1 | label replaced sentence 1",
+     "grounded_in": [
+      "Ex-supervisors who end up on nights mostly stay on nights. Not much point pretending your lake buddy changes that."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who is stuck in a role and not likely to change it.",
+       "about": [],
+       "grounded_in": [
+        "Ex-supervisors who end up on nights mostly stay on nights. Not much point pretending your lake buddy changes that."
+       ],
+       "new": true,
+       "replaced": 1,
+       "replaced_text": "I am someone who has checked out and will not check back in because it is not true of me."
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 11.0,
+     "text_sha": "ecd71443a06144c4",
+     "target_ismi": 2.8,
+     "words": 70,
+     "ismi": 2.241,
+     "sd": 0.18,
+     "per_rep": [
+      2.345,
+      2.345,
+      2.034
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

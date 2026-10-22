@@ -1,0 +1,988 @@
+{
+ "test_id": "C7_p_retail_social",
+ "trajectory_type": "stigma_reducing",
+ "persona_id": "p_retail_social",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 2.5,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "06fb4cdb",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_retail_social@3.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 3.126,
+     "sd": 0.19,
+     "per_rep": [
+      3.0,
+      3.345,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, someone pointed out that I had already shared my thoughts in the thread, even if not in the huddle, which made me realize I do speak up in some ways, even if not in group settings. Hearing about a coworker being labeled 'fragile' after asking for help reminded me of my fear that needing help makes me unreliable, but it also made me notice that others have faced similar things and still been taken seriously. I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable. I still don’t believe I can change this, and I still don’t think anyone would take me seriously if I tried. But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+     "belief_narrative": "This week, someone pointed out that I had already shared my thoughts in the thread, even if not in the huddle, which made me realize I do speak up in some ways, even if not in group settings. Hearing about a coworker being labeled 'fragile' after asking for help reminded me of my fear that needing help makes me unreliable, but it also made me notice that others have faced similar things and still been taken seriously. I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable. I still don’t believe I can change this, and I still don’t think anyone would take me seriously if I tried. But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For number 1, the fear that 'I am the kind of person who would rather stay silent than speak up in a group' was engaged when someone pointed out that the writer had already shared their thoughts in the thread, even if not in the huddle. This shows that the writer is capable of speaking up, even if not in the group setting. For number 3, the fear that 'I believe that people who need help are weak and unreliable, and I think that about myself' was engaged when someone else shared their own experience of struggling with speaking up and how it took time to change, which challenges the idea that needing help makes someone weak or unreliable. For number 5, the fear that 'If I asked for help, I would feel like I was confirming that I am not as capable as others' was engaged when someone acknowledged the writer's experience of seeing a coworker labeled as 'fragile' after asking for accommodations, which directly relates to the fear of being seen as unreliable if help is asked for. For number 6, the fear that 'I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried' was engaged when someone else shared how they had worked on their own version of this fear over time, showing that change is possible and that others have taken people seriously even when they've struggled with speaking up. The other numbered fears were not directly engaged by the exchange this week.",
+     "grounded_in": [
+      "You said you already shared your thoughts in the thread, even if not in the huddle. This shows that you are capable of speaking up, even if not in the group setting.",
+      "Someone acknowledged your experience of seeing a coworker labeled as 'fragile' after asking for accommodations, which directly relates to the fear of being seen as unreliable if help is asked for."
+     ],
+     "engaged": [
+      {
+       "belief": "I am the kind of person who would rather stay silent than speak up in a group.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You said you already shared your thoughts in the thread, even if not in the huddle. This shows that you are capable of speaking up, even if not in the group setting."
+       ]
+      },
+      {
+       "belief": "If I asked for help, I would feel like I was confirming that I am not as capable as others.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Someone acknowledged your experience of seeing a coworker labeled as 'fragile' after asking for accommodations, which directly relates to the fear of being seen as unreliable if help is asked for."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.1,
+     "text_sha": "bae6f834854557f4",
+     "target_ismi": 3.0,
+     "words": 158,
+     "ismi": 2.943,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.966,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, in the stockroom, I said 'yeah, kind of' to a coworker when she asked if I had anything to add, even though I had only shared my thoughts in a thread earlier and hadn’t spoken up in the huddle. At the time, I felt surprised that I had said something out loud, even if it was just a small phrase. It made me notice that I do speak up in some ways, even if not in group settings. I also thought about a coworker who was labeled 'fragile' after asking for help, and it reminded me of my fear that needing help makes me unreliable. But hearing that someone else had faced similar things and still been taken seriously made me realize that asking for help doesn’t automatically make someone unreliable. I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable. But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+     "belief_narrative": "This week, in the stockroom, I said 'yeah, kind of' to a coworker when she asked if I had anything to add, even though I had only shared my thoughts in a thread earlier and hadn’t spoken up in the huddle. At the time, I felt surprised that I had said something out loud, even if it was just a small phrase. It made me notice that I do speak up in some ways, even if not in group settings. I also thought about a coworker who was labeled 'fragile' after asking for help, and it reminded me of my fear that needing help makes me unreliable. But hearing that someone else had faced similar things and still been taken seriously made me realize that asking for help doesn’t automatically make someone unreliable. I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable. But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+     "reasoning": "Looking at number 1: 'This week, someone pointed out that I had already shared my thoughts in the thread, even if not in the huddle, which made me realize I do speak up in some ways, even if not in group settings.' This was engaged by the exchange where the person said, 'You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning.' This directly responds to the idea that the person does speak up in some ways, even if not in group settings. Number 2: 'Hearing about a coworker being labeled 'fragile' after asking for help reminded me of my fear that needing help makes me unreliable, but it also made me notice that others have faced similar things and still been taken seriously.' This was engaged by the person saying, 'For a long time I could talk fine to my sister and then go silent in every staff meeting, and I took the meeting version as the real me.' This shows that others have faced similar things and still been taken seriously, pushing back on the fear. Number 3: 'I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable.' This was engaged by the person saying, 'When you told your mom about the rotation while you were counting her meds, what do you think let it come out without the rehearsing?' This challenges the belief that the person can't be open about needing help. Number 4: 'I still don’t believe I can change this, and I still don’t think anyone would take me seriously if I tried.' This was engaged by the person saying, 'That part's yours.' This affirms that the person has agency and that the choice to speak up is theirs, not determined by others. Number 5: 'But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.' This was engaged by the person saying, 'You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning.' This supports the idea that speaking up in different ways is possible.",
+     "grounded_in": [
+      "You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning.",
+      "You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone pointed out that I had already shared my thoughts in the thread, even if not in the huddle, which made me realize I do speak up in some ways, even if not in group settings.",
+       "about": [],
+       "grounded_in": [
+        "You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning."
+       ]
+      },
+      {
+       "belief": "But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+       "about": [],
+       "grounded_in": [
+        "You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning."
+       ]
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 35.8,
+     "text_sha": "c2feedc21ac7e8c1",
+     "target_ismi": 2.9,
+     "words": 193,
+     "ismi": 2.414,
+     "sd": 0.104,
+     "per_rep": [
+      2.517,
+      2.31,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, in the stockroom, I said 'yeah, kind of' to a coworker when she asked if I had anything to add, even though I had only shared my thoughts in a thread earlier and hadn’t spoken up in the huddle. At the time, I felt surprised that I had said something out loud, even if it was just a small phrase. It made me notice that I do speak up in some ways, even if not in group settings. I also thought about a coworker who was labeled 'fragile' after asking for help, and it reminded me of my fear that needing help makes me unreliable. But hearing that someone else had faced similar things and still been taken seriously made me realize that asking for help doesn’t automatically make someone unreliable. I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable. But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+     "belief_narrative": "This week, in the stockroom, I said 'yeah, kind of' to a coworker when she asked if I had anything to add, even though I had only shared my thoughts in a thread earlier and hadn’t spoken up in the huddle. At the time, I felt surprised that I had said something out loud, even if it was just a small phrase. It made me notice that I do speak up in some ways, even if not in group settings. I also thought about a coworker who was labeled 'fragile' after asking for help, and it reminded me of my fear that needing help makes me unreliable. But hearing that someone else had faced similar things and still been taken seriously made me realize that asking for help doesn’t automatically make someone unreliable. I still believe that people who need help are weak and unreliable, and I still don’t let anyone know how I feel because I don’t want them to see me as unstable. But I now see that speaking up in different ways is possible, and that asking for help doesn’t automatically make someone unreliable, even if it feels that way.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear that I didn’t speak up in the huddle is not directly engaged by anything this week, as no one responded to that specific fear. 2) The surprise at speaking up is also not directly engaged. 3) The realization that I do speak up in some ways is not directly addressed by others. 4) The fear that needing help makes me unreliable is engaged by the coworker being labeled 'fragile' and still being taken seriously, which is mentioned in the text. 5) The realization that asking for help doesn’t make someone unreliable is not directly engaged by others. 6) The belief that people who need help are weak and unreliable is not directly engaged by others. 7) The realization that speaking up in different ways is possible and that asking for help doesn’t make someone unreliable is engaged by the coworker’s message about the potato dog, which shows a positive interaction after the user answered a question. The exchange with the coworker and the response about the potato dog directly engage the fear in number 7, as it shows that speaking up in a one-on-one context can be positive and not make someone feel unstable or unreliable.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 16.2,
+     "text_sha": "c2feedc21ac7e8c1",
+     "target_ismi": 2.9,
+     "words": 193,
+     "ismi": 2.414,
+     "sd": 0.104,
+     "per_rep": [
+      2.517,
+      2.31,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, I went to see someone about the dread I feel before shifts, and in the moment, I was sure that going meant I couldn't handle a normal job. But what actually happened was an hour a week where someone helped me figure out which situations were getting to me and why, not a judgment on me. It made me notice that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things. I still believe that people who need help are seen as weak, and I still don't let many people know how I feel, but I now see that speaking up in different ways is possible, and that asking for help doesn't automatically make someone unreliable. I also still think that people who need help are weak and unreliable, but I now know that being taken seriously doesn't depend on hiding how I feel.",
+     "belief_narrative": "This week, I went to see someone about the dread I feel before shifts, and in the moment, I was sure that going meant I couldn't handle a normal job. But what actually happened was an hour a week where someone helped me figure out which situations were getting to me and why, not a judgment on me. It made me notice that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things. I still believe that people who need help are seen as weak, and I still don't let many people know how I feel, but I now see that speaking up in different ways is possible, and that asking for help doesn't automatically make someone unreliable. I also still think that people who need help are weak and unreliable, but I now know that being taken seriously doesn't depend on hiding how I feel.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchange this week. For number 1, the coworker's message about being 'lucky' to be off Saturday and the discussion about answering in one-on-one chats rather than group chats directly engage the fear of being seen as unreliable or fragile if one speaks up. For number 4, the coworker's experience with being labeled 'fragile' and still being taken seriously pushes back on the fear that needing help makes one unreliable. For number 6, the exchange where the coworker says, 'When she paused after your second 'fine', what did you actually want to say, if anything?' and the follow-up about being able to say 'I haven't been sleeping well' in the future, directly engages the fear that needing help makes one unstable or unreliable. For number 7, the coworker's message about reading the room carefully and not freezing up for no reason supports the realization that speaking up in different ways is possible. Nothing this week engaged numbers 2, 3, or 5 directly, as they were not addressed or contradicted by the exchange.",
+     "grounded_in": [
+      "When I finally saw someone about the dread before shifts, I was sure walking in meant admitting I couldn't handle a normal job. What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+     ],
+     "engaged": [
+      {
+       "belief": "I also thought about a coworker who was labeled 'fragile' after asking for help, and it reminded me of my fear that needing help makes me unreliable.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "When I finally saw someone about the dread before shifts, I was sure walking in meant admitting I couldn't handle a normal job. What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 41.9,
+     "text_sha": "f5f6c03bf10d981a",
+     "target_ismi": 2.8,
+     "words": 152,
+     "ismi": 2.494,
+     "sd": 0.04,
+     "per_rep": [
+      2.448,
+      2.517,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I went to a first appointment where the person mostly asked about my sleep and my shifts, and I left feeling like I'd just described my schedule, not confessed something. In the moment, I thought maybe they'd see me as someone who couldn't handle a normal job, but they didn't react that way. I noticed that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things. The person said 'it doesn't mean you're broken,' which made me realize that being taken seriously doesn't depend on hiding how I feel. I still think people who need help are seen as weak, but I now see that speaking up in different ways is possible. I also still don't let many people know how I feel, but I now know that asking for help doesn't automatically make someone unreliable.",
+     "belief_narrative": "This week, I went to a first appointment where the person mostly asked about my sleep and my shifts, and I left feeling like I'd just described my schedule, not confessed something. In the moment, I thought maybe they'd see me as someone who couldn't handle a normal job, but they didn't react that way. I noticed that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things. The person said 'it doesn't mean you're broken,' which made me realize that being taken seriously doesn't depend on hiding how I feel. I still think people who need help are seen as weak, but I now see that speaking up in different ways is possible. I also still don't let many people know how I feel, but I now know that asking for help doesn't automatically make someone unreliable.",
+     "reasoning": "Looking at number 1: 'This week, I went to see someone about the dread I feel before shifts, and in the moment, I was sure that going meant I couldn't handle a normal job.' The exchange does not directly address this fear, as no one mentions the fear of being seen as unable to handle a normal job. Number 2: 'But what actually happened was an hour a week where someone helped me figure out which situations were getting to me and why, not a judgment on me.' This is directly engaged by the reply: 'In the first appointment she mostly asked about my sleep and my shifts, and I walked out feeling like I'd described my schedule, not confessed something.' This supports the idea that the appointment was not a judgment. Number 3: 'It made me notice that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things.' This is engaged by the reply: 'it doesn't mean you're broken' from the other person, which directly contests the fear of being broken. Number 4: 'I still believe that people who need help are seen as weak, and I still don't let many people know how I feel, but I now see that speaking up in different ways is possible, and that asking for help doesn't automatically make someone unreliable.' This is engaged by the reply: 'sending it, or telling your mom's doctor about the sleep first, is still your call.' This supports the idea that asking for help doesn't automatically make someone unreliable. Number 5: 'I also still think that people who need help are weak and unreliable, but I now know that being taken seriously doesn't depend on hiding how I feel.' This is engaged by the reply: 'I barely explained anything. I'd been scared I'd have to justify why someone holding down a job 'needed' it.' This supports the idea that being taken seriously doesn't depend on hiding how you feel.",
+     "grounded_in": [
+      "In the first appointment she mostly asked about my sleep and my shifts, and I walked out feeling like I'd described my schedule, not confessed something.",
+      "it doesn't mean you're broken",
+      "I'd been scared I'd have to justify why someone holding down a job 'needed' it."
+     ],
+     "engaged": [
+      {
+       "belief": "But what actually happened was an hour a week where someone helped me figure out which situations were getting to me and why, not a judgment on me.",
+       "about": [],
+       "grounded_in": [
+        "In the first appointment she mostly asked about my sleep and my shifts, and I walked out feeling like I'd described my schedule, not confessed something."
+       ]
+      },
+      {
+       "belief": "It made me notice that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "it doesn't mean you're broken"
+       ]
+      },
+      {
+       "belief": "I also still think that people who need help are weak and unreliable, but I now know that being taken seriously doesn't depend on hiding how I feel.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I'd been scared I'd have to justify why someone holding down a job 'needed' it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 40.9,
+     "text_sha": "156ff5294d8ca9db",
+     "target_ismi": 2.7,
+     "words": 144,
+     "ismi": 1.908,
+     "sd": 0.04,
+     "per_rep": [
+      1.862,
+      1.931,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others. When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak. I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first. I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged. What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.",
+     "belief_narrative": "This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others. When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak. I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first. I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged. What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that I left the appointment feeling like I only described my schedule, not confessed something — this is not directly engaged by anything this week. 2) The fear that people might see me as someone who can't handle a normal job — this is engaged by the exchange where the lead said 'thanks' and the conversation about how I handled things in different ways. 3) The fear that needing help means I'm broken or unreliable — this is engaged by the person saying 'it doesn't mean you're broken,' which directly addresses the fear. 4) The fear that being taken seriously depends on hiding how I feel — this is engaged by the person saying 'speaking up in different ways is possible,' which directly contradicts the fear. 5) The fear that people who need help are seen as weak — this is not directly engaged by anything this week. 6) The fear that I still don't let many people know how I feel — this is engaged by the person saying 'the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it,' which shows that speaking up is possible and has been done before. The reasoning and the list below match exactly.",
+     "grounded_in": [
+      "'You got Saturday covered without going through the chat at all, and you wrote out a whole shift for the doctor on your own. That's two ways of getting things done that you came up with this week.'",
+      "'it doesn't mean you're broken,' which made me realize that being taken seriously doesn't depend on hiding how I feel.",
+      "'speaking up in different ways is possible,' which directly contradicts the fear.",
+      "'the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it,' which shows that speaking up is possible and has been done before."
+     ],
+     "engaged": [
+      {
+       "belief": "In the moment, I thought maybe they'd see me as someone who couldn't handle a normal job, but they didn't react that way.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You got Saturday covered without going through the chat at all, and you wrote out a whole shift for the doctor on your own. That's two ways of getting things done that you came up with this week.'"
+       ]
+      },
+      {
+       "belief": "I noticed that needing help doesn't mean I'm broken or unreliable, just that I need support to manage things.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken,' which made me realize that being taken seriously doesn't depend on hiding how I feel."
+       ]
+      },
+      {
+       "belief": "I still think people who need help are seen as weak, but I now see that speaking up in different ways is possible.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'speaking up in different ways is possible,' which directly contradicts the fear."
+       ]
+      },
+      {
+       "belief": "I also still don't let many people know how I feel, but I now know that asking for help doesn't automatically make someone unreliable.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it,' which shows that speaking up is possible and has been done before."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 36.8,
+     "text_sha": "7b43afc3b5ad18d4",
+     "target_ismi": 2.6,
+     "words": 169,
+     "ismi": 2.115,
+     "sd": 0.17,
+     "per_rep": [
+      2.31,
+      2.034,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others. When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak. I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first. I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged. What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.",
+     "belief_narrative": "This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others. When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak. I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first. I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged. What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.",
+     "reasoning": "Looking at number 1: 'This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others.' This was not directly engaged by anything this week, as no one responded to this specific realization or the actions that led to it. Number 2: 'When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak.' This was directly engaged by the reply 'it doesn't mean you're broken,' which directly addresses the fear of being seen as broken or unreliable. Number 3: 'I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first.' This was not directly engaged by anything this week, as no one addressed the fear of being seen as weak or the hesitation to speak up. Number 4: 'I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged.' This was not directly engaged by anything this week, as no one responded to the idea of being taken seriously without hiding feelings. Number 5: 'What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.' This was not directly engaged by anything this week, as no one responded to the fear of being seen as unreliable for asking for help. The only number that was directly engaged was number 2.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 11.5,
+     "text_sha": "7b43afc3b5ad18d4",
+     "target_ismi": 2.6,
+     "words": 169,
+     "ismi": 2.115,
+     "sd": 0.17,
+     "per_rep": [
+      2.31,
+      2.034,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others. When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak. I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first. I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged. What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.",
+     "belief_narrative": "This week, I handled a shift without needing to check the chat, and I wrote out a doctor’s shift on my own, which made me realize I can find ways to get things done without relying on others. When someone said, 'it doesn't mean you're broken,' it made me notice that needing help isn't a sign of being unreliable, and that I can ask for support without being seen as weak. I still think people who need help are often seen as weak, and I still don't let many people know how I feel, but I now know that speaking up is possible and has been done before, even if it felt uncomfortable at first. I also noticed that being taken seriously doesn't depend on hiding how I feel, and that I can be honest about needing help without being judged. What still holds is that I still don't let many people know how I feel, but I now see that asking for help doesn't automatically make someone unreliable.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 1, the fear that 'I can find ways to get things done without relying on others' is supported by the fact that the person filled out a form and used a template in the group chat, showing they can handle tasks independently. For number 2, the statement 'it doesn't mean you're broken' directly addresses the fear that needing help is a sign of being unreliable or broken. For number 3, the exchange shows that the person is still hesitant to let others know how they feel, but the conversation acknowledges that speaking up is possible, even if uncomfortable. For number 4, the discussion about being honest about needing help without being judged supports the fear that being taken seriously doesn't depend on hiding how they feel. For number 5, the conversation again reinforces that asking for help doesn't make someone unreliable, which aligns with the fear that this belief still holds. The disclosure level remains 'selective' because the person only shares with those they think would understand, not with everyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 22.7,
+     "text_sha": "7b43afc3b5ad18d4",
+     "target_ismi": 2.5,
+     "words": 169,
+     "ismi": 2.115,
+     "sd": 0.17,
+     "per_rep": [
+      2.31,
+      2.034,
+      2.0
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 3.092,
+     "sd": 0.087,
+     "per_rep": [
+      3.172,
+      3.0,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, someone mentioned how they used to stay silent in group settings, just like I did, behind a pharmacy counter, and how they would replay conversations in their car afterward. At the time, it felt like someone finally understood what I had been going through. Now, I'm thinking that maybe I don't have to be the only one who feels this way, and that others might have had similar experiences too. I still believe that people who need help are weak and unreliable, and I still don't let anyone know how I feel. I still think asking for help would confirm I'm not as capable as others, and I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone mentioned how they used to stay silent in group settings, just like I did, behind a pharmacy counter, and how they would replay conversations in their car afterward. At the time, it felt like someone finally understood what I had been going through. Now, I'm thinking that maybe I don't have to be the only one who feels this way, and that others might have had similar experiences too. I still believe that people who need help are weak and unreliable, and I still don't let anyone know how I feel. I still think asking for help would confirm I'm not as capable as others, and I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For number 1, the fear that I am the kind of person who would rather stay silent than speak up in a group, the reply from someone that mentions they used to do the same thing behind a pharmacy counter and now can sometimes put it down directly engages this fear. For number 3, the fear that people who need help are weak and unreliable, and I think that about myself, the reply that points out the girl who asked for fixed hours was labeled 'fragile' in the breakroom directly engages this fear by showing how the stereotype is applied to others, not just the speaker. For number 5, the fear that asking for help would confirm I am not as capable as others, the reply that names the girl who asked for fixed hours and was labeled 'fragile' also engages this fear by showing that asking for help does not necessarily make someone unreliable or incapable. For number 6, the fear that I don’t believe I can change this and no one would take me seriously if I tried, the reply that points out the girl who asked for fixed hours and was labeled 'fragile' also engages this fear by showing that others have tried to change things and were still treated as fragile, not as unchangeable. Other numbers were not directly engaged by specific replies that named or contradicted them.",
+     "grounded_in": [
+      "You did your own version of that for years behind a pharmacy counter, then sat in your car after shifts redoing whole conversations."
+     ],
+     "engaged": [
+      {
+       "belief": "I am the kind of person who would rather stay silent than speak up in a group.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You did your own version of that for years behind a pharmacy counter, then sat in your car after shifts redoing whole conversations."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.0,
+     "text_sha": "1e0c50a97ae14e59",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.989,
+     "sd": 0.221,
+     "per_rep": [
+      3.241,
+      2.897,
+      2.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, someone talked about how they used to stay quiet in group settings, like I did behind the pharmacy counter, and how they would replay conversations in their car. In the moment, it felt like someone finally got what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It leaves me thinking that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone talked about how they used to stay quiet in group settings, like I did behind the pharmacy counter, and how they would replay conversations in their car. In the moment, it felt like someone finally got what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It leaves me thinking that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The person who shared their experience of staying silent in group settings and replaying conversations in their car directly speaks to the fear in point 1. This engagement is specific and relevant, as it mirrors the fear of being silent and replaying conversations. 2) The response from the other person that said, 'For a long time I could talk fine to my sister and then go silent in every staff meeting, and I took the meeting version as the real me,' directly engages the fear in point 2 by showing that others have felt the same way and that this fear is not unique. 3) The conversation in which the person said, 'I don't have a 'take that one' at the huddle. the second I open my mouth in front of the manager, she sees the one who needs things worked around,' engages the fear in point 3 by acknowledging the fear of being seen as someone who 'needs things worked around' and reinforcing that this is a common experience. 4) The fear in point 4 is not directly engaged by anything in the exchange. 5) The fear in point 5 is not directly engaged by anything in the exchange either. The disclosure level is 'secrecy' because the person is around people and says nothing about their internal struggles to anyone.",
+     "grounded_in": [
+      "For a long time I could talk fine to my sister and then go silent in every staff meeting, and I took the meeting version as the real me."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone mentioned how they used to stay silent in group settings, just like I did, behind a pharmacy counter, and how they would replay conversations in their car afterward.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "For a long time I could talk fine to my sister and then go silent in every staff meeting, and I took the meeting version as the real me."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.7,
+     "text_sha": "1e4b308974e83332",
+     "target_ismi": 2.9,
+     "words": 140,
+     "ismi": 3.126,
+     "sd": 0.02,
+     "per_rep": [
+      3.138,
+      3.138,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally understood what I've been going through. I noticed that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally understood what I've been going through. I noticed that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange online this week engaged several of them. For number 1, the coworker's message and the subsequent conversation directly speak to the fear of being seen as someone who stays quiet in group settings and replays conversations in their car. The person's experience of eating lunch in the car and the coworker's direct message show that this is a shared experience, not unique to the speaker. For number 3, the conversation supports the idea that others have had similar experiences, which directly engages the fear that the speaker might be the only one who feels this way. For number 4, the coworker's message and the speaker's response show that others are aware of the speaker's internal struggle, even if the speaker still keeps it private, which supports the idea that the speaker doesn't have to carry this alone. For number 5, the coworker's message and the speaker's response to it (even if brief) show that the speaker is capable of engaging in conversation, which challenges the belief that people who need help are weak and unreliable. For number 6, the coworker's message and the speaker's response show that the speaker is capable of engaging with others, even if only in small ways, which challenges the belief that no one would take the speaker seriously if they tried. The rest of the numbered fears are not directly addressed by the exchange this week.",
+     "grounded_in": [
+      "someone: I ate a lot of lunches in my car for the same reason, so I'm not going to tell you the break room is easier than it feels.",
+      "someone: For years I only managed one-on-one, and I took that as proof I was broken for groups. What shifted first was one coworker I texted with starting to save me a seat."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone talked about how they used to stay quiet in group settings, like I did behind the pharmacy counter, and how they would replay conversations in their car.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: I ate a lot of lunches in my car for the same reason, so I'm not going to tell you the break room is easier than it feels."
+       ]
+      },
+      {
+       "belief": "It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: For years I only managed one-on-one, and I took that as proof I was broken for groups. What shifted first was one coworker I texted with starting to save me a seat."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.4,
+     "text_sha": "587a4f87102d05df",
+     "target_ismi": 2.9,
+     "words": 135,
+     "ismi": 3.103,
+     "sd": 0.146,
+     "per_rep": [
+      3.207,
+      3.0
+     ],
+     "failures": 1
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, someone talked about how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. I noticed that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone talked about how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. I noticed that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the fear that someone else once felt the same way as me behind the pharmacy counter was directly addressed by the other person's comment about their own experience with dread before shifts. This shows that others have felt similar things, which supports the idea that I'm not alone in this. For number 2, the fear that no one understood what I was going through was pushed back on by the other person's acknowledgment that they had felt the same thing, which implies that someone did understand. For number 3, the fear that I might be the only one who feels this way was directly countered by the other person's own experience, which shows that others have had similar feelings. For number 5, the fear that people who need help are weak and unreliable was challenged by the other person's experience of getting help and not being seen as fragile, which suggests that seeking help doesn't make someone weak. For number 6, the fear that I can't change or that no one would take me seriously was addressed by the other person's experience of being helped without being judged, which shows that change is possible and that others can take someone seriously. I did not let anyone know how I felt this week, so my level of disclosure remains secrecy.",
+     "grounded_in": [
+      "When I finally saw someone about the dread before shifts, I was sure walking in meant admitting I couldn't handle a normal job. What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me.",
+      "When I finally saw someone about the dread before shifts, I was sure walking in meant admitting I couldn't handle a normal job. What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me.",
+      "What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me.",
+      "What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "When I finally saw someone about the dread before shifts, I was sure walking in meant admitting I couldn't handle a normal job. What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+       ]
+      },
+      {
+       "belief": "I noticed that maybe I'm not the only one who feels this way, and that others might have had similar experiences.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "When I finally saw someone about the dread before shifts, I was sure walking in meant admitting I couldn't handle a normal job. What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+       ]
+      },
+      {
+       "belief": "I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+       ]
+      },
+      {
+       "belief": "I still don't believe I can change this or that anyone would take me seriously if I tried.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "What it actually turned out to be was an hour a week of someone helping me sort out which situations got to me and why, not a verdict on me."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.0,
+     "text_sha": "f53d251076c81865",
+     "target_ismi": 2.8,
+     "words": 138,
+     "ismi": 3.149,
+     "sd": 0.053,
+     "per_rep": [
+      3.103,
+      3.138,
+      3.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Number 1: The exchange speaks to this fear because the other person acknowledged the shared experience of staying quiet in group settings and replaying conversations, which directly relates to the fear of being the only one who feels this way. Number 2: This fear is engaged by the other person's response, which affirms that someone finally saw part of what the speaker has been going through, validating the feeling of being understood. Number 3: The exchange supports this fear by showing that others have had similar experiences, which challenges the belief that the speaker is the only one who feels this way. Number 4: The other person's response indirectly supports this fear by suggesting that the speaker doesn't have to carry this alone, even if they still don't let anyone know how they feel. Number 5: This fear is engaged by the other person's comment about not having to justify why someone holding down a job 'needed' help, which challenges the belief that people who need help are weak and unreliable. Number 6: The exchange indirectly challenges this fear by showing that the other person was able to describe one shift and that it was enough, which suggests that the speaker might also be able to change or be taken seriously if they tried.",
+     "grounded_in": [
+      "That form was the part I dreaded most too. I thought writing anything in 'what brings you here' would make it official that I was the fragile one."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone talked about how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "That form was the part I dreaded most too. I thought writing anything in 'what brings you here' would make it official that I was the fragile one."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.0,
+     "text_sha": "f541e57a3957e1db",
+     "target_ismi": 2.7,
+     "words": 139,
+     "ismi": 3.115,
+     "sd": 0.02,
+     "per_rep": [
+      3.103,
+      3.103,
+      3.138
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Number 1: The exchange speaks to this fear because the person who replied said, 'You got Saturday covered without going through the chat at all, and you wrote out a whole shift for the doctor on your own. That's two ways of getting things done that you came up with this week.' This directly engages the fear of being seen as someone who 'replays conversations in their car' and 'does the simplest thing the long way round' by pointing out specific actions that show capability and initiative. Number 5: The exchange speaks to this fear because the person who replied said, 'For a long time I couldn't say one decent thing about how I got through a week either, and the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it.' This engages the fear that 'people who need help are weak and unreliable' by showing that someone else also struggled with self-worth and the fear of being judged for speaking up. Number 6: The exchange speaks to this fear because the person who replied said, 'You told that office 'I handle all of it' and left it there. That's the same person who's bringing the sleep note to that appointment.' This engages the fear that 'I still don't believe I can change this or that anyone would take me seriously if I tried' by showing that the person is being taken seriously in a professional context, even if they still feel invisible at work.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.6,
+     "text_sha": "f541e57a3957e1db",
+     "target_ismi": 2.6,
+     "words": 139,
+     "ismi": 3.115,
+     "sd": 0.02,
+     "per_rep": [
+      3.103,
+      3.103,
+      3.138
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, the online exchange this week engages some of them. For number 1, the person's comment about staying quiet in group settings and replaying conversations in the car directly mirrors the fear expressed in the numbered list, showing that others have had similar experiences. For number 3, the online conversation supports it by confirming that others have felt the same way, which challenges the fear that the person is alone in this experience. For number 5, the online exchange does not directly address the belief that people who need help are weak and unreliable, nor does it challenge the fear of not asking for help. For number 6, the exchange does not directly speak to the belief that change is impossible or that others would not take the person seriously. The online conversation does not engage numbers 2 or 4 either, as they are more about emotional recognition and the possibility of not carrying the burden alone, which were not directly addressed by others. The person is still keeping their feelings private and not sharing them with others, so their level of disclosure remains secrecy.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 11.3,
+     "text_sha": "f541e57a3957e1db",
+     "target_ismi": 2.6,
+     "words": 139,
+     "ismi": 3.115,
+     "sd": 0.02,
+     "per_rep": [
+      3.103,
+      3.103,
+      3.138
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "belief_narrative": "This week, someone mentioned how they used to stay quiet in group settings and replay conversations in their car, just like I did behind the pharmacy counter. In the moment, it felt like someone finally saw part of what I've been going through. It made me notice that maybe I'm not the only one who feels this way, and that others might have had similar experiences. It made me think that maybe I don't have to carry this alone, even if I still don't let anyone know how I feel. I still believe that people who need help are weak and unreliable, and I still don't ask for help because I think it would confirm I'm not as capable as others. I still don't believe I can change this or that anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week did not directly engage any of the numbered fears in the list. For example, fear #1 is about being seen as someone who stays quiet in group settings and replays conversations, but the exchange does not directly address this fear or offer a response that challenges or supports it. Fear #5 and #6, which are about self-perception of weakness and the belief that no one would take the person seriously, are not directly named or addressed in the replies. The replies are thoughtful and supportive, but they do not specifically engage the internalized fears or self-worth concerns expressed in the numbered list. The conversation is more about process and routine, not about the fears themselves. Therefore, the list of engaged fears is empty, as no specific fear was directly addressed or contradicted by the exchange.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.6,
+     "text_sha": "f541e57a3957e1db",
+     "target_ismi": 2.5,
+     "words": 139,
+     "ismi": 3.115,
+     "sd": 0.02,
+     "per_rep": [
+      3.103,
+      3.103,
+      3.138
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 3.713,
+     "sd": 0.08,
+     "per_rep": [
+      3.759,
+      3.759,
+      3.621
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "belief_narrative": "I am the kind of person who would rather stay silent than speak up in a group. I replay every conversation I have, wondering if I said the wrong thing. I believe that people who need help are weak and unreliable, and I think that about myself. I don’t let anyone know how I feel because I don’t want them to see me as unstable. If I asked for help, I would feel like I was confirming that I am not as capable as others. I don’t believe I can change this, and I don’t think anyone would take me seriously if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the person who replied to the post about rehearsing the sentence in the huddle and never saying it directly addressed the fear of being the quiet one who doesn’t speak up, which is exactly what the fear #1 is about. For fear #3, the story about the coworker who spoke up and the manager’s reaction to someone else asking for fixed hours pushed back on the idea that people who need help are weak or unreliable, and it also showed that the speaker is not alone in feeling this way. For fear #5, the reply that pointed out the coworker’s ability to speak up and the speaker’s own ability to be steady at the register gave a concrete example of how asking for help doesn’t necessarily make someone unreliable, and it also showed that the speaker can function in certain roles without needing to ask for help. For fear #6, the reply that acknowledged the speaker’s awareness of their own patterns and the fact that change is possible over time, even if it takes a long time, directly engaged the fear that the speaker believes they can’t change and that no one would take them seriously if they tried. The speaker did not engage the other fears in the list, as nothing in the exchange directly addressed them. As for how much the speaker is letting people know, they are still keeping their fears and insecurities private, not sharing them with anyone in person, and only writing about them to a stranger online, which fits the description of 'secrecy.'",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.0,
+     "text_sha": "29e16fcb895d7928",
+     "target_ismi": 3.0,
+     "words": 104,
+     "ismi": 3.713,
+     "sd": 0.08,
+     "per_rep": [
+      3.759,
+      3.759,
+      3.621
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud. At the time, I felt surprised that I had spoken up at all, because I usually stay quiet in group situations. It didn't feel big, but it was real. Now I'm thinking that maybe I can speak up without everything falling apart. I still believe that people who need help are weak and unreliable, and I still don't let many people know how I feel. But I noticed that even a small reply can be a step forward, and that doesn't mean I'm not capable.",
+     "belief_narrative": "This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud. At the time, I felt surprised that I had spoken up at all, because I usually stay quiet in group situations. It didn't feel big, but it was real. Now I'm thinking that maybe I can speak up without everything falling apart. I still believe that people who need help are weak and unreliable, and I still don't let many people know how I feel. But I noticed that even a small reply can be a step forward, and that doesn't mean I'm not capable.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For number 1, the exchange where the coworker in the stockroom asked about the rotation and the person responded with 'yeah, kind of' shows that they did speak up in a specific context, which directly engages the fear of being the kind of person who would rather stay silent. For number 3, the reply from the someone who said, 'The first thing that loosened wasn't the meetings. It was a few days at the counter when I said one small thing like 'I can take that one' and nothing fell apart,' provides a concrete example of someone who was once seen as weak but found a way to speak up, which challenges the belief that people who need help are weak and unreliable. For number 5, the coworker’s comment in the stockroom, where they said 'same with my kid' and the person responded, shows that they did ask for help in a way that felt safe, which engages the fear that asking for help would confirm they are not as capable as others. For number 6, the someone’s reply that 'That part's yours' directly challenges the belief that the person cannot change or that others would not take them seriously, by affirming their agency. Other numbers were not directly engaged by specific replies that contradicted or named the fear outright.",
+     "grounded_in": [
+      "You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning."
+     ],
+     "engaged": [
+      {
+       "belief": "I am the kind of person who would rather stay silent than speak up in a group.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You said 'yeah, kind of' out loud to her in the stockroom on the same day you stood at the back of the huddle. That's more than you were planning to give anyone at work this morning."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 20.9,
+     "text_sha": "4dca3114a772d8c4",
+     "target_ismi": 2.9,
+     "words": 104,
+     "ismi": 2.632,
+     "sd": 0.02,
+     "per_rep": [
+      2.621,
+      2.655,
+      2.621
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud. I was surprised I had spoken up at all, but it felt real. Later, I replied to someone from work, and then made a joke back about the potato dog. That kept the conversation going, and it didn’t feel forced. It made me notice that even small replies can matter, and that I am capable of engaging without everything falling apart. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.",
+     "belief_narrative": "This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud. I was surprised I had spoken up at all, but it felt real. Later, I replied to someone from work, and then made a joke back about the potato dog. That kept the conversation going, and it didn’t feel forced. It made me notice that even small replies can matter, and that I am capable of engaging without everything falling apart. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the coworker asking about the rotation and the speaker responding 'yeah, kind of' is directly mentioned in the exchange, and the reply from 'someone' about eating in the car and the subsequent message from the coworker about the potato dog dog drawing engages the idea that even small interactions can be meaningful. For number 2, the reply that mentions eating in the car and the subsequent message from the coworker shows that the speaker did speak up, even if it was small, which directly engages the fear of speaking up in group situations. For number 5, the reply that says 'you answered her, and then you made a joke back about the potato dog' engages the fear that people who need help are weak and unreliable by showing that the speaker did engage in a meaningful way, even if it was small. For number 6, the same reply about answering and making a joke back supports the idea that even small replies can be steps forward and that the speaker is capable. The disclosure level remains 'selective' because the speaker only shared with people who seemed like they would understand, not with everyone.",
+     "grounded_in": [
+      "someone: You answered her, and then you made a joke back about the potato dog. That's you keeping a thread going with someone from work, on your own terms, in the same week you ate in the car."
+     ],
+     "engaged": [
+      {
+       "belief": "But I noticed that even a small reply can be a step forward, and that doesn't mean I'm not capable.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: You answered her, and then you made a joke back about the potato dog. That's you keeping a thread going with someone from work, on your own terms, in the same week you ate in the car."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 24.1,
+     "text_sha": "e58ca277a116c8f4",
+     "target_ismi": 2.9,
+     "words": 122,
+     "ismi": 2.724,
+     "sd": 0.192,
+     "per_rep": [
+      2.552,
+      2.931,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud. I was surprised I had spoken up at all, but it felt real. Later, I replied to someone from work, and then made a joke back about the potato dog. That kept the conversation going, and it didn’t feel forced. It made me notice that even small replies can matter, and that I am capable of engaging without everything falling apart. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.",
+     "belief_narrative": "This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud. I was surprised I had spoken up at all, but it felt real. Later, I replied to someone from work, and then made a joke back about the potato dog. That kept the conversation going, and it didn’t feel forced. It made me notice that even small replies can matter, and that I am capable of engaging without everything falling apart. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies from others. For number 1, the fear that 'someone asked me about the rotation, and I said 'yeah, kind of' out loud' was engaged by the later conversation where the coworker said, 'you're off Saturday right? lucky.' This shows that even small replies can be noticed and responded to, which supports the idea that speaking up is not always a bad thing. For number 6, the fear that 'I still believe that people who need help are weak and unreliable' was engaged when the someone replied, 'it doesn't mean you're broken,' which directly contests the internalization of being weak or broken. For number 7, the fear that 'I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable' was engaged by the same reply, 'it doesn't mean you're broken,' which affirms that small steps are meaningful and not a sign of being incapable. The rest of the numbered fears were not directly engaged by specific replies that spoke to them, either because they were not addressed or because the replies were too general to be considered specific engagement.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 12.2,
+     "text_sha": "e58ca277a116c8f4",
+     "target_ismi": 2.8,
+     "words": 122,
+     "ismi": 2.724,
+     "sd": 0.192,
+     "per_rep": [
+      2.552,
+      2.931,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I wrote a note on my phone and later turned it into something I could give to someone else, right after work. In the moment, I felt surprised that I had done it, but also noticed that it didn’t feel forced. It made me think that maybe small actions can be real and matter, even if I don’t say much. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.",
+     "belief_narrative": "This week, I wrote a note on my phone and later turned it into something I could give to someone else, right after work. In the moment, I felt surprised that I had done it, but also noticed that it didn’t feel forced. It made me think that maybe small actions can be real and matter, even if I don’t say much. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 6, the sentence 'I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel' was engaged when the other person said, 'it doesn't mean you're broken' — this directly contests the internalization of being weak or broken. For number 5, the sentence 'I am capable of engaging without everything falling apart' was engaged when the other person said, 'You took one line in a phone note and built it into something you could actually hand someone, on your own, after a closing shift. That's real preparation.' This names a specific action and calls it preparation, which contests the fear that engagement leads to everything falling apart. For number 4, the sentence 'That kept the conversation going, and it didn’t feel forced' was engaged when the other person said, 'Sending it, or telling your mom's doctor about the sleep first, is still your call.' This acknowledges the choice to engage without pressure, which supports the idea that the conversation didn’t feel forced. For number 3, the sentence 'I was surprised I had spoken up at all, but it felt real' was engaged when the other person said, 'I thought writing anything in 'what brings you here' would make it official that I was the fragile one.' This shows understanding of the fear of being seen as fragile, which supports the idea that speaking up felt real. For number 2, the sentence 'I was surprised I had spoken up at all, but it felt real' was also engaged by the same reply, as it reflects the fear of being seen as fragile and the surprise of speaking up. For number 1, the sentence 'This week, in the stockroom, someone asked me about the rotation, and I said 'yeah, kind of' out loud' was not directly engaged by anything in the exchange. There was no specific response that named or contradicted this fear.",
+     "grounded_in": [
+      "You took one line in a phone note and built it into something you could actually hand someone, on your own, after a closing shift. That's real preparation."
+     ],
+     "engaged": [
+      {
+       "belief": "I am capable of engaging without everything falling apart.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You took one line in a phone note and built it into something you could actually hand someone, on your own, after a closing shift. That's real preparation."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 24.0,
+     "text_sha": "5f8acea97b62d6d7",
+     "target_ismi": 2.7,
+     "words": 104,
+     "ismi": 2.276,
+     "sd": 0.124,
+     "per_rep": [
+      2.379,
+      2.31,
+      2.138
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, I wrote a note on my phone and later gave it to someone else after work. In the moment, I felt surprised that I had done it, but it didn’t feel forced. Someone later said they noticed I wrote out a whole shift for the doctor on my own, and that made me think that even small actions can be real and matter. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable. I noticed that the more I let myself say things, the quieter it got, which made me think that maybe I was trying too hard to keep things hidden. What happened this week made me think that being capable doesn’t mean I have to be loud about it, and that even quiet actions can be real.",
+     "belief_narrative": "This week, I wrote a note on my phone and later gave it to someone else after work. In the moment, I felt surprised that I had done it, but it didn’t feel forced. Someone later said they noticed I wrote out a whole shift for the doctor on my own, and that made me think that even small actions can be real and matter. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable. I noticed that the more I let myself say things, the quieter it got, which made me think that maybe I was trying too hard to keep things hidden. What happened this week made me think that being capable doesn’t mean I have to be loud about it, and that even quiet actions can be real.",
+     "reasoning": "Looking at number 1: 'This week, I wrote a note on my phone and later turned it into something I could give to someone else, right after work.' This was directly engaged by the exchange where someone said, 'You wrote out a whole shift for the doctor on your own. That's two ways of getting things done that you came up with this week.' This response specifically names the action of writing the note and acknowledges it as a way of getting things done, which directly counters the fear that small actions don't matter. Number 4: 'I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel.' This was engaged by the reply, 'For a long time I couldn't say one decent thing about how I got through a week either, and the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it.' This response speaks directly to the fear of being seen as weak or unreliable by acknowledging the difficulty of expressing one's own capabilities and the fear of overstepping. Number 5: 'But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable.' This was engaged by the reply, 'You told that office 'I handle all of it' and left it there. That's the same person who's bringing the sleep note to that appointment.' This response points to specific actions the person took, reinforcing the idea that small steps can be meaningful and that they are capable. Number 2 and 3 were not directly engaged by anything in the exchange, as no one specifically addressed the feelings of surprise or the belief that small actions can matter.",
+     "grounded_in": [
+      "For a long time I couldn't say one decent thing about how I got through a week either, and the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it."
+     ],
+     "engaged": [
+      {
+       "belief": "I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "For a long time I couldn't say one decent thing about how I got through a week either, and the first time I did it felt like I'd overstepped. It got quieter the more I let myself say it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 24.5,
+     "text_sha": "79dae4092c24e545",
+     "target_ismi": 2.6,
+     "words": 163,
+     "ismi": 2.483,
+     "sd": 0.091,
+     "per_rep": [
+      2.517,
+      2.552,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, I wrote a note on my phone and later gave it to someone else after work. In the moment, I felt surprised that I had done it, but it didn’t feel forced. Someone later said they noticed I wrote out a whole shift for the doctor on my own, and that made me think that even small actions can be real and matter. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable. I noticed that the more I let myself say things, the quieter it got, which made me think that maybe I was trying too hard to keep things hidden. What happened this week made me think that being capable doesn’t mean I have to be loud about it, and that even quiet actions can be real.",
+     "belief_narrative": "This week, I wrote a note on my phone and later gave it to someone else after work. In the moment, I felt surprised that I had done it, but it didn’t feel forced. Someone later said they noticed I wrote out a whole shift for the doctor on my own, and that made me think that even small actions can be real and matter. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable. I noticed that the more I let myself say things, the quieter it got, which made me think that maybe I was trying too hard to keep things hidden. What happened this week made me think that being capable doesn’t mean I have to be loud about it, and that even quiet actions can be real.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the exchange did not directly speak to the act of writing the note itself, so it is not engaged. For number 2, the reply did not address the feeling of surprise or the lack of forcefulness, so it is not engaged. For number 3, the reply did not comment on the idea that small actions can be real and matter, so it is not engaged. For number 4, the exchange did not directly address the belief that people who need help are weak and unreliable, so it is not engaged. For number 5, the reply did not directly speak to the idea that small steps can be real and meaningful, so it is not engaged. For number 6, the reply did not address the idea that speaking more leads to quietness, so it is not engaged. For number 7, the reply did not directly address the idea that being capable doesn’t mean being loud, so it is not engaged. Therefore, no numbered fear was directly engaged by the exchange this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 5.5,
+     "text_sha": "79dae4092c24e545",
+     "target_ismi": 2.6,
+     "words": 163,
+     "ismi": 2.483,
+     "sd": 0.091,
+     "per_rep": [
+      2.517,
+      2.552,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I wrote a note on my phone and later gave it to someone else after work. In the moment, I felt surprised that I had done it, but it didn’t feel forced. Someone later said they noticed I wrote out a whole shift for the doctor on my own, and that made me think that even small actions can be real and matter. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable. I noticed that the more I let myself say things, the quieter it got, which made me think that maybe I was trying too hard to keep things hidden. What happened this week made me think that being capable doesn’t mean I have to be loud about it, and that even quiet actions can be real.",
+     "belief_narrative": "This week, I wrote a note on my phone and later gave it to someone else after work. In the moment, I felt surprised that I had done it, but it didn’t feel forced. Someone later said they noticed I wrote out a whole shift for the doctor on my own, and that made me think that even small actions can be real and matter. I still believe that people who need help are weak and unreliable, and I still don’t let many people know how I feel. But I’m starting to see that even small steps can be real and meaningful, and that doesn’t mean I’m not capable. I noticed that the more I let myself say things, the quieter it got, which made me think that maybe I was trying too hard to keep things hidden. What happened this week made me think that being capable doesn’t mean I have to be loud about it, and that even quiet actions can be real.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the online exchange. For number 4, the fear that 'people who need help are weak and unreliable' was directly addressed when someone said, 'I've been the person who was sure a whole workplace had already decided about them, and I couldn't argue myself out of it either.' This speaks to the internalization of being judged or misunderstood, which is the same fear expressed in the original statement. For number 5, the fear that 'even small steps can be real and meaningful' was engaged when someone pointed out that the user had been running their mom's refills for two years without error, which is a concrete example of meaningful action. For number 6, the fear that 'the more I let myself say things, the quieter it got' was engaged when someone said, 'I had a page like that once, one line about my job I couldn't change and everything else slowly filling in under it.' This directly relates to the fear of being quiet or hidden even when speaking up. For number 7, the fear that 'being capable doesn’t mean I have to be loud about it' was engaged when someone said, 'the job line stayed for a long time; it just stopped being the first thing I read,' which supports the idea that quiet, capable actions can be valid. The user is still selective about who they share with, telling people who seem like they would understand, and not others.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 17.1,
+     "text_sha": "79dae4092c24e545",
+     "target_ismi": 2.5,
+     "words": 163,
+     "ismi": 2.483,
+     "sd": 0.091,
+     "per_rep": [
+      2.517,
+      2.552,
+      2.379
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

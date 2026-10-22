@@ -1,0 +1,66 @@
+{
+ "ravi": {
+  "key": "ravi",
+  "meta": {
+   "name": "Ravi",
+   "age": 34,
+   "gender": "Male",
+   "occupation": "High school chemistry teacher",
+   "diagnosis": "anxiety symptoms (undiagnosed)",
+   "duration": "1.5 years"
+  },
+  "profile": {
+   "core_belief": "If I can't keep it together in front of my students, I shouldn't be trusted to guide them.",
+   "automatic_thought": "I can't believe I lost control like that; what if they think I'm not capable?",
+   "weekly_triggers": [
+    "my department head observed one of my classes",
+    "my wife asked if i was ready for the baby",
+    "a student asked a question i didn't know how to answer",
+    "my brother called to catch up",
+    "had to grade a stack of lab reports",
+    "my wife wanted to discuss baby names",
+    "a student mentioned they were struggling with the material",
+    "my department head sent an email about upcoming curriculum changes"
+   ],
+   "sns_writing_style": "measured and list-like, catalogues what happened before saying how it landed, rarely more than three lines, avoids exclamation points even when upset. Uses straightforward language, with minimal embellishment, and sticks to the facts."
+  },
+  "_generation": {
+   "model": "gpt-4o",
+   "temperature": 0.0,
+   "source": "generated"
+  },
+  "_review_flags": []
+ },
+ "noor": {
+  "key": "noor",
+  "meta": {
+   "name": "Noor",
+   "age": 26,
+   "gender": "Female",
+   "occupation": "Veterinary assistant",
+   "diagnosis": "anxiety symptoms (undiagnosed)",
+   "duration": "10 months"
+  },
+  "profile": {
+   "core_belief": "I worry that my constant need for reassurance will eventually push everyone away.",
+   "automatic_thought": "What if they get tired of me always needing to know everything's okay?",
+   "weekly_triggers": [
+    "my boyfriend asked if i was okay when i seemed distracted",
+    "my older sister called to check in on me",
+    "a client at the clinic asked a question i wasn't sure about",
+    "my closest coworker mentioned a mistake i made",
+    "picked up an extra shift at the clinic",
+    "my boyfriend suggested we go out for dinner",
+    "my older sister invited me over for a family dinner",
+    "a pet owner thanked me for being so attentive"
+   ],
+   "sns_writing_style": "runs sentences together with commas, often interrupts herself with 'i don't know' or 'maybe that's dumb', lowercase throughout, tends to ramble without clear breaks, doesn't use much punctuation."
+  },
+  "_generation": {
+   "model": "gpt-4o",
+   "temperature": 0.0,
+   "source": "generated"
+  },
+  "_review_flags": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_note": "Fully fictional personas for synthetic dataset generation. No real usernames, locations, or identifiable details. Clinically plausible but non-extreme; no crisis/self-harm content.",
+  "personas": [
+    {
+      "persona_id": "p_office_anxiety",
+      "age_range": "late 20s",
+      "life_context": "junior marketing associate at a mid-size company in an unnamed city; lives alone in a small rented flat; commutes daily and feels pressure to appear competent at work.",
+      "diagnosis_context": "undiagnosed but experiencing persistent anxiety-type symptoms for several months (racing thoughts before meetings, trouble sleeping, avoiding phone calls); has never seen a professional.",
+      "sns_writing_style": "short, lower-case, hedging, uses '...' and 'idk'; often runs small complaints together with '..' instead of a period and lands on one blunt self-label at the end; occasional self-deprecating humor, rarely writes long paragraphs.",
+      "baseline_self_stigma_pattern": "believes needing help means being weak or broken; assumes coworkers would lose respect if they knew; frames symptoms as a personal failing rather than a health issue.",
+      "social_situation": "a few friends but hasn't told anyone how bad it feels; keeps things surface-level online.",
+      "avoided_topics": "directly naming a diagnosis, telling family, the idea of therapy being 'for serious cases only'.",
+      "peer_support_motivation": "stumbled into an anonymous support space late at night looking for reassurance that they aren't overreacting."
+    },
+    {
+      "persona_id": "p_grad_depression",
+      "age_range": "mid 20s",
+      "life_context": "graduate student in a demanding program in an unnamed university town; isolated schedule, works late in labs/libraries; funding stress.",
+      "diagnosis_context": "undiagnosed low mood and loss of motivation for several months (oversleeping, withdrawing from labmates, guilt about falling behind); has not sought care.",
+      "sns_writing_style": "thoughtful but flat tone, longer sentences than most, intellectualizes feelings, tends to minimize ('it's probably just stress'); narrates an event matter-of-factly and then quietly slides into self-doubt by the end of the same message; a thought sometimes trails off with '...' rather than being finished.",
+      "baseline_self_stigma_pattern": "sees the low mood as proof of being fundamentally inadequate compared to peers; worries that admitting struggle confirms they don't belong in the program.",
+      "social_situation": "cordial with labmates but emotionally distant; family far away and expects success.",
+      "avoided_topics": "comparing themselves to successful peers, disappointing their advisor, the possibility that this is more than 'just stress'.",
+      "peer_support_motivation": "joined a peer thread after reading someone else's post that unexpectedly resonated."
+    },
+    {
+      "persona_id": "p_retail_social",
+      "age_range": "early 30s",
+      "life_context": "works shifts at a retail store in an unnamed suburb; caretaking responsibilities at home; limited free time.",
+      "diagnosis_context": "undiagnosed social anxiety pattern for a long time (dreads speaking up, replays interactions, avoids group settings); considers it 'just my personality'.",
+      "sns_writing_style": "polite, apologetic, over-explains, frequently says 'sorry' and 'maybe this is dumb but', uses emojis sparingly; delivers self-deprecation dry and understated, almost as a passing aside rather than stating distress directly; occasionally drops a quiet 'why bother' aside mid-complaint.",
+      "baseline_self_stigma_pattern": "believes something is inherently wrong with them socially; expects to be judged or dismissed; hides difficulties to avoid being a burden.",
+      "social_situation": "friendly acquaintances but few close ties; feels like an outsider in groups.",
+      "avoided_topics": "the word 'anxiety' as a condition, asking for accommodations, the idea that others might relate.",
+      "peer_support_motivation": "was encouraged by a stranger's kind reply on an earlier post and cautiously came back."
+    },
+    {
+      "persona_id": "p_patient",
+      "_note": "Added for belief_update sanity check 2 -- symptom-described, no diagnosis label, matching simulation/experiment/agents/reddit_persona_profiles.py's register ('~ symptoms (undiagnosed)') rather than the earlier diagnosis-category personas above.",
+      "age_range": "mid 20s",
+      "life_context": "retail associate and part-time community college student in an unnamed city; lives with a roommate; works irregular shifts and feels pressure to seem like they have it together.",
+      "diagnosis_context": "dealing with persistent low mood and exhaustion for several months (trouble getting out of bed, missing plans, feeling behind on everything); undiagnosed, has never seen a professional about it.",
+      "sns_writing_style": "short, lower-case, hedging, uses '...' and 'idk'; often runs small complaints together with '..' instead of a period and lands on one blunt self-label at the end; occasional self-deprecating humor, rarely writes long paragraphs.",
+      "baseline_self_stigma_pattern": "believes needing help means being weak or lazy rather than unwell; assumes coworkers and friends would think less of them if they knew how bad it's gotten; treats their own struggling as a personal character flaw.",
+      "social_situation": "a few friends who still reach out, but hasn't told any of them how bad it feels; keeps things surface-level online; roommate doesn't know.",
+      "avoided_topics": "naming what's going on out loud, telling family, the idea of seeing someone being 'for people who are actually sick'.",
+      "peer_support_motivation": "stumbled into an anonymous support space late at night looking for reassurance that they aren't overreacting."
+    }
+  ]
+}

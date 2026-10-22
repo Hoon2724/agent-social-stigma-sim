@@ -1,0 +1,48 @@
+{
+ "dataset": "Reddit Mental Health Dataset (Low et al., 2020; Zenodo 10.5281/zenodo.3941387; ODC-PDDL 1.0)",
+ "copy_used": "huggingface.co/datasets/kamruzzaman-asif/reddit-mental-health-classification",
+ "examples_by_group": {
+  "depression": [
+   {
+    "chars": 367,
+    "sha256": "7eccf646b945327daede8e53486a1e71c64c7f4bcb561159b88b566c96874f0c"
+   },
+   {
+    "chars": 343,
+    "sha256": "72b4a438f86e014a97ec2b619ec0c1d30f349578ac45582481a336513c6a66f9"
+   },
+   {
+    "chars": 340,
+    "sha256": "abef1841b76037ff320392b3ece60f62825fa87df5f5beda3e93e13f54b2754c"
+   }
+  ],
+  "anxiety": [
+   {
+    "chars": 380,
+    "sha256": "f79638a7579fbdd7a34d4fd9c5c4916d749c0117df29492869f50e311cb94574"
+   },
+   {
+    "chars": 314,
+    "sha256": "6cdf4036e5130bf711becc6bade780e04b0a990f5ae64e05899fb484800a52a3"
+   },
+   {
+    "chars": 394,
+    "sha256": "0a9c1e0903821fc3f522ddd0291c66a5dbcde764b12f5123711ffa5ff8bccc5a"
+   }
+  ],
+  "ptsd": [
+   {
+    "chars": 201,
+    "sha256": "5fdcf05f9b0bfc5dd5b7d64a5d3a07427b6caa05dec9c149ffc70a49ea15823f"
+   },
+   {
+    "chars": 328,
+    "sha256": "2b1f487b1737939e2b843438d6f4ad920abf1cbd25d99918d323b6b251128f27"
+   },
+   {
+    "chars": 375,
+    "sha256": "9786b406e327445288f6707b353b4732275cec594d6b26fa34d5dc58f733bcfb"
+   }
+  ]
+ }
+}

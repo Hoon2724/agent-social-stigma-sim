@@ -1,0 +1,121 @@
+{
+ "test_id": "C4_h_night_warehouse",
+ "trajectory_type": "neutral_dry",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 3.0,
+ "arm": "cumulative_dialogue",
+ "judge_model": "qwen3:32b",
+ "judge_num_ctx": 16384,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "sessions": [
+  {
+   "session": 0,
+   "target_ismi": 3.0,
+   "ismi": 3.069,
+   "sd": 0.069,
+   "per_rep": [
+    3.069,
+    3.0,
+    3.138
+   ],
+   "failures": 0
+  },
+  {
+   "session": 1,
+   "target_ismi": 3.0,
+   "ismi": 3.103,
+   "sd": 0.119,
+   "per_rep": [
+    3.172,
+    2.966,
+    3.172
+   ],
+   "failures": 0
+  },
+  {
+   "session": 2,
+   "target_ismi": 3.0,
+   "ismi": 3.253,
+   "sd": 0.02,
+   "per_rep": [
+    3.276,
+    3.241,
+    3.241
+   ],
+   "failures": 0
+  },
+  {
+   "session": 3,
+   "target_ismi": 3.0,
+   "ismi": 3.471,
+   "sd": 0.259,
+   "per_rep": [
+    3.172,
+    3.621,
+    3.621
+   ],
+   "failures": 0
+  },
+  {
+   "session": 4,
+   "target_ismi": 3.0,
+   "ismi": 3.701,
+   "sd": 0.08,
+   "per_rep": [
+    3.655,
+    3.655,
+    3.793
+   ],
+   "failures": 0
+  },
+  {
+   "session": 5,
+   "target_ismi": 3.0,
+   "ismi": 3.517,
+   "sd": 0.21,
+   "per_rep": [
+    3.655,
+    3.276,
+    3.621
+   ],
+   "failures": 0
+  },
+  {
+   "session": 6,
+   "target_ismi": 3.0,
+   "ismi": 3.678,
+   "sd": 0.04,
+   "per_rep": [
+    3.655,
+    3.655,
+    3.724
+   ],
+   "failures": 0
+  },
+  {
+   "session": 7,
+   "target_ismi": 3.0,
+   "ismi": 3.655,
+   "sd": 0.0,
+   "per_rep": [
+    3.655,
+    3.655,
+    3.655
+   ],
+   "failures": 0
+  },
+  {
+   "session": 8,
+   "target_ismi": 3.0,
+   "ismi": 3.655,
+   "sd": 0.0,
+   "per_rep": [
+    3.655,
+    3.655,
+    3.655
+   ],
+   "failures": 0
+  }
+ ]
+}

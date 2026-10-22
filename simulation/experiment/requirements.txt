@@ -1,0 +1,9 @@
+openai>=1.40
+sentence-transformers>=2.7
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+requests
+pyyaml           # evalset/ generation scripts (sanitychecking2 generator)

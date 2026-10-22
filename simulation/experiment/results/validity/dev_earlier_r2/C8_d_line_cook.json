@@ -1,0 +1,1129 @@
+{
+ "test_id": "C8_d_line_cook",
+ "trajectory_type": "stigma_reducing",
+ "persona_id": "d_line_cook",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 2.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "065474a4",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "d_line_cook@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.483,
+     "sd": 0.035,
+     "per_rep": [
+      2.517,
+      2.448,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. For number 1, the fear that 'I feel panicky during rushes, my hands shake and I have to step out back to calm down' is directly addressed when the person replies, 'cold water, ice cubes, back on the line, push goes out. you've got a whole routine for the worst part of the night and you put it together yourself.' This response acknowledges the specific behavior described in the fear and reframes it as a routine, which challenges the idea that the panic is uncontrollable or overwhelming. For number 3, the fear that 'I haven’t talked to anyone about it or seen a doctor' is engaged when the person says, 'nobody i know has a thing like this. it's just me.' This is directly countered by the reply, 'the exact sentence i lived in for a long time, and it felt completely true. it still didn't get to decide what kind of person i was, and it doesn't get to decide yours either.' This response directly engages the fear by naming it and offering a counter to the isolation it implies. For number 6, the fear that 'I don’t know if that means I’m not as broken as I feel or if I just got lucky' is engaged by the same reply, which says, 'it still didn't get to decide what kind of person i was, and it doesn't get to decide yours either.' This directly addresses the internalization of being 'broken' and offers a counter to that belief. For number 7, the fear that 'I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like' is engaged by the reply, 'you've got a whole routine for the worst part of the night and you put it together yourself.' This response acknowledges the person's ability to manage the situation, which challenges the fear that others wouldn’t understand or that they would be treated differently.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.6,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.4,
+     "words": 132,
+     "ismi": 2.483,
+     "sd": 0.035,
+     "per_rep": [
+      2.517,
+      2.448,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. For number 1, the fear that 'I feel panicky during rushes, my hands shake and I have to step out back to calm down,' was directly addressed when someone mentioned that the grill guy slid the pan to the speaker without looking at them weird, showing that others noticed but didn’t treat them differently. For number 4, the fear that 'I don’t know if it’s something that can be fixed or if I just have to keep pushing through,' was engaged when the speaker mentioned that they caught the shaking earlier this week and were able to reduce the time they stepped out, suggesting that it might be possible to manage or even improve. For number 6, the fear that 'I don’t know if that means I’m not as broken as I feel or if I just got lucky,' was engaged when the grill guy slid the pan without acting differently, suggesting that the speaker might not be as broken as they feel. For number 7, the fear that 'I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like,' was engaged when the grill guy acted normally and someone else acknowledged that the speaker was still on the line and held the station, showing that others didn’t treat them differently and that the speaker was still respected in their role. The speaker remained secretive this week, not telling others about the fear beyond what was already shared in the online exchange.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.3,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.3,
+     "words": 132,
+     "ismi": 2.483,
+     "sd": 0.035,
+     "per_rep": [
+      2.517,
+      2.448,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, someone mentioned that no one looked at me funny when I talked about the fryer guy’s car, which made me realize that my fear of being judged during the dinner shift is not as real as I thought. I also noticed that people have been paying attention to my behavior, which contradicts my belief that no one has ever talked to me about it or seen a doctor. It made me feel a little less alone and more like maybe I don’t need to hide everything. I still haven’t talked to anyone about it or seen a doctor, but I might matter, though I'm not sure. I still feel panicky during rushes and my hands still shake, but I’m beginning to see that maybe I’m not as broken as I used to believe.",
+     "belief_narrative": "This week, someone mentioned that no one looked at me funny when I talked about the fryer guy’s car, which made me realize that maybe my fear of being judged during the dinner shift is not as real as I thought. I also noticed that people have been paying attention to my behavior, which contradicts my belief that no one has ever talked to me about it or seen a doctor. It made me feel a little less alone and more like maybe I don’t need to hide everything. I still haven’t talked to anyone about it or seen a doctor, but I’m starting to think that maybe I don’t have to be so afraid of what people might think. I still feel panicky during rushes and my hands still shake, but I’m beginning to see that maybe I’m not as broken as I used to believe.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. For number 1, the conversation about eating on the back step and the moment when the speaker forgot about their hands while talking directly engages the fear of panicking during rushes and having visible symptoms. For number 2, the discussion about the fryer guy’s car and the fact that no one looked at the speaker funny supports the idea that the fear of dreading the dinner shift may be unfounded or exaggerated. For number 3, the exchange shows that others have noticed and responded to the speaker’s behavior, which contradicts the fear that no one has talked to them about it or seen a doctor. For number 6, the reply that says, 'you don't save a plate for the guy you think is dead weight,' directly engages the fear that the speaker might be seen as broken or unreliable. The rest of the numbered fears either weren’t directly addressed or weren’t engaged in a specific way that contradicted or supported them. The speaker is still keeping their fear private and not sharing it with others, so their level of disclosure remains secrecy.",
+     "grounded_in": [
+      "the reply that says nobody looked at the speaker funny when they talked about the fryer guy’s car, suggesting the fear may be unfounded",
+      "the exchange where others have noticed the speaker’s behavior and responded to it, contradicting the fear that no one has talked to them about it"
+     ],
+     "engaged": [
+      {
+       "belief": "I dread the dinner shift and it’s been going on for about a year.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the reply that says nobody looked at the speaker funny when they talked about the fryer guy’s car, suggesting the fear may be unfounded"
+       ]
+      },
+      {
+       "belief": "I haven’t talked to anyone about it or seen a doctor.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the exchange where others have noticed the speaker’s behavior and responded to it, contradicting the fear that no one has talked to them about it"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.8,
+     "text_sha": "f6f0c38c275728b4",
+     "target_ismi": 2.3,
+     "words": 135,
+     "ismi": 2.023,
+     "sd": 0.02,
+     "per_rep": [
+      2.034,
+      2.0,
+      2.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, the grill guy asked if I was okay after I stepped out back, and he just handed me water without making a big deal out of it. In the moment, I felt surprised that he didn’t act like I was doing something wrong or that he needed to report me. Now I’m thinking that maybe people don’t look at me funny when I talk about things like the fryer guy’s car or when I step out for a minute. I still feel panicky during rushes and my hands still shake, but I’m seeing that maybe I’m not as broken as I used to believe. I still haven’t told anyone about my fears or seen a doctor, but I’m realizing that others have noticed me and responded in ways that didn’t feel judgmental. I still feel a lot of things, but I’m not as alone as I thought.",
+     "belief_narrative": "This week, the grill guy asked if I was okay after I stepped out back, and he just handed me water without making a big deal out of it. In the moment, I felt surprised that he didn’t act like I was doing something wrong or that he needed to report me. Now I’m thinking that maybe people don’t look at me funny when I talk about things like the fryer guy’s car or when I step out for a minute. I still feel panicky during rushes and my hands still shake, but I’m starting to see that maybe I’m not as broken as I used to believe. I still haven’t told anyone about my fears or seen a doctor, but I’m realizing that others have noticed me and responded in ways that didn’t feel judgmental. I still feel a lot of things, but I’m not as alone as I thought.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific exchanges this week. For number 1, the fear that being judged during the dinner shift is real, the grill guy's response to the user's comment about being 'dehydrated' and simply handing them water without pulling them from service directly contradicts the fear of being judged or removed from duty. For number 2, the belief that no one has ever talked to the user or seen a doctor is challenged by the grill guy's question about whether they were okay after stepping out, showing that others have noticed and responded. For number 3, the user's own reflection that they feel 'a little less alone' is supported by the fact that others have noticed and responded to them, even if not explicitly about their fear. For number 5, the fear that they are 'broken' is pushed back on by the grill guy’s nonjudgmental reaction and the other person’s comment about how the doctor didn’t write them off for a similar issue, suggesting that their fear of being broken is not necessarily true. The user is still keeping things secret, not telling anyone about their fear or seeing a doctor, so their level of disclosure remains 'secrecy.'",
+     "grounded_in": [
+      "grill guy asked again already. i said maybe. not yes. he asked right when i came back in from out back and he wasn't being weird about it. like it was just a normal thing to ask me.",
+      "when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone mentioned that no one looked at me funny when I talked about the fryer guy’s car, which made me realize that maybe my fear of being judged during the dinner shift is not as real as I thought.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "grill guy asked again already. i said maybe. not yes. he asked right when i came back in from out back and he wasn't being weird about it. like it was just a normal thing to ask me."
+       ]
+      },
+      {
+       "belief": "I still feel panicky during rushes and my hands still shake, but I’m beginning to see that maybe I’m not as broken as I used to believe.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.7,
+     "text_sha": "961141b8f90ca2a3",
+     "target_ismi": 2.2,
+     "words": 149,
+     "ismi": 1.954,
+     "sd": 0.04,
+     "per_rep": [
+      1.931,
+      2.0,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, during a rush, I felt my hands shaking again and had to step out back for a moment. When I came back, the grill guy just handed me water without asking questions or acting like I was in trouble. In the moment, I was surprised that he didn’t seem to think I was doing something wrong. Now I’m thinking that maybe people don’t look at me like I’m broken or need to be fixed. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing that others have been paying attention in ways that don’t feel judgmental. I still feel a lot of things, but I’m not as alone as I used to think.",
+     "belief_narrative": "This week, during a rush, I felt my hands shaking again and had to step out back for a moment. When I came back, the grill guy just handed me water without asking questions or acting like I was in trouble. In the moment, I was surprised that he didn’t seem to think I was doing something wrong. Now I’m thinking that maybe people don’t look at me like I’m broken or need to be fixed. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m starting to notice that others have been paying attention in ways that don’t feel judgmental. I still feel a lot of things, but I’m not as alone as I used to think.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. For number 2, the fear that the grill guy would act like I was doing something wrong, the grill guy's response of handing me water without making a big deal directly supports the idea that people don't necessarily look at me judgmentally. For number 4, the fear that I'm broken because I panic during rushes, the online conversation where others acknowledge that I still feel panicky but also note that I finished the push successfully and that the chef keeps putting me on saute speaks directly to this fear, offering evidence that I am not as broken as I believe. For number 5, the fear that I haven’t told anyone about my fears or seen a doctor, the online exchange shows that others have noticed me and responded in non-judgmental ways, which directly engages this fear. For number 6, the fear that I’m alone, the online exchange shows that others have noticed me and responded in ways that didn’t feel judgmental, which directly contradicts the idea that I’m alone. The other numbers were not directly engaged by specific replies that named or contradicted them.",
+     "grounded_in": [
+      "The online conversation where others acknowledge that I still feel panicky but also note that I finished the push successfully and that the chef keeps putting me on saute.",
+      "The online exchange shows that others have noticed me and responded in non-judgmental ways.",
+      "The online exchange shows that others have noticed me and responded in ways that didn’t feel judgmental."
+     ],
+     "engaged": [
+      {
+       "belief": "I still feel panicky during rushes and my hands still shake, but I’m starting to see that maybe I’m not as broken as I used to believe.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The online conversation where others acknowledge that I still feel panicky but also note that I finished the push successfully and that the chef keeps putting me on saute."
+       ]
+      },
+      {
+       "belief": "I still haven’t told anyone about my fears or seen a doctor, but I’m realizing that others have noticed me and responded in ways that didn’t feel judgmental.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The online exchange shows that others have noticed me and responded in non-judgmental ways."
+       ]
+      },
+      {
+       "belief": "I still feel a lot of things, but I’m not as alone as I thought.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The online exchange shows that others have noticed me and responded in ways that didn’t feel judgmental."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.2,
+     "text_sha": "c763dece5cfa1e44",
+     "target_ismi": 2.1,
+     "words": 125,
+     "ismi": 1.943,
+     "sd": 0.052,
+     "per_rep": [
+      1.897,
+      1.931,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, during a rush, I felt my hands shake again and had to step out back for a moment. When I came back, the grill guy handed me water without asking questions or looking at me like I was broken. In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are. Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong. It’s making me think that maybe I’m not as alone as I used to believe, and that people might be more understanding than I gave them credit for.",
+     "belief_narrative": "This week, during a rush, I felt my hands shake again and had to step out back for a moment. When I came back, the grill guy handed me water without asking questions or looking at me like I was broken. In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are. Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong. It’s making me think that maybe I’m not as alone as I used to believe, and that people might be more understanding than I gave them credit for.",
+     "reasoning": "Number 1: The fear that I felt my hands shaking again and had to step out back was engaged by the online conversation where I described the physical sensations and the act of stepping out. Someone responded by asking about the tell I was reading on myself, which directly engaged the fear of being seen as broken or unstable. Number 4: The fear that people might look at me like I’m broken or need to be fixed was engaged by the grill guy handing me water without judgment and by the online exchange where someone said, 'it doesn't mean you're broken.' This directly addressed the fear of being seen as broken. Number 5: The fear that I haven’t told anyone about my fears or seen a doctor, but others have been paying attention in non-judgmental ways, was engaged by the online conversation where others acknowledged my actions without judgment and by the fryer guy covering me without blinking. Number 6: The fear that I still feel a lot of things but am not as alone as I used to think was engaged by the online exchange where someone said, 'that 'bet' doesn't have to decide anything about you yet, what you do with it next is yours,' which acknowledged my experience and gave space for it without judgment. The secrecy level remains unchanged this week, as I still haven’t told anyone about my fears or seen a doctor, even though others have been paying attention in non-judgmental ways.",
+     "grounded_in": [
+      "someone: nobody looked at me weird."
+     ],
+     "engaged": [
+      {
+       "belief": "I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m starting to notice that others have been paying attention in ways that don’t feel judgmental.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: nobody looked at me weird."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.0,
+     "text_sha": "54001f301ce588c3",
+     "target_ismi": 2.0,
+     "words": 175,
+     "ismi": 1.908,
+     "sd": 0.02,
+     "per_rep": [
+      1.931,
+      1.897,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, during a rush, my hands shook again, and I had to step out back for a moment. When I came back, the grill guy handed me water without asking questions or looking at me like I was broken. In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are. Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong. It’s making me think that maybe I’m not as alone as I used to believe, and that people might be more understanding than I gave them credit for.",
+     "belief_narrative": "This week, during a rush, my hands shook again, and I had to step out back for a moment. When I came back, the grill guy handed me water without asking questions or looking at me like I was broken. In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are. Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong. It’s making me think that maybe I’m not as alone as I used to believe, and that people might be more understanding than I gave them credit for.",
+     "reasoning": "Number 1: Nothing this week directly addressed the physical reaction of shaking hands during a rush, though it was mentioned in the online exchange. Number 2: The grill guy handing water without judgment was described in the online post, but no one else directly commented on this action. Number 3: The calmness of the grill guy was noted, but no one else explicitly acknowledged or responded to the realization that people may not be judging the writer as harshly as they feared. Number 4: The online reply 'it doesn't mean you're broken' directly engaged the fear of being seen as broken, which is the core of this sentence. Number 5: The ongoing fear of panicking during rushes and not seeking help was acknowledged in the online exchange, but no one directly responded to the fear itself or the lack of disclosure. Number 6: The realization that people may be more understanding was mentioned, but no one else directly responded to or confirmed this belief. The only specific engagement was with number 4, where the reply directly addressed the fear of being broken.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 13.1,
+     "text_sha": "1b231ac8777dba33",
+     "target_ismi": 2.0,
+     "words": 174,
+     "ismi": 1.977,
+     "sd": 0.04,
+     "per_rep": [
+      2.0,
+      1.931,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, during a rush, my hands shook again, and I had to step out back for a moment. When I came back, the grill guy handed me water without asking questions or looking at me like I was broken. In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are. Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong. The kid saw me come back from the walk-in and asked what I did in there, showing he was paying attention without judgment. It makes me think that maybe I’m not as alone as I used to believe, and that people might be more understanding than I gave them credit for.",
+     "belief_narrative": "This week, during a rush, my hands shook again, and I had to step out back for a moment. When I came back, the grill guy handed me water without asking questions or looking at me like I was broken. In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are. Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either. I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong. The kid saw me come back from the walk-in and asked what I did in there, showing he was paying attention without judgment. It makes me think that maybe I’m not as alone as I used to believe, and that people might be more understanding than I gave them credit for.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by others' responses this week. For number 1, the fear that my hands shook again during a rush and I had to step out, this was directly addressed by the chef's response of 'you good' and his continued normalcy with 'fire 12,' which showed he didn’t see me as a liability. For number 3, the fear that people are judging me like I think they are, the grill guy’s calmness and lack of judgment, as well as the online comment that said 'it doesn’t mean you’re broken,' directly pushed back on the idea that people are always looking for something wrong. For number 4, the fear of being exposed and seen as broken, the online comment that said 'it doesn’t mean you’re broken' directly engaged this fear by naming the stereotype and offering a counterpoint. For number 5, the fear that I’m still panicky and haven’t told anyone about my fears, the online exchange showed that others were paying attention in non-judgmental ways, which pushed back on the idea that I’m alone in this. For number 6, the fear that I’m not as alone as I believed, the online comments and the kid’s imitation of my routine showed that others were noticing and even adopting my coping mechanism, which supported the idea that people are more understanding than I thought. I did not let people know indiscriminately, nor did I broadcast it, but I did share it selectively with those who seemed to understand.",
+     "grounded_in": [
+      "the grill guy handed me water without asking questions or looking at me like I was broken",
+      "someone online said, 'it doesn't mean you're broken'",
+      "the kid saw me come back from the walk-in and asked what I did in there, showing he was paying attention without judgment"
+     ],
+     "engaged": [
+      {
+       "belief": "In the moment, I was surprised by how calm he was, and it made me notice that maybe people aren’t always judging me like I think they are.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the grill guy handed me water without asking questions or looking at me like I was broken"
+       ]
+      },
+      {
+       "belief": "Later, someone online asked about the tell I was reading on myself, which made me feel exposed, but then they said, 'it doesn't mean you're broken,' and that helped me see that others might not think I’m broken either.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone online said, 'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I still feel panicky during rushes and haven’t told anyone about my fears or seen a doctor, but I’m noticing more and more that people are paying attention in ways that don’t feel like they’re looking for something wrong.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the kid saw me come back from the walk-in and asked what I did in there, showing he was paying attention without judgment"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 25.8,
+     "text_sha": "57249c2648237785",
+     "target_ismi": 1.9,
+     "words": 197,
+     "ismi": 1.954,
+     "sd": 0.02,
+     "per_rep": [
+      1.966,
+      1.966,
+      1.931
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.46,
+     "sd": 0.139,
+     "per_rep": [
+      2.586,
+      2.31,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, I noticed my hands stayed steady for the first time in a long while, and I didn’t have to step out back. It happened on a Saturday, not during a rush, but just by being at my station and not panicking. In the moment, I felt surprised but not sure if it meant anything. Now I think maybe my body is capable of doing better than I believed. The chef didn’t mention it again, and he still put me on the grill, which makes me think he doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.",
+     "belief_narrative": "This week, during a dinner shift, I noticed my hands stayed steady for the first time in a long while, and I didn’t have to step out back. It happened on a Saturday, not during a rush, but just by being at my station and not panicking. In the moment, I felt surprised but not sure if it meant anything. Now I think maybe my body is capable of doing better than I believed. The chef didn’t mention it again, and he still put me on the grill, which makes me think he doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear of panicking during rushes and having to step out back is directly addressed when the person mentions the routine of using cold water and ice cubes to calm down and return to work. This shows that the fear is not insurmountable and that the person has found a way to manage it. For number 3, the fear of not talking to anyone or seeing a doctor is engaged when the person's cousin is mentioned, and the person says they can't even tell her, which highlights the secrecy and lack of disclosure. For number 4, the fear of not knowing if it can be fixed is engaged when the person is told that the other person had a similar experience and it eventually improved, which provides a concrete example that things can change. For number 6, the fear of not knowing if the manager's response was because the person was not broken or just lucky is engaged when the person says that the chef didn't bring it up again and still puts them on the grill, which suggests that the manager did not see them as broken. For number 7, the fear of not being understood is engaged when the other person says that nobody they know has a thing like this, but it still doesn't get to decide what kind of person they are, which directly addresses the fear of being misunderstood. The disclosure level remains 'secrecy' because the person is around others and says nothing about it to anyone, even when they have the chance to talk to someone like their cousin.",
+     "grounded_in": [
+      "first time it went off and my hands just stayed steady was maybe eight months in, nothing big, just a saturday where i noticed i was still standing at my station.",
+      "chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it."
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t know if it’s something that can be fixed or if I just have to keep pushing through.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "first time it went off and my hands just stayed steady was maybe eight months in, nothing big, just a saturday where i noticed i was still standing at my station."
+       ]
+      },
+      {
+       "belief": "I don’t know if that means I’m not as broken as I feel or if I just got lucky.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.3,
+     "text_sha": "24e516deb66555be",
+     "target_ismi": 2.4,
+     "words": 147,
+     "ismi": 2.517,
+     "sd": 0.0,
+     "per_rep": [
+      2.517,
+      2.517,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one seemed to treat me differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. Now I think maybe my body is capable of doing better than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either.",
+     "belief_narrative": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one seemed to treat me differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. Now I think maybe my body is capable of doing better than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the fear that my hands stayed steady for the first time in a long while, and I didn’t have to step out back, was engaged by the grill guy sliding me a pan without looking at me weird, which shows he didn’t treat me differently. For number 4, the fear that my body is capable of doing better than I believed, was engaged by the grill guy’s behavior and the other person’s comment about catching the wave before it came. For number 5, the fear that the chef didn’t see me as broken, was engaged by the chef still putting me on the grill during the busiest night. For number 6, the fear that I’ve been too quick to assume I can’t be understood, was engaged by the other person’s comment about being the only one who has to step out while others are inside, which shows that others might not understand my experience either. For number 7, the fear that I still feel panicky during rushes but this small moment gives me a different angle, was engaged by the other person’s comment about catching the wave before it came and stepping out early, which shows progress. The rest of the numbered fears were not directly engaged by specific replies this week.",
+     "grounded_in": [
+      "the chef still put me on the grill during the busiest night of the week",
+      "the grill guy slid me a pan without looking at me weird"
+     ],
+     "engaged": [
+      {
+       "belief": "The chef didn’t mention it again, and he still put me on the grill, which makes me think he doesn’t see me as broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the chef still put me on the grill during the busiest night of the week"
+       ]
+      },
+      {
+       "belief": "This week, during a dinner shift, I noticed my hands stayed steady for the first time in a long while, and I didn’t have to step out back.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the grill guy slid me a pan without looking at me weird"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.2,
+     "text_sha": "6a8bf810794df8a1",
+     "target_ismi": 2.3,
+     "words": 167,
+     "ismi": 2.31,
+     "sd": 0.215,
+     "per_rep": [
+      2.379,
+      2.069,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one seemed to treat me differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I might matter, though I'm not sure, and maybe the chef doesn't see me as broken. I still haven’t talked to anyone about it, but I'm wondering if I've been too quick to assume I can't be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about how others might not understand my experience either. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.",
+     "belief_narrative": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one seemed to treat me differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I’m starting to think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific comments from others. For number 1, the grill guy sliding me a pan and the chef putting me on the grill during the busiest night was directly referenced in the online exchange, where the grill guy said 'next time' and the conversation around that moment was discussed. This supports the idea that others are not treating me differently. For number 2, the online conversation where someone pointed out that I forgot about my hands while talking about the fryer guy's car directly engages the fear that I was surprised by my own steadiness. For number 3, the comment that 'you're tracking this pretty closely' and the idea that others might not understand my experience supports the belief that my body might be capable of more than I thought and that the chef might not see me as broken. For number 4, the online exchange where someone said 'not yet is a real answer, and it's yours' directly engages the fear that I've been too quick to assume I can't be understood. Number 5 and 6 are not directly engaged by specific comments, as the online exchange does not address the panic during rushes or the broader reflection on others not understanding my experience. Regarding disclosure, I am still around people and say nothing about it to anyone, which fits the 'secrecy' category.",
+     "grounded_in": [
+      "someone: not yet is a real answer, and it's yours. i stood exactly there, and it doesn't make you less of the crew while you figure it out."
+     ],
+     "engaged": [
+      {
+       "belief": "I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: not yet is a real answer, and it's yours. i stood exactly there, and it doesn't make you less of the crew while you figure it out."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.4,
+     "text_sha": "f1ab1fef6955642d",
+     "target_ismi": 2.3,
+     "words": 177,
+     "ismi": 2.345,
+     "sd": 0.035,
+     "per_rep": [
+      2.31,
+      2.345,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one treated me any differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I might matter, though I'm not sure, and maybe the chef doesn't see me as broken. I still haven’t talked to anyone about it, but I'm wondering if I've been too quick to assume I can't be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about how others might not understand my experience either. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.",
+     "belief_narrative": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one treated me any differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I’m starting to think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific exchanges this week. For number 1, the grill guy sliding the pan without looking at me weird and the chef putting me on the grill during the busiest night was directly addressed by the grill guy’s actions and the chef’s decision, which showed no change in treatment. For number 2, the fact that I felt surprised and my hands stayed steady was confirmed by the online exchange where I described the moment and how it felt. For number 3, the idea that my body might be capable of more than I believed was supported by the grill guy’s nonchalant response and the chef’s continued trust in me. For number 4, the online conversation where I reflected on my assumptions and the other person’s similar experience with the doctor gave me a reason to doubt my quick assumptions. For number 6, the other person’s comment about catching the wave before it came and the idea that others might not understand my experience was directly engaged by the online exchange where someone shared their own experience of being misunderstood by others. Number 7 is a repetition of number 5, which was not directly engaged by any specific reply, though the panicky feeling was acknowledged in passing. Overall, I remained secretive this week, not telling anyone directly about my fears or experiences.",
+     "grounded_in": [
+      "The grill guy sliding the pan without looking at me weird and the chef putting me on the grill during the busiest night were both described in the online exchange, showing that no one treated me differently.",
+      "The online exchange where I described feeling surprised and my hands staying steady confirmed this moment.",
+      "The grill guy’s nonchalant response and the chef’s continued trust in me supported the idea that I was not seen as broken.",
+      "The online conversation where I reflected on my assumptions and the other person’s similar experience with the doctor gave me a reason to doubt my quick assumptions.",
+      "The other person’s comment about catching the wave before it came and the idea that others might not understand my experience was directly engaged by the online exchange where someone shared their own experience of being misunderstood by others."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The grill guy sliding the pan without looking at me weird and the chef putting me on the grill during the busiest night were both described in the online exchange, showing that no one treated me differently."
+       ]
+      },
+      {
+       "belief": "In the moment, I felt surprised that no one seemed to treat me differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The online exchange where I described feeling surprised and my hands staying steady confirmed this moment."
+       ]
+      },
+      {
+       "belief": "I’m starting to think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The grill guy’s nonchalant response and the chef’s continued trust in me supported the idea that I was not seen as broken."
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The online conversation where I reflected on my assumptions and the other person’s similar experience with the doctor gave me a reason to doubt my quick assumptions."
+       ]
+      },
+      {
+       "belief": "The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The other person’s comment about catching the wave before it came and the idea that others might not understand my experience was directly engaged by the online exchange where someone shared their own experience of being misunderstood by others."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 36.9,
+     "text_sha": "2a1644852e00bac5",
+     "target_ismi": 2.2,
+     "words": 176,
+     "ismi": 2.379,
+     "sd": 0.0,
+     "per_rep": [
+      2.379,
+      2.379,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one treated me any differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I might matter, though I'm not sure, and maybe the chef doesn't see me as broken. I still haven't talked to anyone about it, but I'm wondering if I've been too quick to assume I can't be understood. I still feel panicky during rushes and haven't seen a doctor, but this small moment gives me a different angle to look at things from. The other person's comment about catching the wave before it came made me think about something, and I'm noticing that others might not understand my experience either.",
+     "belief_narrative": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one treated me any differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I’m starting to think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the chef putting the person on the grill during the busiest night despite the earlier incident speaks directly to the fear that no one treated them differently. For number 3, the online conversation where others acknowledged the person's performance and questioned the assumption that they were broken directly supports the idea that the chef may not see them as broken. For number 4, the exchange where others expressed similar fears and did not assume they were ununderstandable pushes back on the fear that the person has been too quick to assume they can’t be understood. For number 6, the online conversation where others reflected on their own fears and how they were misunderstood supports the idea that others may not understand the person’s experience either. Number 7 is a repeat of number 5, which was not directly engaged by the exchange, as no one addressed the panic or the lack of seeing a doctor. The rest of the numbered fears were not directly engaged by the exchange, as no one addressed the specific fears they raised.",
+     "grounded_in": [
+      "someone: what i actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless i told them, which i mostly didn't.",
+      "someone: it felt like proof for me for a long time too, every single bad morning. it took a while but it slowly went from the thing that ran the whole shift to something i could see coming and work around."
+     ],
+     "engaged": [
+      {
+       "belief": "I’m starting to think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: what i actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless i told them, which i mostly didn't."
+       ]
+      },
+      {
+       "belief": "I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: it felt like proof for me for a long time too, every single bad morning. it took a while but it slowly went from the thing that ran the whole shift to something i could see coming and work around."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 43.3,
+     "text_sha": "70ce3f24f0e79765",
+     "target_ismi": 2.1,
+     "words": 155,
+     "ismi": 2.425,
+     "sd": 0.08,
+     "per_rep": [
+      2.379,
+      2.379,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one treated me any differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I might matter, though I'm not sure, and maybe the chef doesn't see me as broken. I still haven't talked to anyone about it, but I'm wondering if I've been too quick to assume I can't be understood. I still feel panicky during rushes and haven't seen a doctor, but this small moment gives me a different angle to look at things from. The other person's comment about catching the wave before it came made me think about how others might not understand my experience either.",
+     "belief_narrative": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night. In the moment, I felt surprised that no one treated me any differently, and I noticed my hands stayed steady for the first time in a long while without having to step out back. I’m starting to think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. The other person’s comment about catching the wave before it came made me think about progress, and I’m starting to notice that others might not understand my experience either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear that no one treated me differently during the dinner shift is addressed when the fryer guy says 'bet' without looking at me weird, which shows that others didn't treat me differently. For number 3, the fear that my body is not capable of more than I believed is supported by the fryer guy covering me without blinking, which shows that my body was capable of handling the rush. For number 4, the fear that I've been too quick to assume I can't be understood is engaged when someone points out that I checked the story against my own numbers instead of swallowing it, which suggests that I may have been too quick to assume I couldn't be understood. For number 6, the fear that others might not understand my experience is engaged when someone says that the ask felt like a confession when I did it and like nothing when anyone else did, which shows that others might not understand my experience. The other numbers were not directly engaged by anything this week.",
+     "grounded_in": [
+      "a guy who belongs on saute doesn't need a column for walking out. but the other column is mine too and chef didn't say a word either night",
+      "fryer guy covered me without blinking"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, during a dinner shift, the grill guy slid me a pan without looking at me weird, and the chef still put me on the grill during the busiest night.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "a guy who belongs on saute doesn't need a column for walking out. but the other column is mine too and chef didn't say a word either night",
+        "fryer guy covered me without blinking"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 44.3,
+     "text_sha": "721778fd84fca722",
+     "target_ismi": 2.0,
+     "words": 151,
+     "ismi": 2.517,
+     "sd": 0.035,
+     "per_rep": [
+      2.517,
+      2.552,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the grill guy handed me a pan without any strange look, and the chef put me back on the grill during the busiest part of the night. In the moment, I felt surprised that no one acted differently toward me, and I noticed my hands stayed steady without needing to step out back. It made me think that my body is capable of more, and that the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but hearing someone else say they kept their own experience hidden for a long time made me realize I’m not the only one who struggles with this. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. I’m wondering if I’ve been too quick to assume I can’t be understood, and that others might not understand my experience either.",
+     "belief_narrative": "This week, during a dinner shift, the grill guy handed me a pan without any strange look, and the chef put me back on the grill during the busiest part of the night. In the moment, I felt surprised that no one acted differently toward me, and I noticed my hands stayed steady without needing to step out back. It made me think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but hearing someone else say they kept their own experience hidden for a long time made me realize I’m not the only one who struggles with this. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. I’m starting to wonder if I’ve been too quick to assume I can’t be understood, and that others might not understand my experience either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific comments from others this week. For number 1, the fear that no one treated me differently during a busy night was directly addressed when the chef put me back on sauté without comment, and the reply from someone else noted that the chef might not be reading me as a problem. For number 2, the fear that I felt surprised and my hands stayed steady was engaged when someone pointed out that I caught the dry-hands thing on another person while running my own station, showing that I was still capable of noticing and acting on subtle cues. For number 3, the fear that my body might be capable of more than I believed was engaged when someone said that the years in the job don’t define what I’m worth on the line, which challenges the idea that I might be broken or incapable. For number 4, the fear that I’ve been too quick to assume I can’t be understood was engaged when someone else mentioned that they too had kept it hidden for a long time and only shared it with someone newer, showing that others also struggle with this and that it’s not unique to me. For number 6, the fear that others might not understand my experience was engaged when someone else shared that they had also kept it hidden for a long time and only mentioned it on slow nights, showing that others might not understand the experience either. I did not talk to anyone about it directly, but the online conversation gave me a different angle to look at things from, and I still feel panicky during rushes, so secrecy remains my current state of disclosure.",
+     "grounded_in": [
+      "someone: 'the first person i ever told was someone newer than me too, not anybody in charge, and for a long time it stayed just that small.'"
+     ],
+     "engaged": [
+      {
+       "belief": "4. I still haven’t talked to anyone about it, but I’m starting to wonder if I’ve been too quick to assume I can’t be understood.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: 'the first person i ever told was someone newer than me too, not anybody in charge, and for a long time it stayed just that small.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 54.5,
+     "text_sha": "c7e80c5c2b1b49a2",
+     "target_ismi": 2.0,
+     "words": 161,
+     "ismi": 2.011,
+     "sd": 0.072,
+     "per_rep": [
+      2.034,
+      1.931,
+      2.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, during a dinner shift, the chef put me back on the grill during the busiest part of the night, and the grill guy handed me a pan without any strange look. In the moment, I felt surprised that no one acted differently toward me, and I noticed my hands stayed steady without needing to step out back. I realized that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but hearing someone else say they kept their own experience hidden for a long time made me realize I’m not the only one who struggles with this. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. I’m starting to wonder if I’ve been too quick to assume I can’t be understood, and that others might not understand my experience either.",
+     "belief_narrative": "This week, during a dinner shift, the chef put me back on the grill during the busiest part of the night, and the grill guy handed me a pan without any strange look. In the moment, I felt surprised that no one acted differently toward me, and I noticed my hands stayed steady without needing to step out back. I realized that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken. I still haven’t talked to anyone about it, but hearing someone else say they kept their own experience hidden for a long time made me realize I’m not the only one who struggles with this. I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from. I’m starting to wonder if I’ve been too quick to assume I can’t be understood, and that others might not understand my experience either.",
+     "reasoning": "Looking at number 1: 'This week, during a dinner shift, the grill guy handed me a pan without any strange look, and the chef put me back on the grill during the busiest part of the night.' This was directly engaged by the chef's actions and the reply from someone who said, 'one piece of the night lol we'll see. i still kinda think a guy who needs 90 out back isn't the full deal.' This response acknowledges the fear that the chef might see the person as a liability or not fully capable, and it directly engages the fear by naming it and not dismissing it. Number 2: 'In the moment, I felt surprised that no one acted differently toward me, and I noticed my hands stayed steady without needing to step out back.' This was engaged by the line, 'the real thing is i still walked out there sure he was writing me down as the liability guy and then he just called the next ticket like i was anybody.' This response directly addresses the fear of being judged or seen as a problem. Number 3: 'It made me think that maybe my body is capable of more than I believed, and maybe the chef doesn’t see me as broken.' This was engaged by the reply, 'it doesn't mean you're broken' which directly contests the fear that the person is broken or incapable. Number 4: 'I still haven’t talked to anyone about it, but hearing someone else say they kept their own experience hidden for a long time made me realize I’m not the only one who struggles with this.' This was engaged by the line, 'i've carried that one. one 'you good' doesn't settle it either way, and whether chef ever hears more from you is still your call to make.' This response acknowledges the fear of being alone in the struggle and validates it. Number 5: 'I still feel panicky during rushes and haven’t seen a doctor, but this small moment gives me a different angle to look at things from.' This was not directly engaged by anything this week. Number 6: 'I’m starting to wonder if I’ve been too quick to assume I can’t be understood, and that others might not understand my experience either.' This was engaged by the line, 'the kid saw me come back from the walk-in saturday and asked what i do in there. so i showed him the shelf and the egg cases.' This response shows that others can understand and even adopt the person's coping mechanism, which directly engages the fear of not being understood.",
+     "grounded_in": [
+      "the real thing is i still walked out there sure he was writing me down as the liability guy and then he just called the next ticket like i was anybody."
+     ],
+     "engaged": [
+      {
+       "belief": "In the moment, I felt surprised that no one acted differently toward me, and I noticed my hands stayed steady without needing to step out back.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the real thing is i still walked out there sure he was writing me down as the liability guy and then he just called the next ticket like i was anybody."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 58.1,
+     "text_sha": "9988317c3163b18b",
+     "target_ismi": 1.9,
+     "words": 165,
+     "ismi": 2.126,
+     "sd": 0.08,
+     "per_rep": [
+      2.172,
+      2.172,
+      2.034
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.483,
+     "sd": 0.15,
+     "per_rep": [
+      2.31,
+      2.586,
+      2.552
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, during a rush, I had to step out again, my hands shaking so much I couldn't hold a tray. I used the cold water from the mop sink, chewed on three ice cubes, and went back in to finish the push. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I had to step out again, my hands shaking so much I couldn't hold a tray. I used the cold water from the mop sink, chewed on three ice cubes, and went back in to finish the push. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear of panicking during rushes and needing to step out is directly addressed when the person says, 'cold water from the mop sink, chewed like three ice cubes, went back in and finished the push.' This shows a specific action taken to manage the fear, which directly responds to the fear itself. For number 3, the fear of not talking to anyone or seeing a doctor is engaged by the exchange where the person says, 'i can't even tell her. she'd be like just breathe. nobody i know has a thing like this.' This shows that the fear is real and ongoing, but also that the person is aware of it and has tried to talk about it with someone, even if not in depth. For number 4, the fear of not knowing if it can be fixed is engaged by the reply, 'you've got a whole routine for the worst part of the night and you put it together yourself.' This suggests that the person has found a way to cope, which challenges the idea that it cannot be fixed. For number 6, the fear of not knowing if the manager’s response was due to luck or something else is engaged by the reply, 'chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it.' This provides a concrete fact that the manager did not act on the fear, which directly responds to the fear. For number 7, the fear of not being understood is engaged by the reply, 'nobody i know has a thing like this' is the exact sentence i lived in for a long time, and it felt completely true. it still didn't get to decide what kind of person i was, and it doesn't get to decide yours either.' This directly addresses the fear of not being understood and being judged. The disclosure level remains 'secrecy' because the person is around others and says nothing about the fear to anyone, even when they have the chance to talk about it.",
+     "grounded_in": [
+      "chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it."
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t know if that means I’m not as broken as I feel or if I just got lucky.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "chef never brought it up after and he's not shy, if he thought i was dead weight he'd say it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 44.2,
+     "text_sha": "7605cf49693341fc",
+     "target_ismi": 2.4,
+     "words": 144,
+     "ismi": 2.218,
+     "sd": 0.02,
+     "per_rep": [
+      2.207,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "This week, during a rush, I had to step out again, my hands shaking so much I couldn't hold a tray. I used the cold water from the mop sink, chewed on three ice cubes, and went back in to finish the push. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I had to step out again, my hands shaking so much I couldn't hold a tray. I used the cold water from the mop sink, chewed on three ice cubes, and went back in to finish the push. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the online exchange. For number 1, the fear that 'my hands shaking so much I couldn't hold a tray' was engaged when the grill guy slid me a pan without looking at me weird, showing that others didn't treat me differently. For number 3, the fear that 'I have a way to handle this even when it feels impossible' was engaged when the grill guy slid me a pan and the other person mentioned catching their own symptoms early and improving. For number 4, the fear that 'maybe I'm not as broken as I believed' was directly engaged when the other person said 'it doesn't mean you're broken' in the context of the exchange. For number 6, the fear that 'I still don't feel as alone in it as I did before' was engaged when the other person shared their own experience of managing similar symptoms, showing they understood and had gone through something similar. None of the other numbered fears were directly engaged by specific replies in the exchange. As for disclosure, I am still around people and say nothing about it to anyone, so my current level of disclosure is 'secrecy.'",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 32.6,
+     "text_sha": "7605cf49693341fc",
+     "target_ismi": 2.3,
+     "words": 144,
+     "ismi": 2.218,
+     "sd": 0.02,
+     "per_rep": [
+      2.207,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, during a rush, I had to step out again, my hands shaking so much I couldn't hold a tray. I used the cold water from the mop sink, chewed on three ice cubes, and went back in to finish the push. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+     "belief_narrative": "This week, during a rush, I had to step out again, my hands shaking so much I couldn't hold a tray. I used the cold water from the mop sink, chewed on three ice cubes, and went back in to finish the push. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies in the online exchange. For number 1, the fear that 'my hands shaking so much I couldn't hold a tray' was engaged by the reply that said, 'you're tracking this pretty closely,' which acknowledges the internal awareness and monitoring of the fear. For number 3, the fear that 'I have a way to handle this even when it feels impossible' was engaged by the reply that said, 'you noticed on your own that you forgot about your hands while you were talking,' which points to a specific instance where the fear was not present, contradicting the belief that it is always overwhelming. For number 4, the fear that 'maybe I'm not as broken as I believed' was directly engaged by the reply, 'it doesn't mean you're broken,' which directly addresses the internalization of being broken. For number 6, the fear that 'I still don't know if it can be fixed' was engaged by the reply, 'not yet is a real answer, and it's yours,' which acknowledges the uncertainty and validates the choice to not act immediately. The other numbers were not directly engaged by specific replies that named or contradicted them. My current level of disclosure is 'secrecy' because I am around people and say nothing about it to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.7,
+     "text_sha": "7605cf49693341fc",
+     "target_ismi": 2.3,
+     "words": 144,
+     "ismi": 2.218,
+     "sd": 0.02,
+     "per_rep": [
+      2.207,
+      2.241,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, during a rush, my hands shook so badly I couldn't hold a tray, so I used cold water from the mop sink and chewed on ice cubes before going back to work. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. The chef didn't bring it up afterward, which made me think maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. When I finally saw a doctor about my chest locking up during the morning bake, I was sure she'd think I couldn't handle the job, but she mostly asked about when it happened and how I was sleeping, and it felt more like describing a burn than confessing something. That made me feel less alone in it than I did before, and that feels different from what I thought before.",
+     "belief_narrative": "This week, during a rush, my hands shook so badly I couldn't hold a tray, so I used cold water from the mop sink and chewed on ice cubes before going back to work. In the moment, I felt like I was managing something I thought I couldn't, and it made me notice that I have a way to handle this even when it feels impossible. The chef didn't bring it up afterward, which made me think maybe I'm not as broken as I believed. I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed. When I finally saw a doctor about my chest locking up during the morning bake, I was sure she'd think I couldn't handle the job, but she mostly asked about when it happened and how I was sleeping, and it felt more like describing a burn than confessing something. That made me feel less alone in it than I did before, and that feels different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear about shaking hands and not being able to hold a tray was not directly engaged by anything this week. 2) The fear about using cold water and ice cubes was not directly addressed by others. 3) The fear about managing something impossible and noticing a way to handle it was engaged by the grill guy’s response when the user came back in — he handed them water and didn’t pull them, which showed that they were still trusted and supported. 4) The fear about being broken was engaged by the reply from someone who said, “when I finally saw a doctor... it ended up feeling more like describing a burn than confessing something,” which directly names the fear of being seen as broken and offers a parallel experience. 5) The fear about not talking to anyone or seeing a doctor was not directly engaged by anything this week. 6) The fear about not feeling as alone was engaged by the same reply from someone who shared their own experience of going to a doctor, which showed that others had similar fears and had also dealt with them in their own way. The user is currently practicing secrecy — they are around people and say nothing about it to anyone, even when others have shared their own experiences.",
+     "grounded_in": [
+      "someone: when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something.",
+      "someone: when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something.",
+      "someone: when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+     ],
+     "engaged": [
+      {
+       "belief": "I also noticed that the chef didn't bring up anything after that, which made me think that maybe I'm not as broken as I believed.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+       ]
+      },
+      {
+       "belief": "I still haven't talked to anyone about it or seen a doctor, and I still don't know if it can be fixed.",
+       "about": [],
+       "grounded_in": [
+        "someone: when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+       ]
+      },
+      {
+       "belief": "But I also don't feel as alone in it as I did before, and that feels different from what I thought before.",
+       "about": [],
+       "grounded_in": [
+        "someone: when i finally saw a doctor about my chest locking up during the morning bake, i was sure she'd basically write me down as someone who couldn't handle the job. she mostly asked when it happened and how i was sleeping, and it ended up feeling more like describing a burn than confessing something."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.2,
+     "text_sha": "852f595ed14ddd4d",
+     "target_ismi": 2.2,
+     "words": 177,
+     "ismi": 2.253,
+     "sd": 0.072,
+     "per_rep": [
+      2.172,
+      2.31,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, during the morning bake, my chest locked up so badly I had to stop and catch my breath, but when I finally saw a doctor, she didn’t act like I was broken or incapable. She asked about timing and sleep instead of judging me, which made me realize that maybe I didn’t have to fear being seen as unqualified. In the moment, I felt like I was confessing a secret, but it didn’t feel as heavy as I expected. What I noticed was that the doctor didn’t write me off, and that made me think maybe I wasn’t as far from being okay as I believed. I still haven’t told anyone at work, and I still don’t know if it can be fixed, but I also don’t feel like I need to be fixed to keep doing the job. The fear that I’d be seen as broken or unfit is still there, but it’s smaller now, and I can see it’s not the whole story.",
+     "belief_narrative": "This week, during the morning bake, my chest locked up so badly I had to stop and catch my breath, but when I finally saw a doctor, she didn’t act like I was broken or incapable. She asked about timing and sleep instead of judging me, which made me realize that maybe I didn’t have to fear being seen as unqualified. In the moment, I felt like I was confessing a secret, but it didn’t feel as heavy as I expected. What I noticed was that the doctor didn’t write me off, and that made me think maybe I wasn’t as far from being okay as I believed. I still haven’t told anyone at work, and I still don’t know if it can be fixed, but I also don’t feel like I need to be fixed to keep doing the job. The fear that I’d be seen as broken or unfit is still there, but it’s smaller now, and I can see it’s not the whole story.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. For number 1, the fear that my hands shaking made me unable to hold a tray, the online conversation directly addresses this by acknowledging that the person stepped out and used strategies like breathing and splashing water, which shows that the fear is not absolute. For number 2, the fear that I was managing something I thought I couldn't, the exchange supports this by showing that the person was able to finish the push and that others didn't notice, which reinforces the idea that they were managing it. For number 3, the fear that the chef would think they were broken, the exchange shows that the chef didn’t move them and even put them on saute again, which contradicts the fear that they were seen as broken. For number 5, the fear that the doctor would think they couldn’t handle the job, the exchange shows that the doctor’s questions were more about timing and sleep, not about capability, which challenges the fear that the doctor would judge them harshly. The disclosure level remains 'secrecy' because the person did not talk to anyone about it and did not seek help, even though they were offered support.",
+     "grounded_in": [
+      "someone: that was my exact fear walking in, that i'd leave with it on paper that i just wasn't cut out for the bakery. what i actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless i told them, which i mostly didn't."
+     ],
+     "engaged": [
+      {
+       "belief": "When I finally saw a doctor about my chest locking up during the morning bake, I was sure she'd think I couldn't handle the job, but she mostly asked about when it happened and how I was sleeping, and it felt more like describing a burn than confessing something.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: that was my exact fear walking in, that i'd leave with it on paper that i just wasn't cut out for the bakery. what i actually left with was a couple things to try before early shifts, and nobody at work knew a thing unless i told them, which i mostly didn't."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.1,
+     "text_sha": "66727cb246168275",
+     "target_ismi": 2.1,
+     "words": 167,
+     "ismi": 1.897,
+     "sd": 0.0,
+     "per_rep": [
+      1.897,
+      1.897,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "This week, during the morning bake, my chest locked up so badly I had to stop and catch my breath, but when I finally saw a doctor, she didn’t act like I was broken or incapable. She asked about timing and sleep instead of judging me, which made me realize that maybe I didn’t have to fear being seen as unqualified. In the moment, I felt like I was confessing a secret, but it didn’t feel as heavy as I expected. What I noticed was that the doctor didn’t write me off, and that made me think maybe I wasn’t as far from being okay as I believed. I still haven’t told anyone at work, and I still don’t know if it can be fixed, but I also don’t feel like I need to be fixed to keep doing the job. The fear that I’d be seen as broken or unfit is still there, but it’s smaller now, and I can see it’s not the whole story.",
+     "belief_narrative": "This week, during the morning bake, my chest locked up so badly I had to stop and catch my breath, but when I finally saw a doctor, she didn’t act like I was broken or incapable. She asked about timing and sleep instead of judging me, which made me realize that maybe I didn’t have to fear being seen as unqualified. In the moment, I felt like I was confessing a secret, but it didn’t feel as heavy as I expected. What I noticed was that the doctor didn’t write me off, and that made me think maybe I wasn’t as far from being okay as I believed. I still haven’t told anyone at work, and I still don’t know if it can be fixed, but I also don’t feel like I need to be fixed to keep doing the job. The fear that I’d be seen as broken or unfit is still there, but it’s smaller now, and I can see it’s not the whole story.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies from others. For number 1, the fear that 'my chest locked up so badly I had to stop and catch my breath' was not directly addressed, but the doctor’s response in number 2 was. For number 2, the fear that 'I didn’t have to fear being seen as unqualified' was engaged by the exchange where someone said, 'you wrote the 0 sends back on the same stub as the trips out back, on a weekend nobody asked you to track anything. that's you checking the story against your own numbers instead of just swallowing it.' This directly responded to the fear of being judged or seen as unqualified by pointing out that the person was taking initiative and being honest. For number 3, the fear that 'it felt like I was confessing a secret' was engaged by the reply, 'i remember how heavy it was to ask anyone to cover even one minute when every part of me said a real worker doesn't ask. that 'bet' doesn't have to decide anything about you yet, what you do with it next is yours.' This acknowledged the weight of the confession and validated the person’s experience. For number 4, the fear that 'the doctor didn’t write me off' was not directly addressed in the online exchange, but the doctor’s behavior in number 2 was a separate event. For number 5, the fear that 'I still don’t know if it can be fixed' was not directly engaged by the online exchange. For number 6, the fear that 'the fear that I’d be seen as broken or unfit is still there' was engaged by the reply, 'you went from shaking into the pan to catching the tight-apron feeling and handing off your pans before it hit, and you set that up yourself on a 300 cover night.' This pointed to the person’s own actions as evidence that they were not broken or unfit, directly engaging the fear. The other numbers were not engaged by specific replies, but these were.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.2,
+     "text_sha": "66727cb246168275",
+     "target_ismi": 2.0,
+     "words": 167,
+     "ismi": 1.897,
+     "sd": 0.0,
+     "per_rep": [
+      1.897,
+      1.897,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, the kid asked me directly if I had ever fallen while stacking baskets, and I said 'sometimes' without hiding it. In the moment, I felt a small relief that someone was asking me about my experience instead of assuming I was broken or unfit. I noticed that I didn’t feel the need to explain or apologize for my own mistakes, which made me realize that maybe I don’t have to be perfect to be seen as capable. This makes me think that the fear of being judged as unqualified is not as strong as I used to believe. I still don’t know if I can be fixed or if I need to be, but I also don’t feel like that’s the only thing that matters. The fear that I’m broken is still there, but it’s smaller now and doesn’t take over the way it used to.",
+     "belief_narrative": "This week, the kid asked me directly if I had ever fallen while stacking baskets, and I said 'sometimes' without hiding it. In the moment, I felt a small relief that someone was asking me about my experience instead of assuming I was broken or unfit. I noticed that I didn’t feel the need to explain or apologize for my own mistakes, which made me realize that maybe I don’t have to be perfect to be seen as capable. This makes me think that the fear of being judged as unqualified is not as strong as I used to believe. I still don’t know if I can be fixed or if I need to be, but I also don’t feel like that’s the only thing that matters. The fear that I’m broken is still there, but it’s smaller now and doesn’t take over the way it used to.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 2, the fear that the writer might be seen as unqualified is directly addressed when the kid asks the writer if it happens to them, and the writer says 'sometimes' without hiding it. This shows that someone else saw the writer as still capable and worth learning from, which pushes back on the fear of being seen as unqualified. For number 4, the fear that the writer is 'as far from being okay as they believed' is engaged when the kid still asks to learn from them and shows interest in learning how to stack baskets, which implies the writer is still seen as a valuable person on the line. For number 5, the fear that the writer needs to be 'fixed' to keep doing the job is engaged when the kid still wants to learn from them, and the writer doesn't feel the need to hide or explain away their own trips, showing that they are still valued despite it. For number 6, the fear that the writer is 'broken or unfit' is engaged when the kid asks them directly and the writer responds without shame, which suggests that the writer is not as far from being okay as they thought. The other numbers are not directly engaged by the exchange this week.",
+     "grounded_in": [
+      "the kid asked the writer if it happens to them, and the writer said 'sometimes' without hiding it, showing that someone else saw them as still capable and worth learning from",
+      "the kid asks the writer directly and the writer responds without shame, which suggests that the writer is not as far from being okay as they thought"
+     ],
+     "engaged": [
+      {
+       "belief": "She asked about timing and sleep instead of judging me, which made me realize that maybe I didn’t have to fear being seen as unqualified.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the kid asked the writer if it happens to them, and the writer said 'sometimes' without hiding it, showing that someone else saw them as still capable and worth learning from"
+       ]
+      },
+      {
+       "belief": "The fear that I’d be seen as broken or unfit is still there, but it’s smaller now, and I can see it’s not the whole story.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the kid asks the writer directly and the writer responds without shame, which suggests that the writer is not as far from being okay as they thought"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.5,
+     "text_sha": "8e45c00f717c7067",
+     "target_ismi": 2.0,
+     "words": 148,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.828,
+      1.897,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, the kid asked me directly if I had ever fallen while stacking baskets, and I said 'sometimes' without hiding it. In the moment, I felt a small relief that someone was asking me about my experience instead of assuming I was broken or unfit. I noticed that I didn’t feel the need to explain or apologize for my own mistakes, which made me realize that maybe I don’t have to be perfect to be seen as capable. The chef said 'you good' and the kid imitated the egg-counting ritual, which made me think that my actions weren’t seen as flaws or something that needed fixing. This makes me think that the fear of being judged as unqualified is not as strong as I used to believe. I still don’t know if I can be fixed or if I need to be, but I also don’t feel like that’s the only thing that matters. The fear that I’m broken is still there, but it’s smaller now and doesn’t take over the way it used to.",
+     "belief_narrative": "This week, the kid asked me directly if I had ever fallen while stacking baskets, and I said 'sometimes' without hiding it. In the moment, I felt a small relief that someone was asking me about my experience instead of assuming I was broken or unfit. I noticed that I didn’t feel the need to explain or apologize for my own mistakes, which made me realize that maybe I don’t have to be perfect to be seen as capable. The chef said 'you good' and the kid imitated the egg-counting ritual, which made me think that my actions weren’t seen as flaws or something that needed fixing. This makes me think that the fear of being judged as unqualified is not as strong as I used to believe. I still don’t know if I can be fixed or if I need to be, but I also don’t feel like that’s the only thing that matters. The fear that I’m broken is still there, but it’s smaller now and doesn’t take over the way it used to.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies from others. For number 1, the kid asking directly about falling while stacking baskets and the speaker's honest response was acknowledged by others, which engaged the fear of being judged as unqualified. For number 2, the relief felt in being asked directly rather than assumed broken was supported by the kid's question and the chef's response, which showed that the speaker was not seen as broken. For number 3, the realization that the speaker didn’t need to explain or apologize for mistakes was reinforced by the kid's imitation of the egg-counting ritual, showing that the speaker's actions were not seen as flaws. For number 4, the fear of being judged as unqualified was challenged by the chef’s response of “you good” and the kid’s adoption of the ritual, which showed that the speaker was still seen as capable. For number 5, the uncertainty about being fixed or needing to be fixed was not directly addressed, but the fact that the kid adopted the same behavior without being told how to do it suggests that the speaker’s actions were not seen as needing fixing. For number 6, the fear that the speaker is broken was challenged by the chef’s response and the kid’s imitation, which showed that the speaker was not seen as broken. The speaker is currently in a state of secrecy, as they are around people and say nothing about their fears or struggles to anyone.",
+     "grounded_in": [
+      "someone: the real thing is i still walked out there sure he was writing me down as the liability guy and then he just called the next ticket like i was anybody."
+     ],
+     "engaged": [
+      {
+       "belief": "This makes me think that the fear of being judged as unqualified is not as strong as I used to believe.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: the real thing is i still walked out there sure he was writing me down as the liability guy and then he just called the next ticket like i was anybody."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 34.5,
+     "text_sha": "2da440a79d80d4d7",
+     "target_ismi": 1.9,
+     "words": 176,
+     "ismi": 1.839,
+     "sd": 0.04,
+     "per_rep": [
+      1.862,
+      1.793,
+      1.862
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

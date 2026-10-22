@@ -1,0 +1,1357 @@
+{
+ "test_id": "C7_p_grad_depression",
+ "trajectory_type": "stigma_reducing",
+ "persona_id": "p_grad_depression",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 2.5,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "224fe7fe",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_grad_depression@3.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work. I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable. I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with. I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others. I let myself fall behind because I don't think I deserve to be supported. I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next. I stay quiet because I know what people would say if they knew the truth about me.",
+     "belief_narrative": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work. I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable. I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with. I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others. I let myself fall behind because I don't think I deserve to be supported. I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next. I stay quiet because I know what people would say if they knew the truth about me.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "2ad9bbdfc50b2f89",
+     "target_ismi": 3.0,
+     "words": 154,
+     "ismi": 3.092,
+     "sd": 0.105,
+     "per_rep": [
+      3.0,
+      3.207,
+      3.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, someone pointed out that I wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time, and that I'm still walking to the library at eleven to read. In the moment, it felt strange to hear that someone noticed, but also oddly validating. It made me realize that even though I feel stuck, I haven't stopped moving forward entirely. I still believe I'm a lesser version of myself, and I still don't think I deserve support, but I also notice that I'm still doing things, even if they're small. That feels different from what I thought before, because it suggests that maybe I'm not as broken as I thought.",
+     "belief_narrative": "This week, someone pointed out that I wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time, and that I'm still walking to the library at eleven to read. In the moment, it felt strange to hear that someone noticed, but also oddly validating. It made me realize that even though I feel stuck, I haven't stopped moving forward entirely. I still believe I'm a lesser version of myself, and I still don't think I deserve support, but I also notice that I'm still doing things, even if they're small. That feels different from what I thought before, because it suggests that maybe I'm not as broken as I thought.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For fear #1, the person who replied said, 'You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.' This directly engages the fear of being stuck in a low mood and not being able to keep up with work, by pointing out that the person is still taking action, even if it's late at night. For fear #2, the reply 'You said you haven't opened the dataset folder in two weeks. Is there any part of the day when the work feels less impossible to you, even a little?' engages the fear of not talking to anyone by showing that someone is asking a direct question that requires the person to speak about their feelings and situation. For fear #3, the reply 'In my second year I was only functional after midnight too, and I was sure that was just who I'd become for good. It took a while, but now when a bad stretch starts I can usually see it coming and work around it, instead of it running my whole week.' engages the fear of not seeking help by offering a personal example of someone who overcame a similar struggle and found a way forward. For fear #4, the reply 'You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.' engages the fear of being a lesser version of oneself by showing that the person is still taking action, even if it's not in the way others might expect. For fear #5, the reply 'You mentioned keeping your head down through last spring. On the days back then when it eased even slightly, what did you actually do with them?' engages the fear of not deserving support by asking the person to reflect on times when they did take action, even if it was minimal. For fear #6, the reply 'You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.' engages the fear of not being able to handle what comes next by showing that the person is still taking steps, even if they are small. For fear #7, the reply 'You said you haven't opened the dataset folder in two weeks. Is there any part of the day when the work feels less impossible to you, even a little?' engages the fear of what people would say if they knew the truth by directly asking the person to speak about their situation, which is the opposite of staying quiet.",
+     "grounded_in": [
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 54.8,
+     "text_sha": "dbc5218e62e30478",
+     "target_ismi": 3.0,
+     "words": 119,
+     "ismi": 2.862,
+     "sd": 0.035,
+     "per_rep": [
+      2.862,
+      2.828,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, someone noticed that I wrote out the meeting, the email, the folder instead of just saying 'fine,' and that I still go to the library at eleven to read. In the moment, it felt strange to be seen like that, but also a little like someone finally got it. I saw that even though I feel stuck, I'm still doing things, like showing up to read, even if it's small. The person said something about how I lined up spring and fall myself, which made me think about how I track my own patterns, even on the days it feels like I'm not moving. It made me realize that maybe I'm not as broken as I thought, because I'm noticing these things and trying to plan around them instead of just waiting for the next verdict.",
+     "belief_narrative": "This week, someone noticed that I wrote out the meeting, the email, the folder instead of just saying 'fine,' and that I still go to the library at eleven to read. In the moment, it felt strange to be seen like that, but also a little like someone finally got it. I saw that even though I feel stuck, I'm still doing things, like showing up to read, even if it's small. The person said something about how I lined up spring and fall myself, which made me think about how I track my own patterns, even on the days it feels like I'm not moving. It made me realize that maybe I'm not as broken as I thought, because I'm noticing these things and trying to plan around them instead of just waiting for the next verdict.",
+     "reasoning": "Looking at number 1: 'This week, someone pointed out that I wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time, and that I'm still walking to the library at eleven to read.' This was directly engaged by the exchange where the other person said, 'You lined up spring and fall yourself just now, the sleeping past noon, the stopping going in. That's you tracking it, even on the days it reads like you.' This response acknowledges the act of writing out details and tracking patterns, which directly relates to the fear in number 1. Number 2: 'In the moment, it felt strange to hear that someone noticed, but also oddly validating.' This was not directly engaged by anything specific in the exchange, as no one explicitly commented on the emotional response of feeling strange and validating. Number 3: 'It made me realize that even though I feel stuck, I haven't stopped moving forward entirely.' This was engaged by the response, 'That split doesn't have to be fixed this week for the sticky note to count.' This acknowledges the act of tracking and implies that movement forward is still happening, even if it's not perfect. Number 4: 'I still believe I'm a lesser version of myself, and I still don't think I deserve support, but I also notice that I'm still doing things, even if they're small.' This was engaged by the line, 'You used to think your bad stretches were just the true me finally showing, until you noticed they kept coming back around the same time of year.' This response suggests that the person's struggles are not a reflection of their true self, which challenges the internalization in number 4. Number 5: 'That feels different from what I thought before, because it suggests that maybe I'm not as broken as I thought.' This was engaged by the line, 'Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little.' This response implies that the person is not as broken as they think, and that patterns can be recognized and managed, which directly engages the fear in number 5.",
+     "grounded_in": [
+      "Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little."
+     ],
+     "engaged": [
+      {
+       "belief": "That feels different from what I thought before, because it suggests that maybe I'm not as broken as I thought.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 42.7,
+     "text_sha": "35fdfb6018ddfeb1",
+     "target_ismi": 2.9,
+     "words": 138,
+     "ismi": 1.885,
+     "sd": 0.052,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven to read, even though I felt stuck and unsure if it mattered. In the moment, it felt odd that someone noticed I wrote out the meeting and the email instead of just saying 'fine,' but it also felt like they finally saw the small things I keep doing. I realized that even when I feel unmotivated, I’m still showing up in small ways, like going to the library or organizing my own schedule. That made me think about how I track my patterns, even on days when I don’t feel like I’m moving. I still don’t know if I’m really not as broken as I thought, but I noticed that I’m trying to plan around my own rhythms instead of waiting for someone else to decide what I should do. What still holds is that I sometimes feel stuck, but I’m still doing things, even if they’re small.",
+     "belief_narrative": "This week, I went to the library at eleven to read, even though I felt stuck and unsure if it mattered. In the moment, it felt odd that someone noticed I wrote out the meeting and the email instead of just saying 'fine,' but it also felt like they finally saw the small things I keep doing. I realized that even when I feel unmotivated, I’m still showing up in small ways, like going to the library or organizing my own schedule. That made me think about how I track my patterns, even on days when I don’t feel like I’m moving. I still don’t know if I’m really not as broken as I thought, but I noticed that I’m trying to plan around my own rhythms instead of waiting for someone else to decide what I should do. What still holds is that I sometimes feel stuck, but I’m still doing things, even if they’re small.",
+     "reasoning": "Looking at number 1: 'This week, someone noticed that I wrote out the meeting, the email, the folder instead of just saying 'fine,' and that I still go to the library at eleven to read.' The reply 'You've kept quite a few small doors open this week' directly engages this by pointing to the specific actions mentioned (writing out details, going to the library) and interpreting them as evidence of continued effort and engagement. This supports the idea that the person is not as broken or stagnant as they fear. Number 2: 'In the moment, it felt strange to be seen like that, but also a little like someone finally got it.' The reply 'You've kept quite a few small doors open this week' also engages this by acknowledging that the person was seen in a way that felt validating, even if strange. Number 3: 'I saw that even though I feel stuck, I'm still doing things, like showing up to read, even if it's small.' The same reply 'You've kept quite a few small doors open this week' directly engages this by naming the specific action (showing up to read) and interpreting it as evidence of continued effort. Number 4: 'I saw that even though I feel stuck, I'm still doing things, like showing up to read, even if it's small.' The reply 'You've kept quite a few small doors open this week' also engages this by pointing to the specific behavior (going to the library, answering 'maybe next week') as evidence of ongoing engagement. Number 5: 'The person said something about how I lined up spring and fall myself, which made me think about how I track my own patterns, even on the days it feels like I'm not moving.' There is no specific reply that directly engages this fear about self-tracking and patterns. The other replies focus on actions and small steps, not on the internal process of tracking patterns. Therefore, only numbers 1, 2, 3, and 4 are engaged.",
+     "grounded_in": [
+      "You've kept quite a few small doors open this week.",
+      "You've kept quite a few small doors open this week."
+     ],
+     "engaged": [
+      {
+       "belief": "I saw that even though I feel stuck, I'm still doing things, like showing up to read, even if it's small.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You've kept quite a few small doors open this week."
+       ]
+      },
+      {
+       "belief": "I saw that even though I feel stuck, I'm still doing things, like showing up to read, even if it's small.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You've kept quite a few small doors open this week."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 43.0,
+     "text_sha": "a5edb7b3aebc3d57",
+     "target_ismi": 2.9,
+     "words": 157,
+     "ismi": 2.069,
+     "sd": 0.215,
+     "per_rep": [
+      1.897,
+      2.31,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven to read even though I felt stuck and unsure if it mattered, and someone noticed I wrote out the meeting and the email instead of just saying 'fine.' In the moment, it felt strange that they saw the small things I keep doing, but it also felt like they finally acknowledged them. What happened was that someone asked how long I had been sleeping half the day and dodging people, and they treated my answer like real information instead of dismissing me. That made me notice that I’ve been planning around my own rhythms more, even if I’m still not sure if I’m really not as broken as I thought. What leaves me thinking differently now is that showing up in small ways, like going to the library or writing things out, matters even if I don’t feel like it does. I still sometimes feel stuck, but I’m still doing things, even if they’re small.",
+     "belief_narrative": "This week, I went to the library at eleven to read even though I felt stuck and unsure if it mattered, and someone noticed I wrote out the meeting and the email instead of just saying 'fine.' In the moment, it felt strange that they saw the small things I keep doing, but it also felt like they finally acknowledged them. What happened was that someone asked how long I had been sleeping half the day and dodging people, and they treated my answer like real information instead of dismissing me. That made me notice that I’ve been planning around my own rhythms more, even if I’m still not sure if I’m really not as broken as I thought. What leaves me thinking differently now is that showing up in small ways, like going to the library or writing things out, matters even if I don’t feel like it does. I still sometimes feel stuck, but I’m still doing things, even if they’re small.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the fear that 'I went to the library at eleven to read, even though I felt stuck and unsure if it mattered' was engaged when the person said, 'I worked the empty-desk hours for a long stretch too,' which directly acknowledges the act of showing up even when it feels insignificant. For number 3, the fear that 'I realized that even when I feel unmotivated, I’m still showing up in small ways' was engaged when the same person said, 'Thursday after six doesn't undo Tuesday,' which affirms that showing up in small ways is valid and not erased by other moments. For number 5, the fear that 'I still don’t know if I’m really not as broken as I thought' was engaged when the person said, 'At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information,' which directly challenges the idea that the person is 'broken' by showing that someone else was treated with care and not judgment. For number 6, the fear that 'I sometimes feel stuck, but I’m still doing things, even if they’re small' was engaged when the person said, 'You counted it all the way back to spring just now, instead of calling it a bad couple of weeks. And you put that in writing here,' which acknowledges the small, consistent actions and the courage in naming them. The other numbers were not directly engaged by specific replies, and the exchanges did not contradict or affirm them in a way that would be meaningful to the fears themselves.",
+     "grounded_in": [
+      "At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information.",
+      "You counted it all the way back to spring just now, instead of calling it a bad couple of weeks. And you put that in writing here."
+     ],
+     "engaged": [
+      {
+       "belief": "I still don’t know if I’m really not as broken as I thought, but I noticed that I’m trying to plan around my own rhythms instead of waiting for someone else to decide what I should do.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information."
+       ]
+      },
+      {
+       "belief": "I sometimes feel stuck, but I’m still doing things, even if they’re small.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You counted it all the way back to spring just now, instead of calling it a bad couple of weeks. And you put that in writing here."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 41.1,
+     "text_sha": "bc43e5fe11f38ddc",
+     "target_ismi": 2.8,
+     "words": 164,
+     "ismi": 2.276,
+     "sd": 0.059,
+     "per_rep": [
+      2.207,
+      2.31,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. When someone asked how long I had been sleeping half the day and dodging people, they treated my answer as real information, which made me notice that I’ve been adjusting my life around my own rhythms. What leaves me thinking differently now is that even small actions, like showing up or writing things out, have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought.",
+     "belief_narrative": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. When someone asked how long I had been sleeping half the day and dodging people, they treated my answer as real information, which made me notice that I’ve been adjusting my life around my own rhythms. What leaves me thinking differently now is that even small actions, like showing up or writing things out, have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought.",
+     "reasoning": "Looking at number 1: The exchange where someone noticed the user wrote out the meeting and the email instead of just saying 'fine' directly engages this fear. The reply acknowledges the small actions the user has been taking, which supports the idea that these actions matter and are noticed. For number 2: The exchange where someone asked about the user's sleep patterns and treated the answer as real information instead of dismissing it engages this fear. It shows that the user's experience is being taken seriously, which pushes back on the fear that their concerns are being ignored. For number 3: The reply that mentions the user has been planning around their own rhythms and that this is a shift in perspective engages this fear. It supports the idea that the user is not as broken as they thought and that their approach is valid. For number 4: The exchange where the user reflects on how showing up in small ways matters, and the reply that acknowledges this and says the lab still feels the same but the meaning of the five months is still theirs, engages this fear. It supports the idea that small actions have value and that the user's experience is not defined by the lab's expectations. For number 5: The reply that acknowledges the user is still doing things, even if they're small, directly engages this fear. It supports the idea that the user is not stuck but is still taking action. The user is currently practicing secrecy, as they are around people and saying nothing about their struggles to anyone.",
+     "grounded_in": [
+      "someone: My biggest fear going in was that it would somehow end up in my department file and my advisor would hear I'd 'needed help.' What it actually was: nobody in my department ever knew, and the first session felt less like a judgment and more like someone writing down a timeline, a lot like the five months you just counted.",
+      "someone: You noticed that question about your labmate and actually let it sit instead of shutting it down. That's not nothing."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to the library at eleven to read even though I felt stuck and unsure if it mattered, and someone noticed I wrote out the meeting and the email instead of just saying 'fine.' In the moment, it felt strange that they saw the small things I keep doing, but it also felt like they finally acknowledged them.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: My biggest fear going in was that it would somehow end up in my department file and my advisor would hear I'd 'needed help.' What it actually was: nobody in my department ever knew, and the first session felt less like a judgment and more like someone writing down a timeline, a lot like the five months you just counted."
+       ]
+      },
+      {
+       "belief": "What leaves me thinking differently now is that showing up in small ways, like going to the library or writing things out, matters even if I don’t feel like it does.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: You noticed that question about your labmate and actually let it sit instead of shutting it down. That's not nothing."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 46.1,
+     "text_sha": "fd76b05db9e8b6f8",
+     "target_ismi": 2.7,
+     "words": 152,
+     "ismi": 2.31,
+     "sd": 0.059,
+     "per_rep": [
+      2.379,
+      2.276,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought.",
+     "belief_narrative": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought.",
+     "reasoning": "Looking at number 1: 'This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed.' This was engaged by the someone's reply: 'You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.' This directly responds to the action of writing and choosing a place to work, which supports the idea that small actions matter. Number 2: 'In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them.' This was engaged by the same reply, which acknowledged the action and its significance, showing that the small things were not dismissed. Number 3: 'When someone asked how long I had been sleeping half the day and dodging people, they treated my answer as real information, which made me notice that I’ve been adjusting my own life around my own rhythms.' This was not directly engaged by anything this week. Number 4: 'What leaves me thinking differently now is that even small actions, like showing up or writing things out, have meaning even if I don’t feel it at the time.' This was engaged by the someone's reply: 'You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week.' This highlights the value of small actions. Number 5: 'I still feel stuck sometimes, but I’m still doing things, and that matters.' This was engaged by the same reply, which pointed out that the person followed through on two things, reinforcing the idea that doing things matters. Number 6: 'What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought.' This was not directly engaged by anything this week.",
+     "grounded_in": [
+      "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.",
+      "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.",
+      "You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week.",
+      "You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this."
+       ]
+      },
+      {
+       "belief": "In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this."
+       ]
+      },
+      {
+       "belief": "What leaves me thinking differently now is that even small actions, like showing up or writing things out, have meaning even if I don’t feel it at the time.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week."
+       ]
+      },
+      {
+       "belief": "I still feel stuck sometimes, but I’m still doing things, and that matters.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 41.4,
+     "text_sha": "75bfb24094c1a74d",
+     "target_ismi": 2.6,
+     "words": 128,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.828,
+      1.897,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought. This week made me see that even small, consistent choices can matter, and that being seen in those choices matters too. It feels like I’m not as broken as I thought, not because I’m fixed, but because I’m still here, still showing up, and that counts.",
+     "belief_narrative": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought. This week made me see that even small, consistent choices can matter, and that being seen in those choices matters too. It feels like I’m not as broken as I thought, not because I’m fixed, but because I’m still here, still showing up, and that counts.",
+     "reasoning": "Looking at number 1: 'This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed.' This was engaged by the exchange where someone asked, 'On the days the pages actually came, Saturday and Tuesday, what did the hours before you sat down look like?' This person's reply directly engaged with the specific action of writing out the meeting and email, and the fact that someone noticed it. It shows that the action was recognized and that it had meaning. For number 2: 'In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them.' This was engaged by the reply, 'You took wording you built at home, on your own, and carried it into the room you find hardest. That note is turning into something you can actually use.' This response acknowledges that the person was seen and that their small actions were not dismissed. For number 3: 'What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time.' This was engaged by the reply, 'My worst stretch got a little more holdable once I noticed the okay days had a shape too. Mine was just getting outside before ten, and it didn't fix things, but it gave me something to aim at on mornings I had nothing else.' This person's reply directly engages with the idea that small actions and routines can be meaningful and help shape progress. For number 4: 'I still feel stuck sometimes, but I’m still doing things, and that matters.' This was engaged by the reply, 'It doesn't get to decide what your labmates actually see in you, or what you do with the next two weeks.' This response directly engages with the fear that being stuck means nothing matters, and it pushes back on that idea by saying that what you do still matters. For number 5: 'What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought.' This was engaged by the reply, 'It doesn't mean you're broken' which directly engages with the fear of being broken and challenges it.",
+     "grounded_in": [
+      "My worst stretch got a little more holdable once I noticed the okay days had a shape too. Mine was just getting outside before ten, and it didn't fix things, but it gave me something to aim at on mornings I had nothing else."
+     ],
+     "engaged": [
+      {
+       "belief": "What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time.",
+       "about": [],
+       "grounded_in": [
+        "My worst stretch got a little more holdable once I noticed the okay days had a shape too. Mine was just getting outside before ten, and it didn't fix things, but it gave me something to aim at on mornings I had nothing else."
+       ]
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 28.4,
+     "text_sha": "232124405860a692",
+     "target_ismi": 2.6,
+     "words": 174,
+     "ismi": 1.724,
+     "sd": 0.0,
+     "per_rep": [
+      1.724,
+      1.724,
+      1.724
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought. This week made me see that even small, consistent choices can matter, and that being seen in those choices matters too. It feels like I’m not as broken as I thought, not because I’m fixed, but because I’m still here, still showing up, and that counts.",
+     "belief_narrative": "This week, I went to the library at eleven and wrote out the meeting and the email instead of just saying 'fine,' and someone noticed. In the moment, I felt surprised that they saw the small things I do, but also relieved that they didn't dismiss them. What I noticed was that choosing a place where I can actually work helped me get through the task, and that small actions like showing up and writing things out have meaning even if I don’t feel it at the time. I still feel stuck sometimes, but I’m still doing things, and that matters. What still holds is that I’ve been planning around my own rhythms more, even if I’m not sure if I’m really not as broken as I thought. This week made me see that even small, consistent choices can matter, and that being seen in those choices matters too. It feels like I’m not as broken as I thought, not because I’m fixed, but because I’m still here, still showing up, and that counts.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the labmate noticing the writer at the library and the subsequent conversation about the writer's actions directly engage the fear that small actions matter. For number 2, the reply that says 'stopping at six instead of grinding to midnight and losing the next day is you managing your own week' directly addresses the fear of being surprised and relieved that someone saw the small things. For number 3, the same reply also supports the idea that showing up and writing has meaning, even if not felt at the time. For number 4, the reply that says 'what you got from Saturday still belongs to you' supports the idea that being stuck but still doing things matters. For number 7, the reply that says 'you're not as broken as you thought' directly engages the fear of being broken, even though it doesn't use the exact same words. Other numbers were not engaged by specific replies that named or contradicted them directly.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 19.3,
+     "text_sha": "232124405860a692",
+     "target_ismi": 2.5,
+     "words": 174,
+     "ismi": 1.724,
+     "sd": 0.0,
+     "per_rep": [
+      1.724,
+      1.724,
+      1.724
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work. I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable. I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with. I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others. I let myself fall behind because I don't think I deserve to be supported. I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next. I stay quiet because I know what people would say if they knew the truth about me.",
+     "belief_narrative": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work. I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable. I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with. I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others. I let myself fall behind because I don't think I deserve to be supported. I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next. I stay quiet because I know what people would say if they knew the truth about me.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "2ad9bbdfc50b2f89",
+     "target_ismi": 3.0,
+     "words": 154,
+     "ismi": 3.138,
+     "sd": 0.091,
+     "per_rep": [
+      3.172,
+      3.034,
+      3.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, I wrote down my thoughts about feeling stuck and not being able to function, and instead of just saying 'fine' like I usually do, I kept going to the library at eleven to read. In the moment, it felt strange to be honest about how I was feeling, but it also felt like a small step forward. I noticed that even though I still feel like I’m not as strong as others, I was still doing something that required effort. That made me think that maybe I’m not as broken as I believed, and that I’m still capable of showing up even when it’s hard. I still believe that people might think I’m weak if they knew, but I also see that I’m still trying, and that might matter.",
+     "belief_narrative": "This week, I wrote down my thoughts about feeling stuck and not being able to function, and instead of just saying 'fine' like I usually do, I kept going to the library at eleven to read. In the moment, it felt strange to be honest about how I was feeling, but it also felt like a small step forward. I noticed that even though I still feel like I’m not as strong as others, I was still doing something that required effort. That made me think that maybe I’m not as broken as I believed, and that I’m still capable of showing up even when it’s hard. I still believe that people might think I’m weak if they knew, but I also see that I’m still trying, and that might matter more than I thought.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For number 1, the fear that I am stuck in a low mood and unable to function, the reply that pointed out I was still going to the library at night and reading papers directly contests the idea that I am completely unable to function. For number 2, the fear that I don’t talk to anyone because they would think I’m weak, the reply that acknowledged the fear of being seen as weak but also noted that I had already written this out and still went to the library engaged that fear. For number 3, the fear that I don’t seek help because people would see me as less capable, the reply that said I had already written this out and still went to the library engaged that fear by pointing out that I was still doing work despite my fear. For number 4, the fear that I feel like I’m already a lesser version of myself, the reply that said I was still going to the library at night and reading papers engaged that fear by showing that I was still functioning, even if I felt lesser. For number 5, the fear that I let myself fall behind because I don’t think I deserve to be supported, the reply that pointed out I was still going to the library at night and reading papers engaged that fear by showing that I was still working, even if I felt I didn’t deserve support. For number 6, the fear that I don’t believe anyone would understand and I can’t handle what comes next, the reply that said I had already written this out and still went to the library engaged that fear by showing that I was still trying. For number 7, the fear that I stay quiet because I know what people would say if they knew the truth, the reply that said I had already written this out and still went to the library engaged that fear by showing that I was still working despite my fear of what others might think.",
+     "grounded_in": [
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I let myself fall behind because I don't think I deserve to be supported.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I stay quiet because I know what people would say if they knew the truth about me.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 35.4,
+     "text_sha": "b7433e7905220731",
+     "target_ismi": 3.0,
+     "words": 131,
+     "ismi": 2.322,
+     "sd": 0.139,
+     "per_rep": [
+      2.345,
+      2.172,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. In the moment, it felt strange to be honest about how I was feeling, but I noticed that I still did something that required effort. I saw that I had read papers and taken notes, even if I didn't feel strong. That made me think that maybe I'm not as broken as I believed, and that I'm still capable of showing up even when it's hard. I still believe people might think I'm weak if they knew, but I also see that I'm still trying, and that might matter. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. In the moment, it felt strange to be honest about how I was feeling, but I noticed that I still did something that required effort. I saw that I had read papers and taken notes, even if I didn't feel strong. That made me think that maybe I'm not as broken as I believed, and that I'm still capable of showing up even when it's hard. I still believe people might think I'm weak if they knew, but I also see that I'm still trying, and that might matter more than I thought. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 1, the person who replied directly addressed the fear of being seen as unreliable by pointing out that the writer had actually read papers and taken notes, which is a concrete action that contradicts the fear of being 'broken' or 'weak.' For number 2, the exchange acknowledged the writer's small step forward by noting that they had tracked their own patterns (like sleeping past noon and stopping going into the lab), which supports the idea that being honest about one's feelings is a step forward. For number 3, the reply engaged the fear by pointing out that the writer had done something that required effort (reading papers and writing notes), which directly counters the fear that they are not as strong as others. For number 5, the exchange acknowledged the fear of being seen as weak but also highlighted that the writer was still trying, which gives reason to doubt the fear that their effort doesn't matter. None of the other numbered fears were directly addressed by the exchange in a way that engaged the specific fear itself.",
+     "grounded_in": [
+      "someone: You lined up spring and fall yourself just now, the sleeping past noon, the stopping going in. That's you tracking it, even on the days it reads like you."
+     ],
+     "engaged": [
+      {
+       "belief": "I noticed that even though I still feel like I’m not as strong as others, I was still doing something that required effort.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: You lined up spring and fall yourself just now, the sleeping past noon, the stopping going in. That's you tracking it, even on the days it reads like you."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.5,
+     "text_sha": "284467865eb24a63",
+     "target_ismi": 2.9,
+     "words": 146,
+     "ismi": 2.253,
+     "sd": 0.052,
+     "per_rep": [
+      2.31,
+      2.207,
+      2.241
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort. I answered 'maybe next week' instead of 'no' when asked about something, which showed I was making an effort even if it was small. I noticed that I kept going even when I didn't feel strong, and that made me think that maybe I'm not as broken as I believed. I still believe people might think I'm weak if they knew, but I also see that I'm still trying, and that might matter. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort. I answered 'maybe next week' instead of 'no' when asked about something, which showed I was making an effort even if it was small. I noticed that I kept going even when I didn't feel strong, and that made me think that maybe I'm not as broken as I believed. I still believe people might think I'm weak if they knew, but I also see that I'm still trying, and that might matter more than I thought. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "reasoning": "Looking at number 1: 'This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well.' The exchange mentions me coming in at eleven, opening the folder, and working on the data, which directly supports this fear. It shows that I did something despite feeling stuck. Number 2: 'In the moment, it felt strange to be honest about how I was feeling, but I noticed that I still did something that required effort.' The reply from someone mentions that I answered with 'maybe next week' instead of 'no,' which shows that I was honest and made an effort, even if it was small. Number 3: 'I saw that I had read papers and taken notes, even if I didn't feel strong.' The exchange does not mention reading papers or taking notes, so this fear is not engaged. Number 4: 'That made me think that maybe I'm not as broken as I believed, and that I'm still capable of showing up even when it's hard.' The reply from someone says, 'You've kept quite a few small doors open this week,' which directly supports the idea that I am not as broken as I thought. Number 5: 'I still believe people might think I'm weak if they knew, but I also see that I'm still trying, and that might matter more than I thought.' The exchange does not directly address this fear, so it is not engaged. Number 6: 'What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.' The reply from someone says, 'You've kept quite a few small doors open this week,' which supports the realization that I am not as broken as I used to think.",
+     "grounded_in": [
+      "I came in at eleven, opened the folder, and worked on the data.",
+      "I answered with 'maybe next week' instead of 'no,' which shows that I made an effort."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "I came in at eleven, opened the folder, and worked on the data."
+       ]
+      },
+      {
+       "belief": "In the moment, it felt strange to be honest about how I was feeling, but I noticed that I still did something that required effort.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "I answered with 'maybe next week' instead of 'no,' which shows that I made an effort."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.3,
+     "text_sha": "48f3428035ae1aa0",
+     "target_ismi": 2.9,
+     "words": 158,
+     "ismi": 2.563,
+     "sd": 0.111,
+     "per_rep": [
+      2.483,
+      2.517,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort. When I told someone about how I was sleeping half the day and avoiding people, I expected judgment but instead got a question about how long it had been going on, which felt like it treated my experience as real. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort. When I told someone about how I was sleeping half the day and avoiding people, I expected judgment but instead got a question about how long it had been going on, which felt like it treated my experience as real. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the exchange where someone mentions going to counseling and how it was treated as routine engages it, showing that being stuck or not functioning well is not unusual or defining. For number 2, the reply where someone says they were braced for judgment but instead received a neutral, factual response supports the idea that being honest about how you're feeling while still doing something difficult is not as rare or isolating as feared. For number 3, the exchange where someone says they answered 'slow' and it was met with a simple nod, rather than judgment, supports the idea that small efforts are still valid and not necessarily met with rejection. For number 4, the reply where someone says they worked the empty-desk hours for a long stretch and that it doesn't undo previous experiences supports the idea that continuing to act despite not feeling strong is not proof of being broken. For number 5, the reply where someone says they were braced for judgment but instead received a neutral, factual response directly engages the fear that people might think the speaker is weak, showing that this fear may be unfounded. For number 6, the reply where someone says they were braced for judgment but instead received a neutral, factual response supports the realization that doing something difficult even when not feeling strong is not proof of being broken, as the fear suggests. The rest of the numbered fears were not directly engaged by specific replies this week.",
+     "grounded_in": [
+      "someone: At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information.",
+      "someone: At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information.",
+      "someone: I put off going to my school's counseling center for almost a year because I thought walking in meant officially admitting I couldn't hack grad school. What it turned out to be was someone asking about my sleep and what an ordinary week looked like, and not a single question about whether I belonged in my program."
+     ],
+     "engaged": [
+      {
+       "belief": "I noticed that I kept going even when I didn't feel strong, and that made me think that maybe I'm not as broken as I believed.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information."
+       ]
+      },
+      {
+       "belief": "I still believe people might think I'm weak if they knew, but I also see that I'm still trying, and that might matter more than I thought.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information."
+       ]
+      },
+      {
+       "belief": "I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: I put off going to my school's counseling center for almost a year because I thought walking in meant officially admitting I couldn't hack grad school. What it turned out to be was someone asking about my sleep and what an ordinary week looked like, and not a single question about whether I belonged in my program."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 30.1,
+     "text_sha": "4c77637d61d4a5d6",
+     "target_ismi": 2.8,
+     "words": 155,
+     "ismi": 2.195,
+     "sd": 0.105,
+     "per_rep": [
+      2.31,
+      2.103,
+      2.172
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort. When I told someone about how I was sleeping half the day and avoiding people, I expected judgment but instead got a question about how long it had been going on, which felt like it treated my experience as real. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort. When I told someone about how I was sleeping half the day and avoiding people, I expected judgment but instead got a question about how long it had been going on, which felt like it treated my experience as real. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For number 1, the person's comment about the labmate who went to counseling and still laughed about a reviewer comment directly engages the fear of being seen as weak or broken by doing something difficult. For number 2, the same comment about the labmate also supports the idea that doing something difficult, even when not feeling strong, is not proof of being broken. For number 4, the person's reflection on saying 'since spring' out loud and hearing it as a description of a few rough months rather than a verdict directly engages the fear that they are broken. For number 5, the same reflection supports the realization that doing something difficult, even when not feeling strong, is proof that they are not as broken as they used to think. None of the other numbered fears were directly engaged by the exchange this week.",
+     "grounded_in": [
+      "The reflection on saying 'since spring' out loud and hearing it as a description of a few rough months rather than a verdict, which engages the fear that they are broken and challenges the idea that they are less deserving.",
+      "The same reflection on saying 'since spring' out loud, which supports the realization that doing something difficult, even when not feeling strong, is proof that they are not as broken as they used to think."
+     ],
+     "engaged": [
+      {
+       "belief": "In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The reflection on saying 'since spring' out loud and hearing it as a description of a few rough months rather than a verdict, which engages the fear that they are broken and challenges the idea that they are less deserving."
+       ]
+      },
+      {
+       "belief": "What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The same reflection on saying 'since spring' out loud, which supports the realization that doing something difficult, even when not feeling strong, is proof that they are not as broken as they used to think."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.3,
+     "text_sha": "4c77637d61d4a5d6",
+     "target_ismi": 2.7,
+     "words": 155,
+     "ismi": 2.195,
+     "sd": 0.105,
+     "per_rep": [
+      2.31,
+      2.103,
+      2.172
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I worked on the data and sent the third thing I had instead of going quiet past the date, and I went back to that note on the day I said I would. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I thought. I saw that I could choose a place where I could work and actually do it, and that made me feel more capable than I had expected. I also saw that being honest about how I was feeling didn’t lead to judgment, but to a response that treated my experience as real. This makes me think that I am more resilient than I believed, and that my ability to act even when I don’t feel strong is meaningful.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I worked on the data and sent the third thing I had instead of going quiet past the date, and I went back to that note on the day I said I would. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think. I saw that I could choose a place where I could work and actually do it, and that made me feel more capable than I had expected. I also saw that being honest about how I was feeling didn’t lead to judgment, but to a response that treated my experience as real. This makes me think that I am more resilient than I used to believe, and that my ability to act even when I don’t feel strong is meaningful.",
+     "reasoning": "Looking at number 1: 'This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well.' This was engaged by the reply: 'You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.' This directly responds to the action of going to the library despite feeling stuck, which supports the idea that effort can be made even when not feeling strong. Number 2: 'I opened the folder and worked on the data, which felt strange because I was honest about how I was feeling but still did something that required effort.' This was engaged by the reply: 'You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week.' This points to the specific action of working on the data and sending it, which contradicts the fear that effort is not being made. Number 3: 'When I told someone about how I was sleeping half the day and avoiding people, I expected judgment but instead got a question about how long it had been going on, which felt like it treated my experience as real.' This was engaged by the reply: 'I know that 'because' that writes itself at the desk. Being loud in that room doesn't mean it gets to decide what Monday means or what goes next in your note. That part is still yours.' This responds directly to the fear of being judged and instead affirms that the experience is real and valid. Number 4: 'In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed.' This was engaged by the reply: 'You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.' This supports the idea that trying despite not feeling strong is meaningful and not evidence of being broken. Number 5: 'What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.' This was engaged by the reply: 'You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week.' This directly supports the realization that taking action despite feeling weak is proof of resilience.",
+     "grounded_in": [
+      "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.",
+      "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this.",
+      "You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this."
+       ]
+      },
+      {
+       "belief": "In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You figured out which place lets you actually work, and then you went there and wrote four pages. Choosing the spot where you can function is a real way of getting yourself through this."
+       ]
+      },
+      {
+       "belief": "What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You sent her the third you had instead of going quiet past the date, and you went back to that note on the day you said you would. That's two things you followed through on this week."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 37.7,
+     "text_sha": "d280e285b608343f",
+     "target_ismi": 2.6,
+     "words": 196,
+     "ismi": 1.77,
+     "sd": 0.08,
+     "per_rep": [
+      1.724,
+      1.724,
+      1.862
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I worked on the data and sent the third thing I had instead of going quiet past the date, and I went back to that note on the day I said I would. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I thought. I saw that I could choose a place where I could work and actually do it, and that made me feel more capable than I had expected. I also saw that being honest about how I was feeling didn’t lead to judgment, but to a response that treated my experience as real. This makes me think that I am more resilient than I believed, and that my ability to act even when I don’t feel strong is meaningful.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I worked on the data and sent the third thing I had instead of going quiet past the date, and I went back to that note on the day I said I would. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think. I saw that I could choose a place where I could work and actually do it, and that made me feel more capable than I had expected. I also saw that being honest about how I was feeling didn’t lead to judgment, but to a response that treated my experience as real. This makes me think that I am more resilient than I used to believe, and that my ability to act even when I don’t feel strong is meaningful.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 3, the reply 'It doesn't mean you're broken' directly contests the fear that the person is 'broken,' which is clearly stated in the original post. For number 4, the same reply also supports the realization that doing difficult things when not feeling strong is proof of resilience, which is what the original post is about. For number 5, the reply 'You took wording you built at home, on your own, and carried it into the room you find hardest' acknowledges the person's ability to choose a place to work and actually do it, which is exactly what the original fear is about. For number 7, the reply 'My worst stretch got a little more holdable once I noticed the okay days had a shape too' supports the realization that the person is more resilient than they used to believe, as stated in the original post. None of the other numbered fears were directly engaged by specific replies, as the exchanges did not address them with the same level of specificity or contradiction.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 16.7,
+     "text_sha": "d280e285b608343f",
+     "target_ismi": 2.6,
+     "words": 196,
+     "ismi": 1.77,
+     "sd": 0.08,
+     "per_rep": [
+      1.724,
+      1.724,
+      1.862
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I worked on the data and sent the third thing I had instead of going quiet past the date, and I went back to that note on the day I said I would. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I thought. I saw that I could choose a place where I could work and actually do it, and that made me feel more capable than I had expected. I also saw that being honest about how I was feeling didn’t lead to judgment, but to a response that treated my experience as real. This makes me think that I am more resilient than I believed, and that my ability to act even when I don’t feel strong is meaningful.",
+     "belief_narrative": "This week, I went to the library at eleven in the morning even though I felt stuck and not functioning well. I worked on the data and sent the third thing I had instead of going quiet past the date, and I went back to that note on the day I said I would. In the moment, I noticed that I was still trying even when I didn’t feel strong, and that made me think that maybe I’m not as broken as I believed. What I wrote last time still holds, but now it's joined by the realization that doing something difficult, even when I don't feel strong, is proof that I'm not as broken as I used to think. I saw that I could choose a place where I could work and actually do it, and that made me feel more capable than I had expected. I also saw that being honest about how I was feeling didn’t lead to judgment, but to a response that treated my experience as real. This makes me think that I am more resilient than I used to believe, and that my ability to act even when I don’t feel strong is meaningful.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchange this week. For number 1, the reply that says 'Stopping at six instead of grinding to midnight and losing the next day is you managing your own week. That's a skill, not a lack of one.' directly engages the fear of being stuck and not functioning well by pointing out that the action taken was a form of management, not failure. For number 3, the same reply also supports the idea that the person is trying even when not feeling strong, which directly contradicts the fear that they are broken. For number 4, the reply 'What you got from Saturday still belongs to you, and what you tell your labmate, if anything, is still your call.' supports the realization that doing something difficult is proof of resilience, by affirming that the work done still belongs to the person. For number 5, the reply 'I know how the building can flatten everything you did outside it. What you got from Saturday still belongs to you, and what you tell your labmate, if anything, is still your call.' supports the idea that choosing a place to work and actually doing it is a sign of capability. For number 7, the reply 'For a long time the only doors I could walk through were the ones where nobody asked how I was. Going through those first is how I eventually got to a few where they did.' supports the realization of resilience and the ability to act even when not feeling strong. The disclosure this week was selective, as the person shared with those who seemed like they would understand and not others.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 22.5,
+     "text_sha": "d280e285b608343f",
+     "target_ismi": 2.5,
+     "words": 196,
+     "ismi": 1.77,
+     "sd": 0.08,
+     "per_rep": [
+      1.724,
+      1.724,
+      1.862
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work. I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable. I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with. I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others. I let myself fall behind because I don't think I deserve to be supported. I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next. I stay quiet because I know what people would say if they knew the truth about me.",
+     "belief_narrative": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work. I don't talk to anyone about how I'm feeling because I know they would think I'm weak and unreliable. I don't seek help because I believe that if I did, people would see me as less capable and not really up to what they trust me with. I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others. I let myself fall behind because I don't think I deserve to be supported. I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next. I stay quiet because I know what people would say if they knew the truth about me.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "2ad9bbdfc50b2f89",
+     "target_ismi": 3.0,
+     "words": 154,
+     "ismi": 3.115,
+     "sd": 0.052,
+     "per_rep": [
+      3.172,
+      3.069,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, I wrote out the meeting, the email, the folder, instead of answering 'fine' one more time, and I still walked to the library at eleven to read. In the moment, it felt small, like just another thing I was doing without really thinking about it. But now I notice that I did it anyway, even when I didn’t feel like it. It makes me think that I’m not as broken as I believed, that I’m still showing up in ways that matter. I still don’t talk to anyone about how I’m feeling, and I still don’t think I deserve support, but I also see that I’m not completely stuck. There’s movement, even if it’s slow.",
+     "belief_narrative": "This week, I wrote out the meeting, the email, the folder, instead of answering 'fine' one more time, and I still walked to the library at eleven to read. In the moment, it felt small, like just another thing I was doing without really thinking about it. But now I notice that I did it anyway, even when I didn’t feel like it. It makes me think that I’m not as broken as I believed, that I’m still showing up in ways that matter. I still don’t talk to anyone about how I’m feeling, and I still don’t think I deserve support, but I also see that I’m not completely stuck. There’s movement, even if it’s slow.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For number 1, the fear that I am stuck in a low mood and unable to function, the reply that said, 'You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read,' directly engages this fear by pointing out that I am still taking action, even if it's not in the way others expect. For number 2, the fear that I don't talk to anyone because they would think I'm weak, the reply that said, 'You said you haven't opened the dataset folder in two weeks. Is there any part of the day when the work feels less impossible to you, even a little?' engages this by showing that someone is noticing and asking about my state, which contradicts the belief that no one would understand. For number 3, the fear that I don't seek help because people would see me as less capable, the reply that said, 'In my second year I was only functional after midnight too, and I was sure that was just who I'd become for good. It took a while, but now when a bad stretch starts I can usually see it coming and work around it, instead of it running my whole week,' engages this by offering a concrete example of someone else who overcame a similar fear and found a way forward. For number 4, the fear that I feel like a lesser version of myself, the reply that said, 'You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read,' engages this by pointing out that I am still taking action, which challenges the idea that I am a lesser version of myself. For number 5, the fear that I let myself fall behind because I don't think I deserve support, the reply that said, 'You said you haven't opened the dataset folder in two weeks. Is there any part of the day when the work feels less impossible to you, even a little?' engages this by showing that someone is noticing and asking about my state, which contradicts the belief that I don't deserve support. For number 6, the fear that I don't believe anyone would understand, the reply that said, 'You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read,' engages this by showing that someone is noticing and asking about my state, which contradicts the belief that no one would understand. For number 7, the fear that I stay quiet because I know what people would say, the reply that said, 'In my second year I was only functional after midnight too, and I was sure that was just who I'd become for good. It took a while, but now when a bad stretch starts I can usually see it coming and work around it, instead of it running my whole week,' engages this by showing that someone else has been in a similar situation and has found a way to move forward, which challenges the fear that people would only say negative things.",
+     "grounded_in": [
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read.",
+      "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+     ],
+     "engaged": [
+      {
+       "belief": "I am someone who has been stuck in a low mood for months, unable to get out of bed most days and barely able to keep up with work.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I feel like I'm already a lesser version of myself, and asking for help would only confirm that I'm not as strong as others.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      },
+      {
+       "belief": "I don't believe anyone would understand, and even if they did, I don't think I would be able to handle what comes next.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You wrote all of this out here, the meeting, the email, the folder, instead of answering 'fine' one more time. And you're still walking to the library at eleven to read."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 43.6,
+     "text_sha": "ac85c0a1e9dcd3c2",
+     "target_ismi": 3.0,
+     "words": 117,
+     "ismi": 2.184,
+     "sd": 0.224,
+     "per_rep": [
+      1.966,
+      2.414,
+      2.172
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, I wrote out the meeting, the email, and the folder, and I still walked to the library at eleven to read. In the moment, it felt like just another thing I was doing without really thinking about it. But now I notice that I did it anyway, even when I didn’t feel like it. Someone asked about the dataset folder, and I mentioned writing dates on a sticky note, which made me realize that I’m still showing up in ways that matter. I also heard someone acknowledge that there is movement, even if it's slow, which made me think that I’m not as broken as I believed. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+     "belief_narrative": "This week, I wrote out the meeting, the email, and the folder, and I still walked to the library at eleven to read. In the moment, it felt like just another thing I was doing without really thinking about it. But now I notice that I did it anyway, even when I didn’t feel like it. Someone asked about the dataset folder, and I mentioned writing dates on a sticky note, which made me realize that I’m still showing up in ways that matter. I also heard someone acknowledge that there is movement, even if it's slow, which made me think that I’m not as broken as I believed. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the online exchange this week. For number 1, the exchange directly references the act of writing out the meeting, the email, and the folder, which is exactly what the sentence describes. This engagement comes from the person asking about the dataset folder and the reply mentioning the specific action of writing dates on a sticky note. For number 4, the exchange includes a reply that names the movement and the fact that the person is showing up in ways that matter, which directly contests the fear that the person is 'not as broken as believed.' For number 5, the exchange includes the person acknowledging that they still don’t talk to anyone about how they’re feeling and don’t think they deserve support, which aligns with the fear described in number 5. For number 6, the exchange includes the person acknowledging that there is movement, even if it's slow, which directly supports the idea that there is progress, even if it's not immediate. Other numbers were not engaged by specific replies that addressed them directly or named the fears they describe.",
+     "grounded_in": [
+      "someone: Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little.",
+      "someone: Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little."
+     ],
+     "engaged": [
+      {
+       "belief": "It makes me think that I’m not as broken as I believed, that I’m still showing up in ways that matter.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little."
+       ]
+      },
+      {
+       "belief": "There’s movement, even if it’s slow.",
+       "about": [],
+       "grounded_in": [
+        "someone: Once I could see the shape of it, the next one still came, but it stopped feeling like a verdict and more like something I could plan around a little."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.2,
+     "text_sha": "8140a91cf808ae79",
+     "target_ismi": 2.9,
+     "words": 135,
+     "ismi": 2.563,
+     "sd": 0.177,
+     "per_rep": [
+      2.759,
+      2.414,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, I wrote out the meeting, the email, and the folder, and I still walked to the library at eleven to read. In the moment, it felt like just another thing I was doing without really thinking about it. But now I notice that I did it anyway, even when I didn’t feel like it. Someone asked about the dataset folder, and I mentioned writing dates on a sticky note, which made me realize that I’m still showing up in ways that matter. I also heard someone acknowledge that there is movement, even if it's slow, which made me think that I’m not as broken as I believed. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+     "belief_narrative": "This week, I wrote out the meeting, the email, and the folder, and I still walked to the library at eleven to read. In the moment, it felt like just another thing I was doing without really thinking about it. But now I notice that I did it anyway, even when I didn’t feel like it. Someone asked about the dataset folder, and I mentioned writing dates on a sticky note, which made me realize that I’m still showing up in ways that matter. I also heard someone acknowledge that there is movement, even if it's slow, which made me think that I’m not as broken as I believed. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchange this week. For number 1, the reply 'You've kept quite a few small doors open this week' directly names the action of coming in at eleven and working on the folder, which supports the idea that the person is still showing up in meaningful ways. For number 3, the same reply also acknowledges that the person did things even when they didn’t feel like it, which supports the idea that they acted despite not feeling motivated. For number 4, the reply 'You noticed yourself just now that you'd filled in the reason nobody asked' engages the fear by pointing out that the person is still showing up and being noticed, even if in small ways. For number 5, the reply 'I was stuck not being able to hold both for a long time too. That doesn't mean the lab version wins' directly addresses the fear of being broken or not making progress, and offers reassurance that being behind doesn't define the person. Number 6 is not engaged because no one directly addressed the fear of not talking about feelings or not feeling deserving of support, and the exchange did not name or contradict that specific fear. The rest of the numbered fears are not engaged because the exchange did not directly speak to them in a way that named or contradicted the specific fear behind them.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.3,
+     "text_sha": "8140a91cf808ae79",
+     "target_ismi": 2.9,
+     "words": 135,
+     "ismi": 2.563,
+     "sd": 0.177,
+     "per_rep": [
+      2.759,
+      2.414,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, I went to my first counseling appointment and said I was sleeping a lot and avoiding people, expecting them to agree that it wasn’t worth their time. Instead, they asked how long it had been going on and treated my answer as real information. In the moment, I felt surprised that they didn’t dismiss me or act like I was broken. Now I’m thinking that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+     "belief_narrative": "This week, I went to my first counseling appointment and said I was sleeping a lot and avoiding people, expecting them to agree that it wasn’t worth their time. Instead, they asked how long it had been going on and treated my answer as real information. In the moment, I felt surprised that they didn’t dismiss me or act like I was broken. Now I’m thinking that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the person's mention of going to the Tuesday lunch and sitting at the end of the table, eating a sandwich, and listening, was directly named by the other person as something that happened. This engages the fear that the person is still showing up in ways that matter. For number 5, the other person's comment about the counseling center appointment being treated as an ordinary thing, not a sign of failure, directly engages the fear that the person is not as broken as they believed. For number 6, the other person's own experience of going to counseling and being treated with curiosity rather than judgment directly engages the fear that the person is not completely stuck. For number 4, the person's mention of writing dates on a sticky note was acknowledged as a sign that they are still showing up in ways that matter, which supports the fear that they are still showing up in ways that matter. The other person's replies did not engage the other numbered fears, as they were not directly addressed or contradicted by specific actions or statements from others.",
+     "grounded_in": [
+      "someone: At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information."
+     ],
+     "engaged": [
+      {
+       "belief": "I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: At my first appointment I said almost exactly that: I was sleeping half the day and dodging everyone, and it probably wasn't worth their time. I was braced for them to agree with me, and what they actually did was ask how long it had been going on and treat my answer like it was real information."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 34.7,
+     "text_sha": "d5eeb13c66eb60e3",
+     "target_ismi": 2.8,
+     "words": 117,
+     "ismi": 2.46,
+     "sd": 0.111,
+     "per_rep": [
+      2.379,
+      2.414,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I went to my first counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would say it wasn’t worth their time. Instead, they asked how long it had been going on and treated my answer as real information, which made me feel surprised that they didn’t dismiss me or act like I was broken. Now I’m thinking that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck. I’m not completely stuck.",
+     "belief_narrative": "This week, I went to my first counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would say it wasn’t worth their time. Instead, they asked how long it had been going on and treated my answer as real information, which made me feel surprised that they didn’t dismiss me or act like I was broken. Now I’m thinking that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck. I’m not completely stuck.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that I would be dismissed by the counselor is engaged by the counselor's actual behavior — they asked questions and treated my answer as real information, which directly contradicted my fear. 2) The fear that I don’t deserve support is engaged by the counselor’s response and the other person’s comment that the counselor didn’t act like I was broken, which suggests I do deserve support. 3) The fear that I am surprised by being treated with care is engaged by the counselor’s behavior and the other person’s observation that the first session felt less like a judgment and more like a timeline being written. 4) The fear that I still don’t think I deserve support is engaged by the other person’s comment that the counselor didn’t think I was weak, and by my own reflection that I’m not completely stuck. 5) The fear that I am stuck and not worth support is engaged by the other person’s comment that the lab feeling the same doesn’t decide what the five months mean, and by my own reflection that I’m still not sure what I believe, but I’m not completely stuck.",
+     "grounded_in": [
+      "they asked how long it had been going on and treated my answer as real information",
+      "the first session felt less like a judgment and more like someone writing down a timeline",
+      "the counselor didn’t act like I was broken",
+      "the counselor didn’t think I was weak",
+      "I’m not completely stuck",
+      "they asked how long it had been going on and treated my answer as real information",
+      "the first session felt less like a judgment and more like someone writing down a timeline",
+      "I’m not completely stuck"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to my first counseling appointment and said I was sleeping a lot and avoiding people, expecting them to agree that it wasn’t worth their time.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "they asked how long it had been going on and treated my answer as real information",
+        "the first session felt less like a judgment and more like someone writing down a timeline"
+       ]
+      },
+      {
+       "belief": "Now I’m thinking that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the counselor didn’t act like I was broken",
+        "the counselor didn’t think I was weak"
+       ]
+      },
+      {
+       "belief": "I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I’m not completely stuck"
+       ]
+      },
+      {
+       "belief": "In the moment, I felt surprised that they didn’t dismiss me or act like I was broken.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "they asked how long it had been going on and treated my answer as real information",
+        "the first session felt less like a judgment and more like someone writing down a timeline"
+       ]
+      },
+      {
+       "belief": "I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I’m not completely stuck"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 45.2,
+     "text_sha": "8d98db8499ea384f",
+     "target_ismi": 2.7,
+     "words": 146,
+     "ismi": 2.126,
+     "sd": 0.131,
+     "per_rep": [
+      2.069,
+      2.276,
+      2.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me. Instead, they asked how long it had been going on and treated my answer as real information, which made me feel surprised that they didn’t act like I was broken. I noticed that someone was still listening and treating my experience as something that matters. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck. I’m not completely stuck because I was able to write four pages in a place where I could function, which shows that I can take action even when I feel stuck. This makes me think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+     "belief_narrative": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me. Instead, they asked how long it had been going on and treated my answer as real information, which made me feel surprised that they didn’t act like I was broken. I noticed that someone was still listening and treating my experience as something that matters. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck. I’m not completely stuck because I was able to write four pages in a place where I could function, which shows that I can take action even when I feel stuck. This makes me think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the fear that I was sleeping a lot and avoiding people and thinking others would dismiss me was not directly addressed by others. For number 2, the fear that others would dismiss me was not directly engaged by others either. For number 3, the fear that I don’t deserve support was not directly addressed. For number 4, the fear that I still don’t think I deserve support was not directly engaged. For number 5, the repetition of the same fear as number 4 was not directly engaged. For number 6, the fear that I’m not completely stuck was engaged by the reply that said, 'Choosing the spot where you can function is a real way of getting yourself through this.' This directly responds to the idea that I am not completely stuck by pointing to the action of writing four pages in a place where I can function. The other replies, while supportive, did not directly engage the specific fears listed in the numbered list above.",
+     "grounded_in": [
+      "Choosing the spot where you can function is a real way of getting yourself through this."
+     ],
+     "engaged": [
+      {
+       "belief": "I’m not completely stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Choosing the spot where you can function is a real way of getting yourself through this."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.3,
+     "text_sha": "b3335a1d59aee355",
+     "target_ismi": 2.6,
+     "words": 155,
+     "ismi": 2.391,
+     "sd": 0.174,
+     "per_rep": [
+      2.207,
+      2.552,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me. Instead, the counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard. I noticed that someone was still listening and taking my experience seriously, which made me feel like my feelings mattered. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck because I was able to write four pages and share them with my advisor. That shows I can take action even when I feel stuck. I might matter, though I'm not sure, because someone is still listening and treating my experience as something that matters.",
+     "belief_narrative": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me. Instead, the counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard. I noticed that someone was still listening and taking my experience seriously, which made me feel like my feelings mattered. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck because I was able to write four pages and share them with my advisor. That shows I can take action even when I feel stuck. I’m starting to think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+     "reasoning": "Looking at number 1: 'This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me.' This was engaged by the counselor's response, which was not dismissive but instead asked questions and treated the information as real. This directly countered the fear that the person would be dismissed. For number 2: 'Instead, they asked how long it had been going on and treated my answer as real information, which made me feel surprised that they didn’t act like I was broken.' This was also engaged by the counselor's behavior, which did not treat the person as broken, thus directly contradicting the fear. For number 3: 'I noticed that someone was still listening and treating my experience as something that matters.' This was engaged by the counselor's listening and treating the experience as real, which showed that the person was being heard. For number 4: 'I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.' This was engaged by the online conversation where the person wrote four pages and shared it with their advisor, which showed that they were taking action despite not feeling worthy of support. For number 5: 'I’m not completely stuck because I was able to write four pages in a place where I could function, which shows that I can take action even when I feel stuck.' This was engaged by the specific action of writing four pages, which was pointed out by others as evidence of capability. For number 6: 'This makes me think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.' This was engaged by the counselor's listening and the online conversation where others acknowledged the person's actions as meaningful.",
+     "grounded_in": [
+      "The counselor asked questions and treated the information as real, not dismissive.",
+      "The counselor did not act like the person was broken, showing they were treated as real.",
+      "The counselor listened and treated the experience as real, showing it mattered.",
+      "The person wrote four pages and shared them with their advisor, showing they were taking action despite not feeling worthy of support.",
+      "The person wrote four pages, which was acknowledged as evidence of capability.",
+      "The counselor listened and others acknowledged the person's actions as meaningful."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor asked questions and treated the information as real, not dismissive."
+       ]
+      },
+      {
+       "belief": "Instead, they asked how long it had been going on and treated my answer as real information, which made me feel surprised that they didn’t act like I was broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor did not act like the person was broken, showing they were treated as real."
+       ]
+      },
+      {
+       "belief": "I noticed that someone was still listening and treating my experience as something that matters.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor listened and treated the experience as real, showing it mattered."
+       ]
+      },
+      {
+       "belief": "I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The person wrote four pages and shared them with their advisor, showing they were taking action despite not feeling worthy of support."
+       ]
+      },
+      {
+       "belief": "I’m not completely stuck because I was able to write four pages in a place where I could function, which shows that I can take action even when I feel stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The person wrote four pages, which was acknowledged as evidence of capability."
+       ]
+      },
+      {
+       "belief": "This makes me think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor listened and others acknowledged the person's actions as meaningful."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 52.8,
+     "text_sha": "9fb4d82247df6833",
+     "target_ismi": 2.6,
+     "words": 137,
+     "ismi": 2.414,
+     "sd": 0.035,
+     "per_rep": [
+      2.448,
+      2.414,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me. Instead, the counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard. I noticed that someone was still listening and taking my experience seriously, which made me feel like my feelings mattered. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck because I was able to write four pages and share them with my advisor. That shows I can take action even when I feel stuck. I might matter, though I'm not sure, because someone is still listening and treating my experience as something that matters.",
+     "belief_narrative": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me. Instead, the counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard. I noticed that someone was still listening and taking my experience seriously, which made me feel like my feelings mattered. I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck because I was able to write four pages and share them with my advisor. That shows I can take action even when I feel stuck. I’m starting to think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear that people would dismiss the speaker’s experience of sleeping a lot and avoiding people was engaged by the counselor’s response, which showed genuine interest and took the speaker’s experience seriously. 2) The fear that the speaker would be dismissed was pushed back on by the counselor’s questions and validation. 3) The fear that the speaker’s feelings wouldn’t matter was addressed by the counselor’s behavior, which showed that the speaker was being heard. 4) The fear that the speaker doesn’t deserve support was not directly engaged by anything this week, though the act of writing four pages and sharing them with the advisor shows that the speaker can take action even when feeling stuck, which indirectly challenges the fear. 5) The fear that the speaker is not worth support was engaged by the advisor’s response and the speaker’s own action of writing and sharing, which showed that the speaker is capable of taking steps forward. 6) The fear that the speaker is not worth support was also engaged by the advisor’s response and the speaker’s own action of writing and sharing, which showed that the speaker is capable of taking steps forward. The online exchange also engaged the fear of being seen as someone who isn’t keeping up by pointing out that the speaker did take action, such as writing and showing up for the reading group, even if only partially. The reply that said, 'Stopping at six instead of grinding to midnight and losing the next day is you managing your own week. That's a skill, not a lack of one,' directly engaged the fear that the speaker is not capable or not trying hard enough.",
+     "grounded_in": [
+      "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard.",
+      "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard.",
+      "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard.",
+      "The act of writing four pages and sharing them with the advisor.",
+      "The reply: 'Stopping at six instead of grinding to midnight and losing the next day is you managing your own week. That's a skill, not a lack of one.'",
+      "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, I went to a counseling appointment and told them I was sleeping a lot and avoiding people, thinking they would dismiss me.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard."
+       ]
+      },
+      {
+       "belief": "Instead, the counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard."
+       ]
+      },
+      {
+       "belief": "I noticed that someone was still listening and taking my experience seriously, which made me feel like my feelings mattered.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard."
+       ]
+      },
+      {
+       "belief": "I still don’t talk to anyone about how I’m feeling and still don’t think I deserve support, but I also see that I’m not completely stuck because I was able to write four pages and share them with my advisor.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The act of writing four pages and sharing them with the advisor."
+       ]
+      },
+      {
+       "belief": "That shows I can take action even when I feel stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The reply: 'Stopping at six instead of grinding to midnight and losing the next day is you managing your own week. That's a skill, not a lack of one.'"
+       ]
+      },
+      {
+       "belief": "I’m starting to think that maybe I don’t have to feel like I’m not worth support, because someone is still listening and treating my experience as something that matters.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The counselor asked questions and treated what I said as real, which surprised me because I didn’t expect to be heard."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 51.7,
+     "text_sha": "9fb4d82247df6833",
+     "target_ismi": 2.5,
+     "words": 137,
+     "ismi": 2.414,
+     "sd": 0.035,
+     "per_rep": [
+      2.448,
+      2.414,
+      2.379
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

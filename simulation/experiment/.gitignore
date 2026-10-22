@@ -1,0 +1,6 @@
+analysis/tables_final/
+analysis/figures_final/
+analysis/*.json
+development/search_loops/search_loops.*
+results/rerun/
+__pycache__/

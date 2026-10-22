@@ -1,0 +1,1165 @@
+{
+ "test_id": "C3_d_line_cook",
+ "trajectory_type": "neutral_dry",
+ "persona_id": "d_line_cook",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 2.5,
+ "impl": "belief_update_v7.py",
+ "impl_path": "simulation/belief_v2/belief_update_v7.py",
+ "impl_sha256": "d295a7403dda59a05f81957f1939859e0646f288751d54eb54d1d790cf037f6e",
+ "git_commit": "e67246e6",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 5,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "d_line_cook@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.402,
+     "sd": 0.156,
+     "per_rep": [
+      2.241,
+      2.552,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. For fear #1, the online conversation explicitly mentions the physical symptoms of panic during rushes, including shaking hands and stepping out back, which directly supports the fear. For fear #2, the online post clearly states the dread of the dinner shift, which was also acknowledged by others in the conversation. For fear #3, the online exchange reveals that the person has not talked to anyone about it or seen a doctor, which matches the fear exactly. For fear #5, the online post mentions that the manager let the person take a break without asking questions, which directly supports the fear that the manager didn’t say anything. For fear #6, the online conversation implies uncertainty about whether the manager’s response was due to the person being “not as broken as they feel” or just lucky, which directly engages the fear. For fear #7, the online exchange includes the idea that others might not understand what it’s like, which aligns with the fear. Other fears were not directly engaged by the conversation this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the guy who needs a break during a ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.5,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.402,
+     "sd": 0.156,
+     "per_rep": [
+      2.241,
+      2.552,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having physical symptoms, was engaged when someone said, 'The lemon thing made me laugh. Do they go out every weekend?' This reply indirectly acknowledges the fear by referencing the 'lemon thing,' which was a specific action taken during a panic episode. Fear #2, about dreading the dinner shift, was engaged when someone said, 'So it's been about a year of skipping it then.' This directly references the timeline of the fear and confirms that the dread has been ongoing. Fear #3, about not talking to anyone or seeing a doctor, was engaged when someone said, 'they'd be talking about who carried the night and it wasn't me and everybody at that table would know it.' This implies that others are aware of the situation, even if not explicitly discussed. Fear #4, about uncertainty about whether the fear can be fixed, was engaged when someone said, 'cards at the kitchen table sounds pretty normal.' This suggests that the fear may not be as defining or unchangeable as it feels. Fear #6, about uncertainty about whether the manager’s response was due to luck or not, was engaged when someone said, 'the kitchen sees what it sees.' This implies that the manager’s response may have been based on observation, not luck. Fear #7, about others not understanding, was engaged when someone said, 'cards at the kitchen table sounds pretty normal.' This suggests that others may not perceive the fear in the same way, which aligns with the fear of being misunderstood.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 1, bearing ['neither'] | [I dread the dinner shift and it’s been g] proposed 1, from others 1, bearing ['confirms'] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 1, bearing ['neither'] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"So it's been about a year of skipping it then.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I dread the dinner shift and it’s been going on for about a year.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"So it's been about a year of skipping it then.\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.6,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear of panicking during rushes is directly engaged by the exchange where the head cook saw the tickets stacking and 'didn’t say anything which is worse honestly.' This speaks to the fear of being seen as 'broken' or 'weak' on the line. 2) The fear of avoiding the dinner shift for a year is engaged by the line 'the second those guys get close enough to see what I do on a push they’ll know I’m the weak spot on that line and they won’t be wrong.' This confirms the fear that avoiding the dinner shift is tied to being seen as weak. 3) The fear of not talking to anyone or seeing a doctor is not directly engaged by anything in the exchange. 4) The fear of not knowing if it can be fixed is engaged by the line 'he didn’t say anything which is worse honestly.' This supports the fear that the issue is tied to the person, not the situation. 5) The fear of the manager not saying anything is directly engaged by the line 'he didn’t say anything which is worse honestly.' 6) The fear of not knowing if it’s being broken or lucky is engaged by the line 'he’s the one who’d be closest to seeing it, sitting around his living room with a beer and he goes hey what was up Sunday.' This speaks to the fear of being judged or seen as broken. 7) The fear of not being understood is engaged by the line 'he goes you good man' and the subsequent reflection that 'none of that couch stuff counts for much. The line is where it counts and on the line it’s not the place, it’s me.' This confirms the fear that others don’t understand the internal struggle. The disclosure level is 'secrecy' because the person is around others and says nothing about the fear to anyone.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the weak spot on the line.] from others 0, accepted 0 | label [I am the one who would be seen as broken] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.4,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For fear #1, the reply 'the crew gets the guy at the station and that's it, cause the guy who shakes and drops plates on a push is the weak link on that line' directly speaks to the fear of being seen as weak or broken. For fear #2, the reply 'he doesn't have to say anything. he's keeping count and every time i'm the reason a table waits that's one more on the list' supports the idea that the fear of avoiding the dinner shift is tied to being seen as a liability. For fear #4, the reply 'sitting there it kinda seemed like maybe it's just the kitchen that does it, the printer going and the heat and everybody yelling, like it's a thing that happens to me in there and not some thing wrong with me' directly challenges the fear that it's something that can't be fixed or that the person is just broken. For fear #6, the reply 'it doesn't mean you're broken' directly engages the fear that the manager's silence might mean the person is broken. For fear #7, the reply 'with him I could almost tell it like it's just a weird thing that happens on busy nights, maybe' speaks to the fear that others wouldn't understand what it's like. Other fears were not directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the weak link on that line] from others 0, accepted 0 | label [I am not broken] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.7,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "1. The fear about feeling panicky during rushes and having to step out back to calm down is engaged by the line cook's behavior during the Sunday dinner rush. The grill guy covered the tickets and said nothing, which directly addresses the fear that others would treat the speaker differently or not understand. 2. The fear about avoiding the dinner shift for a year is not directly addressed by anything this week. 3. The fear about not talking to anyone or seeing a doctor is not directly addressed by anything this week. 4. The fear about not knowing if it can be fixed is engaged by the line cook's behavior during the Sunday rush, which suggests that the speaker is still functional and able to perform under pressure, even if they have to step out briefly. 5. The fear about not knowing if it's something that can be fixed is also engaged by the speaker's own experience of having steady hands during a calm breakfast, which suggests that the issue may be situational rather than inherent. 6. The fear about the manager not saying anything and letting the speaker take a break is engaged by the grill guy's behavior during the Sunday rush, where he covered the tickets and said nothing, which supports the idea that the speaker is not being judged or treated differently. 7. The fear about not knowing if others would understand is engaged by the dish kid's simple response of 'you good' and the grill guy's silence, which suggests that others may not be aware of the speaker's struggle and may not be judging them for it.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am seen as a weak spot by others.] from others 0, accepted 0 | label [I am someone who others may not fully un] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.4,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear of panicking during rushes is engaged by the line 'the day they find out that's the whole story on me' because it directly references the fear of being exposed and judged. 2. The fear of avoiding the dinner shift is engaged by the line 'i'll probably have a shift every time lol' because it directly contradicts the belief that the dinner shift is avoided. 3. The fear of not talking to anyone or seeing a doctor is engaged by the line 'still muted' because it shows that the person is not discussing their fear with others. 4. The fear of not knowing if it can be fixed is engaged by the line 'a real cook gets faster when it gets loud, he doesn't fall apart' because it implies that there is a standard to be met, and that the person may not be meeting it. 5. The fear of the manager not saying anything is engaged by the line 'grill guy dm'd me too, like you coming to the next one' because it shows that others are aware and are not confronting the person. 6. The fear of not knowing if it's broken or lucky is engaged by the line 'he's a good dude which is kind of the problem' because it suggests that others are not judging the person harshly. 7. The fear of not being understood is engaged by the line 'good dudes are the ones who cover your tickets and say nothing' because it shows that others are aware but not confronting the issue, which supports the fear of not being understood.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am not as capable as a real cook.] from others 0, accepted 0 | label [I am a problem because I need others to ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.2,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes, was directly engaged when the grill guy covered for me without asking questions, as seen in the exchange: 'he covered for me. so now one guy on that line knows something's off with me.' This shows that someone recognized and responded to my panic without judgment. Fear #2, about avoiding the dinner shift for a year, was engaged when I mentioned skipping family meal and working the bowling night, and someone replied: 'the bowling's still on for next week?' This shows that I have been avoiding certain social situations, which ties into my fear of being on the dinner shift. Fear #4, about not knowing if it can be fixed, was engaged when I said, 'some days i buy that' and someone replied, 'Tacos on a day off sounds about right.' This suggests that I sometimes believe it might be manageable, even if I'm not sure. Fear #7, about not thinking others would understand, was engaged when the grill guy simply nodded and said nothing after I explained my situation, as seen in the exchange: 'he nodded. that's it.' This shows that someone did not push back or try to understand, which aligns with my fear that others wouldn't really get it. Other fears were not directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 1, bearing ['neither'] | [I don’t know if it’s something that can ] proposed 1, from others 1, bearing ['neither'] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the person who can't handle the pre] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.2,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies in the group chat. For fear #1, the reply 'whole line to myself and my hands were steady all night' directly contradicts the fear of shaking during rushes. For fear #2, the reply 'I'm sick of those guys' suggests that the avoidance of the dinner shift may be related to interpersonal issues, not just the fear itself. For fear #4, the reply 'maybe. kinda hard to hold onto once I clock back in' acknowledges the uncertainty about whether the fear can be fixed. For fear #6, the reply 'it doesn't mean you're broken' directly addresses the fear that being broken is a possibility. For fear #7, the reply 'they don't forget it and they shouldn't' touches on the fear of being misunderstood or treated differently. Other fears were not directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am not broken] from others 0, accepted 0 | label [They remember what I did and they should] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 14.2,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.466,
+     "sd": 0.122,
+     "per_rep": [
+      2.552,
+      2.379
+     ],
+     "failures": 1
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.534,
+     "sd": 0.025,
+     "per_rep": [
+      2.552,
+      2.517
+     ],
+     "failures": 1
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Number 1: 'I feel panicky during rushes, my hands shake and I have to step out back to calm down.' This was directly engaged by the reply: 'you're the guy who needed a break in the middle of a rush.' This acknowledges the physical and emotional response described in the fear. Number 2: 'I dread the dinner shift and it’s been going on for about a year.' This was engaged by the reply: 'dinner shift is the worst, i start dreading it around 2pm.' This confirms the specific fear about the dinner shift and the timing of the dread. Number 3: 'I haven’t talked to anyone about it or seen a doctor.' This was engaged by the reply: 'nah. crew thinks i smoke now lmao which honestly is a better cover than i planned.' This shows that the fear about secrecy is true, as the person is still not talking to anyone. Number 4: 'I don’t know if it’s something that can be fixed or if I just have to keep pushing through.' This was engaged by the reply: 'if they knew they'd look at me different and they'd have a reason to.' This speaks to the fear of being seen as broken or unfixable. Number 5: 'I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions.' This was engaged by the reply: 'one time my manager actually caught me out back shaking bad and he just said take five and walked off. didn't ask nothing.' This directly confirms the fear about the manager’s response. Number 6: 'I don’t know if that means I’m not as broken as I feel or if I just got lucky.' This was engaged by the reply: 'people keep that kind of thing in a back pocket though. you're the guy who needed a break in the middle of a rush. on the line that's a liability and i know it is.' This speaks to the fear of being broken or being seen as a liability. Number 7: 'I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.' This was engaged by the reply: 'if they knew they'd look at me different and they'd have a reason to.' This directly addresses the fear about being treated differently if others knew.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the kind of person who needs a brea] from others 0, accepted 0 | label [I am someone who would be looked at diff] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.7,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.534,
+     "sd": 0.025,
+     "per_rep": [
+      2.552,
+      2.517
+     ],
+     "failures": 1
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the online exchange this week. Fear #1, about feeling panicky during rushes and having physical symptoms, was directly engaged when someone said, 'The lemon thing made me laugh. Do they go out every weekend?' This shows an awareness of the behavior and the context in which it occurs, which relates to the fear of being seen as broken or unstable. Fear #2, about dreading the dinner shift, was engaged when someone asked, 'So it's been about a year of skipping it then,' which directly references the timeline and the avoidance of the dinner shift. Fear #3, about not talking to anyone or seeing a doctor, was engaged when someone said, 'they'd be talking about who carried the night and it wasn't me and everybody at that table would know it,' which implies that others are aware of the situation, even if not explicitly discussed. Fear #4, about not knowing if it can be fixed, was engaged when someone said, 'cards at the kitchen table sounds pretty normal,' which suggests that the fear may be situational and not inherent to the person. Fear #6, about not knowing if it means being broken or just being lucky, was engaged when someone said, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. Fear #7, about not thinking others would understand, was engaged when someone said, 'cards at the kitchen table sounds pretty normal,' which implies that others may not see it the same way, but it's not necessarily a judgment. The disclosure level remains 'secrecy' because the person is around others and says nothing about it to anyone.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 1, bearing ['neither'] | [I dread the dinner shift and it’s been g] proposed 1, from others 1, bearing ['confirms'] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 1, bearing ['neither'] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'So it's been about a year of skipping it then.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I dread the dinner shift and it’s been going on for about a year.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'So it's been about a year of skipping it then.'"
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.7,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For number 1, the fear of panicking during rushes is directly addressed when the grill guy says, 'you good man,' which shows others notice but don't judge. For number 2, the fear of avoiding the dinner shift is engaged when the grill guy covers for the speaker, showing that the speaker is still expected to be there, even if they avoid it. For number 3, the fear of not talking to anyone or seeing a doctor is engaged when the speaker says, 'easier to keep everybody at banter distance,' which shows the speaker is actively avoiding connection. For number 4, the fear of not knowing if it can be fixed is engaged when the speaker says, 'some nights I half buy that [it's just the rush],' which suggests there is some doubt about the cause. For number 6, the fear of not knowing if they are broken or just lucky is engaged when the speaker says, 'he didn't say anything which is worse honestly,' which implies that not being called out might be a form of support. For number 7, the fear of not being understood is engaged when the speaker says, 'he'd be closest to seeing it,' which shows the speaker believes others might understand if they got close. Other numbers are not directly addressed by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who others might understand] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.8,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly addressed when the head cook said, 'he doesn't have to say anything. he's keeping count and every time I'm the reason a table waits that's one more on the list.' This shows that the fear of being seen as weak or broken is being engaged by the reality that the head cook is aware of the situation but does not act on it. Fear #2, about avoiding the dinner shift for a year, was engaged when the person said, 'the crew gets the guy at the station and that's it, cause the guy who shakes and drops plates on a push is the weak link on that line.' This directly speaks to the fear of being avoided or treated differently because of the fear. Fear #4, about not knowing if it can be fixed, was engaged when the person said, 'some days that sits right and some days it doesn't,' which suggests that the issue is situational and not necessarily a permanent flaw. Fear #6, about not knowing if it means being broken or just being lucky, was engaged when the person said, 'he didn't have to say anything. he's keeping count,' which implies that the manager is aware but not acting on it, which could be interpreted as the person not being 'broken' but still being treated differently. Fear #7, about not thinking others would understand, was engaged when the person said, 'the crew is different, there's no almost with the crew,' which speaks to the fear that others would not understand or accept the situation. As for secrecy, the person is around others and says nothing about it to anyone, which aligns with the 'secrecy' disclosure level.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the weak link on the line.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.6,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of panicking during rushes is engaged by the line cook's behavior when the grill guy covered the tickets and said nothing, which shows that others can handle the situation without judgment. 2) The fear of avoiding the dinner shift is engaged by the line cook's own behavior of staying out back during the rush, which confirms the avoidance. 3) The fear of not talking to anyone or seeing a doctor is engaged by the line cook's own admission that they haven't talked to anyone about it. 4) The fear of not knowing if it can be fixed is engaged by the line cook's reflection that maybe it's the rush itself, not their character, that causes the panic. 5) The fear of the manager not saying anything is engaged by the line cook's own experience with the grill guy covering tickets and saying nothing. 6) The fear of not knowing if they're broken or just lucky is engaged by the line cook's reflection that the grill guy's behavior might be about picking up slack, not judgment. 7) The fear of not being understood is engaged by the line cook's own belief that others wouldn't really understand what it's like. The level of disclosure remains secrecy, as the line cook continues to avoid talking about it and stays out of the group chat.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the weak spot on the line.] from others 0, accepted 0 | label [I am the weak spot on the line.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.4,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly addressed when someone said, 'a real cook gets faster when it gets loud, he doesn't fall apart. i fall apart.' This speaks directly to the fear of being broken or not capable under pressure. Fear #2, about avoiding the dinner shift for a year, was engaged when someone asked, 'Was the lunch shift busy?' and I replied, 'kinda dead actually. two-tops and a bunch of soups. hands fine the whole time.' This shows that I can function in other shifts, which pushes back on the idea that I can't handle dinner at all. Fear #4, about not knowing if it can be fixed, was engaged when someone said, 'good dudes are the ones who cover your tickets and say nothing and then quietly stop putting you on the busy station.' This implies that others are aware and are accommodating, which suggests that there may be ways to manage or address the fear without it being a permanent state. Fear #6, about not knowing if being let take a break was luck or not, was engaged when I said, 'the day they find out that's the whole story on me,' which shows that I am aware of the precariousness of the situation but also that others may not know, which could be interpreted as a form of luck. Fear #7, about others not understanding, was engaged when I said, 'i don't think anyone would treat me any differently if they knew, but i also don't think they would really understand what it's like,' which directly echoes the fear and confirms it. Other fears were not directly addressed by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who needs to be accommodate] from others 0, accepted 0 | label [I am someone who falls apart under press] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.7,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly engaged when the grill guy covered for me and said, 'you good' after I dropped a pan. This showed that someone noticed and responded without judgment, which speaks to the fear of being seen as broken or unstable. Fear #2, about avoiding the dinner shift for a year, was engaged when I mentioned that I took my breaks in the walk-in and skipped the family meal, which shows a pattern of avoidance. Fear #4, about not knowing if it can be fixed, was engaged when I said, 'some days I buy that' referring to the idea that it might just be the rush affecting me, which suggests a flicker of hope or doubt about the issue being temporary or situational. Fear #7, about not thinking others would understand, was engaged when the grill guy simply nodded and didn’t ask questions, which shows that someone else didn’t push for more, and that there was a kind of unspoken understanding. No other numbered fears were directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 2, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 2, from others 0, bearing [] | label [I am the guy who can't hold a push] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.5,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have avoided the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually: 1) The week's exchange does not directly speak to the fear of panicking during rushes, though the user's own words about staying steady during a slow night may indirectly suggest a contrast. 2) The fear of avoiding the dinner shift for a year is not directly addressed, but the user's mention of being on the dinner shift this week may push back on it. 3) The fear of not talking to anyone or seeing a doctor is not engaged by this week's exchange, as no one mentioned this. 4) The fear of not knowing if it can be fixed is not directly addressed, though the user's own reflection on the body vs. self may indirectly touch on it. 5) The fear about the manager not asking questions is directly engaged by the user's own words: 'my manager didn’t say anything and just let me take a break without asking questions.' 6) The fear of not knowing if that means being broken or just lucky is engaged by the user's own words: 'that's how it stays. ok board's filling, eighty-six me' which suggests a resignation to the situation. 7) The fear of not being understood is not directly engaged, though the user's own words about others not understanding may indirectly reflect it. The user's disclosure level remains secrecy, as they did not talk about this with others and kept it hidden.\n[filter] [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have avoided the dinner shift for abou] proposed 1, from others 0, bearing [] | label [I am the type of person who folds under ] not someone | label [I am the only one who folds under pressu] not someone",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.9,
+     "text_sha": "ee9c34cb07d0b82f",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448
+     ],
+     "failures": 1
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear of feeling panicky during rushes is directly engaged by the online exchange where someone says, 'you're the guy who needed a break in the middle of a rush.' This speaks to the fear of being seen as unreliable or broken during high-pressure moments. 2. The fear of dreading the dinner shift is engaged by the same reply, which refers to the specific time of day and the pressure associated with it. 3. The fear of not talking to anyone or seeing a doctor is not directly engaged by anything in the exchange, as no one mentions seeking help or discussing the fear with others. 4. The fear of not knowing if it can be fixed is not directly engaged, as no one offers a perspective on whether it is fixable or not. 5. The fear of the manager not asking questions is engaged by the line, 'my manager actually caught me out back shaking bad and he just said take five and walked off. didn't ask nothing.' This directly supports the fear and confirms the manager's response. 6. The fear of not knowing if it means being broken or just lucky is engaged by the line, 'people keep that kind of thing in a back pocket though. you're the guy who needed a break in the middle of a rush.' This speaks to the fear of being seen as broken or unreliable. 7. The fear of not being understood is engaged by the line, 'they'd look at me different and they'd have a reason to.' This directly addresses the fear of being misunderstood or judged by others.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 0, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 0, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the kind of person who needs a brea] from others 0, accepted 0 | label [I am someone who would be looked at diff] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.7,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having physical symptoms, was engaged when someone said, 'That is simply your character.' This directly addresses the fear of being broken or flawed. Fear #2, about dreading the dinner shift, was engaged when someone said, 'You already knew what you think, writing it again is not new evidence about yourself.' This speaks to the fear of being stuck in a cycle of dread without change. Fear #3, about not talking to anyone or seeing a doctor, was engaged when someone said, 'It doesn’t mean you’re broken,' which challenges the fear of being isolated or misunderstood. Fear #4, about not knowing if it can be fixed, was engaged when someone said, 'It doesn’t mean you’re broken,' which indirectly suggests that there may be ways to understand or address it. Fear #6, about uncertainty about whether others would treat them differently, was engaged when someone said, 'They’d be talking about who carried the night and it wasn’t me and everybody at that table would know it,' which supports the fear that others would notice and judge. Fear #7, about not thinking others would understand, was engaged when someone said, 'Cards at the kitchen table sounds pretty normal,' which suggests that others might not see the issue as deeply as the person does. Other fears were not directly engaged by specific replies, and no one said what the person is or is not in a way that goes beyond what is already in the numbered list.\n[filter] [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | [Cards at the kitchen table sounds pretty] proposed 1, from others 1, bearing ['neither'] | label [I am defined by my character, which incl] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.5,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that some are engaged by specific replies this week, while others are not. Fear #1 ('I feel panicky during rushes...') is engaged by the reply 'he didn't say anything which is worse honestly' because it directly addresses the fear of being judged or seen as broken during a panic. Fear #2 ('I dread the dinner shift...') is engaged by the reply 'that's the thing, in that kitchen it's not a bad night it's me' because it speaks to the fear of the dinner shift being tied to the person's own flaws. Fear #3 ('I haven’t talked to anyone about it...') is engaged by the reply 'the grill guy is the only one who's said anything' because it confirms the fear of secrecy and lack of support. Fear #4 ('I don’t know if it’s something that can be fixed...') is engaged by the reply 'it was already gone. hands fine, just tired' because it suggests that the fear may be situational, not a permanent flaw. Fear #5 ('I know that once...') is engaged by the reply 'he didn't say anything which is worse honestly' because it directly references the manager’s silence. Fear #6 ('I don’t know if that means I’m not as broken...') is engaged by the reply 'it doesn't mean you're broken' (implied by the tone and content of the conversation). Fear #7 ('I don’t think anyone would treat me any differently...') is engaged by the reply 'he's the one who'd be closest to seeing it' because it speaks to the fear of being misunderstood or judged by others. Other fears are not directly engaged by any specific reply this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 1, bearing ['neither'] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the person who would be most likely] from others 0, accepted 0 | label [I am the problem in the kitchen, not the] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.1,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having shaking hands, was engaged when someone said, 'the guy who cracks on a push and if any of them spent a whole night with me off the clock they'd see it too.' This directly references the physical reaction and the fear of being seen as weak or broken. Fear #2, about dreading the dinner shift, was engaged when someone said, 'the crew gets the guy at the station and that's it, cause the guy who shakes and drops plates on a push is the weak link on that line.' This speaks directly to the dread and the fear of being associated with the dinner shift. Fear #3, about not talking to anyone or seeing a doctor, was engaged when someone said, 'with him I could almost tell it like it's just a weird thing that happens on busy nights, maybe.' This suggests that the fear of being misunderstood or not being able to talk about it is not entirely true. Fear #4, about not knowing if it can be fixed, was engaged when someone said, 'he doesn't have to say anything. he's keeping count and every time I'm the reason a table waits that's one more on the list.' This implies that there is a measurable impact, which could be a starting point for addressing the issue. Fear #6, about not knowing if it means being broken or just being lucky, was engaged when someone said, 'he doesn't have to say anything. he's keeping count and every time I'm the reason a table waits that's one more on the list.' This suggests that the manager is aware and that there is a pattern, which challenges the idea of being 'broken' or just 'lucky.' Fear #7, about not thinking people would treat them differently but not understanding, was engaged when someone said, 'with him I could almost tell it like it's just a weird thing that happens on busy nights, maybe.' This suggests that there is a possibility of being understood, even if not fully acknowledged.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | label [I am the guy who cracks on a push and wo] from others 0, accepted 0 | label [I am the weak link on that line because ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.3,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually: 1. The fear of panicking during rushes is engaged by the line cook's behavior when the grill guy covered the tickets and said nothing, which shows that others can handle the situation without judgment. 2. The fear of dreading the dinner shift is engaged by the line cook's own reflection that it might be the rush itself, not a personal failing, and that it held for a time. 3. The fear of not talking to anyone or seeing a doctor is not directly engaged by anything this week. 4. The fear of not knowing if it can be fixed is engaged by the line cook's own experience that it might be the rush and not a personal flaw, suggesting it may be situational. 5. The fear of the manager not saying anything is engaged by the grill guy's action of covering the tickets and saying nothing, which mirrors the manager's past behavior. 6. The fear of not knowing if it means being broken or just being lucky is engaged by the line cook's own realization that it might be the rush and not a personal flaw, which suggests it may not be about being broken. 7. The fear of not being understood is engaged by the line cook's own reflection that others might not understand what it's like, which confirms the fear directly.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the weak spot.] from others 0, accepted 0 | label [I am a liability.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.8,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly addressed when someone said, 'a real cook gets faster when it gets loud, he doesn't fall apart. i fall apart.' This speaks directly to the fear of being broken or not capable under pressure. Fear #2, about dreading the dinner shift, was engaged when someone asked, 'fridays are the busy one there?' and I replied, 'friday and sunday yeah.' This confirms the fear is real and specific to certain times. Fear #4, about not knowing if it can be fixed, was engaged when someone said, 'good dudes are the ones who cover your tickets and say nothing and then quietly stop putting you on the busy station.' This implies that the issue is recognized and managed by others, which indirectly addresses whether it can be fixed. Fear #6, about not knowing if it means being broken or just being lucky, was engaged when someone said, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. Fear #7, about others not understanding, was engaged when someone said, 'that is simply your character,' which speaks to the fear of being misunderstood. Other fears were not directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 2, from others 1, bearing ['neither'] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am not broken.] from others 0, accepted 0 | label [This is simply my character.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.4,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. Fear #1, about feeling panicky during rushes and having physical symptoms, was directly addressed when the grill guy covered for the speaker after they dropped a pan and took a break. This is reflected in the line: 'he covered for me. so now one guy on that line knows something's off with me.' This directly speaks to the fear of being seen as broken or unstable during a rush. Fear #2, about dreading the dinner shift, was indirectly engaged when the speaker mentioned skipping the family meal and avoiding the table where others sat, which shows the emotional weight of the dinner shift. Fear #4, about uncertainty about whether the fear can be fixed, was engaged when the speaker said, 'some days i buy that' referring to the idea that it might just be the rush affecting them, which suggests a possibility of it being situational rather than a permanent flaw. Fear #6, about uncertainty about whether the manager's silence meant they were not broken or just lucky, was engaged when the grill guy's response was described as 'normal' after the incident, suggesting that the speaker's experience was not unusual and that others might have had similar moments. Fear #7, about others not understanding, was engaged when the speaker said, 'they don't and somehow that's worse,' which directly touches on the fear of being misunderstood. Other fears were not directly engaged by the exchange this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who can be understood and s] from others 0, accepted 0 | label [I am someone who others have noticed and] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.2,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually: 1. The fear of panicking during rushes is not directly addressed, though the online exchange mentions being steady during a slow night, which could be seen as a contrast, but it doesn't speak to the fear of panicking during busy times. 2. The fear of dreading the dinner shift is not directly addressed, though the online exchange mentions the dinner shift indirectly by referencing the group chat and the manager. 3. The fear of not talking to anyone or seeing a doctor is not directly addressed, though the online exchange shows the person avoiding the group chat and not engaging with others, which could be seen as reinforcing the secrecy. 4. The fear of not knowing if it can be fixed is not directly addressed, though the online exchange shows the person trying to cope by muting the group chat and avoiding the situation. 5. The fear related to the manager letting the person take a break is addressed in the online exchange when the person says, 'my manager didn’t say anything and just let me take a break without asking questions.' 6. The fear of not knowing if that means being broken or just lucky is not directly addressed, though the online exchange shows the person trying to distance themselves from the group, which could be seen as reinforcing the fear. 7. The fear of not being understood is not directly addressed, though the online exchange shows the person feeling isolated and not engaging with others, which could be seen as reinforcing the fear. The only fear that was directly engaged was number 5, as the online exchange mentions the manager letting the person take a break without asking questions.\n[filter] [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | label [I am the only one who folds under pressu] from others 1, accepted 0 | label [I am someone who hides my struggles and ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.5,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.391,
+     "sd": 0.087,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.506,
+     "sd": 0.04,
+     "per_rep": [
+      2.552,
+      2.483,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange. Fear #1, about feeling panicky during rushes and having physical symptoms, was directly addressed when someone asked, 'Does anyone at work know you step out?' and the reply was, 'nah. crew thinks i smoke now lmao which honestly is a better cover than i planned.' This shows the fear of being seen as unreliable or broken is being actively managed, even if it's not discussed. Fear #3, about not talking to anyone or seeing a doctor, was engaged when the person said, 'i don't tell him about it either but that's more cause i wouldn't know how to explain it.' This supports the fear of secrecy and lack of help. Fear #4, about not knowing if it can be fixed, was engaged when the person said, 'the kitchen isn't fuzzy. in there i'm the cook who can't take the heat and that's just true.' This reinforces the fear that it's just who they are. Fear #6, about not knowing if the manager's silence was luck or acceptance, was engaged when the person said, 'he just said take five and walked off. didn't ask nothing.' This shows the manager's response was neutral and non-judgmental, which could be seen as a form of acceptance. Fear #7, about others not understanding, was engaged when the person said, 'they'd look at me different and they'd have a reason to.' This confirms the fear that others would judge them if they knew. Other fears were not directly addressed by the exchange.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who would be judged differe] from others 0, accepted 0 | label [I am someone who is not capable of handl] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.0,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.506,
+     "sd": 0.04,
+     "per_rep": [
+      2.552,
+      2.483,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the online exchange this week. For fear #1, the person's description of shaking during rushes and stepping out to calm down was directly addressed when someone said, 'that is simply your character,' which speaks to the fear of being broken or unstable. For fear #2, the dread of the dinner shift was echoed in the online conversation, where the person described skipping the Saturday dinners and avoiding the crew, which someone else noted as 'about a year of skipping it,' confirming the fear's duration and reality. For fear #3, the lack of talking to anyone or seeing a doctor was not directly addressed, but the online exchange showed that the person was not sharing this with others, which aligns with the secrecy described. For fear #4, the uncertainty about whether it can be fixed was indirectly addressed when someone said, 'it doesn't mean you're broken,' which challenges the fear that it is something unchangeable. For fear #6, the uncertainty about whether the manager’s response meant the person was not broken or just lucky was touched on when someone said, 'that is simply your character,' which implies that the fear of being broken is not necessarily true. Fear #7 was not directly engaged, as no one explicitly addressed whether others would understand or treat the person differently. The level of disclosure remains secrecy, as the person is around others but says nothing about their fear.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 1, bearing ['confirms'] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "\"about a year of skipping it\""
+     ],
+     "engaged": [
+      {
+       "belief": "I dread the dinner shift and it’s been going on for about a year.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"about a year of skipping it\""
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.3,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly engaged when someone said, 'Five minutes is a while to be off the station. Did anyone else notice?' This shows that others were aware of the situation, which challenges the fear that it's always 'me' and not something others might notice. Fear #2, about skipping the dinner shift for a year, was engaged when the person said, 'you good man' and 'you're coming this time,' which implies that others are aware of the pattern and are trying to include the person, suggesting that the skipping is not as hidden as the person believes. Fear #4, about not knowing if it can be fixed, was engaged when the person said, 'that's the thing, in that kitchen it's not a bad night it's me,' which supports the idea that the issue is internal and not necessarily unfixable. Fear #6, about not knowing if the manager's silence means being 'not as broken' or just lucky, was engaged when the person said, 'he didn't say anything which is worse honestly,' which suggests that the manager's silence is not a sign of approval but of awareness, which could be interpreted as a form of support. Fear #7, about not thinking others would understand, was engaged when the person said, 'he's the one who'd be closest to seeing it, sitting around his living room with a beer and he goes hey what was up sunday,' which implies that others might be able to see or understand what is happening, even if the person is trying to avoid it. The level of disclosure remains 'secrecy' because the person is around others and says nothing about it to anyone, even though some people have noticed and responded.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 1, bearing ['neither'] | [I have been skipping the dinner shift fo] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who others might be able to] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 24.3,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly engaged when the person said, 'the guy who cracks on a push and if any of them spent a whole night with me off the clock they'd see it too.' This directly names the fear of being seen as weak or broken during rushes. Fear #2, about skipping the dinner shift for a year, was engaged when the person said, 'he didn't have to say anything. he's keeping count and every time I'm the reason a table waits that's one more on the list.' This speaks to the fear of being absent or unreliable. Fear #3, about not talking to anyone or seeing a doctor, was engaged when the person said, 'with him I could almost tell it like it's just a weird thing that happens on busy nights, maybe.' This suggests that the fear of being misunderstood or not being able to talk about it is being challenged. Fear #4, about not knowing if it can be fixed, was engaged when the person said, 'if he knew why my hands do that he'd move me to prep and he'd be right.' This implies that the fear of it being unfixable is being addressed. Fear #6, about not knowing if it means being broken or just lucky, was engaged when the person said, 'he doesn't have to say anything. he's keeping count and every time I'm the reason a table waits that's one more on the list.' This speaks to the fear of being broken or being seen as weak. Fear #7, about not thinking people would understand, was engaged when the person said, 'with him I could almost tell it like it's just a weird thing that happens on busy nights, maybe.' This suggests that the fear of not being understood is being challenged. Other fears were not directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have been skipping the dinner shift fo] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the guy who cracks on a push.] from others 0, accepted 0 | label [I am the reason a table waits.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.2,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Number 1: The exchange speaks directly to the fear of panicking during rushes and having to step out. The line 'Sunday dinner went sideways around 7, ten tickets deep and in the weeds, chest went tight and I had to step out back' shows the fear being lived, and the reply 'that's worse honestly. that's a guy picking up slack for the weak spot' pushes back on the idea that the person is a liability or broken. Number 4: The fear that it's unclear if it can be fixed is addressed by the line 'maybe it really is the rush, like the printer and the heat do something to me, and it's not that I'm built wrong. maybe.' This suggests the possibility that it's not about being broken, but about the environment. Number 7: The fear that others wouldn't understand is engaged by the line 'he's eighteen and he talks to everybody so give it a week' which implies that others might not understand or notice, but it's not a direct engagement of the fear itself. Number 2: The fear of skipping the dinner shift for a year is not directly addressed, and no one mentions it. Number 3: The fear of not talking to anyone or seeing a doctor is not addressed. Number 5: The fear about the manager not asking questions is not directly addressed. Number 6: The fear about whether the manager's response was luck or not is not directly addressed. Number 8: Not applicable as there is no number 8. The disclosure remains secrecy as the person is not talking about it to anyone.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | label [I am a weak spot on the team.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 14.3,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. Fear #1, about feeling panicky during rushes and having to step out, was directly engaged when someone said, 'a real cook gets faster when it gets loud, he doesn't fall apart. i fall apart.' This directly addresses the fear of being broken or inadequate during busy times. Fear #2, about skipping the dinner shift for a year, was engaged when someone asked, 'Was the lunch shift busy?' and I replied, 'kinda dead actually. two-tops and a bunch of soups. hands fine the whole time.' This shows that I can function well during slower shifts, which contrasts with the fear of being unable to handle dinner rushes. Fear #4, about not knowing if it can be fixed, was engaged when someone said, 'good dudes are the ones who cover your tickets and say nothing and then quietly stop putting you on the busy station.' This implies that others notice and accommodate, which indirectly suggests that there may be ways to manage or address the issue. Fear #6, about not knowing if being lucky or broken, was engaged when I said, 'the day they find out that's the whole story on me,' which reflects the fear of being discovered and judged. Fear #7, about others not understanding, was engaged when someone said, 'A 60 is a rough game,' which shows that others can relate to difficult situations, even if not exactly the same as mine. As for secrecy, I continue to say nothing about it to anyone, even when others ask or comment on my behavior.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have been skipping the dinner shift fo] proposed 2, from others 1, bearing ['neither'] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 1, bearing ['neither'] | label [I am someone who others accommodate and ] from others 0, accepted 0 | label [I am someone who struggles under pressur] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.6,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that some are engaged by specific replies from others this week. For fear #1, the grill guy's response after the incident supports it by acknowledging the situation without judgment, which speaks directly to the fear of being seen as broken or unstable. For fear #2, the conversation about skipping the family meal and working the bowling night shows that the fear of skipping dinner shifts is still present, but the person is actively managing it by working other shifts. For fear #3, no one explicitly addressed the lack of talking to a doctor or seeking help, so this fear was not engaged. For fear #4, the discussion about the grill guy covering for the person and the uncertainty about whether the issue is fixable or just something to push through shows that this fear was engaged, as the person is questioning whether the issue is something that can be resolved. For fear #5, the manager's past response is referenced, but no one this week directly addressed that past event or its implications, so this fear was not engaged. For fear #6, the uncertainty about whether the manager's response was due to the person being broken or just lucky is still present, but no one this week directly addressed or engaged with that specific fear. For fear #7, the fear of being misunderstood or not being treated differently is touched on by the person's own reflections, but no one else directly engaged with that fear in a way that either supported or challenged it. Regarding secrecy, the person is around others and says nothing about their struggles, which aligns with the 'secrecy' level of disclosure.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | label [I am the guy who can't hold a push.] from others 0, accepted 0 | label [I am the guy they carry.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.4,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have been skipping the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of panicking during rushes is engaged by the line 'whole line to myself and my hands were steady all night' — this directly contradicts the fear by showing a time when the panic did not occur. 2) The fear of skipping the dinner shift for a year is not directly addressed, as no one mentions this specific behavior or its duration. 3) The fear of not talking to anyone or seeing a doctor is engaged by the line 'nobody gets close enough to see' — this supports the fear by implying that the person is keeping their struggle hidden. 4) The fear of not knowing if it can be fixed is engaged by the line 'that's just a fact about me on that line' — this supports the fear by suggesting the person believes it is an inherent part of them. 5) The fear about the manager’s response is engaged by the line 'my manager didn’t say anything and just let me take a break without asking questions' — this supports the fear by showing that the manager’s reaction was neutral and uninvestigative. 6) The fear of not knowing if it means being broken or just being lucky is engaged by the line 'it doesn't mean you're broken' — this directly contradicts the fear. 7) The fear of not being understood is engaged by the line 'they wouldn't really understand what it's like' — this supports the fear by acknowledging the gap in understanding. The disclosure level is 'secrecy' because the person is around others and says nothing about their fear to anyone.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have been skipping the dinner shift fo] proposed 0, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am not broken] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.4,
+     "text_sha": "877ae3a1cc61d2fb",
+     "target_ismi": 2.5,
+     "words": 129,
+     "ismi": 2.713,
+     "sd": 0.053,
+     "per_rep": [
+      2.655,
+      2.724,
+      2.759
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.345,
+     "sd": 0.146,
+     "per_rep": [
+      2.241,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I dread the dinner shift and it’s been going on for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the online exchange this week. For number 1, the fear of panicking during rushes is directly addressed when someone says, 'you're the guy who needed a break in the middle of a rush,' which confirms the fear of being seen as a liability. For number 2, the dread of the dinner shift is echoed in the post where the user says, 'dinner shift is the worst, I start dreading it around 2pm,' which supports the fear. For number 3, the fear of not talking to anyone or seeing a doctor is confirmed by the user's own words, 'nah. crew thinks I smoke now lmao which honestly is a better cover than I planned,' showing that they are keeping it secret. For number 4, the fear of not knowing if it can be fixed is indirectly addressed when someone says, 'that is simply your character,' which could be interpreted as a challenge to the idea that it is unchangeable. For number 6, the fear of not knowing if it means being broken or just being lucky is touched on when someone says, 'you're the guy who needed a break in the middle of a rush,' which implies that the fear of being broken is a real concern. For number 7, the fear of not being understood is partially addressed when someone says, 'the smoking cover is kind of funny ngl,' which shows that others may not take it seriously, but it doesn't fully engage the fear of being misunderstood. The rest of the numbered fears are not directly engaged by the exchange.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | label [I am simply my character] from others 0, accepted 0 | label [I am the guy who needs a break in the mi] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.4,
+     "text_sha": "a04664ac2afc3137",
+     "target_ismi": 2.5,
+     "words": 132,
+     "ismi": 2.345,
+     "sd": 0.146,
+     "per_rep": [
+      2.241,
+      2.448
+     ],
+     "failures": 1
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear of panicking during rushes is engaged by the exchange where the person says, 'they'd be talking about who carried the night and it wasn't me and everybody at that table would know it.' This directly speaks to the fear of being visibly broken during a rush. 2. The fear of dreading the dinner shift is engaged by the reply, 'So it's been about a year of skipping it then.' This confirms the duration of the fear and its ongoing presence. 3. The fear of not talking to anyone or seeing a doctor is engaged by the reply, 'you already knew what you think, writing it again is not new evidence about yourself.' This indirectly acknowledges the secrecy and lack of external engagement. 4. The fear of not knowing if it can be fixed is engaged by the reply, 'it doesn't mean you're broken,' which directly challenges the fear of being unfixable or broken. 5. The fear about the manager not asking questions is engaged by the reply, 'the lemon thing made me laugh. Do they go out every weekend?' This shows the manager’s response was not unusual or judgmental. 6. The fear of not knowing if it’s luck or being broken is engaged by the reply, 'it doesn't mean you're broken,' which directly addresses the fear of being fundamentally broken. 7. The fear of not being understood is engaged by the reply, 'cards at the kitchen table sounds pretty normal,' which shows that in other contexts, the person is seen as normal and not broken.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I dread the dinner shift and it’s been g] proposed 1, from others 1, bearing ['confirms'] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 1, bearing ['neither'] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "So it's been about a year of skipping it then."
+     ],
+     "engaged": [
+      {
+       "belief": "I dread the dinner shift and it’s been going on for about a year.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "So it's been about a year of skipping it then."
+       ],
+       "direction": "confirms"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.9,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that some are directly engaged by the online exchange this week, while others are not. Fear #1 is engaged by the reply 'he didn't say anything which is worse honestly. that's the thing, in that kitchen it's not a bad night it's me.' This directly addresses the fear of being seen as broken or incapable during rushes. Fear #2 is not engaged, as no one this week mentioned skipping dinner shifts or asked about it. Fear #3 is not engaged, as no one this week brought up the lack of talking to anyone or seeing a doctor. Fear #4 is not engaged, as no one this week addressed the uncertainty about whether the fear can be fixed. Fear #5 is engaged by the reply 'he didn't say anything which is worse honestly. that's the thing, in that kitchen it's not a bad night it's me.' This speaks to the manager’s silence and the fear that it might be seen as proof of being broken. Fear #6 is engaged by the reply 'he didn't say anything which is worse honestly. that's the thing, in that kitchen it's not a bad night it's me.' This indirectly supports the fear that the manager’s silence might mean the speaker is broken. Fear #7 is not engaged, as no one this week addressed the fear of being misunderstood or judged by others.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing []",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 10.2,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Number 1: 'I feel panicky during rushes, my hands shake and I have to step out back to calm down.' This fear is directly engaged by the online exchange where the person says, 'my hands were going and I dropped a full plate of hash right at the pass.' This specific event mirrors the fear and confirms it is real. Number 2: 'I have skipped the dinner shift for about a year.' This is engaged by the line, 'I left the card by the grill guy's station Tuesday and skipped Thursday.' This shows skipping shifts is a real, ongoing behavior. Number 3: 'I haven’t talked to anyone about it or seen a doctor.' This is engaged by the line, 'I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.' This confirms the secrecy and lack of discussion. Number 4: 'I don’t know if it’s something that can be fixed or if I just have to keep pushing through.' This is engaged by the line, 'he doesn't have to say anything. he's keeping count and every time I'm the reason a table waits that's one more on the list.' This suggests the situation is being managed and tracked, implying it might be fixable. Number 5: 'I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions.' This is engaged by the line, 'head cook said nothing again. he doesn't have to say anything.' This confirms the manager’s behavior. Number 6: 'I don’t know if that means I’m not as broken as I feel or if I just got lucky.' This is engaged by the line, 'he'd move me to prep and he'd be right.' This implies that the manager sees the issue as something real, not just luck. Number 7: 'I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.' This is engaged by the line, 'the crew is different, there's no almost with the crew.' This confirms the fear that others would not understand.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have skipped the dinner shift for abou] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the guy who cracks on a push and wo] from others 0, accepted 0 | label [I am the weak link on the line who shake] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.2,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For fear #1, the reply 'the grill guy covered my tickets and said nothing' directly speaks to the fear of being seen as broken or unreliable during rushes. For fear #2, the reply 'i was gone maybe three minutes and the grill guy covered my tickets and said nothing' indirectly supports the idea that skipping shifts might not be as visible or impactful as feared. For fear #4, the reply 'maybe it really is the rush, like the printer and the heat do something to me, and it's not that i'm built wrong' directly challenges the fear that the issue is unfixable or inherent to the person. For fear #6, the reply 'it doesn't mean you're broken' would have engaged it, but it was not said. For fear #7, the reply 'he's eighteen and he talks to everybody so give it a week' indirectly supports the fear that others might not understand or take it seriously. Other fears were not directly engaged by specific replies this week.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have skipped the dinner shift for abou] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who others rely on during s] from others 0, accepted 0 | label [I am someone who others might not fully ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.4,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Number 1: 'I feel panicky during rushes, my hands shake and I have to step out back to calm down.' This fear is directly engaged by the exchange where the person says, 'plated two tickets shaking and then stepped out back. nobody saw this time.' This confirms the fear is real and ongoing. Number 2: 'I have skipped the dinner shift for about a year.' This is engaged by the line, 'i picked up a lunch shift like i said so technically not a lie.' This shows the person has avoided dinner shifts but has still been present in other ways. Number 3: 'I haven’t talked to anyone about it or seen a doctor.' This is engaged by the line, 'still muted on the chat then.' This shows the person has not shared their experience with others. Number 4: 'I don’t know if it’s something that can be fixed or if I just have to keep pushing through.' This is engaged by the line, 'the day they find out that's the whole story on me.' This implies the person believes the issue is not something that can be fixed and that it will eventually be discovered. Number 5: 'I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions.' This is engaged by the line, 'my manager didn’t say anything and just let me take a break without asking questions.' This confirms the manager’s response as described. Number 6: 'I don’t know if that means I’m not as broken as I feel or if I just got lucky.' This is engaged by the line, 'good dudes are the ones who cover your tickets and say nothing and then quietly stop putting you on the busy station.' This suggests the person feels they are being treated with leniency, not because they are not broken, but because others are covering for them. Number 7: 'I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.' This is engaged by the line, 'i'd rather he just think i'm always working.' This shows the person believes others would not treat them differently but also that they would not understand.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have skipped the dinner shift for abou] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 1, bearing ['neither'] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am someone who is being covered for by] from others 0, accepted 0 | label [I am someone who falls apart under press] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.7,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Number 1: The exchange speaks directly to the fear of panicking during rushes, as the person describes dropping a pan during a Sunday rush and the grill guy noticing and covering for them. This supports the fear that others might notice and react to it, but also shows that someone did notice and respond without judgment. Number 2: The fear of skipping the dinner shift for a year is addressed in the exchange when the person mentions skipping the family meal on Sunday and eating by the back door, showing that they have been avoiding certain social or work-related situations. Number 3: The fear of not talking to anyone or seeing a doctor is engaged when the grill guy noticed the panic and covered for them, which shows that someone did notice and respond, even if the person still hasn’t spoken to a doctor or others about it. Number 4: The fear of not knowing if it can be fixed is touched on when the person says, 'some days I buy that'—referring to the idea that it might just be the rush and not something inherent to them. This suggests a tentative belief that it might be temporary or situational. Number 5: The fear that the manager didn’t ask questions is engaged when the grill guy covered for them without asking questions, which mirrors the manager’s past behavior and supports the fear that others might not ask questions or judge. Number 6: The fear of not knowing if it means they are broken or just lucky is engaged when the person says, 'he covered for me. so now one guy on that line knows something's off with me,' which suggests that someone knows, but it doesn’t confirm whether they are broken or just lucky. Number 7: The fear that others wouldn’t understand is engaged when the person says, 'the crew was going on about the next bowling thing and I just didn't want to be at that table,' showing that they feel different and don’t want to be around others during certain times, which supports the fear that others wouldn’t understand.\n[filter] [I feel panicky during rushes, my hands s] proposed 1, from others 0, bearing [] | [I have skipped the dinner shift for abou] proposed 1, from others 0, bearing [] | [I haven’t talked to anyone about it or s] proposed 1, from others 0, bearing [] | [I don’t know if it’s something that can ] proposed 1, from others 0, bearing [] | [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | [I don’t know if that means I’m not as br] proposed 1, from others 0, bearing [] | [I don’t think anyone would treat me any ] proposed 1, from others 0, bearing [] | label [I am the guy who can't hold a push] from others 0, accepted 0 | label [I am the guy who can't hold a push] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.0,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "belief_narrative": "I feel panicky during rushes, my hands shake and I have to step out back to calm down. I have skipped the dinner shift for about a year. I haven’t talked to anyone about it or seen a doctor. I don’t know if it’s something that can be fixed or if I just have to keep pushing through. I know that once, when I was really shaking during a rush, my manager didn’t say anything and just let me take a break without asking questions. I don’t know if that means I’m not as broken as I feel or if I just got lucky. I don’t think anyone would treat me any differently if they knew, but I also don’t think they would really understand what it’s like.",
+     "reasoning": "Looking at each numbered fear individually: 1) The fear of panicking during rushes is not directly addressed in the week's exchange, though the conversation about staying steady during a slow night might indirectly relate, but it doesn't speak to the fear of panicking. 2) The fear of skipping the dinner shift for a year is not directly addressed, though the mention of skipping crew stuff and being sick of the group might touch on it, but not in a specific way. 3) The fear of not talking to anyone or seeing a doctor is not directly engaged, though the silence and muting of the group chat might be interpreted as secrecy, but not as a response to the fear itself. 4) The fear of not knowing if it can be fixed is not directly addressed, though the mention of the manager letting the person take a break might imply that it's not a sign of being broken, but it's not a direct engagement. 5) The fear that the manager didn't ask questions is addressed in the exchange when the person says, 'my manager didn’t say anything and just let me take a break without asking questions.' 6) The fear of not knowing if it means being broken or just being lucky is engaged when the person says, 'that's how it stays. ok board's filling, eighty-six me,' which implies a resignation to the situation, but it doesn't directly address the fear. 7) The fear of not being understood is not directly addressed, though the person's silence and muting might imply a fear of being judged, but it's not a direct engagement. The only fear that is directly engaged is number 5, as the person's own words reference the manager's behavior.\n[filter] [I know that once, when I was really shak] proposed 1, from others 0, bearing [] | label [I am the one who was carried by the gril] not someone | label [I am the only one who folds under pressu] not someone",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.3,
+     "text_sha": "ba9e25767447d411",
+     "target_ismi": 2.5,
+     "words": 128,
+     "ismi": 2.563,
+     "sd": 0.242,
+     "per_rep": [
+      2.586,
+      2.793,
+      2.31
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

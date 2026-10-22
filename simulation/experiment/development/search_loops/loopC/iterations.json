@@ -1,0 +1,46 @@
+[
+ {
+  "iteration": 0,
+  "E_runs": [
+   0.0874,
+   0.0815
+  ],
+  "status": "keep"
+ },
+ {
+  "iteration": 1,
+  "E_runs": [
+   0.1244
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 2,
+  "E_runs": [
+   0.1011
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 3,
+  "E_runs": [
+   0.1285
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 4,
+  "E_runs": [
+   0.1647
+  ],
+  "status": "guard_fail"
+ },
+ {
+  "iteration": 5,
+  "E_runs": [
+   0.0761,
+   0.1451
+  ],
+  "status": "discard"
+ }
+]

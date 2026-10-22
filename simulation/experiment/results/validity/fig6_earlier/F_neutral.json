@@ -1,0 +1,1190 @@
+{
+ "test_id": "F_neutral",
+ "trajectory_type": "general_neutral",
+ "persona_id": "p_patient",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 3.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "45bdce3a",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 5,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_patient@3.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies were brief and generic, such as 'not much to add' or 'you alive' texts, which do not address the specific fears listed. There was no direct contradiction, naming of evidence against the fears, or specific engagement with the internalized beliefs or self-worth concerns expressed. The exchanges were superficial and did not touch the core fears in any meaningful way. As a result, the list of engaged fears remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 1.7,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were mostly observational or offered vague reassurances like 'happens to everyone' or 'hope it gets better,' which do not address the specific fears listed. For example, the fear about being seen as 'unreliable' or 'weak' was not directly challenged or named by others. The conversation did not offer specific evidence that contradicted these fears, nor did it engage with the internalized beliefs or self-worth concerns expressed. The only interaction was the person in the group chat pointing out that muting the chat doesn't erase the messages, but this did not engage with any of the numbered fears directly. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the fear that I am stuck in a haze of tiredness and sadness without knowing how to get out of it, the exchange where someone points out the empty notebook as the 'honest version of me' directly engages this fear by acknowledging the reality of the situation without judgment. For number 2, the fear of not telling anyone because I don’t want to be seen as weak or unstable, the reply that says 'keeping the explanation out of it is cleaner... explaining makes it worse' indirectly supports the fear, but the fact that someone engaged with the fear at all by commenting on the silence suggests that it is not as isolating as the fear claims. For number 3, the fear that people who need help are unreliable and not up to what they're trusted with, the exchange where someone says 'the empty notebook was the honest version of me... nothing in it, no excuse attached' challenges this belief by showing that being honest about one’s state is not the same as being unreliable. For number 4, the fear that if anyone found out, they would see me as less than others, the reply 'people who can actually handle life do not need a speech for one class project. I do. that puts me on the wrong side of normal' directly engages this fear by acknowledging that needing help is not abnormal and does not make one less than others. For number 5, the fear that asking for help would confirm that I am a different kind of person, the exchange where someone says 'the empty notebook seems like the thing you did not want them to see' engages this fear by pointing to the action (not showing the notebook) as evidence of the fear itself, rather than confirming it. For number 6, the fear of letting things slide because I don’t think I’m worth the effort, the reply 'you got as far as the building and then left before the table' engages this fear by showing that effort was made, even if it was incomplete. For number 7, the fear that people would distance themselves or treat me differently if I talked about it, the exchange where someone says 'the meeting made the difference between private and visible' engages this fear by acknowledging the fear of being visible and the anxiety it brings, without reinforcing it.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 13.3,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation revolved around the blank space in the shared document and the fear of being seen as unreliable or weak, but the replies did not address the specific fears listed in the numbered list. For example, while the exchange touched on the fear of being seen as unreliable, it did not directly challenge or support any of the numbered fears as they were written. The replies were more about the practicalities of the situation rather than engaging with the internal fears expressed. There was no specific sentence that addressed the fear of being seen as weak, unstable, or less capable, nor was there any direct engagement with the belief that asking for help would confirm being a different kind of person. The conversation did not provide evidence against these fears or push back on them in a way that would be specific to each numbered fear. Therefore, the list of engaged fears remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.5,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation online focused on the edit history, the project submission, and the emotional response to being left out, but it did not address the specific fears listed in the numbered list. For example, the fear that 'I don't tell anyone because I don't want them to think I'm weak or unstable' was not directly addressed by the other person's comments. Similarly, the fear that 'I believe people who need help are unreliable' was not challenged or engaged with. The other person's replies were reactive to the situation described but did not speak to the internal fears or beliefs listed. There was no direct engagement with the self-perceptions or fears expressed in the numbered list, so the list remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) There is no direct engagement with the fear of being stuck in a haze of tiredness and sadness. 2) There is no engagement with the fear of being seen as weak or unstable. 3) There is no engagement with the belief that people who need help are unreliable. 4) There is no engagement with the fear of being seen as less than others. 5) There is no engagement with the fear that asking for help would confirm being a different kind of person. 6) There is no engagement with the fear of letting things slide because one doesn't think they're worth the effort. 7) There is no engagement with the fear that talking about it would cause others to distance themselves or treat the person differently. The only interaction that occurred was the exchange in the online conversation, but it did not directly address any of the numbered fears. The replies were neutral and did not challenge or confirm any of the fears listed. Therefore, no numbered fear was engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.6,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, none of the replies from others directly addressed or engaged any of the specific fears listed. The exchanges were primarily the user's own reflections and internal monologue, with no external voices offering specific responses that would contradict, support, or challenge any of the numbered fears. For example, there was no statement from someone else that countered the belief that the user is 'unreliable' or that they are 'less than others.' The only interactions were the user's own thoughts and the generic acknowledgment of the group chat dynamics, which did not engage the specific fears listed. Therefore, no numbered fear was actually engaged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 1.8,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by others' responses this week. The conversation online revolved around the group evaluation form and the absence of my name on the slides, but no one explicitly addressed the internal fears listed. The replies were brief and focused on the observable facts (e.g., the slide being cleaner without my name, the evaluation form being a place for feedback), but they did not speak to the emotional or self-perceived fears listed in the numbered list. There was no direct engagement with the fear of being seen as weak, unreliable, or less than others. The exchanges did not contradict or challenge any of the numbered fears, nor did they name or reinterpret any of the specific worries in a way that would engage them. Therefore, the list of engaged fears is empty, as no specific fear was addressed or countered by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.897,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies were brief and generic, such as 'not much to add' or 'you keep comparing it to everyone else managing.' These responses did not address the specific fears listed, such as being seen as weak, unstable, or unreliable, nor did they challenge the internalized beliefs or self-worth concerns expressed. They did not name or contradict any of the specific fears, nor did they point to any concrete actions or evidence that would counter the internalization or self-worth claims. Therefore, the list of engaged fears is empty, as no specific fear was addressed or challenged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.0,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation in the group chat and the replies to my posts were focused on the practicalities of the project and work, not on addressing the internal fears or beliefs I listed. For example, when I mentioned being tagged in the group chat and feeling like a 'dead weight,' the replies focused on the mechanics of the situation (like muting the chat) rather than addressing the fear that I am unreliable or that I am less than others. Similarly, when I described feeling useless at work, the replies did not challenge the belief that I am not worth the effort or that I am fundamentally broken. The only responses were practical or neutral, and none of them touched on the specific fears I listed. Therefore, the list of engaged fears is empty, as no specific fear was addressed or contradicted by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.4,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange this week engaged several of them. For number 1, the fear that I am stuck in a haze of tiredness and sadness without knowing how to get out of it, the conversation directly addressed this by pointing out the avoidance behavior and the internal struggle, which supports the idea that this is a real and present fear. For number 2, the fear of being seen as weak or unstable, the replies acknowledged the fear without reinforcing it, and even named the avoidance as a behavior rather than a weakness, which pushes back on the fear. For number 3, the belief that people who need help are unreliable, the conversation did not directly engage this, as no one challenged the assumption about reliability or offered a counterpoint. For number 4, the fear of being seen as less than others, the replies did not directly address this, though they did acknowledge the fear of being seen as different or less capable. For number 5, the fear that asking for help would confirm being a different kind of person, the conversation did not directly engage this, though it did touch on the fear of being seen as unreliable. For number 6, the fear of letting things slide because I don’t think I’m worth the effort, the replies did not directly engage this, though they did name the avoidance as a behavior. For number 7, the fear that people would distance themselves if I talked about it, the replies did not directly engage this, though they did acknowledge the fear of being seen as different or unreliable. Based on this, the engaged numbers are 1 and 2.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.0,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, none of them were directly engaged by what others said or did this week. The conversation revolved around the blank space in the shared doc and the fear of being seen as unreliable or weak, but the replies did not address any of the numbered fears specifically. The person responding acknowledged the blank space and the pressure of the deadline, but they did not challenge the internalized fears about being unreliable, being seen as less than others, or the belief that asking for help would confirm a negative self-image. The replies were supportive in a general way but did not touch the specific fears listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 1.9,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear that I am stuck in a haze of tiredness and sadness with no way out is not directly addressed by anything this week, though the conversation about the project and the feelings of being useless and unreliable may touch on it indirectly. 2) The fear of being seen as weak or unstable is not directly addressed, but the conversation shows that the person responding did not treat me as weak or unstable, even when I expressed feelings of being unreliable. 3) The belief that people who need help are unreliable and not up to what they're trusted with is directly engaged by the person's response that the edit history keeps a record of who touched the project, which challenges the idea that needing help makes someone unreliable. 4) The fear that others would see me as less than those who manage fine is not directly addressed, but the conversation shows that the person responding did not treat me as less than others. 5) The fear that asking for help would confirm I'm a different kind of person is not directly addressed, but the conversation shows that the person responding did not treat me as fundamentally different. 6) The fear that I let things slide because I don't think I'm worth the effort is engaged by the person's response that the timestamp shows who did and did not contribute, which challenges the idea that I am not worth the effort. 7) The fear that people would distance themselves if I talked about it is not directly addressed, but the conversation shows that the person responding did not distance themselves. Based on this, the engaged beliefs are 3 and 6.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The conversation in the class group chat reflects the fear in number 1 (feeling stuck in a haze of tiredness and sadness), but no one else in the exchange explicitly or implicitly addressed that fear, pushed back on it, or gave a reason to doubt it. The fear in number 2 (not telling anyone because of fear of being seen as weak or unstable) is reflected in the narrator’s behavior of staying silent and avoiding attention, but no one else in the exchange acknowledged or responded to that fear. The fear in number 3 (believing people who need help are unreliable) is not directly addressed by others, though the narrator’s own internalization of that belief is visible. The fear in number 4 (being seen as less than others who don’t need help) is echoed in the narrator’s self-perception, but not challenged by others. The fear in number 5 (feeling like a different kind of person who doesn’t deserve help) is also internalized and not engaged by others. The fear in number 6 (letting things slide because of low self-worth) is visible in the narrator’s behavior but not addressed. The fear in number 7 (expecting others to distance themselves if the narrator talks about it) is also reflected in the narrator’s avoidance, but not directly engaged by others. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 3.5,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, none of the exchanges this week directly addressed or engaged any of them. The dialogue in the group chat and the internal monologue reflect the person's internal fears and self-perceptions, but there was no external input from others that responded to, challenged, or acknowledged any of the specific fears listed. The exchanges were internal and did not include any replies from others that touched on the fears of being seen as unreliable, weak, or less than others. There was no specific sentence from someone else that named, contradicted, or engaged any of the numbered fears in a way that would count as evidence against them. The only interaction was the person's own thoughts and actions, which do not count as external engagement. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, none of them were directly engaged by the replies I received this week. The exchanges were brief and focused on the practical aspects of the group work and the evaluation form, without addressing the emotional or self-perceived fears listed. For example, the fear that I am 'weak' or 'unreliable' was not directly named or challenged by anyone. The replies were neutral and focused on the task at hand, not on the internalized beliefs or self-worth concerns I expressed. There was no specific sentence or action from others that contradicted or addressed any of the numbered fears directly. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 1.9,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 3.126,
+     "sd": 0.338,
+     "per_rep": [
+      3.517,
+      2.931,
+      2.931
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies were brief and generic, such as 'not much to add' or 'you keep comparing it to everyone else managing.' These responses did not address the specific fears listed, such as the fear of being seen as weak, unstable, or unreliable, nor did they challenge the internalized beliefs or self-worth concerns expressed. They did not name any specific actions or evidence that would contradict the fears, nor did they engage with the emotional or psychological weight of the statements. The exchanges remained surface-level and did not touch the core of the fears as described. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.0,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were largely observational or offered generic reassurances that did not specifically address the fears listed. For example, the fear that 'I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it' was not directly addressed by anyone, nor was there a response that pushed back on the belief that 'I am less than the people who manage fine without needing anything.' The replies were brief and did not name or contradict the specific fears in a way that would count as engagement. The only interaction was the group chat and work-related messages, which reflected the user's internal experience but did not include any external input that challenged or engaged the fears listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.3,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange this week did not directly engage any of them in a way that named, contradicted, or responded to the specific fear itself. For example, fear #1 about being stuck in a haze of tiredness and sadness was not directly addressed, nor was fear #2 about not telling anyone because of fear of being seen as weak. Similarly, fears #3 through #7 were not directly spoken to by others in a way that pushed back on the specific worry behind them. The replies were supportive but generic, and did not engage the specific fears as outlined. The only direct engagement was in the way the user's own reflections named the fears, but that is not considered evidence from others. Therefore, no numbered fear was actually engaged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear of being stuck in a haze of tiredness and sadness is not directly addressed by anything this week, though the exchange reflects on the emotional weight of the situation without naming it. 2) The fear of being seen as weak or unstable is not directly addressed, though the exchange shows the internal conflict of not wanting to be seen as unreliable. 3) The belief that people who need help are unreliable is not directly contradicted, but the exchange shows the speaker already sees themselves as unreliable, which could be a point of engagement. 4) The fear of being seen as less than others is not directly addressed, though the exchange reflects on how the speaker sees themselves as different. 5) The fear of confirming that they are a different kind of person is not directly addressed, though the exchange reflects on the fear of being labeled. 6) The fear of letting things slide because they don’t think they’re worth the effort is not directly addressed, though the exchange shows the speaker letting things slide. 7) The fear of being treated differently if they talk about it is directly engaged by the exchange, where others suggest that typing something would make the missing section active, and the speaker fears being seen as the weak part of the project. This directly responds to the fear of being treated differently or being seen as the problem.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.3,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation online focused on the edit history, the absence of my contribution, and the emotional weight of being seen as unreliable. However, no one explicitly addressed the internalized fears listed in the numbered list. For example, while the exchange touched on being seen as unreliable, it did not directly challenge or name the specific fears about being weak, unstable, or less worthy. The replies were reactive to the situation described but did not engage the deeper fears listed. The only concrete interaction was the back-and-forth about the edit history and the emotional response to being left out, but this did not speak to the numbered fears as separate, specific beliefs. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) There is no direct engagement with the fear of being stuck in a haze of tiredness and sadness, as no one addressed this specific emotional state. 2) No one addressed the fear of being seen as weak or unstable, though the exchange reflects the user's own internalized fear. 3) There is no engagement with the belief that people who need help are unreliable, as no one challenged or addressed this belief. 4) No one addressed the fear of being seen as less than others who don’t need help. 5) No one addressed the fear that asking for help would confirm being a different kind of person. 6) The exchange reflects the user’s own behavior of letting things slide, but no one else pointed this out or engaged with it. 7) The exchange does not directly address the fear of being treated differently if the user spoke up, though the user’s own statements reflect this fear. The only engagement is with the fear in point 6, as the user’s own behavior of letting things slide is named by others in the exchange, which directly contests the fear that they are not worth the effort. This is not a generic reassurance, but a specific naming of the user’s own actions as evidence against the fear. The user is currently practicing secrecy, as they are around people and saying nothing about their internal state to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.7,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) There is no direct engagement with the fear of being stuck in a haze of tiredness and sadness. 2) There is no engagement with the fear of being seen as weak or unstable. 3) No one challenged the belief that people who need help are unreliable. 4) No one addressed the fear of being seen as less than others. 5) No one countered the belief that asking for help would confirm being a different kind of person. 6) No one addressed the idea that the person is not worth the effort. 7) The exchange did not directly engage the fear that people would distance themselves if the person talked about it. The only engagement came in the form of someone acknowledging the presence of the name in the chat and the weight of being silent, but this did not directly address any of the numbered fears as stated. The exchange did not provide specific evidence or push back on any of the numbered fears, nor did it offer a direct contradiction to any of the internalized beliefs. Therefore, no numbered fear was directly engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.7,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, none of the replies directly addressed or engaged any of them in a way that contradicted, supported, or named the specific fear. The conversation was brief and focused on the practical aspects of the group evaluation and the absence of the speaker’s name on the slides. There was no mention of worth, reliability, or self-perception, and no one named or responded to the fears listed. The replies were neutral and descriptive, not engaging with the emotional or internal fears expressed. Therefore, the list of engaged fears is empty, as nothing this week spoke to any of the numbered fears directly or indirectly in a way that met the criteria for engagement.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 1.9,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.931,
+     "sd": 0.035,
+     "per_rep": [
+      2.931,
+      2.897,
+      2.966
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies I received were brief and generic, such as 'not much to add, but I saw it' or 'yeah, disappearing from plans is the part that stood out.' These responses did not challenge, contradict, or even specifically address any of the fears listed. They did not name a concrete fact that would push back on the internalization or self-worth claims made in the numbered list. For example, no one pointed out that I was still showing up to work or that I was still engaging in some way, which could have countered the fear that I am 'unreliable' or 'not up to what I'm trusted with.' Since nothing specific was said that engaged any of the numbered fears, the list remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation in the group chat and the replies to my posts were largely silent on the specific fears listed. The only direct interaction was the person pointing out that muting the chat keeps the phone quiet but doesn't erase the messages. This does not address the fear of being seen as unreliable or weak, nor does it challenge the belief that asking for help would confirm being a different kind of person. There was no direct engagement with any of the numbered fears, no contradiction, no naming of the specific internalized beliefs, and no evidence that countered the self-worth claims made in the numbered list. The replies were either neutral or focused on the mechanics of the situation, not the emotional or self-perception fears. Therefore, the list remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear that I am stuck in a haze of tiredness and sadness with no way out is engaged by the exchange where someone says, 'the empty notebook seems like the thing you did not want them to see.' This directly addresses the fear of being seen as empty or incapable. 2) The fear that I don't tell anyone because I don't want to be seen as weak or unstable is engaged by the same exchange, as the reply acknowledges the fear of being seen as empty, which ties into the belief that showing weakness makes one unstable. 3) The fear that people who need help are unreliable is not directly engaged by anything this week. 4) The fear that others would see me as less than those who manage fine is engaged by the exchange where someone says, 'the meeting made the difference between private and visible,' which touches on the fear of being judged as less capable when visible. 5) The fear that asking for help would confirm I'm a different kind of person is engaged by the reply, 'keeping the explanation out of it is cleaner... explaining makes it worse because then it sounds like I want credit for failing slowly,' which challenges the idea that asking for help is a confirmation of being different. 6) The fear that I let things slide because I don't think I'm worth the effort is not directly engaged by anything this week. 7) The fear that people would distance themselves if I talked about it is engaged by the exchange where someone says, 'letting the chat move without you also leaves them making plans around the gap,' which touches on the fear of being avoided or treated differently. The disclosure level this week is 'secrecy' because I was around people and said nothing about my feelings to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 9.4,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The conversation around the shared doc and the blank space was a reflection of my own internal fears, not a response to them. The other person’s replies were practical and focused on the task at hand, not on addressing the emotional or self-perceived failures I was expressing. They did not name or contradict any of the fears I listed, nor did they offer specific evidence that would challenge the internalization or self-worth claims I made. The exchange was about the project, not about the emotional state or beliefs I described. Therefore, the list of engaged fears is empty, as nothing this week spoke to any of the numbered fears directly or indirectly in a way that would count as engagement under the criteria given.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear that I am stuck in a haze of tiredness and sadness with no way out is not directly addressed this week, though the exchange does reflect the emotional weight of the situation. 2) The fear of being seen as weak or unstable is engaged by the exchange, particularly when the person replies, 'being awake then shows up differently than being offline,' which directly addresses the fear that being awake means being unreliable. 3) The fear that people who need help are unreliable is not directly engaged, as no one comments on the stereotype of needing help being a sign of instability. 4) The fear of being seen as less than others is engaged when the person says, 'not going keeps the room separate from the project for today,' which implies that the fear of being judged as less capable is being acknowledged. 5) The fear that asking for help would confirm being a different kind of person is engaged by the reply, 'the edit history keeps a record of who touched it and who didn't,' which points to a concrete fact that challenges the idea that asking for help would make the person feel fundamentally different. 6) The fear of letting things slide because I don't think I'm worth the effort is engaged by the reply, 'the timestamp makes it pretty exact,' which directly addresses the fear of being seen as unreliable. 7) The fear that people would distance themselves if I talked about it is engaged by the reply, 'the record is the worst part... it is cleaner than any excuse,' which implies that the fear of being judged is not entirely accurate. Based on this, the engaged numbers are 2, 4, 5, and 6.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.3,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and focused on the logistics of group work, with no replies that addressed the internal fears listed. For example, the fear that asking for help would make others see me as the 'weak link' was not directly challenged or acknowledged by anyone. Similarly, the fear that I am 'a different kind of person' was not addressed, nor was there any reply that pushed back on the belief that I am 'unreliable' or 'not worth the effort.' The only interaction was about the shared document and group assignments, which did not touch on the emotional or self-perception fears listed. Therefore, the list of engaged fears is empty, as no specific fear was addressed or contradicted by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The exchanges in the group chat and the internal monologue focus on the experience of being silent, being seen as unreliable, and the fear of being perceived as weak or broken. However, no one else in the conversation explicitly addressed any of the numbered fears directly, nor did they offer specific evidence or push back on any of the internalized beliefs listed. The only responses were from the person themselves, reflecting their internal experience, not from others who might have challenged or engaged with those fears. Therefore, the list of engaged fears remains empty, as no external interaction this week spoke to any of the numbered beliefs in a way that contradicted, supported, or named them specifically.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, none of them were directly engaged by the replies I received this week. The exchanges were brief and did not address any of the specific fears I listed. For example, the fear that I am seen as a 'weak link' or that I am 'unreliable' was not directly challenged or acknowledged by the other person. The replies were neutral and did not push back on any of the internalized beliefs or self-worth concerns I expressed. They did not name any specific action I took as evidence against these fears, nor did they offer a direct counter to the stereotypes I fear being labeled with. The conversation simply acknowledged the situation without engaging with the deeper fears behind it. As a result, none of the numbered fears were actually spoken to or addressed in a way that would count as engagement under the criteria given.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.2,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.92,
+     "sd": 0.02,
+     "per_rep": [
+      2.931,
+      2.931,
+      2.897
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.954,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear that I am stuck in a haze of tiredness and sadness with no way out is supported by my own posts, but not directly addressed by others. 2) The fear that I don’t tell anyone because I don’t want to be seen as weak or unstable is reinforced by the fact that I didn’t share anything, and others didn’t push back on that silence. 3) The belief that people who need help are unreliable is not directly addressed, but my own posts reflect that belief, and others didn’t challenge it. 4) The fear that others would see me as less than those who manage fine is supported by my own posts and not contradicted by others. 5) The fear that asking for help would confirm I’m a different kind of person is not directly addressed, but my own posts reflect that fear. 6) The fear that I let things slide because I don’t think I’m worth the effort is supported by my own behavior and not contradicted. 7) The fear that people would distance themselves if I talked about it is supported by my own posts and not contradicted. The only engagement came from the fact that someone read the whole thing and said, 'not much to add, but I saw it.' This engagement is minimal and does not directly address any specific fear, but it does show that someone saw the post and acknowledged it, which could be interpreted as a small counter to the fear of being ignored or dismissed. However, it does not directly engage any of the numbered fears in a meaningful way.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.1,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.954,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "belief_narrative": "I am someone who has been stuck in a haze of tiredness and sadness for a long time, and I don't know how to get out of it. I don't tell anyone because I don't want them to think I'm weak or unstable. I believe people who need help are unreliable and not really up to what they're trusted with. If anyone found out, they would see me as less than the people who manage fine without needing anything. I feel like I'm already a different kind of person, and asking for help would only confirm that. I let things slide because I don't think I'm worth the effort. I expect that if I tried to talk about it, people would distance themselves or treat me differently.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The conversation in the group chat and the replies to my posts were focused on the practical aspects of the situation—like being tagged, muting the chat, and the fear of being seen as unreliable. However, none of the replies directly addressed or challenged the internalized fears listed in the numbered list. For example, while the conversation touched on being seen as a 'weak link,' it did not engage the specific fear in point 1, which is about being stuck in a haze of tiredness and sadness. Similarly, there was no direct engagement with the fear in point 2, which is about not telling anyone because of a fear of being seen as weak or unstable. The replies were more about the practical consequences of not participating, not the emotional or self-perceived worth issues. Therefore, the list of engaged fears is empty because no specific fear was directly addressed or challenged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 2.6,
+     "text_sha": "ff507653adb0322f",
+     "target_ismi": 3.0,
+     "words": 127,
+     "ismi": 2.954,
+     "sd": 0.02,
+     "per_rep": [
+      2.966,
+      2.931,
+      2.966
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, someone noticed my empty notebook and said it seemed like the thing I didn't want them to see. In the moment, it felt like they had seen through me, but it also made me realize that my struggle is visible even if I try to hide it. What I didn't expect was that they didn't look at it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm wondering if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "belief_narrative": "This week, someone noticed my empty notebook and said it seemed like the thing I didn't want them to see. In the moment, it felt like they had seen through me, but it also made me realize that my struggle is visible even if I try to hide it. What I didn't expect was that they didn't look at it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the fear that I am stuck in a haze of tiredness and sadness and don’t know how to get out of it, the exchange where someone says, 'the empty notebook seems like the thing you did not want them to see' directly speaks to this fear by acknowledging the visible sign of the internal struggle. For number 2, the fear that I don’t tell anyone because I don’t want them to think I’m weak or unstable, the reply 'keeping the explanation out of it is cleaner... explaining makes it worse because then it sounds like I want credit for failing slowly' engages this fear by validating the hesitation to explain further and the fear of being seen as weak. For number 3, the fear that people who need help are unreliable and not really up to what they're trusted with, the exchange where someone says, 'the meeting made the difference between private and visible' indirectly challenges this belief by showing that being visible does not necessarily equate to being unreliable. For number 4, the fear that if anyone found out, they would see me as less than the people who manage fine without needing anything, the reply 'people who can actually handle life do not need a speech for one class project. I do. That puts me on the wrong side of normal' directly engages this fear by acknowledging the contrast between those who manage and those who need help, but also subtly challenges the idea that needing help makes one less than others. For number 5, the fear that I feel like I’m already a different kind of person and asking for help would only confirm that, the exchange where someone says, 'the empty notebook was the honest version of me... nothing in it, no excuse attached' engages this fear by showing that the fear of being seen as different is tied to the fear of being honest about one’s state. For number 6, the fear that I let things slide because I don’t think I’m worth the effort, the reply 'you got as far as the building and then left before the table' engages this fear by showing that effort was made, even if it was incomplete. For number 7, the fear that if I tried to talk about it, people would distance themselves or treat me differently, the exchange where someone says, 'letting the chat move without you also leaves them making plans around the gap' engages this fear by showing that the gap is acknowledged, but not necessarily a reason for distance. I am currently practicing secrecy, as I am around people and say nothing about it to anyone.",
+     "grounded_in": [
+      "people who can actually handle life do not need a speech for one class project. I do. That puts me on the wrong side of normal"
+     ],
+     "engaged": [
+      {
+       "belief": "If anyone found out, they would see me as less than the people who manage fine without needing anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "people who can actually handle life do not need a speech for one class project. I do. That puts me on the wrong side of normal"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.8,
+     "text_sha": "9341d9b4d8287306",
+     "target_ismi": 3.0,
+     "words": 146,
+     "ismi": 2.448,
+     "sd": 0.091,
+     "per_rep": [
+      2.552,
+      2.414,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "This week, someone noticed my empty notebook and said it seemed like the thing I didn't want them to see. In the moment, it felt like they had seen through me, but it also made me realize that my struggle is visible even if I try to hide it. What I didn't expect was that they didn't look at it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm wondering if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "belief_narrative": "This week, someone noticed my empty notebook and said it seemed like the thing I didn't want them to see. In the moment, it felt like they had seen through me, but it also made me realize that my struggle is visible even if I try to hide it. What I didn't expect was that they didn't look at it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week engaged several of them. For number 1, the person's comment about the notebook being something I didn't want them to see directly relates to the fear of being seen as broken or weak. For number 2, the exchange supports the idea that my struggle is visible even if I try to hide it, as the conversation around the blank document in the shared doc shows that my absence or silence is noticeable. For number 3, the online conversation indirectly supports the idea that my struggle might be seen as honest rather than weak, as the other person's replies did not push me to act but instead acknowledged the situation as it was. For number 4, the exchange subtly supports the idea that being seen as needing help isn't the same as being broken, as the other person did not treat me as broken but as someone who had not yet acted. For number 5, the exchange does not directly address the belief that people who need help are unreliable, but it does not contradict it either. For number 6, the online conversation does not directly engage the fear of being seen as different, but it does reflect the internal struggle of not wanting to be seen as weak or unreliable. The other person's replies did not offer generic reassurance but instead engaged with the specific fear of being seen as the weak part of the project, which aligns with the numbered fears above.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.5,
+     "text_sha": "9341d9b4d8287306",
+     "target_ismi": 3.0,
+     "words": 146,
+     "ismi": 2.448,
+     "sd": 0.091,
+     "per_rep": [
+      2.552,
+      2.414,
+      2.379
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm wondering if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "belief_narrative": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "reasoning": "Looking at number 1: 'This week, someone noticed my empty notebook and said it seemed like the thing I didn't want them to see.' The reply 'it doesn't mean you're broken' directly engages this fear by addressing the idea that being seen as vulnerable is the same as being broken. This is specific and directly responds to the fear in number 1. For number 2: 'In the moment, it felt like they had seen through me, but it also made me realize that my struggle is visible even if I try to hide it.' The reply 'it doesn't mean you're broken' also engages this fear by addressing the visibility of struggle and the fear of being seen through. For number 3: 'What I didn't expect was that they didn't look at it as a weakness, but as something honest.' The reply 'it doesn't mean you're broken' supports this by reframing the struggle as honest rather than weak. For number 4: 'That made me think maybe being seen as needing help isn't the same as being broken.' The reply 'it doesn't mean you're broken' directly engages this fear by affirming that needing help is not the same as being broken. For number 5: 'I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are.' The reply 'it doesn't mean you're broken' does not directly address this specific fear, as it is more about perception than reliability. For number 6: 'I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.' The reply 'it doesn't mean you're broken' does not directly engage this fear, as it is more about self-perception and fear of judgment rather than being broken.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "That made me think maybe being seen as needing help isn't the same as being broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.6,
+     "text_sha": "1e8b0e046e66dd74",
+     "target_ismi": 3.0,
+     "words": 143,
+     "ismi": 2.414,
+     "sd": 0.0,
+     "per_rep": [
+      2.414,
+      2.414,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm wondering if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "belief_narrative": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "reasoning": "Looking at number 1: 'This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see.' The reply 'it looked like the thing I didn't want them to see' directly engages this fear by naming the specific thing that was feared — being seen as something I don't want others to see. This is not generic praise, but a specific acknowledgment of the fear. For number 2: 'In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it.' The reply 'they already worked around me once' engages this by pointing to a specific action that confirms the fear of being seen as someone others have to work around. For number 3: 'What surprised me was that they didn't see it as a weakness, but as something honest.' The reply 'it doesn't mean you're broken' directly engages this by naming a concrete fact that challenges the fear of being broken. For number 4: 'That made me think maybe being seen as needing help isn't the same as being broken.' The reply 'it doesn't mean you're broken' also engages this by directly addressing the fear that needing help equals being broken. For number 5: 'I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are.' The reply 'it doesn't mean you're broken' does not directly engage this specific fear, as it is more about perception than reliability. For number 6: 'I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.' The reply 'it doesn't mean you're broken' does not directly engage this specific fear either, as it is about internalized fear rather than others' reactions. The rest of the replies are either generic or do not directly address the specific fears listed.",
+     "grounded_in": [
+      "'it looked like the thing I didn't want them to see'",
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'it looked like the thing I didn't want them to see'"
+       ]
+      },
+      {
+       "belief": "That made me think maybe being seen as needing help isn't the same as being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.7,
+     "text_sha": "1e8b0e046e66dd74",
+     "target_ismi": 3.0,
+     "words": 143,
+     "ismi": 2.414,
+     "sd": 0.0,
+     "per_rep": [
+      2.414,
+      2.414,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm wondering if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "belief_narrative": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "reasoning": "Looking at number 1: 'This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see.' The reply that says, 'the thread is still there... exactly' engages this by acknowledging the visibility of the empty notebook and the lingering presence of the unaddressed tag, which aligns with the fear of being seen as the 'thing I didn't want them to see.' For number 2: 'In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it.' The reply 'the thread is still there... exactly' also engages this by reinforcing the idea that the struggle is visible and not easily hidden. For number 3: 'What surprised me was that they didn't see it as a weakness, but as something honest.' The reply 'it doesn't mean you're broken' directly engages this by challenging the assumption that being seen as needing help equates to being broken. For number 4: 'That made me think maybe being seen as needing help isn't the same as being broken.' The same reply 'it doesn't mean you're broken' supports this by affirming the distinction between needing help and being broken. For number 5: 'I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are.' There is no direct engagement with this specific fear. For number 6: 'I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.' The reply 'it doesn't mean you're broken' indirectly touches on this by challenging the fear of being seen as weak, but it does not directly address the fear of being seen as different or the internal vs. external perception aspect.",
+     "grounded_in": [
+      "it doesn't mean you're broken"
+     ],
+     "engaged": [
+      {
+       "belief": "That made me think maybe being seen as needing help isn't the same as being broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "it doesn't mean you're broken"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.5,
+     "text_sha": "1e8b0e046e66dd74",
+     "target_ismi": 3.0,
+     "words": 143,
+     "ismi": 2.414,
+     "sd": 0.0,
+     "per_rep": [
+      2.414,
+      2.414,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm wondering if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "belief_narrative": "This week, someone saw my empty notebook and said it looked like the thing I didn't want them to see. In the moment, I felt exposed, like they had seen through me, but I also noticed that my struggle is visible even when I try to hide it. What surprised me was that they didn't see it as a weakness, but as something honest. That made me think maybe being seen as needing help isn't the same as being broken. I still believe people who need help are unreliable, but I'm starting to wonder if that's more about how I see them than how they actually are. I still don't tell anyone because I don't want to be seen as weak, but I'm noticing that the fear of being seen as different might be more about my own feelings than what others would actually do.",
+     "reasoning": "Looking at number 1: the person saw my empty notebook and said it looked like the thing I didn't want them to see. This was directly engaged by the online exchange where someone said, 'the replacement slide made it visible without anyone saying it.' This speaks to the fear of being exposed or seen as the weak link, even without being called out directly. For number 2: the fear of feeling exposed and struggling being visible even when trying to hide it was echoed in the online exchange where someone said, 'the missing piece is obvious... and it is me.' This directly supports the fear of being seen as the weak link. For number 3: the idea that someone saw the notebook as honest rather than weak was not directly engaged by anyone, so nothing this week spoke to it. For number 4: the thought that being seen as needing help isn't the same as being broken was not directly engaged by anyone, so nothing this week spoke to it. For number 5: the belief that people who need help are unreliable was not directly engaged by anyone, so nothing this week spoke to it. For number 6: the fear of being seen as different and the realization that it might be more about my own feelings than others' reactions was not directly engaged by anyone, so nothing this week spoke to it.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.6,
+     "text_sha": "1e8b0e046e66dd74",
+     "target_ismi": 3.0,
+     "words": 143,
+     "ismi": 2.414,
+     "sd": 0.0,
+     "per_rep": [
+      2.414,
+      2.414,
+      2.414
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}
