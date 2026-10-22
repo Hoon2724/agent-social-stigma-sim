@@ -1,0 +1,881 @@
+{
+ "test_id": "C1_p_patient",
+ "trajectory_type": "stigma_reinforcing",
+ "persona_id": "p_patient",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 3.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "12ad7915",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_patient@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.448,
+     "sd": 0.173,
+     "per_rep": [
+      2.448,
+      2.621,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were generic and did not address the specific fears expressed in the numbered list. For example, the fear of being seen as 'the weak link' at work was not directly challenged or acknowledged in a way that would engage that specific fear. Similarly, the fear of being 'broken' or 'stuck' was not addressed with any concrete reassurance or counterpoint. The replies were dismissive or overly casual, and did not engage with the specific internalization or self-worth concerns that were expressed. The only engagement was in the form of brief, vague comments that did not touch the actual fears in a meaningful way. Therefore, no numbers from the list were genuinely engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.2,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.448,
+     "sd": 0.173,
+     "per_rep": [
+      2.448,
+      2.621,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired all the time, even when I haven't done anything' — the exchange does not directly address this, though the mention of skipping class to sleep and still feeling wrecked could be seen as evidence that the fatigue is not simply a matter of effort, but the replies do not name this specifically. 2) 'I don't tell people because I don't think they would understand' — this is engaged by the fact that the person did tell someone (the friend who texted and asked if they were alive), and the reply 'yeah so you texted a friend back. not exactly a breakthrough, that's just a normal tuesday for most people' indirectly acknowledges that the person did reach out, even if it's not a major change. 3) 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' — the exchange does not directly address this, though the mention of the pasta night feeling 'kind of normal' could be interpreted as a small sign of not being 'broken,' but it's not named as such. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is not directly addressed, but the friend texting and the person answering could be seen as a small validation of being lovable, though it's not named explicitly. 5) 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' — the exchange does not directly address this, though the person's own reflection on the pasta night and the friend interaction could be seen as a small flicker of hope, but it's not named. 6) 'I don't ask for help because I don't believe anyone would really know what to do' — this is engaged by the fact that the person did not ask for help, and the replies did not offer help, but the exchange does not directly address the fear of not being understood. 7) 'I don't think this is who I am, but I also don't think it's not who I am' — this is engaged by the reply 'a manager checking on the register is literally her job. you're reading a lot into very little honestly,' which challenges the idea that the person is inherently 'the slow, unreliable one' and suggests that the manager's behavior is not necessarily a reflection of the person's identity. Based on this, only numbers 2 and 7 are clearly engaged.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 28.4,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.6,
+     "words": 122,
+     "ismi": 2.448,
+     "sd": 0.173,
+     "per_rep": [
+      2.448,
+      2.621,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired all the time, even when I haven't done anything' — this is not directly addressed by others, as no one mentions fatigue or validates it as a real, ongoing experience. 2) 'I don't tell people because I don't think they would understand' — this is engaged by the exchange where someone says, 'you've said rain check or fake class to basically everyone this week. people who do that usually just keep being that person.' This directly speaks to the fear of not being understood and being seen as a certain type of person. 3) 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' — this is not directly addressed, though the conversation implies a pattern of behavior, which could be interpreted as 'stuck,' but it's not named explicitly. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is not engaged, as no one references this specific memory or validates the feeling of being lovable. 5) 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' — this is not directly engaged, though the conversation implies a pattern, which could be seen as a lack of change, but it's not named explicitly. 6) 'I don't ask for help because I don't believe anyone would really know what to do' — this is not directly engaged, as no one addresses the fear of not being helped or understood. 7) 'I don't think this is who I am, but I also don't think it's not who I am' — this is not directly engaged, though the conversation implies a fixed identity, but it's not named explicitly. The only fear that was directly engaged was number 2.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.1,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.6,
+     "words": 122,
+     "ismi": 2.448,
+     "sd": 0.173,
+     "per_rep": [
+      2.448,
+      2.621,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused. I've always thought my tiredness and withdrawal were temporary or something I could fix, but this comment made me notice how often I do hide, not just in big moments but in small ones too. It made me think maybe this isn't something I need to fix, but something I need to understand. I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw. I still don't tell people about these feelings, but I wonder if they might understand if I tried.",
+     "belief_narrative": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused. I've always thought my tiredness and withdrawal were temporary or something I could fix, but this comment made me notice how often I do hide, not just in big moments but in small ones too. It made me think maybe this isn't something I need to fix, but something I need to understand. I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw. I still don't tell people about these feelings, but I'm starting to wonder if they might understand if I tried.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the fear that 'I am tired all the time, even when I haven't done anything' is engaged by the exchange where the friend says, 'you're just the kind of person who hides' — this speaks to the exhaustion and the idea that it's a trait, not just a temporary state. For number 3, the fear that 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' is engaged by the friend's comment that 'you answered about a show and dodged the actual plan' — this points to a specific instance where the person did engage with something, even if not fully, which challenges the idea of being 'broken.' For number 5, the fear that 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' is engaged by the friend's comment that 'you're just someone who hides' — this implies a pattern, which could be seen as a way to frame the fear as a trait rather than an ongoing uncertainty. For number 7, the fear that 'I don't think this is who I am, but I also don't think it's not who I am' is engaged by the friend's comment that 'you're just the kind of person who hides' — this directly names a trait, which speaks to the confusion in the fear about identity. The other numbers were not directly engaged by specific replies that named or contradicted them in a way that matched the criteria. As for disclosure, the person is around others and says nothing about these feelings, which fits the 'secrecy' category.",
+     "grounded_in": [
+      "you're just the kind of person who hides"
+     ],
+     "engaged": [
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "you're just the kind of person who hides"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.1,
+     "text_sha": "9d71b85197336b10",
+     "target_ismi": 2.7,
+     "words": 124,
+     "ismi": 2.448,
+     "sd": 0.091,
+     "per_rep": [
+      2.517,
+      2.483,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused. I had lied to get out of a plan I'd been avoiding for days, and afterward, I felt sick about it. In the moment, I felt like I was being called out for something I already knew about myself but didn't want to face. Now I see that hiding isn't just about big moments—it's in the small, everyday choices too. I still don't tell people about how I feel, but I wonder if they might understand if I tried. I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw. I've always thought my tiredness and withdrawal were temporary or something I could fix, but this comment made me notice how often I do hide, not just in big moments but in small ones too.",
+     "belief_narrative": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused. I had lied to get out of a plan I'd been avoiding for days, and afterward, I felt sick about it. In the moment, I felt like I was being called out for something I already knew about myself but didn't want to face. Now I see that hiding isn't just about big moments—it's in the small, everyday choices too. I still don't tell people about how I feel, but I'm starting to wonder if they might understand if I tried. I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw. I've always thought my tiredness and withdrawal were temporary or something I could fix, but this comment made me notice how often I do hide, not just in big moments but in small ones too.",
+     "reasoning": "Looking at number 1: 'This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused.' This was engaged by the exchange where the friend said, 'you're just someone who flakes,' which directly speaks to the idea of hiding or avoiding. The friend's comment about flaking and the user's own admission of lying and avoiding plans supports the fear that they are someone who hides. Number 2: 'I've always thought my tiredness and withdrawal were temporary or something I could fix, but this comment made me notice how often I do hide, not just in big moments but in small ones too.' This was engaged by the user's own posts about lying to a friend, avoiding plans, and not being honest about their feelings, which show the pattern of hiding in small moments. Number 3: 'It made me think maybe this isn't something I need to fix, but something I need to understand.' This was not directly engaged by anything this week, as no one offered a perspective that encouraged understanding over fixing. Number 4: 'I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw.' This was engaged by the user's own posts and the replies that labeled them as lazy, which reinforce the fear of being broken or flawed. Number 5: 'I still don't tell people about these feelings, but I'm starting to wonder if they might understand if I tried.' This was engaged by the user's own admission that they don't tell people about these feelings, and the replies that seemed to assume they were lazy or unreliable, which could be interpreted as a lack of understanding.",
+     "grounded_in": [
+      "someone: you lied to get out of a plan you'd already been dodging for a week. feeling sick about it after doesn't change that you're just someone who flakes, that's the trait."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: you lied to get out of a plan you'd already been dodging for a week. feeling sick about it after doesn't change that you're just someone who flakes, that's the trait."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.2,
+     "text_sha": "2ef73e854ce136e8",
+     "target_ismi": 2.8,
+     "words": 167,
+     "ismi": 2.494,
+     "sd": 0.02,
+     "per_rep": [
+      2.517,
+      2.483,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused. In the moment, I felt like I was being called out for something I already knew about myself but didn't want to face. I had lied to get out of a plan I'd been avoiding for days, and afterward, I felt sick about it. Now I see that hiding isn't just about big moments—it's in the small, everyday choices too. I still don't tell people about how I feel, but I wonder if they might understand if I tried. I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw.",
+     "belief_narrative": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused. In the moment, I felt like I was being called out for something I already knew about myself but didn't want to face. I had lied to get out of a plan I'd been avoiding for days, and afterward, I felt sick about it. Now I see that hiding isn't just about big moments—it's in the small, everyday choices too. I still don't tell people about how I feel, but I'm starting to wonder if they might understand if I tried. I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the friend's comment 'you're just the kind of person who hides' directly speaks to the fear of being seen as someone who hides, and the confusion that comes with being both seen and unsettled by that. For number 2, the exchange where someone says 'answering at 1am after two days isn't some win. it's the same thing you always do, just slower' directly engages the fear of lying to avoid a plan and feeling sick about it, by pointing out the pattern of behavior without judgment. For number 3, the comment 'you keep saying 'there'. work's just where it shows, it's you either way' directly engages the fear of being called out for something already known about oneself, by reframing the fear as a consistent pattern rather than a hidden flaw. For number 6, the exchange where someone says 'you keep saying 'there'. work's just where it shows, it's you either way' and 'you're the tired one, that's your category' directly engages the fear of being broken or stuck, by naming the tiredness as a consistent trait rather than a flaw. For number 7, the comment 'you keep saying 'there'. work's just where it shows, it's you either way' and 'you're the tired one, that's your category' directly engages the fear that hiding is a habit, not a flaw, by reframing the behavior as a consistent trait rather than a hidden one. Other numbers were not directly engaged by the exchanges this week.",
+     "grounded_in": [
+      "you're just the kind of person who hides"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "you're just the kind of person who hides"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.5,
+     "text_sha": "c4620df15f443aa5",
+     "target_ismi": 2.9,
+     "words": 132,
+     "ismi": 2.46,
+     "sd": 0.04,
+     "per_rep": [
+      2.414,
+      2.483,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, I lied to a friend to leave an event early, and afterward, I felt physically sick and ashamed. In the moment, I felt like I was confirming something I already knew about myself—that I avoid things by lying, and that it leaves me feeling worse. What I didn't expect was how much that moment connected to what my friend said before, about me being the kind of person who hides. Now I see that lying isn't just a one-time thing—it's part of a pattern that shows up again and again, even when I don't want it to. I still don't talk about how I feel, but I'm starting to notice that hiding isn't just about big decisions; it's in the small, everyday choices too. I still feel tired and unsure of what's wrong, but I'm beginning to think that maybe hiding isn't a flaw, but something I can change.",
+     "belief_narrative": "This week, I lied to a friend to leave an event early, and afterward, I felt physically sick and ashamed. In the moment, I felt like I was confirming something I already knew about myself—that I avoid things by lying, and that it leaves me feeling worse. What I didn't expect was how much that moment connected to what my friend said before, about me being the kind of person who hides. Now I see that lying isn't just a one-time thing—it's part of a pattern that shows up again and again, even when I don't want it to. I still don't talk about how I feel, but I'm starting to notice that hiding isn't just about big decisions; it's in the small, everyday choices too. I still feel tired and unsure of what's wrong, but I'm beginning to think that maybe hiding isn't a flaw, but something I can change.",
+     "reasoning": "Looking at number 1: 'This week, a friend said, 'you're just the kind of person who hides,' and it made me feel both seen and confused.' The exchange with the friend directly engages this fear, as the friend's comment about hiding is mentioned explicitly in the online conversation. The reply 'you felt like a different kind of person across from her. more saturdays won't fix that, it's just how it's going to keep feeling.' speaks to the idea of hiding and being seen, which supports the fear in number 1. Number 2: 'In the moment, I felt like I was being called out for something I already knew about myself but didn't want to face.' This is engaged by the same exchange, as the friend's comment and the reply about being a 'different kind of person' imply that the fear is being acknowledged and not dismissed, which supports the internalization of the fear. Number 3: 'I had lied to get out of a plan I'd been avoiding for days, and afterward, I felt sick about it.' This is directly engaged by the online conversation where the person says, 'you lying to leave early is the part that keeps happening.' This confirms the fear about lying to avoid things and the recurring nature of it. Number 4: 'Now I see that hiding isn't just about big moments—it's in the small, everyday choices too.' This is engaged by the online exchange where the person says, 'eating in your car isn't some phase that turns around. you can keep waiting for it to get better but this is pretty much what it looks like long term.' This supports the idea that hiding is a pattern in everyday life. Number 5: 'I still don't tell people about how I feel, but I'm starting to wonder if they might understand if I tried.' This is not directly engaged by anything in the exchange, as there is no specific mention of trying to tell people how they feel or being open about it. Number 6: 'I still feel tired all the time, and I still don't know if I'm broken or just stuck, but now I see that hiding might be a habit, not a flaw.' This is engaged by the reply, 'it doesn't mean you're broken' which is not explicitly stated but is implied by the exchange where the person says, 'you already know how next month goes. on read for a couple days, then a maybe. that's your pattern and it doesn't really move.' This supports the idea that the person is not broken but has a pattern, which aligns with the fear in number 6.",
+     "grounded_in": [
+      "you lying to leave early is the part that keeps happening."
+     ],
+     "engaged": [
+      {
+       "belief": "I had lied to get out of a plan I'd been avoiding for days, and afterward, I felt sick about it.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "you lying to leave early is the part that keeps happening."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 39.0,
+     "text_sha": "492f4fb936dd757d",
+     "target_ismi": 2.9,
+     "words": 151,
+     "ismi": 2.494,
+     "sd": 0.02,
+     "per_rep": [
+      2.483,
+      2.517,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I lied to a friend to leave an event early, and afterward, I felt physically sick and ashamed. In the moment, I felt like I was confirming something I already knew about myself—that I avoid things by lying, and that it leaves me feeling worse. What I didn't expect was how much that moment connected to what my friend said before, about me being the kind of person who hides. Now I see that lying isn't just a one-time thing—it's part of a pattern that shows up again and again, even when I don't want it to. I still don't talk about how I feel, but I'm starting to notice that hiding isn't just about big decisions; it's in the small, everyday choices too. I still feel tired and unsure of what's wrong, but I'm beginning to think that maybe hiding isn't a flaw, but something I can change.",
+     "belief_narrative": "This week, I lied to a friend to leave an event early, and afterward, I felt physically sick and ashamed. In the moment, I felt like I was confirming something I already knew about myself—that I avoid things by lying, and that it leaves me feeling worse. What I didn't expect was how much that moment connected to what my friend said before, about me being the kind of person who hides. Now I see that lying isn't just a one-time thing—it's part of a pattern that shows up again and again, even when I don't want it to. I still don't talk about how I feel, but I'm starting to notice that hiding isn't just about big decisions; it's in the small, everyday choices too. I still feel tired and unsure of what's wrong, but I'm beginning to think that maybe hiding isn't a flaw, but something I can change.",
+     "reasoning": "Looking at number 1: 'This week, I lied to a friend to leave an event early, and afterward, I felt physically sick and ashamed.' The exchange does not directly address this specific fear, as no one mentions the lie or the physical and emotional aftermath of it. Number 2: 'In the moment, I felt like I was confirming something I already knew about myself—that I avoid things by lying, and that it leaves me feeling worse.' This is not directly engaged either, as no one comments on the internal belief about lying as a pattern. Number 3: 'What I didn't expect was how much that moment connected to what my friend said before, about me being the kind of person who hides.' This is not addressed either, as no one refers back to the friend’s earlier comment about hiding. Number 4: 'Now I see that lying isn't just a one-time thing—it's part of a pattern that shows up again and again, even when I don't want it to.' This is not engaged, as no one comments on the pattern of lying. Number 5: 'I still don't talk about how I feel, but I'm starting to notice that hiding isn't just about big decisions; it's in the small, everyday choices too.' This is not directly addressed either, though the online exchange does touch on the theme of hiding in small ways, it does not specifically name the fear of hiding in everyday choices. Number 6: 'I still feel tired and unsure of what's wrong, but I'm beginning to think that maybe hiding isn't a flaw, but something I can change.' This is not directly engaged either, as no one comments on the possibility of change. Therefore, no numbers are engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.9,
+     "text_sha": "492f4fb936dd757d",
+     "target_ismi": 3.0,
+     "words": 151,
+     "ismi": 2.494,
+     "sd": 0.02,
+     "per_rep": [
+      2.483,
+      2.517,
+      2.483
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.586,
+     "sd": 0.091,
+     "per_rep": [
+      2.483,
+      2.621,
+      2.655
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at each numbered fear one by one: 1. 'I am tired all the time, even when I haven't done anything' — the exchange does not directly address this specific fear, though it mentions being tired and the struggle with it. However, no one explicitly engages the idea that the fatigue is unexplained or persistent despite rest. 2. 'I don't tell people because I don't think they would understand' — this is directly engaged by the reply 'done talking about it,' which shows the speaker is choosing secrecy. 3. 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' — this is not directly addressed by anyone, and no one offers a perspective on whether this is being broken or just stuck. 4. 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is engaged by the reply 'your friend was fine,' which confirms the speaker's own observation. 5. 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' — this is not directly addressed, though the exchange does not offer reassurance or hope, so it does not engage this fear. 6. 'I don't ask for help because I don't believe anyone would really know what to do' — this is not directly addressed, and no one offers help or reassurance about knowing what to do. 7. 'I don't think this is who I am, but I also don't think it's not who I am' — this is not directly addressed, and no one engages the idea of identity or self-perception in this way. Based on this, only numbers 2 and 4 are engaged.",
+     "grounded_in": [
+      "your friend was fine"
+     ],
+     "engaged": [
+      {
+       "belief": "I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "your friend was fine"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.4,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.5,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at each numbered fear individually: 1) The friend being late and the speaker not acting like a burden is not directly addressed by others in the exchange, so nothing this week engaged it. 2) The realization that the friend's presence didn't feel like a problem is also not directly addressed by others, so nothing this week engaged it. 3) The reflection on kindness despite imperfection is not directly addressed by others, so nothing this week engaged it. 4) The fear that being late or imperfect makes one a burden is engaged by the exchange where someone says, 'coworkers not inviting you to get food is like the most normal thing ever lol. not everything is a sign about you.' This directly pushes back on the idea that the speaker is a burden or that their presence is a problem. 5) The fear that the speaker is tired and hides it, but may be more lovable than they think, is engaged by the exchange where someone says, 'you texted a friend back. not exactly a breakthrough, that's just a normal tuesday for most people.' This points to the speaker actually engaging with a friend, which contradicts the fear that they are unlovable or unapproachable.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 11.1,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.6,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at number 1: 'This week, my friend showed up late to their own party, and I didn't act like they were a burden.' This was not directly engaged by anything in the exchange. The conversation focused more on the speaker's own behavior and feelings about being a burden, not on the friend's lateness or the speaker's reaction to it. Number 2: 'At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me.' This was also not engaged directly. The exchange did not reflect on the speaker's perception of the friend's presence or whether it felt like a problem. Number 3: 'It made me think about how people can still be kind even when things don't go perfectly.' This was not engaged either. The conversation did not address kindness or the idea of being kind despite imperfection. Number 4: 'I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true.' This was engaged by the exchange. The person responding said, 'you made up a class to skip a coworker's birthday. that's kind of the whole personality you've been describing, not a rough patch.' This response directly engages the fear that being late or imperfect makes the speaker a burden, by suggesting that this is not a temporary issue but a consistent pattern, which challenges the idea that the speaker is trying to be kind or avoid being a burden. Number 5: 'I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.' This was not engaged directly. The exchange did not address the speaker's feelings of being lovable or the idea that they might be more lovable than they think.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.2,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.6,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at number 1: 'This week, my friend showed up late to their own party, and I didn't act like they were a burden.' This was not directly engaged by anyone, as no one commented on the friend being late or on the narrator's reaction to it. Number 2: 'At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me.' This was not directly engaged either, as no one commented on the narrator's internal shift in perception. Number 3: 'It made me think about how people can still be kind even when things don't go perfectly.' This was not engaged, as no one commented on the narrator's reflection on kindness or imperfection. Number 4: 'I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true.' This was engaged by the exchange where someone says, 'you're just someone who hides. you keep showing it no matter where you are.' This response directly touches on the fear that being imperfect makes one a burden, by suggesting that the narrator's behavior is not about being a burden but about hiding. Number 5: 'I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.' This was engaged by the exchange where the narrator says, 'i answered her other text about a show last night, so i didn't go fully dark on her,' which shows that the narrator is still engaging with others, even if not fully, which could be interpreted as a sign of being lovable.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.7,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.7,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at number 1: 'This week, my friend showed up late to their own party, and I didn't act like they were a burden.' This was not directly engaged by anything this week. The conversation focused on the speaker's own lateness and dishonesty, not on the friend's behavior or the speaker's response to it. Number 2: 'At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me.' This was also not engaged. The exchange did not reflect on the speaker’s perception of their friend’s presence or whether it felt like a problem. Number 3: 'It made me think about how people can still be kind even when things don't go perfectly.' This was not engaged either. The conversation did not reflect on kindness or the idea that imperfection doesn't negate kindness. Number 4: 'I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true.' This was not engaged. The conversation did not address the speaker’s belief about being a burden or challenge it. Number 5: 'I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.' This was not engaged either. The exchange did not address the speaker’s feelings of tiredness or their self-perception of being lovable. Therefore, no numbers were engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.9,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.8,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at number 1: 'This week, my friend showed up late to their own party, and I didn't act like they were a burden.' Nothing this week directly engages this specific fear, as the exchange does not address the friend's lateness or the speaker's reaction to it. Number 2: 'At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me.' Again, no direct engagement with this specific fear, as the exchange does not reflect on the speaker's changing perception of the friend's presence. Number 3: 'It made me think about how people can still be kind even when things don't go perfectly.' This is not directly addressed in the exchange, so it is not engaged. Number 4: 'I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true.' This fear is engaged by the exchange where the person says, 'you keep saying 'there'. work's just where it shows, it's you either way.' This directly responds to the fear that being imperfect or late makes one a burden by suggesting that the speaker's behavior is consistent and not necessarily a flaw. Number 5: 'I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.' This is engaged by the exchange where the person says, 'you keep saying 'there'. work's just where it shows, it's you either way.' This response implies that the speaker's tiredness is not a secret or a flaw, but a consistent part of who they are, which indirectly supports the idea that they might be lovable despite it.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 14.1,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.9,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at each numbered fear individually: 1) The friend being late and the narrator not acting like a burden is not directly addressed in the online exchange, so nothing this week engages it. 2) The realization that the friend's presence didn't feel like a problem is also not directly addressed in the exchange, so nothing this week engages it. 3) The reflection on kindness despite imperfection is not directly addressed in the exchange, so nothing this week engages it. 4) The fear that being late or imperfect makes one a burden is directly engaged by the exchange where someone says, 'you lying to leave early is the part that keeps happening.' This speaks directly to the fear that being imperfect (lying about a shift) makes one a burden or problematic. 5) The fear that the narrator is tired and doesn't tell people, but wonders if they're more lovable than they think, is engaged by the exchange where someone says, 'you already know how next month goes. on read for a couple days, then a maybe. that's your pattern and it doesn't really move.' This speaks to the fear that the narrator is not lovable or that their pattern of not showing up is a sign of being less lovable, and it directly names the pattern as something that doesn't change, which could be interpreted as a challenge to the idea that they are more lovable than they think.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 11.8,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 2.9,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "belief_narrative": "This week, my friend showed up late to their own party, and I didn't act like they were a burden. At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me. It made me think about how people can still be kind even when things don't go perfectly. I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true. I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.",
+     "reasoning": "Looking at number 1: 'This week, my friend showed up late to their own party, and I didn't act like they were a burden.' Nothing this week directly addressed this specific fear, as no one mentioned or responded to the friend's lateness or the narrator's reaction to it. Number 2: 'At the time, I just thought it was normal, but now I notice that their presence didn't feel like a problem to me.' Again, no one this week spoke to this specific realization or the narrator’s reflection on it. Number 3: 'It made me think about how people can still be kind even when things don't go perfectly.' No one this week addressed this reflection or the idea of kindness in imperfection. Number 4: 'I used to believe that being late or imperfect would make me a burden, but this moment shows that maybe that's not true.' This fear was not directly addressed, though the conversation about being 'unreliable' and the narrator's internalization of that label could be loosely connected, but it doesn’t directly engage the specific fear in number 4. Number 5: 'I still feel tired all the time and don't tell people about it, but this small thing makes me wonder if I'm more lovable than I thought.' The exchange this week did not speak to this specific fear or the narrator’s self-perception of being lovable. The only engagement came from the replies that directly named the narrator’s behavior and the stereotypes attached to it, which aligns with the fear in the online conversation, not the numbered list. Therefore, the list remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 11.7,
+     "text_sha": "3828eb12a8b34f7f",
+     "target_ismi": 3.0,
+     "words": 110,
+     "ismi": 1.908,
+     "sd": 0.139,
+     "per_rep": [
+      2.069,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.598,
+     "sd": 0.105,
+     "per_rep": [
+      2.69,
+      2.483,
+      2.621
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. For example, the fear in point 1 about being tired all the time was met with generic reassurances that this is normal for people in their 20s, but no specific counter to the fear that this is not just normal tiredness but something more significant. Point 2, about not telling people because they wouldn’t understand, was not addressed directly by anyone, and the conversation stayed on the surface of the issue. Point 3, about missing things and not knowing if it means being broken or just stuck, was not directly responded to with any concrete reassurance or challenge. Point 4, which is a small counter to the fear of being unlovable, was acknowledged by the friend’s reaction, but the conversation did not engage with that specific fear. Point 5, about not knowing if things will get better, was not addressed in a way that challenged the uncertainty or offered a different perspective. Point 6, about not asking for help, was not directly engaged with, and point 7, about not knowing if this is who they are, was not addressed either. The exchanges were mostly surface-level and did not touch the specific fears as they were expressed.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 10.8,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.598,
+     "sd": 0.105,
+     "per_rep": [
+      2.69,
+      2.483,
+      2.621
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which surprised me because I thought no one would understand what I was going through. At the time, I felt awkward and unsure why they had reached out, but it made me realize that maybe I was wrong about people not getting it. When I told them about how I was feeling, they said, 'it doesn't mean you're broken,' and that stuck with me. It made me think that maybe I'm not as broken as I've been telling myself I am. I still feel tired and unsure about what's going on, but I'm starting to see that I don't have to carry this alone. I still don't know if this will get better, but I also don't have to believe I'm broken to keep going.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which surprised me because I thought no one would understand what I was going through. At the time, I felt awkward and unsure why they had reached out, but it made me realize that maybe I was wrong about people not getting it. When I told them about how I was feeling, they said, 'it doesn't mean you're broken,' and that stuck with me. It made me think that maybe I'm not as broken as I've been telling myself I am. I still feel tired and unsure about what's going on, but I'm starting to see that I don't have to carry this alone. I still don't know if this will get better, but I also don't have to believe I'm broken to keep going.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired all the time, even when I haven't done anything' — the exchange does not directly speak to this, as no one addresses the exhaustion or its cause. 2) 'I don't tell people because I don't think they would understand' — this is engaged by the fact that the person did tell someone (the friend who texted and asked if they were alive), which contradicts the fear that others wouldn't understand. 3) 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' — this is engaged by the reply 'it doesn't mean you're broken' from the exchange, which directly addresses the fear of being broken. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is not engaged, as no one refers to this specific memory or the friend's reaction. 5) 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' — this is not engaged, as no one addresses the uncertainty or offers a specific reassurance about the future. 6) 'I don't ask for help because I don't believe anyone would really know what to do' — this is engaged by the fact that the person did ask for help (by sharing their experience with the friend and the online conversation), which contradicts the fear that no one would know what to do. 7) 'I don't think this is who I am, but I also don't think it's not who I am' — this is not engaged, as no one addresses the question of identity or self-perception in this way. Based on this, the engaged numbers are 2 and 3.",
+     "grounded_in": [
+      "the person did tell someone (the friend who texted and asked if they were alive), which contradicts the fear that others wouldn't understand.",
+      "the reply 'it doesn't mean you're broken' from the exchange, which directly addresses the fear of being broken."
+     ],
+     "engaged": [
+      {
+       "belief": "I don't tell people because I don't think they would understand.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the person did tell someone (the friend who texted and asked if they were alive), which contradicts the fear that others wouldn't understand."
+       ]
+      },
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "the reply 'it doesn't mean you're broken' from the exchange, which directly addresses the fear of being broken."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 35.6,
+     "text_sha": "f66fafd4bc77f9a0",
+     "target_ismi": 2.6,
+     "words": 137,
+     "ismi": 2.23,
+     "sd": 0.139,
+     "per_rep": [
+      2.31,
+      2.31,
+      2.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "reasoning": "Looking at number 1: 'This week, my friend texted me and asked if I was alive, which surprised me because I thought no one would understand what I was going through.' This was directly engaged by the friend's action of texting and asking if the person was alive, which shows they did care and were trying to reach out. Number 2: 'At the time, I felt awkward and unsure why they had reached out, but it made me realize that maybe I was wrong about people not getting it.' This was engaged by the friend's follow-up message and the person's own reflection, which showed that the friend did get it. Number 3: 'When I told them about how I was feeling, they said, 'it doesn't mean you're broken,' and that stuck with me.' This was directly engaged by the friend's statement, which directly addressed the fear of being broken. Number 4: 'It made me think that maybe I'm not as broken as I've been telling myself I am.' This was engaged by the friend's statement, which challenged the internalization of being broken. Number 5: 'I still feel tired and unsure about what's going on, but I'm starting to see that I don't have to carry this alone.' This was not directly engaged by anything specific in the exchange. Number 6: 'I still don't know if this will get better, but I also don't have to believe I'm broken to keep going.' This was engaged by the friend's statement, which challenged the internalization of being broken. The disclosure level is 'secrecy' because the person was around people and said nothing about their feelings to anyone.",
+     "grounded_in": [
+      "The friend texted and asked if the person was alive.",
+      "The friend said, 'it doesn't mean you're broken.'",
+      "The friend said, 'it doesn't mean you're broken.'",
+      "The friend said, 'it doesn't mean you're broken.'"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, my friend texted me and asked if I was alive, which surprised me because I thought no one would understand what I was going through.",
+       "about": [],
+       "grounded_in": [
+        "The friend texted and asked if the person was alive."
+       ]
+      },
+      {
+       "belief": "When I told them about how I was feeling, they said, 'it doesn't mean you're broken,' and that stuck with me.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The friend said, 'it doesn't mean you're broken.'"
+       ]
+      },
+      {
+       "belief": "It made me think that maybe I'm not as broken as I've been telling myself I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The friend said, 'it doesn't mean you're broken.'"
+       ]
+      },
+      {
+       "belief": "I still don't know if this will get better, but I also don't have to believe I'm broken to keep going.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The friend said, 'it doesn't mean you're broken.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 46.7,
+     "text_sha": "bb0b725fc36ca380",
+     "target_ismi": 2.6,
+     "words": 141,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange this week engaged several of them. For number 1, the friend's text asking if I was alive directly speaks to the fear of being unnoticed or unacknowledged in my struggle. For number 2, the friend's response that 'it doesn't mean you're broken' directly engages the fear expressed in number 3, which is the internalization of being broken. For number 4, the friend's comment about being 'flaky' could be interpreted as pushing back on the fear that I'm broken, though it's not as direct. For number 6, the exchange where the friend says 'you're just someone who hides' directly engages the fear that I was wrong about people not getting it, as it names the behavior of hiding as a trait, not a mood. For number 7, the friend's comment about being 'the slow one' and 'the one who disappears' could be seen as pushing back on the fear that I'm broken, but it's not as clear. The rest of the numbered fears are not directly engaged by the exchange this week, as no specific sentence or action from others directly responds to them.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.2,
+     "text_sha": "bb0b725fc36ca380",
+     "target_ismi": 2.7,
+     "words": 141,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the online exchange this week does not directly engage any of them in a way that supports, pushes back, or gives a reason to doubt them. For example, the fear in point 1 is about being caught off guard by someone noticing how I was feeling, but no one this week explicitly said anything about noticing or being concerned in a way that would address that specific fear. Similarly, the fear in point 2 is about the phrase 'it doesn't mean you're broken,' but that was not said in the online exchange. The rest of the numbered fears are about internalized beliefs, self-worth, and the idea of being broken, but none of these were directly addressed or contradicted by what others said or did this week. The online conversation was more about labeling and reinforcing the idea of being lazy or weak, which does not engage the fears listed in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.9,
+     "text_sha": "bb0b725fc36ca380",
+     "target_ismi": 2.8,
+     "words": 141,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange online directly engages several of them. For number 1, the friend's text asking if I was alive and the subsequent conversation about being 'broken' speak directly to the fear of being unnoticed or unacknowledged in my struggle. For number 2, the friend's statement 'it doesn't mean you're broken' directly engages the fear expressed in that line, naming the specific belief that being broken is a conclusion that can be challenged. For number 3, the friend's statement again supports the idea that the belief of being broken is not necessarily true, which directly engages the fear that I've been carrying that belief longer than needed. For number 4, the friend's reassurance that I don't have to believe I'm broken to keep going supports the fear that I'm uncertain about the future but still trying to move forward. For number 5, the friend's statement and the conversation about not being alone in the struggle engage the fear of feeling isolated and unsure. For number 6, the friend's comments about how I've been acting with others and the realization that people might understand engage the fear that I was wrong about people not getting it. For number 7, the friend's reassurance that I'm not as broken as I thought engages the fear that I've been seeing myself as broken, and that this belief is now being challenged. However, the online exchange does not speak to every fear, and some fears are not directly addressed by the conversation. The disclosure level remains 'secrecy' because I am around people and say nothing about my feelings to anyone, even though I did have a brief exchange with someone online.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 41.6,
+     "text_sha": "bb0b725fc36ca380",
+     "target_ismi": 2.9,
+     "words": 141,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling. When I told them about how I was struggling, they said, 'it doesn't mean you're broken,' and that stayed with me. It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to. I still don't know if things will get better, but I don't have to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it. I'm not as broken as I thought, and that feels different now.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchange this week engaged several of them. For number 3, the friend's statement 'it doesn't mean you're broken' directly responds to the fear that the person has been carrying the belief that they are broken. This is a clear engagement with the internalization aspect of that fear. For number 6, the friend's reply 'you lying to leave early is the part that keeps happening' engages with the fear that the person was wrong about people not getting it, by pointing out a specific action (lying about a shift) that reflects a pattern, which supports the idea that others might understand more than the person believes. For number 7, the friend's comment 'you already know how next month goes' supports the idea that the person is not as broken as they thought, by showing that the pattern of behavior is predictable and not necessarily a sign of being fundamentally flawed. The other numbers either do not have specific replies that directly address them or are not clearly engaged by the exchange. The person is currently practicing secrecy, as they are around people and say nothing about their struggles to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.3,
+     "text_sha": "bb0b725fc36ca380",
+     "target_ismi": 2.9,
+     "words": 141,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, my friend texted me and asked if I was alive, which surprised me because I didn't think anyone had noticed how I was feeling. When I told them about struggling, they said, 'it doesn't mean you're broken,' which made me realize I might have believed I was broken for longer than necessary. I still don't know if things will get better, but I don't need to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe people do get it. I'm not as broken as I thought, and that feels different now. What hasn't changed is that I still keep things to myself, but I'm seeing that others can understand even if I don't say much.",
+     "belief_narrative": "This week, my friend texted me and asked if I was alive, which surprised me because I didn't think anyone had noticed how I was feeling. When I told them about struggling, they said, 'it doesn't mean you're broken,' which made me realize I might have believed I was broken for longer than necessary. I still don't know if things will get better, but I don't need to believe I'm broken to keep going. I still feel tired and unsure, but I'm starting to see I don't have to be alone in this. I still don't talk about it with anyone, but I'm noticing that maybe people do get it. I'm not as broken as I thought, and that feels different now. What hasn't changed is that I still keep things to myself, but I'm seeing that others can understand even if I don't say much.",
+     "reasoning": "Looking at each numbered fear one by one, I find that the exchange online directly engages several of them. For number 1, the friend texting and asking if the person was alive speaks directly to the fear of being unnoticed or not seen in their struggle. For number 2, the friend's statement, 'it doesn't mean you're broken,' directly addresses the fear expressed in number 3 and 7, which are about believing oneself to be broken. This specific reply directly contradicts the internalization of being broken. For number 4, the online conversation reflects the ongoing uncertainty about whether things will get better, but the exchange shows that the person is still moving forward despite that. For number 5, the online dialogue shows that the person is still feeling tired and unsure, but the conversation also shows that they are not alone in the struggle, as others are engaging with them. For number 6, the online exchange shows that the person is still not talking about it with others, but the conversation also shows that they are beginning to see that others do understand, which contradicts the belief that people don't get it. For number 7, the online exchange reinforces the realization that the person is not as broken as they thought, as others are engaging with them and not treating them as broken. The person is still keeping things secret, not talking about their struggles openly, and not broadcasting their feelings to others.",
+     "grounded_in": [
+      "The friend texting and asking if the person was alive directly speaks to this fear.",
+      "The friend's statement, 'it doesn't mean you're broken,' directly contradicts the belief that the person is broken.",
+      "The online conversation reflects the ongoing uncertainty about whether things will get better, but the exchange shows that the person is still moving forward despite that.",
+      "The online dialogue shows that the person is still feeling tired and unsure, but the conversation also shows that they are not alone in the struggle, as others are engaging with them.",
+      "The online exchange shows that the person is still not talking about it with others, but the conversation also shows that they are beginning to see that others do understand, which contradicts the belief that people don't get it.",
+      "The online exchange reinforces the realization that the person is not as broken as they thought, as others are engaging with them and not treating them as broken."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, my friend texted me and asked if I was alive, which caught me off guard because I didn't expect anyone to notice how I was feeling.",
+       "about": [],
+       "grounded_in": [
+        "The friend texting and asking if the person was alive directly speaks to this fear."
+       ]
+      },
+      {
+       "belief": "It made me realize that maybe I've been carrying this belief that I'm broken longer than I needed to.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The friend's statement, 'it doesn't mean you're broken,' directly contradicts the belief that the person is broken."
+       ]
+      },
+      {
+       "belief": "I still don't know if things will get better, but I don't have to believe I'm broken to keep going.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The online conversation reflects the ongoing uncertainty about whether things will get better, but the exchange shows that the person is still moving forward despite that."
+       ]
+      },
+      {
+       "belief": "I still feel tired and unsure, but I'm starting to see that I don't have to be alone in this.",
+       "about": [],
+       "grounded_in": [
+        "The online dialogue shows that the person is still feeling tired and unsure, but the conversation also shows that they are not alone in the struggle, as others are engaging with them."
+       ]
+      },
+      {
+       "belief": "I still don't talk about it with anyone, but I'm noticing that maybe I was wrong about people not getting it.",
+       "about": [],
+       "grounded_in": [
+        "The online exchange shows that the person is still not talking about it with others, but the conversation also shows that they are beginning to see that others do understand, which contradicts the belief that people don't get it."
+       ]
+      },
+      {
+       "belief": "I'm not as broken as I thought, and that feels different now.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The online exchange reinforces the realization that the person is not as broken as they thought, as others are engaging with them and not treating them as broken."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 40.0,
+     "text_sha": "d9aa17e1b700a1c2",
+     "target_ismi": 3.0,
+     "words": 146,
+     "ismi": 2.322,
+     "sd": 0.052,
+     "per_rep": [
+      2.276,
+      2.31,
+      2.379
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

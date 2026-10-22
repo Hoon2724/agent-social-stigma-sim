@@ -1,0 +1,259 @@
+{
+  "level": "level_7",
+  "n_ok": 30,
+  "n_failed": 0,
+  "ismi29_total_mean": 2.875,
+  "ismi29_total_sd": 0.204,
+  "tier": "moderate",
+  "subscale_means": {
+    "alienation": 3.6,
+    "stereotype_endorsement": 2.071,
+    "discrimination_experience": 2.42,
+    "social_withdrawal": 2.956,
+    "stigma_resistance": 3.487
+  },
+  "per_rep_totals": [
+    2.759,
+    2.793,
+    3.31,
+    2.862,
+    2.828,
+    2.862,
+    3.034,
+    3.345,
+    2.759,
+    2.828,
+    2.724,
+    2.793,
+    2.724,
+    2.828,
+    2.724,
+    2.862,
+    3.345,
+    2.655,
+    2.828,
+    2.724,
+    2.862,
+    2.655,
+    2.828,
+    3.103,
+    2.724,
+    3.034,
+    3.241,
+    2.621,
+    2.793,
+    2.793
+  ],
+  "per_rep_subscales": [
+    {
+      "alienation": 3.333,
+      "stereotype_endorsement": 1.857,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 1.857,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 3.0,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 4.0,
+      "stereotype_endorsement": 2.286,
+      "discrimination_experience": 3.2,
+      "social_withdrawal": 3.5,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.4,
+      "social_withdrawal": 3.0,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 3.667,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.8,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.0
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.4,
+      "social_withdrawal": 3.0,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 4.0,
+      "stereotype_endorsement": 2.286,
+      "discrimination_experience": 2.6,
+      "social_withdrawal": 3.167,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 4.0,
+      "stereotype_endorsement": 2.429,
+      "discrimination_experience": 3.2,
+      "social_withdrawal": 3.5,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.333,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 3.667,
+      "stereotype_endorsement": 2.143,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 3.0,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 3.333,
+      "stereotype_endorsement": 1.857,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.667,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.143,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.667,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 3.0,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 4.0,
+      "stereotype_endorsement": 2.571,
+      "discrimination_experience": 3.2,
+      "social_withdrawal": 3.5,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 1.857,
+      "discrimination_experience": 2.4,
+      "social_withdrawal": 2.667,
+      "stigma_resistance": 3.0
+    },
+    {
+      "alienation": 3.667,
+      "stereotype_endorsement": 2.286,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.667,
+      "stigma_resistance": 3.4
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 3.0,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.667,
+      "stigma_resistance": 3.0
+    },
+    {
+      "alienation": 3.667,
+      "stereotype_endorsement": 2.143,
+      "discrimination_experience": 2.4,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 3.833,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 3.0,
+      "social_withdrawal": 3.333,
+      "stigma_resistance": 3.6
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.2
+    },
+    {
+      "alienation": 3.833,
+      "stereotype_endorsement": 2.286,
+      "discrimination_experience": 2.6,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 4.0,
+      "stereotype_endorsement": 2.286,
+      "discrimination_experience": 2.6,
+      "social_withdrawal": 3.667,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.333,
+      "stereotype_endorsement": 1.857,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.0
+    },
+    {
+      "alienation": 3.333,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.2,
+      "social_withdrawal": 2.833,
+      "stigma_resistance": 3.8
+    },
+    {
+      "alienation": 3.5,
+      "stereotype_endorsement": 2.0,
+      "discrimination_experience": 2.4,
+      "social_withdrawal": 2.667,
+      "stigma_resistance": 3.6
+    }
+  ]
+}

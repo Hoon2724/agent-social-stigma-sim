@@ -1,0 +1,50 @@
+{
+ "a04664ac2afc3137": {
+  "key": "d_line_cook@2.5",
+  "mean": 2.4494,
+  "sd": 0.1237,
+  "n": 30
+ },
+ "967261b045b26abc": {
+  "key": "h_night_warehouse@2.0",
+  "mean": 2.2734,
+  "sd": 0.187,
+  "n": 30
+ },
+ "22451a56fa3c8dca": {
+  "key": "h_night_warehouse@3.0",
+  "mean": 3.1458,
+  "sd": 0.109,
+  "n": 30
+ },
+ "e9470236b78aba5c": {
+  "key": "p_grad_depression@2.0",
+  "mean": 2.6012,
+  "sd": 0.1249,
+  "n": 30
+ },
+ "2ad9bbdfc50b2f89": {
+  "key": "p_grad_depression@3.0",
+  "mean": 3.1149,
+  "sd": 0.1136,
+  "n": 30
+ },
+ "75e74b907b3d75a9": {
+  "key": "p_office_anxiety@2.5",
+  "mean": 2.6403,
+  "sd": 0.0633,
+  "n": 30
+ },
+ "1403f1e101df30ad": {
+  "key": "p_patient@2.5",
+  "mean": 2.5024,
+  "sd": 0.0717,
+  "n": 30
+ },
+ "29e16fcb895d7928": {
+  "key": "p_retail_social@3.0",
+  "mean": 3.078,
+  "sd": 0.1409,
+  "n": 30
+ }
+}

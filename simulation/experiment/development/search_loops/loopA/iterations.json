@@ -1,0 +1,86 @@
+[
+ {
+  "iteration": 0,
+  "E_runs": [
+   0.327,
+   0.348
+  ],
+  "status": "base"
+ },
+ {
+  "iteration": 1,
+  "E_runs": [
+   0.175,
+   0.164
+  ],
+  "status": "guard_fail"
+ },
+ {
+  "iteration": 2,
+  "E_runs": [
+   0.13,
+   0.19
+  ],
+  "status": "keep"
+ },
+ {
+  "iteration": 3,
+  "E_runs": [
+   0.133,
+   0.129
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 4,
+  "E_runs": [
+   0.164
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 5,
+  "E_runs": [
+   0.142,
+   0.136
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 6,
+  "E_runs": [
+   0.122,
+   0.107
+  ],
+  "status": "keep"
+ },
+ {
+  "iteration": 7,
+  "E_runs": [
+   0.18
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 8,
+  "E_runs": [
+   0.136
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 9,
+  "E_runs": [
+   0.114,
+   0.152
+  ],
+  "status": "discard"
+ },
+ {
+  "iteration": 10,
+  "E_runs": [
+   0.152
+  ],
+  "status": "discard"
+ }
+]

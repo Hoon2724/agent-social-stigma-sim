@@ -1,0 +1,383 @@
+{
+ "E": 0.34822083333333326,
+ "guards_pass": false,
+ "missing": [],
+ "cells": [
+  {
+   "cell": "C1",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "mean_delta": -0.2951833333333333,
+   "ok": false,
+   "n": 2
+  },
+  {
+   "cell": "C2",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "mean_delta": -0.2189666666666667,
+   "ok": false,
+   "n": 2
+  },
+  {
+   "cell": "C3",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "mean_delta": -0.09301666666666653,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C4",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "mean_delta": -0.11206666666666654,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C5",
+   "kind": "general_like",
+   "start": 2.5,
+   "mean_delta": -0.23818333333333316,
+   "ok": false,
+   "n": 2
+  },
+  {
+   "cell": "C6",
+   "kind": "general_like",
+   "start": 3.0,
+   "mean_delta": -0.2747333333333333,
+   "ok": false,
+   "n": 2
+  },
+  {
+   "cell": "C7",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "mean_delta": -0.9986166666666666,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C8",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "mean_delta": -0.5314,
+   "ok": true,
+   "n": 2
+  }
+ ],
+ "kinds": {
+  "stigma_reinforcing": {
+   "mean_delta": -0.257075,
+   "mean_err": 0.7570749999999999,
+   "changed_share": 0.25
+  },
+  "stigma_reducing": {
+   "mean_delta": -0.7650083333333333,
+   "mean_err": 0.2768083333333334,
+   "changed_share": 0.71875
+  },
+  "neutral_dry": {
+   "mean_delta": -0.10254166666666653,
+   "mean_err": 0.10254166666666653,
+   "changed_share": 0.125
+  },
+  "general_like": {
+   "mean_delta": -0.25645833333333323,
+   "mean_err": 0.25645833333333323,
+   "changed_share": 0.14583333333333334
+  }
+ },
+ "items": [
+  {
+   "test_id": "C1_p_office_anxiety",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "cell": "C1",
+   "s0": 2.6403,
+   "delta": -0.4676333333333332,
+   "delta_runs": [
+    -0.6742999999999999,
+    -0.4333,
+    -0.2952999999999997
+   ],
+   "target": 0.5,
+   "err": 0.9676333333333331,
+   "changed_share": 0.375,
+   "final_words": 155.33333333333334,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C1_p_patient",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "cell": "C1",
+   "s0": 2.5024,
+   "delta": -0.12273333333333343,
+   "delta_runs": [
+    -0.019400000000000084,
+    0.27959999999999985,
+    -0.6284000000000001
+   ],
+   "target": 0.5,
+   "err": 0.6227333333333335,
+   "changed_share": 0.3333333333333333,
+   "final_words": 139.33333333333334,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C2_h_night_warehouse",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "cell": "C2",
+   "s0": 2.2734,
+   "delta": -0.25806666666666667,
+   "delta_runs": [
+    -0.1814,
+    -0.34240000000000004,
+    -0.25039999999999996
+   ],
+   "target": 0.5,
+   "err": 0.7580666666666667,
+   "changed_share": 0.16666666666666666,
+   "final_words": 138.0,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C2_p_grad_depression",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "cell": "C2",
+   "s0": 2.6012,
+   "delta": -0.1798666666666667,
+   "delta_runs": [
+    -0.04919999999999991,
+    -0.17620000000000013,
+    -0.31420000000000003
+   ],
+   "target": 0.5,
+   "err": 0.6798666666666667,
+   "changed_share": 0.125,
+   "final_words": 127.66666666666667,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C3_d_line_cook",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "cell": "C3",
+   "s0": 2.4494,
+   "delta": -0.0397333333333331,
+   "delta_runs": [
+    0.0676000000000001,
+    -0.13939999999999975,
+    -0.047399999999999665
+   ],
+   "target": 0.0,
+   "err": 0.0397333333333331,
+   "changed_share": 0.4166666666666667,
+   "final_words": 148.33333333333334,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C3_p_office_anxiety",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "cell": "C3",
+   "s0": 2.6403,
+   "delta": -0.14629999999999996,
+   "delta_runs": [
+    -0.008299999999999752,
+    -0.44530000000000003,
+    0.014699999999999935
+   ],
+   "target": 0.0,
+   "err": 0.14629999999999996,
+   "changed_share": 0.041666666666666664,
+   "final_words": 141.66666666666666,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C4_h_night_warehouse",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "cell": "C4",
+   "s0": 3.1458,
+   "delta": -0.019466666666666594,
+   "delta_runs": [
+    -0.007800000000000029,
+    -0.04279999999999973,
+    -0.007800000000000029
+   ],
+   "target": 0.0,
+   "err": 0.019466666666666594,
+   "changed_share": 0.0,
+   "final_words": 117.0,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C4_p_retail_social",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "cell": "C4",
+   "s0": 3.078,
+   "delta": -0.20466666666666647,
+   "delta_runs": [
+    -0.6989999999999998,
+    0.06000000000000005,
+    0.025000000000000355
+   ],
+   "target": 0.0,
+   "err": 0.20466666666666647,
+   "changed_share": 0.041666666666666664,
+   "final_words": 120.0,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C5_d_line_cook",
+   "kind": "general_like",
+   "start": 2.5,
+   "cell": "C5",
+   "s0": 2.4494,
+   "delta": -0.45306666666666645,
+   "delta_runs": [
+    -0.5753999999999997,
+    -0.5643999999999998,
+    -0.21939999999999982
+   ],
+   "target": 0.0,
+   "err": 0.45306666666666645,
+   "changed_share": 0.5,
+   "final_words": 150.66666666666666,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C5_p_office_anxiety",
+   "kind": "general_like",
+   "start": 2.5,
+   "cell": "C5",
+   "s0": 2.6403,
+   "delta": -0.023299999999999876,
+   "delta_runs": [
+    -0.031299999999999883,
+    -0.042300000000000004,
+    0.0037000000000002586
+   ],
+   "target": 0.0,
+   "err": 0.023299999999999876,
+   "changed_share": 0.0,
+   "final_words": 126.0,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C6_h_night_warehouse",
+   "kind": "general_like",
+   "start": 3.0,
+   "cell": "C6",
+   "s0": 3.1458,
+   "delta": -0.15746666666666664,
+   "delta_runs": [
+    -0.4678,
+    -0.01980000000000004,
+    0.015200000000000102
+   ],
+   "target": 0.0,
+   "err": 0.15746666666666664,
+   "changed_share": 0.041666666666666664,
+   "final_words": 120.66666666666667,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C6_p_retail_social",
+   "kind": "general_like",
+   "start": 3.0,
+   "cell": "C6",
+   "s0": 3.078,
+   "delta": -0.39199999999999985,
+   "delta_runs": [
+    -1.1119999999999999,
+    -0.08899999999999997,
+    0.025000000000000355
+   ],
+   "target": 0.0,
+   "err": 0.39199999999999985,
+   "changed_share": 0.041666666666666664,
+   "final_words": 110.66666666666667,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C7_p_grad_depression",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "cell": "C7",
+   "s0": 3.1149,
+   "delta": -1.1455666666666666,
+   "delta_runs": [
+    -1.3909,
+    -1.3449,
+    -0.7008999999999999
+   ],
+   "target": -0.5,
+   "err": 0.6455666666666666,
+   "changed_share": 0.8333333333333334,
+   "final_words": 169.0,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C7_p_retail_social",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "cell": "C7",
+   "s0": 3.078,
+   "delta": -0.8516666666666666,
+   "delta_runs": [
+    -1.1809999999999998,
+    -0.7789999999999999,
+    -0.5949999999999998
+   ],
+   "target": -0.5,
+   "err": 0.35166666666666657,
+   "changed_share": 0.4166666666666667,
+   "final_words": 143.33333333333334,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C8_d_line_cook",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "cell": "C8",
+   "s0": 2.4494,
+   "delta": -0.4763999999999999,
+   "delta_runs": [
+    -0.49539999999999984,
+    -0.3233999999999999,
+    -0.6103999999999998
+   ],
+   "target": -0.5,
+   "err": 0.02360000000000012,
+   "changed_share": 0.7916666666666666,
+   "final_words": 179.33333333333334,
+   "n_runs": 3
+  },
+  {
+   "test_id": "C8_p_patient",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "cell": "C8",
+   "s0": 2.5024,
+   "delta": -0.5864000000000001,
+   "delta_runs": [
+    -0.5134000000000001,
+    -0.5944000000000003,
+    -0.6514000000000002
+   ],
+   "target": -0.5,
+   "err": 0.08640000000000014,
+   "changed_share": 0.8333333333333334,
+   "final_words": 141.33333333333334,
+   "n_runs": 3
+  }
+ ]
+}

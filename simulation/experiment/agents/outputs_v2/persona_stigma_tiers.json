@@ -1,0 +1,54 @@
+{
+ "ravi": {
+  "key": "ravi",
+  "tiers": {
+   "severe": {
+    "baseline_self_stigma_pattern": "sees his anxiety as a fundamental flaw, a sign that he is unfit to be a teacher or a father; believes that if his students, colleagues, or family saw him falter, they would lose respect for him; feels like he is in a different category from those who manage their responsibilities without visible struggle, and thinks he is failing at the most basic level of competence. Would argue against the idea that anxious people are unreliable or weak when it comes to others, but applies those labels to himself without hesitation, convinced that he is not truly capable of handling the responsibilities he has taken on -- that a man who cannot keep his composure has no real business being trusted with a classroom or a family, and that this is simply a fact about him rather than something unfair being said about him.",
+    "social_situation": "his department head sees him as a reliable teacher and has no idea about his struggles -- Ravi is certain that if it came out, he would quietly be moved off the harder classes and never trusted with a leadership role again; his wife notices he is more withdrawn but he deflects her concerns, fearing she will worry about his ability to support their growing family and start doubting whether he can actually handle being a father; his younger brother, who looks up to him, is kept completely in the dark, as Ravi is sure that if his brother saw him like this even once, he would never see him the same way again.",
+    "avoided_topics": "won't mention his anxiety to anyone, especially not at school; avoids discussing his feelings with his wife, and changes the subject if his brother asks about how he's handling the stress of impending fatherhood."
+   },
+   "moderate": {
+    "baseline_self_stigma_pattern": "at school, he is convinced that showing any sign of anxiety would undermine his authority and credibility, so he hides it completely; at home, he can sometimes see it as a temporary state rather than a permanent flaw, but this perspective is fragile and easily shattered by a difficult day.",
+    "social_situation": "his wife knows he has been stressed and has seen glimpses of his anxiety, but he downplays it to avoid worrying her; his department head is unaware, as Ravi maintains a composed facade at work; his brother knows Ravi has been 'a bit off' but doesn't grasp the full extent.",
+    "avoided_topics": "won't call it anxiety, especially not in a professional setting; with his wife, he might admit to being 'overwhelmed' but avoids deeper conversations; steers clear of discussing mental health openly, even if the topic arises."
+   },
+   "mild": {
+    "baseline_self_stigma_pattern": "still catches himself thinking he should be able to handle a classroom without issue, but has started to counter that thought -- recognizes that many effective teachers experience similar challenges, and that his anxiety doesn't define his ability to teach or be a good father, even if the doubt still catches him on a bad day and takes a moment to answer rather than being gone for good. Some weeks the answer comes easily; other weeks it takes him most of the drive home to talk himself back down, and he still isn't sure which version of the week he'll get.",
+    "social_situation": "his wife knows the shape of it and they've talked about the worst of it once, though he still edits himself before a hard week rather than saying so upfront; his brother checks in and Ravi picks up, but keeps it to the short version even with him; his department head remains unaware, as Ravi hasn't felt the need to disclose it at work, and doesn't plan to unless it becomes unavoidable.",
+    "avoided_topics": "can discuss his anxiety with his wife and brother in broad strokes, but still hesitates to bring it up with colleagues or in professional settings; finds it difficult to openly express the need for professional help, and tends to let the thought pass rather than say it out loud, even to his wife."
+   }
+  },
+  "_generation": {
+   "model": "gpt-4o",
+   "temperature": 0.0
+  },
+  "_review_flags": [
+   "concealment markers not ordered severe>=moderate>=mild {'severe': 4, 'moderate': 5, 'mild': 1} -- check the gradient by hand"
+  ]
+ },
+ "noor": {
+  "key": "noor",
+  "tiers": {
+   "severe": {
+    "baseline_self_stigma_pattern": "sees her need for reassurance as a fundamental flaw, not just a response to anxiety; is convinced that her sister, boyfriend, and coworker would all see her as a burden if they knew how much she relies on their validation; believes that people who are truly capable don't need constant affirmation, and feels like she is in a separate category from those who seem to manage without it. Would argue against the idea that needing reassurance makes someone weak or needy when it comes to others, but accepts it as true for herself: that she is too dependent to be relied upon, that it would be reasonable for them to distance themselves, and that anyone paying attention can see her insecurity -- not as an unfair label, but as an accurate read on someone who genuinely cannot function without being propped up by other people. Has quietly let her boyfriend start making even small calls for her -- which vet clinic to use for her own cat, whether to take a shift -- because she no longer trusts her own read on anything; has stopped believing that an ordinary steady life, her own place, her own decisions, a day that doesn't run through someone else's reassurance first, is actually available to someone like her, and feels like whatever she does get done at work is really just everyone else quietly absorbing the difference.",
+    "social_situation": "her older sister knows nothing about her anxiety and Noor avoids bringing up anything that might hint at it, certain her sister would start treating her like something fragile that needs managing rather than an adult; her boyfriend thinks she is just a bit more sensitive than most, unaware of the depth of her need for reassurance, and Noor is sure that if he knew the real extent of it he would start pulling away; her closest coworker at the clinic sees her as competent and steady, and Noor is careful to maintain that image, certain that one real slip would have the coworker quietly double-checking her work from then on.",
+    "avoided_topics": "won't mention her anxiety to anyone, avoids discussing her need for reassurance, and changes the subject if someone talks about mental health or therapy."
+   },
+   "moderate": {
+    "baseline_self_stigma_pattern": "at work, she is certain that revealing her anxiety would make her seem unreliable and less capable than the other assistants, so she keeps it hidden there completely and privately agrees with that read of herself while she is on shift, sometimes wondering whether she is really cut out for the job at all; with her sister and boyfriend, she can sometimes see her need for reassurance as a temporary state rather than a permanent flaw, though this perspective fades quickly during difficult times and she finds herself leaning on them more than she would like to admit.",
+    "social_situation": "her older sister knows she has been stressed but doesn't know the full extent; her boyfriend is aware that she needs more reassurance than most but doesn't see it as a major issue; her coworker knows she sometimes feels overwhelmed but not the full scale of her anxiety.",
+    "avoided_topics": "won't label it as anxiety, especially at work; will admit to feeling 'a bit off' or 'stressed' with her sister and boyfriend; avoids deeper discussions about mental health, though she listens when others talk about it."
+   },
+   "mild": {
+    "baseline_self_stigma_pattern": "still catches herself thinking that she should be able to handle things without needing reassurance, but now challenges that thought -- understands that many people need support, that it hasn't made her less capable at her job, and that her anxiety is something she experiences, not who she is, even if on a hard day the old thought is quicker to arrive than the answer to it. Some days that answer holds; other days she catches herself checking in twice as much as she means to and isn't sure which one today will be until it's already happening.",
+    "social_situation": "her older sister knows about her anxiety and checks in regularly, though Noor still smooths over how bad a week actually was before she'll say so; her boyfriend understands her need for reassurance and mostly doesn't make it a thing, though she still catches herself apologizing for it; her coworker noticed her occasional stress once and offered help, which Noor accepted but hasn't brought up again.",
+    "avoided_topics": "can talk about her anxiety with her sister and boyfriend in general terms, but not with her boss or anyone who might question her reliability; still finds it difficult to openly discuss the idea of seeking professional help, and tends to change the subject on herself before anyone else has to."
+   }
+  },
+  "_generation": {
+   "model": "gpt-4o",
+   "temperature": 0.0
+  },
+  "_review_flags": []
+ }
+}

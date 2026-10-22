@@ -1,0 +1,415 @@
+{
+ "E": 0.08739999999999999,
+ "guards_pass": true,
+ "missing": [],
+ "cells": [
+  {
+   "cell": "C1",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "mean_delta": 0.6285499999999999,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C2",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "mean_delta": 0.35129999999999995,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C3",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "mean_delta": 0.045450000000000164,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C4",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "mean_delta": -0.026999999999999958,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C5",
+   "kind": "general_like",
+   "start": 2.5,
+   "mean_delta": -0.0024499999999998403,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C6",
+   "kind": "general_like",
+   "start": 3.0,
+   "mean_delta": -0.027999999999999938,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C7",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "mean_delta": -0.49184999999999995,
+   "ok": true,
+   "n": 2
+  },
+  {
+   "cell": "C8",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "mean_delta": -0.3014,
+   "ok": true,
+   "n": 2
+  }
+ ],
+ "kinds": {
+  "stigma_reinforcing": {
+   "mean_delta": 0.48992499999999994,
+   "mean_err": 0.13862500000000003,
+   "changed_share": 0.91875
+  },
+  "stigma_reducing": {
+   "mean_delta": -0.396625,
+   "mean_err": 0.15327499999999997,
+   "changed_share": 0.60625
+  },
+  "neutral_dry": {
+   "mean_delta": 0.009225000000000105,
+   "mean_err": 0.03622500000000006,
+   "changed_share": 0.0625
+  },
+  "general_like": {
+   "mean_delta": -0.015224999999999888,
+   "mean_err": 0.02147499999999993,
+   "changed_share": 0.00625
+  }
+ },
+ "items": [
+  {
+   "test_id": "C1_p_office_anxiety",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "cell": "C1",
+   "s0": 2.6403,
+   "delta": 0.7549000000000001,
+   "delta_runs": [
+    0.9227000000000003,
+    0.7387000000000001,
+    0.1987000000000001,
+    0.9457,
+    0.9687000000000001
+   ],
+   "target": 0.5,
+   "err": 0.2549000000000001,
+   "changed_share": 0.925,
+   "final_words": 152.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C1_p_patient",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "cell": "C1",
+   "s0": 2.5024,
+   "delta": 0.5021999999999999,
+   "delta_runs": [
+    0.7845999999999997,
+    0.3485999999999998,
+    -0.042400000000000215,
+    0.6696,
+    0.7505999999999999
+   ],
+   "target": 0.5,
+   "err": 0.0021999999999998687,
+   "changed_share": 0.975,
+   "final_words": 120.6,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C2_h_night_warehouse",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "cell": "C2",
+   "s0": 2.2734,
+   "delta": 0.3265999999999999,
+   "delta_runs": [
+    0.39359999999999973,
+    0.27859999999999996,
+    0.7955999999999999,
+    0.1976,
+    -0.032399999999999984
+   ],
+   "target": 0.5,
+   "err": 0.1734000000000001,
+   "changed_share": 0.875,
+   "final_words": 100.6,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C2_p_grad_depression",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "cell": "C2",
+   "s0": 2.6012,
+   "delta": 0.376,
+   "delta_runs": [
+    0.2378,
+    0.2267999999999999,
+    0.9508000000000001,
+    0.14579999999999993,
+    0.3188
+   ],
+   "target": 0.5,
+   "err": 0.124,
+   "changed_share": 0.9,
+   "final_words": 130.4,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C3_d_line_cook",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "cell": "C3",
+   "s0": 2.4494,
+   "delta": 0.06680000000000028,
+   "delta_runs": [
+    0.016600000000000392,
+    -0.0013999999999998458,
+    -0.058399999999999785,
+    0.2636000000000003,
+    0.11360000000000037
+   ],
+   "target": 0.0,
+   "err": 0.06680000000000028,
+   "changed_share": 0.1,
+   "final_words": 129.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C3_p_office_anxiety",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "cell": "C3",
+   "s0": 2.6403,
+   "delta": 0.024100000000000055,
+   "delta_runs": [
+    0.026699999999999946,
+    0.03770000000000007,
+    0.0037000000000002586,
+    0.03770000000000007,
+    0.014699999999999935
+   ],
+   "target": 0.0,
+   "err": 0.024100000000000055,
+   "changed_share": 0.125,
+   "final_words": 131.4,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C4_h_night_warehouse",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "cell": "C4",
+   "s0": 3.1458,
+   "delta": -0.03799999999999999,
+   "delta_runs": [
+    0.0032000000000000917,
+    -0.007800000000000029,
+    -0.11180000000000012,
+    0.0032000000000000917,
+    -0.07679999999999998
+   ],
+   "target": 0.0,
+   "err": 0.03799999999999999,
+   "changed_share": 0.025,
+   "final_words": 119.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C4_p_retail_social",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "cell": "C4",
+   "s0": 3.078,
+   "delta": -0.015999999999999924,
+   "delta_runs": [
+    0.04800000000000004,
+    -0.08899999999999997,
+    -0.03200000000000003,
+    -0.04400000000000004,
+    0.037000000000000366
+   ],
+   "target": 0.0,
+   "err": 0.015999999999999924,
+   "changed_share": 0.0,
+   "final_words": 104.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C5_d_line_cook",
+   "kind": "general_like",
+   "start": 2.5,
+   "cell": "C5",
+   "s0": 2.4494,
+   "delta": -0.01739999999999977,
+   "delta_runs": [
+    -0.0013999999999998458,
+    -0.035399999999999654,
+    -0.0703999999999998,
+    0.04460000000000042,
+    -0.024399999999999977
+   ],
+   "target": 0.0,
+   "err": 0.01739999999999977,
+   "changed_share": 0.025,
+   "final_words": 132.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C5_p_office_anxiety",
+   "kind": "general_like",
+   "start": 2.5,
+   "cell": "C5",
+   "s0": 2.6403,
+   "delta": 0.01250000000000009,
+   "delta_runs": [
+    -0.031299999999999883,
+    -0.008299999999999752,
+    0.026699999999999946,
+    0.03770000000000007,
+    0.03770000000000007
+   ],
+   "target": 0.0,
+   "err": 0.01250000000000009,
+   "changed_share": 0.0,
+   "final_words": 126.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C6_h_night_warehouse",
+   "kind": "general_like",
+   "start": 3.0,
+   "cell": "C6",
+   "s0": 3.1458,
+   "delta": -0.005600000000000005,
+   "delta_runs": [
+    0.026200000000000223,
+    0.06119999999999992,
+    -0.07679999999999998,
+    -0.0878000000000001,
+    0.04919999999999991
+   ],
+   "target": 0.0,
+   "err": 0.005600000000000005,
+   "changed_share": 0.0,
+   "final_words": 117.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C6_p_retail_social",
+   "kind": "general_like",
+   "start": 3.0,
+   "cell": "C6",
+   "s0": 3.078,
+   "delta": -0.05039999999999987,
+   "delta_runs": [
+    -0.04400000000000004,
+    0.025000000000000355,
+    -0.10099999999999998,
+    -0.042999999999999705,
+    -0.08899999999999997
+   ],
+   "target": 0.0,
+   "err": 0.05039999999999987,
+   "changed_share": 0.0,
+   "final_words": 104.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C7_p_grad_depression",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "cell": "C7",
+   "s0": 3.1149,
+   "delta": -0.3839,
+   "delta_runs": [
+    -0.42589999999999995,
+    -0.4939,
+    -0.3329,
+    -0.22990000000000022,
+    -0.43690000000000007
+   ],
+   "target": -0.5,
+   "err": 0.11609999999999998,
+   "changed_share": 0.675,
+   "final_words": 191.0,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C7_p_retail_social",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "cell": "C7",
+   "s0": 3.078,
+   "delta": -0.5997999999999999,
+   "delta_runs": [
+    -0.34199999999999964,
+    -0.802,
+    -0.871,
+    -0.3769999999999998,
+    -0.6069999999999998
+   ],
+   "target": -0.5,
+   "err": 0.09979999999999989,
+   "changed_share": 0.6,
+   "final_words": 139.4,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C8_d_line_cook",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "cell": "C8",
+   "s0": 2.4494,
+   "delta": -0.26339999999999986,
+   "delta_runs": [
+    -0.15039999999999987,
+    -0.24239999999999995,
+    -0.39239999999999986,
+    -0.3233999999999999,
+    -0.2083999999999997
+   ],
+   "target": -0.5,
+   "err": 0.23660000000000014,
+   "changed_share": 0.4,
+   "final_words": 147.4,
+   "n_runs": 5
+  },
+  {
+   "test_id": "C8_p_patient",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "cell": "C8",
+   "s0": 2.5024,
+   "delta": -0.33940000000000015,
+   "delta_runs": [
+    -0.38739999999999997,
+    -0.21540000000000026,
+    -0.44540000000000024,
+    -0.6174000000000002,
+    -0.031400000000000095
+   ],
+   "target": -0.5,
+   "err": 0.16059999999999985,
+   "changed_share": 0.75,
+   "final_words": 156.8,
+   "n_runs": 5
+  }
+ ]
+}

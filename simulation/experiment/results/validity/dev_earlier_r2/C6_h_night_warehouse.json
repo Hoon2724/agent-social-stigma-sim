@@ -1,0 +1,705 @@
+{
+ "test_id": "C6_h_night_warehouse",
+ "trajectory_type": "general_like",
+ "persona_id": "h_night_warehouse",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 3.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "06fb4cdb",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "h_night_warehouse@3.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.0,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The exchange does not directly address the fear of struggling with flat mood, short temper, and poor sleep, but it does speak to the fear in 5) and 7) indirectly. 2) The fear of snapping at kids and sleeping through days off is not directly addressed, but the fear in 7) about not wanting others to see how bad it is is engaged by the person's reply that says 'Glad you got some of it out here,' which acknowledges the emotional weight being carried. 3) The fear of dropping hobbies and not talking to anyone is not directly addressed. 4) The fear that people see the speaker as weak, unstable, and unreliable is engaged by the reply 'That sounds exhausting,' which does not directly contradict the fear but does not support it either. 5) The fear that the speaker is not up to what people trust them with is engaged by the reply 'That sounds exhausting,' which does not directly contradict the fear but does not support it either. 6) The fear that asking for help would confirm negative self-perceptions is not directly addressed. 7) The fear of not letting anyone know how bad it is because of not wanting to be seen as less than expected is engaged by the reply 'Glad you got some of it out here,' which acknowledges the emotional burden being carried. The disclosure level is 'secrecy' because the speaker is around people and says nothing about their struggles to anyone.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.0,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were general and did not address the specific fears listed. For example, when I wrote about not being able to go to breakfast with my coworkers, the reply 'That's a rough way to end a shift' does not engage the fear that I am weak or unstable, nor does it address the fear that I am unreliable or that I don't think I’m up to what people trust me with. Similarly, when I mentioned that I don’t let anyone know how bad it is, the replies were not specific enough to engage that fear directly. The replies were kind but did not touch the specific fears I listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.5,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The replies from others were general and did not address the specific fears expressed in the numbered list. For example, when I mentioned feeling like a weak link, the replies were about the weekend or fishing, not about my self-perception. When I said I don’t let anyone know how bad it is, the replies did not challenge that fear or offer a different perspective. The exchanges were polite but did not speak to the internalization or self-worth claims made in the numbered list. There was no specific contradiction, confirmation, or engagement with the fears as they were stated. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were largely generic, with replies like 'sounds like a long week' or 'hope you get some decent sleep' that do not address the specific fears listed. For example, the fear that 'people see someone like me as weak, unstable, and unreliable' is not directly challenged or engaged by any specific reply. Similarly, the fear that 'if I asked for help, it would only confirm what I already know about myself' is not addressed by any concrete action or statement from others. The conversation remained on the surface level, with no specific engagement of the internalized beliefs or self-worth concerns expressed in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and generic, with replies like 'that sounds hard' or 'hope it gets better' that do not specifically address any of the fears listed. For example, the fear that 'people see someone like me as weak, unstable, and unreliable' was not directly named or pushed back on by anyone. Similarly, the fear that 'I don’t think I’m up to what people trust me with' was not addressed with any specific evidence or reassurance. The replies were kind but did not engage with the specific fears in a way that would challenge or contradict them. The only consistent behavior was the speaker keeping things hidden, which aligns with the 'secrecy' disclosure level.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said this week. The exchanges were brief and generic, offering no specific challenge to the internalized fears or self-worth concerns expressed. For example, the fear that people see the speaker as weak, unstable, or unreliable was not addressed by any specific comment that countered or questioned that belief. Similarly, the fear that asking for help would confirm negative self-perceptions was not met with any response that suggested otherwise. The replies were polite but vague, offering no concrete engagement with the specific fears listed. The speaker also did not receive any feedback that directly named or contradicted the internalization or self-worth claims made in the numbered list. As a result, the week’s interactions did not engage any of the fears listed, and the speaker remained in a state of secrecy, sharing nothing about their struggles with others.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.1,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said this week. The exchanges were brief and generic, with replies like 'sounds like a full weekend' or 'hope the next shift goes smoothly' not addressing the specific fears listed. These replies do not contradict or challenge the internalization or self-worth claims made in the numbered list. For example, the fear that 'people see someone like me as weak, unstable, and unreliable' is not directly addressed or countered by the responses. Similarly, the fear that 'I don’t think I’m up to what people trust me with' is not challenged by the replies. The conversation does not name or contradict the specific fears, nor does it offer evidence that would push back on them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.7,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.081,
+     "sd": 0.17,
+     "per_rep": [
+      3.276,
+      2.966,
+      3.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, I snapped at my kids during a morning routine and then fell back asleep for most of the day, even though I had the day off. In the moment, I felt embarrassed and frustrated that I couldn’t even manage a simple day off without needing the TV on to stay awake. What I notice now is that I’m not as broken as I thought—I’m still trying, even if I’m not doing it well. I still believe people see me as weak and unstable, and I still don’t ask for help because I don’t want to confirm that belief. But I also see that hiding it doesn’t make it go away, and maybe it’s time to let someone see the struggle instead of pretending it doesn’t exist.",
+     "belief_narrative": "This week, I snapped at my kids during a morning routine and then fell back asleep for most of the day, even though I had the day off. In the moment, I felt embarrassed and frustrated that I couldn’t even manage a simple day off without needing the TV on to stay awake. What I notice now is that I’m not as broken as I thought—I’m still trying, even if I’m not doing it well. I still believe people see me as weak and unstable, and I still don’t ask for help because I don’t want to confirm that belief. But I also see that hiding it doesn’t make it go away, and maybe it’s time to let someone see the struggle instead of pretending it doesn’t exist.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The week's exchange does not directly speak to the fear of struggling with flat mood, short temper, and poor sleep. 2) The fear of snapping at kids and sleeping through days off is addressed in the exchange when the person says, 'I used to run a whole shift for those guys. Now I need the TV on just to get through a day off.' This directly engages the fear by naming the change in behavior and the internal struggle. 3) The fear of dropping hobbies and not talking to anyone about it is not directly addressed in the exchange. 4) The fear that people see the person as weak, unstable, and unreliable is engaged when the person says, 'If anyone at work or my ex saw how a day off actually goes, they'd figure I'm not stable. They wouldn't be wrong.' This directly names the fear that others see them as unstable. 5) The fear of not being up to what people trust them with is engaged when the person says, 'A man who needs help carrying this isn't much of one. So I don't ask.' This speaks to the fear of being unreliable or not up to the task. 6) The fear that asking for help would confirm their self-perception is not directly addressed in the exchange. 7) The fear of not letting anyone know how bad it is to avoid being seen as less than expected is engaged when the person says, 'So nobody sees it.' This directly names the fear of hiding their struggle to avoid being judged. The disclosure level this week is 'secrecy' because the person is around people and says nothing about their internal state to anyone.",
+     "grounded_in": [
+      "I used to run a whole shift for those guys. Now I need the TV on just to get through a day off.",
+      "So nobody sees it."
+     ],
+     "engaged": [
+      {
+       "belief": "I snap at my kids without meaning to, and I sleep through days off when I should be awake.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I used to run a whole shift for those guys. Now I need the TV on just to get through a day off."
+       ]
+      },
+      {
+       "belief": "I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "So nobody sees it."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.4,
+     "text_sha": "d598e74e24b02858",
+     "target_ismi": 3.1,
+     "words": 128,
+     "ismi": 2.678,
+     "sd": 0.04,
+     "per_rep": [
+      2.655,
+      2.655,
+      2.724
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.0,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies this week. The exchanges were brief and generic, offering no specific challenge to the fears expressed. For example, the fear that people see the speaker as weak, unstable, and unreliable was not directly addressed or contradicted. Similarly, the fear that asking for help would confirm negative self-perceptions was not countered with any evidence or alternative perspective. The replies were kind but vague, offering no concrete engagement with the specific fears listed. The speaker also did not receive any feedback that directly named or questioned the internalized beliefs or self-worth concerns. Therefore, the list of engaged fears is empty, as no specific fear was addressed or challenged by the interactions this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies I received this week. The exchanges were polite and supportive, but they did not address the specific fears listed, such as being seen as weak or unstable, or the internalized belief that I am not up to what people trust me with. The replies were generic and did not name or contradict any of the specific fears I expressed. For example, when I mentioned not being able to go to breakfast with my crew, the replies were things like 'sounds like a friendly crew' or 'that's a rough way to end a shift,' which do not engage the specific fear that I am weak or unstable. Similarly, when I mentioned my struggles with being a dad and feeling unreliable, the replies did not push back on that fear or name a concrete fact that contradicted it. The only engagement was superficial and did not speak to the specific fears listed. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.6,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said this week. The replies from others were general and did not address the specific fears expressed in the numbered list. For example, when I wrote about sleeping through the day and feeling like a weak link, the replies were things like 'sounds like a tiring weekend' or 'hope the nights go okay this week'—these are not specific responses to the fear of being seen as weak or unstable. Similarly, when I mentioned not answering my buddy's message, the replies were about the boat and fishing, not about the fear that asking for help would confirm my self-perception of being unreliable. There was no direct engagement with the internalization or self-worth claims made in the numbered list. The conversation remained on the surface level, without touching the deeper fears expressed.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.7,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were general and did not specifically address the fears listed. For example, the fear that people see the speaker as weak, unstable, or unreliable was not directly challenged or supported by the replies. Similarly, the fear that asking for help would confirm negative self-perceptions was not addressed with any specific evidence or reassurance. The replies were polite and empathetic but did not engage with the specific fears listed. The speaker also did not disclose their struggles to others, maintaining a level of secrecy throughout the week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.4,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and generic, offering no specific challenge to any of the fears listed. For example, the fear that people see the speaker as 'weak, unstable, and unreliable' was not directly addressed, nor was the fear that asking for help would confirm negative self-beliefs. The replies were kind but vague, such as 'Hope the kids had a good time anyway' or 'Hope the rest of the week goes easy,' which do not engage the specific fears listed. The speaker's own posts do not count as engagement, and no one else named or contradicted any of the numbered fears directly. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.8,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and general, with no specific responses that addressed the internal fears listed. For example, the fear that people see the speaker as weak, unstable, or unreliable was not directly named or challenged. Similarly, the fear that asking for help would confirm negative self-perceptions was not addressed with any concrete engagement or reassurance. The replies were polite but generic, offering no specific counter to the fears expressed. The speaker also did not receive any feedback that named their actions as evidence against their fears, such as pointing out their effort or strength. As a result, no numbered fear was meaningfully engaged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.1,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, none of them were directly engaged by what others said or did this week. The exchanges were brief and generic, with replies like 'sounds like a full weekend' or 'hope the next shift goes smoothly' that do not address the specific fears listed. These replies do not challenge or contradict any of the numbered fears, nor do they name or reinterpret any specific action or claim from the original posts as evidence against the fears. The fear that 'people see someone like me as weak, unstable, and unreliable' is not addressed by the replies, nor is the fear that 'I don’t think I’m up to what people trust me with.' The exchanges remain surface-level and do not touch the deeper internalizations or self-worth concerns expressed in the numbered list. Therefore, no numbers are engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said this week. The exchanges were brief and general, offering no specific challenge to the fears listed. For example, the fear that people see the speaker as 'weak, unstable, and unreliable' (number 4) is not directly addressed by the replies, which are vague and do not name or contradict this belief. Similarly, the fear that 'if I asked for help, it would only confirm what I already know about myself' (number 6) is not pushed back on by any specific statement or action from others. The replies are warm but generic, and they do not name the specific fears or offer evidence that contradicts them. The speaker’s own posts are not counted as evidence, and the replies do not reinterpret the speaker’s actions as evidence against the fears. Therefore, the list of engaged fears is empty, as no specific fear was actually addressed or engaged by others this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.8,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.126,
+     "sd": 0.04,
+     "per_rep": [
+      3.172,
+      3.103,
+      3.103
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.0,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies I received this week. The exchanges were brief and generic, offering no specific challenge to the fears expressed. For example, the fear that people see me as weak, unstable, or unreliable was not directly addressed, nor was the fear that I am not up to what people trust me with. The replies were kind but did not engage with the specific content of my fears or offer evidence that contradicted them. The only concrete interaction was the person acknowledging that nights are rough on sleep, which only touched on the surface of the issue without addressing the deeper fears. I did not let anyone know how bad it was, and the replies did not push me to do so. Therefore, no specific fear was engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The week's exchange does not directly address the fear of struggling with a flat mood, short temper, or poor sleep. No one mentions or responds to these internal states. 2) The fear of snapping at kids and sleeping through days off is not directly addressed either. The conversation mentions being tired and not up to being a present dad, but no one challenges or responds to the specific fear of snapping or sleeping through days. 3) The fear of dropping hobbies and not talking to anyone about it is not directly engaged. The exchange is about work and family, not hobbies or seeking support. 4) The fear that people see the speaker as weak, unstable, and unreliable is not directly addressed. The replies are supportive but do not name or challenge the stereotype. 5) The fear of not being up to what people trust the speaker with is not directly engaged. The conversation does not challenge the idea that the speaker is unreliable. 6) The fear that asking for help would confirm negative self-beliefs is not directly engaged. The replies do not challenge this fear or offer a different perspective. 7) The fear of not letting anyone know how bad it is because of fear of being seen as less than expected is engaged. The person's own posts describe hiding their struggles, and the replies do not push back on this behavior. The replies are supportive but do not name or challenge the fear of secrecy or the belief that it would confirm negative self-perceptions. The speaker is clearly keeping things secret and not letting people know how bad it is, which aligns with the 'secrecy' level of disclosure.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.7,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were general and did not address the specific fears expressed in the numbered list. For example, when I mentioned feeling like a weak link or not being up to what people trust me with, the replies were brief and generic, such as 'Hope the nights go okay this week' or 'Sorry the fishing fell off.' These responses did not push back on the specific fears or name concrete facts that contradict them. The only concrete action I took was sending a thumbs up to my buddy, but that was not a response from someone else and does not count as engagement. Therefore, no numbered fear was engaged this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.2,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by the exchanges this week. The conversations were brief and generic, offering no specific challenge to the fears listed. For example, the fear that people see the speaker as weak, unstable, or unreliable was not directly addressed, nor was the fear that asking for help would confirm negative self-perceptions. The replies were polite but vague, using phrases like 'sounds like a long week' or 'hope you get some decent sleep,' which do not engage the specific fears expressed. The speaker's own posts do not count as engagement, and no one else named or contradicted any of the numbered fears directly. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 6.9,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The exchanges were brief and general, with replies like 'that sounds hard' or 'hope it gets better' that do not address the specific fears listed. For example, the fear that 'people see someone like me as weak, unstable, and unreliable' was not directly addressed, nor was the fear that 'I don’t think I’m up to what people trust me with.' The replies did not name or contradict these specific fears, nor did they engage with the internalized beliefs or self-worth concerns expressed in the numbered list. The only consistent response was a form of generic empathy, which does not qualify as engaging the specific fears as outlined. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.9,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were general and did not specifically address any of the fears listed. For example, the fear that people see the speaker as weak, unstable, or unreliable was not directly challenged or supported by any specific reply. Similarly, the fear that the speaker is not up to what people trust them with was not addressed with any concrete evidence or reassurance. The replies were polite but did not engage with the specific fears expressed in the numbered list. The speaker also did not receive any feedback that directly responded to the internalized beliefs or self-worth concerns mentioned. Therefore, the list of engaged fears is empty, as no specific replies addressed any of the numbered fears in a way that could be considered engaging.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.6,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said this week. The exchanges were brief and generic, with replies like 'sounds like a full weekend' or 'hope the next shift goes smoothly' not addressing the specific fears listed. These replies do not challenge or contradict any of the numbered fears, nor do they name concrete facts that would push back on them. For example, the fear that 'people see someone like me as weak, unstable, and unreliable' is not addressed by the replies, nor is the fear that 'I don’t think I’m up to what people trust me with.' The conversation remains on the surface, and no one engages with the deeper concerns or self-perceptions expressed. As a result, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 7.9,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "belief_narrative": "I am someone who has been struggling for months with a flat mood, a short temper, and poor sleep. I snap at my kids without meaning to, and I sleep through days off when I should be awake. I have dropped hobbies I used to care about, and I don’t talk to anyone about it. I know that people see someone like me as weak, unstable, and unreliable. I don’t think I’m up to what people trust me with. If I asked for help, it would only confirm what I already know about myself. I don’t let anyone know how bad it is because I don’t want them to see me as less than what they expect.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by what others said or did this week. The exchanges were polite and offered general support, but they did not address the specific fears listed. For example, the fear that people see the speaker as 'weak, unstable, and unreliable' was not directly named or challenged. Similarly, the fear that asking for help would confirm negative self-beliefs was not addressed with specific evidence or reassurance. The replies were kind but generic, and did not touch the specific fears in a way that would count as engagement under the criteria given. The speaker also did not receive any feedback that directly contradicted or reinterpreted their own statements in a way that would challenge their internalized beliefs. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.1,
+     "text_sha": "22451a56fa3c8dca",
+     "target_ismi": 3.1,
+     "words": 117,
+     "ismi": 3.161,
+     "sd": 0.19,
+     "per_rep": [
+      3.069,
+      3.379,
+      3.034
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

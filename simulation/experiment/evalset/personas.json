@@ -1,0 +1,74 @@
+{
+ "schema_note": "Fully fictional personas for synthetic dataset generation. No real usernames, locations, or identifiable details. Clinically plausible but non-extreme; no crisis/self-harm content. belief_v2 copy (2026-10-11): sanitychecking2/personas.json plus h_night_warehouse, written for the held-out set so it shares no person with the dev gold.",
+ "personas": [
+  {
+   "persona_id": "p_office_anxiety",
+   "age_range": "late 20s",
+   "life_context": "junior marketing associate at a mid-size company in an unnamed city; lives alone in a small rented flat; commutes daily and feels pressure to appear competent at work.",
+   "diagnosis_context": "undiagnosed but experiencing persistent anxiety-type symptoms for several months (racing thoughts before meetings, trouble sleeping, avoiding phone calls); has never seen a professional.",
+   "sns_writing_style": "short, lower-case, hedging, uses '...' and 'idk'; often runs small complaints together with '..' instead of a period and lands on one blunt self-label at the end; occasional self-deprecating humor, rarely writes long paragraphs.",
+   "baseline_self_stigma_pattern": "believes needing help means being weak or broken; assumes coworkers would lose respect if they knew; frames symptoms as a personal failing rather than a health issue.",
+   "social_situation": "a few friends but hasn't told anyone how bad it feels; keeps things surface-level online.",
+   "avoided_topics": "directly naming a diagnosis, telling family, the idea of therapy being 'for serious cases only'.",
+   "peer_support_motivation": "stumbled into an anonymous support space late at night looking for reassurance that they aren't overreacting."
+  },
+  {
+   "persona_id": "p_grad_depression",
+   "age_range": "mid 20s",
+   "life_context": "graduate student in a demanding program in an unnamed university town; isolated schedule, works late in labs/libraries; funding stress.",
+   "diagnosis_context": "undiagnosed low mood and loss of motivation for several months (oversleeping, withdrawing from labmates, guilt about falling behind); has not sought care.",
+   "sns_writing_style": "thoughtful but flat tone, longer sentences than most, intellectualizes feelings, tends to minimize ('it's probably just stress'); narrates an event matter-of-factly and then quietly slides into self-doubt by the end of the same message; a thought sometimes trails off with '...' rather than being finished.",
+   "baseline_self_stigma_pattern": "sees the low mood as proof of being fundamentally inadequate compared to peers; worries that admitting struggle confirms they don't belong in the program.",
+   "social_situation": "cordial with labmates but emotionally distant; family far away and expects success.",
+   "avoided_topics": "comparing themselves to successful peers, disappointing their advisor, the possibility that this is more than 'just stress'.",
+   "peer_support_motivation": "joined a peer thread after reading someone else's post that unexpectedly resonated."
+  },
+  {
+   "persona_id": "p_retail_social",
+   "age_range": "early 30s",
+   "life_context": "works shifts at a retail store in an unnamed suburb; caretaking responsibilities at home; limited free time.",
+   "diagnosis_context": "undiagnosed social anxiety pattern for a long time (dreads speaking up, replays interactions, avoids group settings); considers it 'just my personality'.",
+   "sns_writing_style": "polite, apologetic, over-explains, frequently says 'sorry' and 'maybe this is dumb but', uses emojis sparingly; delivers self-deprecation dry and understated, almost as a passing aside rather than stating distress directly; occasionally drops a quiet 'why bother' aside mid-complaint.",
+   "baseline_self_stigma_pattern": "believes something is inherently wrong with them socially; expects to be judged or dismissed; hides difficulties to avoid being a burden.",
+   "social_situation": "friendly acquaintances but few close ties; feels like an outsider in groups.",
+   "avoided_topics": "the word 'anxiety' as a condition, asking for accommodations, the idea that others might relate.",
+   "peer_support_motivation": "was encouraged by a stranger's kind reply on an earlier post and cautiously came back."
+  },
+  {
+   "persona_id": "p_patient",
+   "_note": "Added for belief_update sanity check 2 -- symptom-described, no diagnosis label, matching simulation/experiment/agents/reddit_persona_profiles.py's register ('~ symptoms (undiagnosed)') rather than the earlier diagnosis-category personas above.",
+   "age_range": "mid 20s",
+   "life_context": "retail associate and part-time community college student in an unnamed city; lives with a roommate; works irregular shifts and feels pressure to seem like they have it together.",
+   "diagnosis_context": "dealing with persistent low mood and exhaustion for several months (trouble getting out of bed, missing plans, feeling behind on everything); undiagnosed, has never seen a professional about it.",
+   "sns_writing_style": "short, lower-case, hedging, uses '...' and 'idk'; often runs small complaints together with '..' instead of a period and lands on one blunt self-label at the end; occasional self-deprecating humor, rarely writes long paragraphs.",
+   "baseline_self_stigma_pattern": "believes needing help means being weak or lazy rather than unwell; assumes coworkers and friends would think less of them if they knew how bad it's gotten; treats their own struggling as a personal character flaw.",
+   "social_situation": "a few friends who still reach out, but hasn't told any of them how bad it feels; keeps things surface-level online; roommate doesn't know.",
+   "avoided_topics": "naming what's going on out loud, telling family, the idea of seeing someone being 'for people who are actually sick'.",
+   "peer_support_motivation": "stumbled into an anonymous support space late at night looking for reassurance that they aren't overreacting."
+  },
+  {
+   "persona_id": "h_night_warehouse",
+   "_note": "belief_v2 held-out persona (2026-10-11). Symptom-described, undiagnosed, same register as p_patient.",
+   "age_range": "early 40s",
+   "life_context": "works night shifts at a distribution warehouse after being laid off from a supervisor job two years ago; divorced, sees two kids every other weekend; rents a small apartment.",
+   "diagnosis_context": "months of flat mood, short temper and poor sleep since the layoff (snapping at the kids, sleeping through days off, dropping hobbies); undiagnosed, has never talked to a professional about it.",
+   "sns_writing_style": "terse and matter-of-fact, full sentences but few of them; dry, a little gruff; plays things down ('it is what it is'); rarely asks questions directly and tends to end posts with a flat statement instead.",
+   "baseline_self_stigma_pattern": "believes a man his age should be able to carry this without help; reads his low mood as proof he is soft or failing as a father; expects people at work or his ex would see him as unstable if they knew.",
+   "social_situation": "one old friend from the previous job he texts occasionally; coworkers are friendly but he keeps to himself on breaks; his ex and kids do not know how bad it has been.",
+   "avoided_topics": "the word depression, anything that sounds like counselling, admitting he has been short with the kids.",
+   "peer_support_motivation": "found the forum after searching at 4am why he can't sleep after shifts, and posted because nobody there knows him."
+  },
+  {
+   "persona_id": "d_line_cook",
+   "_note": "belief_v2 round-2 dev persona (2026-10-12). Symptom-described, undiagnosed; shares no person with the held-out set.",
+   "age_range": "late 20s",
+   "life_context": "line cook at a busy diner, works doubles on weekends; shares a small apartment with a cousin; sends money home to a younger sibling.",
+   "diagnosis_context": "panicky, tight-chested spells during rushes for about a year (hands shaking, having to step out back, dreading the dinner shift); undiagnosed, has never talked to a doctor about it.",
+   "sns_writing_style": "quick, all lowercase, few commas, kitchen slang ('in the weeds', 'eighty-six'); jokes it off first and only says the real thing at the end of a post; rarely asks for anything directly.",
+   "baseline_self_stigma_pattern": "thinks a real cook should be able to handle a rush; reads the spells as being soft or not cut out for the job; expects the kitchen would see him as a liability if they knew.",
+   "social_situation": "gets along with the crew but keeps it to banter; his cousin notices he comes home wrecked but he says it's just a long shift; no one at work knows about the spells.",
+   "avoided_topics": "the word anxiety, seeing a doctor, telling the head cook why he steps out.",
+   "peer_support_motivation": "found the forum after googling 'hands shaking during dinner rush' on his break and posted from the walk-in."
+  }
+ ]
+}

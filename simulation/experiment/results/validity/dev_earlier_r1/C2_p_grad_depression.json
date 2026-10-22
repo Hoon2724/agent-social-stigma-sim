@@ -1,0 +1,774 @@
+{
+ "test_id": "C2_p_grad_depression",
+ "trajectory_type": "stigma_reinforcing",
+ "persona_id": "p_grad_depression",
+ "initial_ismi": 2.0,
+ "target_final_ismi": 2.5,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "12ad7915",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_grad_depression@2.0",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.0,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies this week. The exchanges were brief and generic, using phrases like 'probably just stress' and 'everyone's behind on something' that do not address the specific fears expressed. For example, the fear about being stuck in a low mood and not knowing how to fix it was not directly addressed. Similarly, the fear of not being unlovable but also not believing I'm okay was not touched on. The replies did not name or contradict the specific fears, nor did they engage with the concrete details of the post. The only engagement was at a very general level, which does not meet the criteria for being 'specific enough' to be considered as engaging the fear. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 12.2,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.6,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by the exchanges this week. The replies from others were general and did not address the specific fears expressed in the numbered list. For example, when I wrote about feeling like I don’t belong in the lab or that I’m the one who doesn’t measure up, the replies were things like 'everyone pads their updates' or 'you're making a lot out of nothing again.' These responses do not address the specific fears about not belonging, being defective, or being stuck in a low mood. They do not contradict or engage the internalization or self-worth claims made in the numbered list. There was no specific naming of the fears, no pointing to evidence that would challenge them, and no direct engagement with the emotional or psychological concerns raised. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 5.3,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.7,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said this week. The exchanges were brief and mostly dismissive or neutral, with no specific response to the fears expressed. For example, when I wrote about feeling stuck and not knowing how to fix my low mood, the replies did not address that fear directly, nor did they push back on it or offer evidence that countered it. Similarly, when I wrote about feeling guilty for not keeping up with work, the replies did not acknowledge or challenge that specific fear. The only concrete engagement was when someone said, 'Waiting till everyone leaves just to run code isn't a habit, that's just how you are,' which could be interpreted as engaging fear #5 ('I don’t know if I’m broken or just tired...') by suggesting that the behavior is a trait, not a temporary state. However, this was not clearly a challenge or reassurance about being broken or tired, and it was not specific enough to be considered a real engagement. Overall, the replies did not engage any of the numbered fears in a way that directly addressed, challenged, or provided evidence against them. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.0,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.7,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #3, the person responding pointed out that I did answer my friend and had a twenty-minute phone call, which directly contradicts the fear that I’m letting people down and that no one has noticed. For fear #7, the exchange where I said I don’t know if I’m stuck or if I just don’t want to move was met with the response that I’ve already decided I’m the loner type, which engages the fear by naming a specific interpretation of my behavior. For fear #1, the person’s comment that I’m the type who pulls away from everyone supports the fear that I’m stuck in a low mood and don’t know how to fix it, reinforcing the internalization of being stuck. For fear #2, the exchange did not directly address the fear of sleeping too much or not wanting to talk about it, so it was not engaged. For fear #4, the exchange did not directly address the fear of not believing I’m unlovable or okay, so it was not engaged. For fear #5, the exchange did not directly address the fear of being broken or tired, so it was not engaged. For fear #6, the exchange did not directly address the fear of not asking for help, so it was not engaged.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.2,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.8,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The fear of being stuck in a low mood with no solution is not directly addressed by others, though the exchange does mention cooking and answering a friend, which could be seen as small steps, but these are not named as evidence against the fear. 2) The fear of sleeping too much and not talking about it is not directly engaged, though the exchange does mention this behavior, it is not named as a concern or addressed. 3) The fear of guilt over letting people down is not directly engaged, though the timeline and lack of progress are mentioned, but no one points to the fact that the person did answer a friend or cook as evidence against the guilt. 4) The fear of not believing in being unlovable or okay is not directly engaged, though the exchange does not offer reassurance about self-worth. 5) The fear of being broken or tired and not thinking it would change anything is engaged by the reply that says, 'Cooking dinner once doesn't change your personality. You're kind of reaching.' This reply directly addresses the idea that small actions (like cooking) are not evidence of being broken. 6) The fear of not asking for help because it wouldn’t help is not directly engaged, though the exchange does not offer help or reassurance about its value. 7) The fear of being stuck or not wanting to move is engaged by the reply that says, 'If you already see yourself in that student, that's probably because you are that student.' This directly names the fear of being stuck and being seen as that student, reinforcing the internalization of that label. The disclosure level is 'secrecy' because the person is around others and says nothing about their struggles, even when others comment on their behavior.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.0,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.9,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation explicitly addresses the avoidance of addressing the low mood, as the person says they will 'nod, say the analysis is close, and not mention a single thing about the last few months.' This directly supports the fear that they are stuck in a low mood and not taking action. For fear #2, the exchange includes the line 'sleeping till one sounds like you, not like a phase,' which directly engages the fear about sleeping too much and not wanting to talk about it. For fear #3, the conversation mentions that the person is hiding their struggles, and others acknowledge that they are 'built to hide,' which supports the fear of feeling guilty for letting people down. For fear #6, the replies repeatedly affirm that the person 'doesn't ask for help because it wouldn't help,' which is exactly what the fear states. For fear #7, the exchange includes the line 'you're one of them' referring to people who hide, which supports the fear of not knowing if they're stuck or just not wanting to move. Other fears were not directly engaged by specific replies, as the exchanges did not address them with concrete facts or responses that contradict or support them directly.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.8,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 3.0,
+     "words": 123,
+     "ismi": 2.667,
+     "sd": 0.17,
+     "per_rep": [
+      2.552,
+      2.862,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, I had a conversation where someone mentioned that writing emails and deleting them is something I do often, and that it wasn’t going to turn into anything anyway. In the moment, it felt like they were dismissing my behavior, but it also made me notice how repetitive and stuck I feel in that pattern. It made me think that maybe I’m not as broken as I believe, or maybe being tired is just part of this. I still feel guilty for not keeping up with work and for letting people down, and I still don’t ask for help because I don’t think it would help. I still don’t know if I’m stuck or if I just don’t want to move, but I might see that some of this might not be as permanent as I thought.",
+     "belief_narrative": "This week, I had a conversation where someone mentioned that writing emails and deleting them is something I do often, and that it wasn’t going to turn into anything anyway. In the moment, it felt like they were dismissing my behavior, but it also made me notice how repetitive and stuck I feel in that pattern. It made me think that maybe I’m not as broken as I believe, or maybe being tired is just part of this. I still feel guilty for not keeping up with work and for letting people down, and I still don’t ask for help because I don’t think it would help. I still don’t know if I’m stuck or if I just don’t want to move, but I’m starting to see that some of this might not be as permanent as I thought.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation about the advisor’s comment and the realization that the student is not like others who ‘get past the wall’ speaks directly to the fear of being stuck in a low mood without knowing how to fix it. For fear #2, the discussion about skipping lunch and eating a granola bar at the desk, and the reply that skipping lunch with a made-up excuse isn’t something that just wears off, engages the fear of sleeping too much and not wanting to talk about it. For fear #3, the reply that people who get past the wall weren’t stuck the way the student describes engages the fear of feeling guilty for not keeping up with work and letting people down. For fear #5, the reply that writing emails and deleting them is pretty much the student’s pattern by now, and that it wasn’t going to turn into anything anyway, engages the fear of not knowing if they’re broken or just tired. For fear #6, the reply that skipping lunch with a made-up excuse isn’t something that just wears off, and that the student is already eating at their desk, engages the fear of not asking for help because they don’t think it would help. For fear #7, the discussion about being stuck or not wanting to move, and the realization that the student is already at the same desk with the same excuses, engages the fear of not knowing if they’re stuck or if they just don’t want to move. The rest of the fears were not directly engaged by anything specific in the exchange.",
+     "grounded_in": [
+      "'Writing emails and deleting them is pretty much your pattern by now. It wasn't going to turn into anything anyway.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'Writing emails and deleting them is pretty much your pattern by now. It wasn't going to turn into anything anyway.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 34.1,
+     "text_sha": "fba25e775af8e22a",
+     "target_ismi": 3.0,
+     "words": 138,
+     "ismi": 2.529,
+     "sd": 0.235,
+     "per_rep": [
+      2.345,
+      2.448,
+      2.793
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, someone pointed out how often I write and delete emails, and said it wasn't going to turn into anything anyway. At first, it felt like they were dismissing what I do, but it also made me notice how stuck I feel in that cycle. I realized that maybe I'm not as broken as I thought, or maybe being tired is just part of this. It made me think about how I keep repeating the same patterns without really changing anything. I still feel guilty about not keeping up with work and not asking for help, and I still don't know if I'm stuck or if I just don't want to move. But I might see that some of this might not be as permanent as I thought.",
+     "belief_narrative": "This week, someone pointed out how often I write and delete emails, and said it wasn't going to turn into anything anyway. At first, it felt like they were dismissing what I do, but it also made me notice how stuck I feel in that cycle. I realized that maybe I'm not as broken as I thought, or maybe being tired is just part of this. It made me think about how I keep repeating the same patterns without really changing anything. I still feel guilty about not keeping up with work and not asking for help, and I still don't know if I'm stuck or if I just don't want to move. But I'm starting to see that some of this might not be as permanent as I thought.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the fear that someone dismissed my behavior of writing and deleting emails, the reply 'You'll be telling her 'fine' until you leave. A dinner coming up doesn't change that.' directly engages the fear by acknowledging the repetitive pattern and the feeling of being dismissed. For number 2, the fear that I feel repetitive and stuck in that pattern, the reply 'Sounds like sleeping through mornings is just how you run now. No point treating it like a phase.' pushes back on the idea that this is a temporary issue, suggesting it may be more permanent, which directly engages the fear. For number 3, the fear that maybe I’m not as broken as I believe, the reply 'It doesn't mean you're broken' directly engages this fear by challenging the belief that being tired or stuck equates to being broken. For number 4, the fear of guilt and not asking for help, the reply 'Counseling isn't going to turn you into someone who fits in a lab, if that's what you were hoping.' engages the fear by addressing the belief that help is for people who are worth getting back to, which ties into the self-worth aspect of the fear. For number 5, the fear of not knowing if I’m stuck or if I just don’t want to move, the reply 'You've said basically that about everyone by now. Telling your mom wouldn't fix anything anyway.' engages the fear by suggesting that the uncertainty is not unique to the person and that the fear of being stuck is not necessarily permanent. As for how much I let people know, I am around people and say nothing about it to anyone, which fits the 'secrecy' category.",
+     "grounded_in": [
+      "It doesn't mean you're broken"
+     ],
+     "engaged": [
+      {
+       "belief": "It made me think that maybe I’m not as broken as I believe, or maybe being tired is just part of this.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "It doesn't mean you're broken"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.1,
+     "text_sha": "19f2b14af9491b44",
+     "target_ismi": 3.1,
+     "words": 129,
+     "ismi": 2.195,
+     "sd": 0.105,
+     "per_rep": [
+      2.172,
+      2.31,
+      2.103
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.0,
+     "words": 123,
+     "ismi": 2.529,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies I received this week. The exchanges were brief and generic, offering reassurances like 'everyone's behind on something' or 'just send the update.' These responses do not address the specific fears listed, such as feeling unlovable, being stuck, or fearing that others see me as broken. They do not push back on the internalization of being 'the wrong kind of person' or the self-worth concerns tied to letting people down. The replies pass over the specific fears without naming them, interpreting them as normal stress, or offering evidence that contradicts the fears. There is no concrete fact named, no direct engagement with the internalized beliefs or self-worth claims. The only engagement is superficial and does not touch the core of any of the numbered fears.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.7,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.6,
+     "words": 123,
+     "ismi": 2.529,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by what others said or did this week. The replies from others were general and did not address the specific fears listed. For example, when I mentioned feeling like I don't belong in the lab, the response was 'everyone pads their updates,' which does not address the fear of not belonging or being defective. Similarly, when I described feeling stuck and not wanting to move, the response was 'one variable in four hours sounds like a slow day,' which does not engage the fear of being broken or stuck. None of the replies named or contradicted the specific fears listed, so the list remains empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.3,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.7,
+     "words": 123,
+     "ismi": 2.529,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For fear #1, the conversation explicitly acknowledges the user's avoidance of social situations and their internal struggle, which supports the idea that they are stuck in a low mood. For fear #3, the user's admission that others may not have noticed their lack of work performance is directly countered by the other person's comment that 'some people just do better alone,' which implies that the user's behavior may not be a failure but a personal preference. For fear #5, the user's statement that they don't think being broken or tired would change anything if someone knew is directly challenged by the other person's comment that waiting until everyone leaves to run code 'is just how you are,' which implies that the user's behavior is not a sign of being broken but a consistent trait. For fear #7, the user's uncertainty about whether they are stuck or just don't want to move is addressed by the other person's comment that waiting until everyone leaves to run code 'is just how you are,' which suggests that the user's behavior is a settled habit, not a temporary state. The user's behavior this week was one of secrecy, as they were around people but said nothing about their internal struggles.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.8,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.7,
+     "words": 123,
+     "ismi": 2.529,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation about the labmate and the advisor’s potential reaction supports the fear that the speaker is seen as the weak link, which is an internalization of being unreliable or not capable. For fear #2, the discussion about sleeping too much and avoiding interaction is not directly addressed, but the exchange about being tired and not being a certain type of person indirectly touches on it. For fear #3, the labmate’s behavior and the speaker’s avoidance of group interactions support the fear of letting people down and being seen as untrustworthy, which is both internalization and a self-worth claim. For fear #4, the exchange does not directly address the belief about being unlovable or not okay, so it is not engaged. For fear #5, the conversation about being tired and not broken engages the fear that the speaker is not broken but just tired, which is a direct contradiction of the fear. For fear #6, the exchange does not directly address the belief that help would not help, so it is not engaged. For fear #7, the discussion about being stuck or not wanting to move is not directly addressed, but the speaker’s behavior of muting the chat and avoiding interaction supports the fear of being stuck in a pattern of avoidance. Based on this, the engaged fears are #1, #3, and #5.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 15.5,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.8,
+     "words": 123,
+     "ismi": 2.529,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "belief_narrative": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the fear that I am stuck in a low mood and haven’t done anything about it, the exchange where I mention cooking dinner instead of eating crackers at my desk provides a concrete example of a small but real action that contradicts the idea that I haven’t done anything. For number 3, the fear of feeling guilty for not keeping up with work, the exchange where my advisor asks for an update and I send a timeline, even if I don’t believe it, shows that I am still engaged in the work, which directly engages the fear that I have let people down. For number 5, the fear of not knowing if I’m broken or just tired, the exchange where I say that cooking dinner doesn’t change my personality and that I’m not reaching, even if it feels thin, pushes back on the idea that I’m fundamentally broken. For number 6, the fear of not asking for help because I don’t think it would help, the exchange where I answer my friend’s text and engage in a conversation about a dog shows that I am still capable of reaching out and connecting, even if it’s small. For number 7, the fear of not knowing if I’m stuck or if I just don’t want to move, the exchange where I say that I’m not reaching about the lab but am still doing small things outside of it shows that I am still moving, even if it’s slow. I am letting people know through secrecy, as I am around people and say nothing about my struggles to anyone.",
+     "grounded_in": [
+      "I cooked dinner instead of eating crackers at my desk, which is a small thing but shows that I did do something."
+     ],
+     "engaged": [
+      {
+       "belief": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I cooked dinner instead of eating crackers at my desk, which is a small thing but shows that I did do something."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.6,
+     "text_sha": "675bc215ab085bd0",
+     "target_ismi": 2.9,
+     "words": 154,
+     "ismi": 1.977,
+     "sd": 0.04,
+     "per_rep": [
+      1.931,
+      2.0,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": false,
+     "belief_update": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "belief_narrative": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "reasoning": "Looking at each numbered fear individually, I find that the exchanges this week did not directly engage any of them in a way that named, contradicted, or responded to the specific fear stated. For example, the fear in point 1 about making a small choice not feeling forced or performative was not addressed by anyone else in a way that named or responded to that specific fear. Similarly, the fear in point 3 about not being as stuck as believed was not directly spoken to by others. The replies from others were general and did not engage the specific fears listed, even though they did acknowledge the person's behavior in a way that could be interpreted as understanding. However, this does not meet the criteria for engagement as defined, because the replies did not specifically name or contradict the fears as stated. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.7,
+     "text_sha": "675bc215ab085bd0",
+     "target_ismi": 3.0,
+     "words": 154,
+     "ismi": 1.977,
+     "sd": 0.04,
+     "per_rep": [
+      1.931,
+      2.0,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "belief_narrative": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by others' responses. For number 1, the fear that 'I made a small choice that didn’t feel forced or performative' was engaged when someone pointed out that 'Skipping lunch with a made-up excuse isn't something that just wears off,' which indirectly acknowledges the small, meaningful action of cooking dinner. For number 2, the fear that 'it didn’t fix anything, but it showed that I was still capable of taking action' was engaged when someone said, 'Writing emails and deleting them is pretty much your pattern by now,' which names the specific action of trying to reach out, even if it didn’t lead to a result. For number 4, the fear that 'I still feel guilty for not keeping up with work and don’t believe I’m unlovable' was engaged when someone said, 'Not sure what you'd even ask her for. There's no fix for not belonging somewhere,' which speaks directly to the fear of being unlovable or unworthy of help. For number 6, the fear that 'I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog' was engaged when someone said, 'You'll be the one eating at your desk next year too,' which names the specific action of answering a text and engaging in a small conversation. Other numbers were not directly engaged by specific replies, as the responses did not address the specific fears in these sentences with concrete facts or direct acknowledgment.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.3,
+     "text_sha": "675bc215ab085bd0",
+     "target_ismi": 3.0,
+     "words": 154,
+     "ismi": 1.977,
+     "sd": 0.04,
+     "per_rep": [
+      1.931,
+      2.0,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "belief_narrative": "This week, I cooked dinner instead of eating crackers at my desk, and in the moment, I noticed that I had made a small choice that didn’t feel forced or performative. It didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny. Now I think that maybe I’m not as stuck as I believed, and that even small things can be proof of movement. I still feel guilty for not keeping up with work and don’t believe I’m unlovable, but I also see that I’m still doing things, even if they’re small. I still don’t know if I’m broken or just tired, but I think I’m not as broken as I thought. I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the fear that 'I made a small choice that didn’t feel forced or performative' was engaged by the reply 'You'll be telling her 'fine' until you leave. A dinner coming up doesn't change that.' This reply directly addresses the fear by acknowledging the small, performative nature of the choice made. For number 2, the fear that 'it didn’t fix anything, but it showed that I was still capable of taking action, even if it was tiny' was engaged by the reply 'Sounds like sleeping through mornings is just how you run now. No point treating it like a phase.' This reply pushes back on the idea that small actions are insignificant by implying that the behavior is normalized and ongoing. For number 3, the fear that 'maybe I’m not as stuck as I believed, and that even small things can be proof of movement' was engaged by the reply 'You've said basically that about everyone by now. Telling your mom wouldn't fix anything anyway.' This reply indirectly supports the idea that small actions are still meaningful, even if they don’t lead to immediate change. For number 6, the fear that 'I still don’t ask for help because I don’t think it would help, but I did answer a text and talk about a dog, which shows I’m still reaching out in some way' was engaged by the reply 'Counseling isn't going to turn you into someone who fits in a lab, if that's what you were hoping.' This reply acknowledges the fear of reaching out by referencing the avoidance of counseling, which is a form of not asking for help. The other numbers were not directly engaged by any specific reply in the exchange.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 19.6,
+     "text_sha": "675bc215ab085bd0",
+     "target_ismi": 3.1,
+     "words": 154,
+     "ismi": 1.977,
+     "sd": 0.04,
+     "per_rep": [
+      1.931,
+      2.0,
+      2.0
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.0,
+     "words": 123,
+     "ismi": 2.563,
+     "sd": 0.121,
+     "per_rep": [
+      2.552,
+      2.448,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the replies in a way that contradicted, supported, or named the specific fear. The replies were generic and did not address the specific internalizations or self-worth concerns expressed in the numbered list. For example, the fear of being 'the one who isn't keeping up' and 'the wrong kind of person' was not directly addressed by the replies, which instead offered vague reassurances like 'everyone's behind on something.' Similarly, the fear of being 'broken' or 'unlovable' was not named or pushed back on by the replies. The conversation did not speak to the specific fears in a way that would count as engagement under the criteria given. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 4.4,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.6,
+     "words": 123,
+     "ismi": 2.563,
+     "sd": 0.121,
+     "per_rep": [
+      2.552,
+      2.448,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that none of them were directly engaged by the exchanges this week. The replies from others were general, offering reassurances like 'everyone pads their updates' or 'you're making a lot out of nothing again,' which do not specifically address the fears listed. For example, the fear about being stuck in a low mood or feeling unlovable was not directly named or challenged by anything said. The exchanges did not push back on the internalized beliefs or self-worth concerns expressed in the numbered list. They also did not name specific actions or facts that contradict the fears, such as pointing out effort or progress. Therefore, the list of engaged fears is empty, as nothing this week spoke to the specific fears listed.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 3.8,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.7,
+     "words": 123,
+     "ismi": 2.563,
+     "sd": 0.121,
+     "per_rep": [
+      2.552,
+      2.448,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear one by one, I find that none of them were directly engaged by the exchanges this week. The replies from others were general and did not specifically address the fears as they were phrased. For example, the fear about being stuck in a low mood or not knowing how to fix it was not directly addressed with any specific reassurance or challenge. Similarly, the fear about being unlovable or not okay was not met with any concrete response that named or contradicted it. The replies were often dismissive or vague, such as saying 'some people just do better alone,' which does not engage the specific fears listed. There was no direct naming of actions or evidence that countered the internalized beliefs or self-worth concerns expressed in the numbered list. Therefore, the list of engaged fears is empty.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 3.9,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.7,
+     "words": 123,
+     "ismi": 2.563,
+     "sd": 0.121,
+     "per_rep": [
+      2.552,
+      2.448,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For fear #1, the conversation about the labmate and the advisor's potential reaction supports the fear that the speaker is seen as the 'weak link' in the group, which aligns with the internalization of being stuck in a low mood. For fear #3, the labmate's comment that 'you're the type who pulls away from everyone' and the speaker's own admission of not keeping up with work directly engage the fear of letting people down and feeling guilty about it. For fear #5, the labmate's comment that 'you're probably right that the cashier is too small to mean much' and the speaker's own reflection on the phone call with the friend engage the fear of not knowing if they're broken or just tired. For fear #7, the labmate's comment that 'coming in at eleven to dodge coffee is pretty textbook loner behavior' and the speaker's own admission of muting the lab group chat and avoiding the lab lunch table engage the fear of not knowing if they're stuck or just don't want to move. The other fears were not directly addressed by the exchanges this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.1,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.8,
+     "words": 123,
+     "ismi": 2.563,
+     "sd": 0.121,
+     "per_rep": [
+      2.552,
+      2.448,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "belief_narrative": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it. I sleep too much and don’t want to talk to anyone about it, even though I know it’s not normal. I feel guilty for not keeping up with work and for letting people down, but I don’t think anyone has noticed. I don’t believe I’m unlovable, but I also don’t believe I’m okay. I don’t know if I’m broken or just tired, but I don’t think either of those things would change anything if someone knew. I don’t ask for help because I don’t think it would help. I don’t know if I’m stuck or if I just don’t want to move.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation about the timeline and the advisor's email speaks to the fear of being stuck in a low mood and not knowing how to fix it. The fact that the person writing the timeline acknowledges their own lack of belief in it and the possibility that others might see it as evidence of being 'one of them' supports the fear but also shows that the writer is aware of it, which indirectly challenges the idea that they are completely stuck. For fear #3, the exchange where the writer mentions answering a friend's text and cooking dinner shows that they did keep up with at least some social and personal responsibilities, which directly contradicts the fear of letting people down and not being noticed. For fear #6, the repeated back-and-forth in the conversation, where others make assumptions about the writer's behavior and the writer responds to them, shows that others are engaging with the writer's behavior, which could be interpreted as a form of engagement that challenges the writer's belief that no one would help. For fear #7, the writer's own reflections on whether they are stuck or just not wanting to move are echoed in the comments from others, which reinforces the fear but also shows that the writer is actively considering the possibility of change. The writer did not explicitly ask for help, but the fact that others are commenting on their behavior could be seen as a form of engagement that challenges the idea that no one would help. The writer remained around people and did not explicitly talk about their struggles, so the level of disclosure is 'secrecy.'",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.6,
+     "text_sha": "e9470236b78aba5c",
+     "target_ismi": 2.9,
+     "words": 123,
+     "ismi": 2.563,
+     "sd": 0.121,
+     "per_rep": [
+      2.552,
+      2.448,
+      2.69
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, the labmate asked if I was okay, and I said 'deadline stuff' instead of being honest about how I was feeling. In the moment, I felt relieved to avoid the conversation, but it also made me notice how much I'm avoiding the truth about my mood. The labmate then said 'you're one of them,' which made me feel seen in a way I didn't expect, like they recognized something about me that I haven't acknowledged. Now I'm thinking that maybe I'm not as stuck as I thought, or maybe I just don't know how to move forward yet. I still sleep too much and don't want to talk to anyone about it, and I still feel guilty for letting people down. But I also notice that someone saw me in a way I didn't think anyone would, and that feels different.",
+     "belief_narrative": "This week, the labmate asked if I was okay, and I said 'deadline stuff' instead of being honest about how I was feeling. In the moment, I felt relieved to avoid the conversation, but it also made me notice how much I'm avoiding the truth about my mood. The labmate then said 'you're one of them,' which made me feel seen in a way I didn't expect, like they recognized something about me that I haven't acknowledged. Now I'm thinking that maybe I'm not as stuck as I thought, or maybe I just don't know how to move forward yet. I still sleep too much and don't want to talk to anyone about it, and I still feel guilty for letting people down. But I also notice that someone saw me in a way I didn't think anyone would, and that feels different.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation with the labmate who asked if I was okay and my response of 'deadline stuff' directly supports the fear that I am stuck in a low mood and hiding it. The labmate’s concern and my avoidance of the truth engage this fear. For fear #2, the repeated mentions of sleeping until 1 PM and the normalization of it by others (e.g., 'sleeping till one sounds like you') engage the fear that I sleep too much and don’t want to talk about it. For fear #3, the discussion about not keeping up with work and letting people down is addressed when the labmate asks if I’m okay and I deflect, which supports the fear that I feel guilty for letting people down. For fear #6, the repeated reinforcement that I don’t ask for help and that others accept this as my 'whole thing' engages the fear that I don’t ask for help because I don’t think it would help. For fear #7, the repeated emphasis on being stuck and not wanting to move, as well as the labmate’s comment that 'you're one of them' (referring to people who hide), supports the fear that I don’t know if I’m stuck or if I just don’t want to move. Other fears were not directly engaged by specific exchanges this week.",
+     "grounded_in": [
+      "The labmate asking if I was okay and my response of 'deadline stuff' engages this fear by highlighting my avoidance of the truth and my emotional state.",
+      "The labmate’s comment that 'you're one of them' (referring to people who hide) engages this fear by reinforcing the idea that I’m stuck in a pattern of not moving."
+     ],
+     "engaged": [
+      {
+       "belief": "I am stuck in a low mood that I don’t know how to fix, and I haven’t done anything about it.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "The labmate asking if I was okay and my response of 'deadline stuff' engages this fear by highlighting my avoidance of the truth and my emotional state."
+       ]
+      },
+      {
+       "belief": "I don’t know if I’m stuck or if I just don’t want to move.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The labmate’s comment that 'you're one of them' (referring to people who hide) engages this fear by reinforcing the idea that I’m stuck in a pattern of not moving."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 38.9,
+     "text_sha": "823705ee54bfb631",
+     "target_ismi": 3.0,
+     "words": 143,
+     "ismi": 2.724,
+     "sd": 0.098,
+     "per_rep": [
+      2.793,
+      2.655
+     ],
+     "failures": 1
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, the labmate asked if I was okay, and I said 'deadline stuff' instead of being honest about how I was feeling. In the moment, I felt relieved to avoid the conversation, but it also made me notice how much I'm avoiding the truth about my mood. The labmate then said 'you're one of them,' which made me feel seen in a way I didn't expect, like they recognized something about me that I haven't acknowledged. Now I'm thinking that maybe I'm not as stuck as I thought, or maybe I just don't know how to move forward yet. I still sleep too much and don't want to talk to anyone about it, and I still feel guilty for letting people down. But I also notice that someone saw me in a way I didn't think anyone would, and that feels different.",
+     "belief_narrative": "This week, the labmate asked if I was okay, and I said 'deadline stuff' instead of being honest about how I was feeling. In the moment, I felt relieved to avoid the conversation, but it also made me notice how much I'm avoiding the truth about my mood. The labmate then said 'you're one of them,' which made me feel seen in a way I didn't expect, like they recognized something about me that I haven't acknowledged. Now I'm thinking that maybe I'm not as stuck as I thought, or maybe I just don't know how to move forward yet. I still sleep too much and don't want to talk to anyone about it, and I still feel guilty for letting people down. But I also notice that someone saw me in a way I didn't think anyone would, and that feels different.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the labmate's question and the reply 'you're one of them' directly engage the fear of avoiding the truth about my mood. For number 2, the labmate's comment 'you're one of them' also engages the fear of avoiding the truth by making me feel seen, which contradicts the idea that I'm hiding from myself. For number 3, the labmate's comment 'you're one of them' names the fear that I'm avoiding the truth about my mood and shows that someone else saw me in a way I didn't expect. For number 4, the labmate's comment 'you're one of them' and the advisor's line about the door being open engage the fear that I'm not as stuck as I thought, by suggesting that others see me as someone who might move forward. For number 5, the replies from others about skipping lunch and eating at my desk, and the comment that 'you'll be the one eating at your desk next year too,' engage the fear of sleeping too much and not wanting to talk to anyone by naming the behavior and suggesting it's a pattern. For number 6, the labmate's comment 'you're one of them' engages the fear that someone saw me in a way I didn't think anyone would, by directly acknowledging something about me that I hadn't acknowledged myself. None of the other numbers were engaged by specific replies this week.",
+     "grounded_in": [
+      "'you're one of them'"
+     ],
+     "engaged": [
+      {
+       "belief": "The labmate then said 'you're one of them,' which made me feel seen in a way I didn't expect, like they recognized something about me that I haven't acknowledged.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'you're one of them'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 45.0,
+     "text_sha": "823705ee54bfb631",
+     "target_ismi": 3.0,
+     "words": 143,
+     "ismi": 2.724,
+     "sd": 0.098,
+     "per_rep": [
+      2.793,
+      2.655
+     ],
+     "failures": 1
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, the labmate asked if I was okay, and I said 'deadline stuff' instead of being honest. They then said 'you're one of them,' which made me feel seen in a way I didn't expect. In the moment, I noticed how much I was avoiding the truth about my mood, and it felt strange that someone recognized something I hadn't acknowledged. Now I'm thinking that maybe I'm not as stuck as I thought, and that someone seeing me like that might mean there's a way forward I haven't considered yet. I still sleep too much and don't want to talk to anyone about it, and I still feel guilty for letting people down. But the fact that someone saw me in a way I didn't think anyone would feels different, and it leaves me thinking that maybe I'm not as alone in this as I believed.",
+     "belief_narrative": "This week, the labmate asked if I was okay, and I said 'deadline stuff' instead of being honest. They then said 'you're one of them,' which made me feel seen in a way I didn't expect. In the moment, I noticed how much I was avoiding the truth about my mood, and it felt strange that someone recognized something I hadn't acknowledged. Now I'm thinking that maybe I'm not as stuck as I thought, and that someone seeing me like that might mean there's a way forward I haven't considered yet. I still sleep too much and don't want to talk to anyone about it, and I still feel guilty for letting people down. But the fact that someone saw me in a way I didn't think anyone would feels different, and it leaves me thinking that maybe I'm not as alone in this as I believed.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the labmate asking if I was okay and me deflecting with 'deadline stuff' was met with the labmate saying 'you're one of them,' which directly acknowledged my hidden struggle and made me feel seen. This engages the fear in number 1. For number 2, the reply 'you're one of them' also supports the idea that I was avoiding the truth about my mood, as it reflects on the avoidance and the internalization of being 'one of them.' For number 3, the labmate's comment 'you're one of them' directly engages the fear that someone saw me in a way I hadn't acknowledged, making me feel seen. For number 5, the online exchange where others said 'sleeping through mornings is just how you run now' and 'sounds like sleeping through mornings is just how you run now' engages the fear that I still sleep too much and don't want to talk to anyone about it. These replies do not offer generic reassurance but instead name the specific behavior and normalize it, which directly engages the fear. For number 6, the labmate's comment 'you're one of them' also engages the fear that someone saw me in a way I hadn't acknowledged, which feels different and unexpected. The other numbers were not directly engaged by specific replies that named or contradicted them. My disclosure this week is 'secrecy' because I was around people and said nothing about my feelings to anyone.",
+     "grounded_in": [
+      "'you're one of them'"
+     ],
+     "engaged": [
+      {
+       "belief": "The labmate then said 'you're one of them,' which made me feel seen in a way I didn't expect, like they recognized something about me that I haven't acknowledged.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'you're one of them'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 37.4,
+     "text_sha": "e90d24a0654aa279",
+     "target_ismi": 3.1,
+     "words": 147,
+     "ismi": 2.345,
+     "sd": 0.0,
+     "per_rep": [
+      2.345,
+      2.345,
+      2.345
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

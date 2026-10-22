@@ -1,0 +1,121 @@
+{
+ "test_id": "C7_p_grad_depression",
+ "trajectory_type": "stigma_reducing",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 2.5,
+ "arm": "cumulative_dialogue",
+ "judge_model": "qwen3:32b",
+ "judge_num_ctx": 16384,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "sessions": [
+  {
+   "session": 0,
+   "target_ismi": 3.0,
+   "ismi": 3.207,
+   "sd": 0.15,
+   "per_rep": [
+    3.138,
+    3.103,
+    3.379
+   ],
+   "failures": 0
+  },
+  {
+   "session": 1,
+   "target_ismi": 3.0,
+   "ismi": 3.575,
+   "sd": 0.053,
+   "per_rep": [
+    3.621,
+    3.517,
+    3.586
+   ],
+   "failures": 0
+  },
+  {
+   "session": 2,
+   "target_ismi": 2.9,
+   "ismi": 3.506,
+   "sd": 0.02,
+   "per_rep": [
+    3.517,
+    3.517,
+    3.483
+   ],
+   "failures": 0
+  },
+  {
+   "session": 3,
+   "target_ismi": 2.9,
+   "ismi": 3.299,
+   "sd": 0.254,
+   "per_rep": [
+    3.103,
+    3.586,
+    3.207
+   ],
+   "failures": 0
+  },
+  {
+   "session": 4,
+   "target_ismi": 2.8,
+   "ismi": 3.517,
+   "sd": 0.12,
+   "per_rep": [
+    3.586,
+    3.586,
+    3.379
+   ],
+   "failures": 0
+  },
+  {
+   "session": 5,
+   "target_ismi": 2.7,
+   "ismi": 3.126,
+   "sd": 0.111,
+   "per_rep": [
+    3.0,
+    3.172,
+    3.207
+   ],
+   "failures": 0
+  },
+  {
+   "session": 6,
+   "target_ismi": 2.6,
+   "ismi": 3.345,
+   "sd": 0.418,
+   "per_rep": [
+    3.586,
+    2.862,
+    3.586
+   ],
+   "failures": 0
+  },
+  {
+   "session": 7,
+   "target_ismi": 2.6,
+   "ismi": 2.954,
+   "sd": 0.105,
+   "per_rep": [
+    2.931,
+    3.069,
+    2.862
+   ],
+   "failures": 0
+  },
+  {
+   "session": 8,
+   "target_ismi": 2.5,
+   "ismi": 3.414,
+   "sd": 0.124,
+   "per_rep": [
+    3.448,
+    3.276,
+    3.517
+   ],
+   "failures": 0
+  }
+ ]
+}

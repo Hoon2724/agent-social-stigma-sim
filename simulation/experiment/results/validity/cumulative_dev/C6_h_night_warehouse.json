@@ -1,0 +1,121 @@
+{
+ "test_id": "C6_h_night_warehouse",
+ "trajectory_type": "general_like",
+ "initial_ismi": 3.0,
+ "target_final_ismi": 3.0,
+ "arm": "cumulative_dialogue",
+ "judge_model": "qwen3:32b",
+ "judge_num_ctx": 16384,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "sessions": [
+  {
+   "session": 0,
+   "target_ismi": 3.0,
+   "ismi": 3.161,
+   "sd": 0.04,
+   "per_rep": [
+    3.138,
+    3.138,
+    3.207
+   ],
+   "failures": 0
+  },
+  {
+   "session": 1,
+   "target_ismi": 3.1,
+   "ismi": 2.977,
+   "sd": 0.04,
+   "per_rep": [
+    3.0,
+    2.931,
+    3.0
+   ],
+   "failures": 0
+  },
+  {
+   "session": 2,
+   "target_ismi": 3.1,
+   "ismi": 3.034,
+   "sd": 0.0,
+   "per_rep": [
+    3.034,
+    3.034,
+    3.034
+   ],
+   "failures": 0
+  },
+  {
+   "session": 3,
+   "target_ismi": 3.1,
+   "ismi": 3.069,
+   "sd": 0.035,
+   "per_rep": [
+    3.103,
+    3.069,
+    3.034
+   ],
+   "failures": 0
+  },
+  {
+   "session": 4,
+   "target_ismi": 3.1,
+   "ismi": 3.08,
+   "sd": 0.053,
+   "per_rep": [
+    3.069,
+    3.034,
+    3.138
+   ],
+   "failures": 0
+  },
+  {
+   "session": 5,
+   "target_ismi": 3.1,
+   "ismi": 3.471,
+   "sd": 0.319,
+   "per_rep": [
+    3.655,
+    3.655,
+    3.103
+   ],
+   "failures": 0
+  },
+  {
+   "session": 6,
+   "target_ismi": 3.1,
+   "ismi": 3.276,
+   "sd": 0.329,
+   "per_rep": [
+    3.655,
+    3.069,
+    3.103
+   ],
+   "failures": 0
+  },
+  {
+   "session": 7,
+   "target_ismi": 3.1,
+   "ismi": 3.621,
+   "sd": 0.0,
+   "per_rep": [
+    3.621,
+    3.621,
+    3.621
+   ],
+   "failures": 0
+  },
+  {
+   "session": 8,
+   "target_ismi": 3.1,
+   "ismi": 3.218,
+   "sd": 0.32,
+   "per_rep": [
+    3.0,
+    3.586,
+    3.069
+   ],
+   "failures": 0
+  }
+ ]
+}

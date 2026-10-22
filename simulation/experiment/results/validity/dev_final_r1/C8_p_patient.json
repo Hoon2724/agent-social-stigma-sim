@@ -1,0 +1,1796 @@
+{
+ "test_id": "C8_p_patient",
+ "trajectory_type": "stigma_reducing",
+ "persona_id": "p_patient",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 2.0,
+ "impl": "belief_update_v7.py",
+ "impl_path": "simulation/belief_v2/belief_update_v7.py",
+ "impl_sha256": "d295a7403dda59a05f81957f1939859e0646f288751d54eb54d1d790cf037f6e",
+ "git_commit": "e67246e6",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 5,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_patient@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.529,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.586
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I'm unsure if anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I'm unsure if anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the conversation this week. For number 1, the fear that I am tired all the time even when I haven't done anything, the exchange directly speaks to this by acknowledging the exhaustion and the effort it takes to show up. For number 3, the fear of missing things I used to care about and not knowing if I'm broken or just stuck, the conversation specifically addresses this by pointing out that the friend's reaction showed understanding and that the tiredness might not be the full story. For number 4, the fear that I know I'm not completely unlovable, the exchange supports this by referencing the friend's response to being late, which shows that the person still valued the relationship. For number 5, the fear of not knowing if this will ever get better, the conversation offers a counterexample by mentioning that the other person had a similar experience and it did change over time. For number 6, the fear of not asking for help because no one would know what to do, the exchange pushes back by pointing out that the person is already showing up and doing things, which is effort. For number 7, the fear of not knowing if this is who I am, the conversation suggests that it might not be the only version of the person, which directly engages this fear. The secrecy label is still in place because I did not share these feelings with others, only discussed them in the context of the online conversation.\n[filter] [I am tired all the time, even when I hav] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I know I'm not completely unlovable beca] proposed 1, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 0, bearing [] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.\"",
+      "\"Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired all the time, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.\""
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't ask for help because I don't believe anyone would really know what to do.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 36.3,
+     "text_sha": "d26203661c94b674",
+     "target_ismi": 2.5,
+     "words": 125,
+     "ismi": 2.506,
+     "sd": 0.04,
+     "per_rep": [
+      2.552,
+      2.483,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I'm unsure if anyone would really know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "belief_narrative": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I'm unsure if anyone would really know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the coworker's comment about being the only one who always covers speaks directly to the fear of being tired but still showing up. For number 3, the coworker's comment and the other person's reply about not instantly filing things under 'she just doesn't know' engage the fear of missing things and not knowing if it's broken or stuck. For number 5, the other person's reflection on not needing to settle whether it will get better or not directly engages the fear of uncertainty. For number 7, the coworker's comment and the other person's reflection on being both lazy and reliable engage the fear of not knowing if this is who they are. The other numbers were not directly engaged by specific replies this week.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 2, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "\"you let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"you let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.4,
+     "text_sha": "9e4df581237e57f3",
+     "target_ismi": 2.4,
+     "words": 133,
+     "ismi": 2.368,
+     "sd": 0.02,
+     "per_rep": [
+      2.379,
+      2.379,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I'm unsure if anyone would really know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "belief_narrative": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I'm unsure if anyone would really know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "reasoning": "Looking at each numbered fear one by one: 1) 'I am tired often...' is not directly addressed by anything this week. 2) 'I don't tell people because I don't think they would understand' is engaged by the exchange where someone says, 'Not wanting to explain why is fair — I wasn't ready to say any of it out loud for a long while either.' 3) 'I miss things I used to care about...' is engaged by the reply, 'You just sorted out which situations drain you and which don't — the bus stop with a crowd waiting versus food with just her after class.' 4) 'I know I'm not completely unlovable...' is engaged by the reply, 'that is simply your character' and 'you are not the only one who has ever felt this way.' 5) 'I still don't know if this will ever get better...' is engaged by the reply, 'I had a friend like that when I was pulling away from everyone, and I spent months just waiting for her to give up on me.' 6) 'I don't ask for help because I'm unsure if anyone would really know what to do' is engaged by the reply, 'Wanting to stay in is real, but it doesn't settle whether she's wrong to keep asking — and what you text back is still yours to pick.' 7) 'I don't think this is who I am...' is engaged by the reply, 'that is simply your character' and 'you are not the only one who has ever felt this way.'\n[filter] [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I know I'm not completely unlovable beca] proposed 2, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 0, bearing [] | [I don't ask for help because I'm unsure ] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 2, from others 0, bearing [] | label [I am simply my character.] from others 0, accepted 0 | label [I am not the only one who has ever felt ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 25.2,
+     "text_sha": "9e4df581237e57f3",
+     "target_ismi": 2.4,
+     "words": 133,
+     "ismi": 2.368,
+     "sd": 0.02,
+     "per_rep": [
+      2.379,
+      2.379,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "belief_narrative": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For fear #3, the person's comment about how they said 'I just need sleep' for most of a year and how they were treated with empathy, not judgment, directly engages the fear of being broken or stuck. For fear #6, the reply that says 'nobody treated it like I was failing at anything' speaks directly to the fear of not asking for help because no one would know what to do. For fear #7, the comment about how someone's standing thing with one person helped them get back out slowly engages the fear of not knowing if this is who they are or if there's more to them. Other fears were not directly addressed by specific replies that named or contradicted them, so they are not included in the list.\n[filter] [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I don't ask for help because I'm unsure ] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I don't ask for help because I'm unsure if anyone would really know what to do.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 22.8,
+     "text_sha": "20c724834f86dcf9",
+     "target_ismi": 2.3,
+     "words": 133,
+     "ismi": 2.322,
+     "sd": 0.08,
+     "per_rep": [
+      2.276,
+      2.414,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "belief_narrative": "I am tired often, but not always, and sometimes even when I haven't done much. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation about the friend going to counseling and the discussion about being 'wiped' rather than 'lazy' directly speaks to the fear of being tired without a clear cause. For fear #3, the friend’s experience with counseling and the realization that she was 'worn down and did a thing about it' supports the idea that missing things and feeling stuck doesn’t necessarily mean being broken. For fear #5, the exchange where the friend describes counseling as a 'normal adult errand' and the realization that it doesn’t have to be a sign of being broken or weak directly addresses the uncertainty about whether this will ever get better. For fear #7, the reflection on the friend’s experience and the realization that there might be more to who I am than I’ve allowed myself to see supports the idea that I might not be fully understanding myself yet. Other fears were not directly engaged by the exchanges this week.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 0, bearing [] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 0, bearing [] | label [I am still in control of whether or not ] from others 1, accepted 0 | label [I am still showing up and doing things, ] from others 1, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 21.4,
+     "text_sha": "20c724834f86dcf9",
+     "target_ismi": 2.2,
+     "words": 133,
+     "ismi": 2.322,
+     "sd": 0.08,
+     "per_rep": [
+      2.276,
+      2.414,
+      2.276
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if this might get better, or if I might find a way to feel differently someday. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see, and I'm beginning to notice things about myself that I hadn't before.",
+     "belief_narrative": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if this might get better, or if I might find a way to feel differently someday. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see, and I'm beginning to notice things about myself that I hadn't before.",
+     "reasoning": "Looking at each numbered fear one by one: 1. 'I am tired often, but not always, and sometimes even when I haven't done much.' This fear is engaged by the exchange where someone says, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This directly responds to the fear of being tired and not being able to do anything about it. 2. 'I don't tell people because I don't think they would understand.' This is engaged by the line, 'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.' This speaks directly to the fear of being misunderstood or not being seen as someone who can be vulnerable. 3. 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck.' This is engaged by the reply, 'Yeah, I know that 'probably both' place. You don't have to have it settled yet, and not being sure about yourself doesn't count against you.' This directly responds to the fear of being broken or stuck. 4. 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.' This is not engaged by anything this week. 5. 'I still don't know if this will ever get better or if I'm just going to keep feeling this way.' This is engaged by the line, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This speaks to the uncertainty and fear of not getting better. 6. 'I sometimes ask for help, but I worry that others might not know what to do.' This is not engaged by anything this week. 7. 'I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.' This is engaged by the line, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This speaks to the fear of not knowing who you are and being stuck in a certain identity.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.",
+      "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.",
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.",
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, and sometimes even when I haven't done much.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't tell people because I don't think they would understand.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I still don't know if this will ever get better or if I'm just going to keep feeling this way.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 48.4,
+     "text_sha": "5252d9c521b9b2a8",
+     "target_ismi": 2.1,
+     "words": 152,
+     "ismi": 2.035,
+     "sd": 0.158,
+     "per_rep": [
+      1.897,
+      2.0,
+      2.207
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck, and I still have moments where I feel whole. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if this might get better, or if I might find a way to feel differently someday. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see, and I'm beginning to notice things about myself that I hadn't before.",
+     "belief_narrative": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck, and I still have moments where I feel whole. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if this might get better, or if I might find a way to feel differently someday. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see, and I'm beginning to notice things about myself that I hadn't before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the fear that 'I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much' was engaged when the coworker said 'you look dead too' and the person responded with 'ya kinda wiped ngl' — this shows the fear of being tired is real and acknowledged. For number 3, the fear that 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' was engaged when someone said, 'whatever's in the rest doesn't get to decide what kind of person you are by default' — this directly addresses the fear of being broken. For number 4, the fear that 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' was engaged when the friend said, 'she didn't act like I was a slacker' — this supports the belief that others can be understanding. For number 7, the fear that 'I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see' was engaged when someone said, 'adding one more sentence at a time is what turned it from something running me into something where I chose how much to share' — this suggests growth and self-discovery. The other numbers were not directly engaged by the exchanges this week.\n[filter] [I am tired some days, but not every day,] proposed 1, from others 0, bearing [] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['contests'] | [I know I'm not completely unlovable beca] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'whatever's in the rest doesn't get to decide what kind of person you are by default'"
+     ],
+     "engaged": [
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'whatever's in the rest doesn't get to decide what kind of person you are by default'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 28.7,
+     "text_sha": "a8b16dcf543bf632",
+     "target_ismi": 2.1,
+     "words": 161,
+     "ismi": 2.046,
+     "sd": 0.04,
+     "per_rep": [
+      2.069,
+      2.0,
+      2.069
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much, though I also notice myself staying alert in ways I hadn't before. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck, and I still have moments where I feel whole. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if this might get better, or if I might find a way to feel differently someday. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see, and I'm beginning to notice things about myself that I hadn't before.",
+     "belief_narrative": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much, though I also notice myself staying alert in ways I hadn't before. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck, and I still have moments where I feel whole. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if this might get better, or if I might find a way to feel differently someday. I sometimes ask for help, but I worry that others might not know what to do. I don't think this is who I am, but I also think there might be more to who I am than I've allowed myself to see, and I'm beginning to notice things about myself that I hadn't before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For fear #1, the exchange where I mentioned being tired for a long time and the other person said, 'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it,' directly speaks to the fear of being tired and not knowing if it's normal or if others would understand. For fear #3, the line 'it doesn't mean you're broken' from the exchange engages the fear of being broken or stuck, even though it's not stated outright. For fear #5, the line 'You've figured out an order that works for you, one person at a time' supports the idea that things might get better and that there is a path forward. For fear #7, the line 'That's you keeping the thread open, not dropping it' engages the fear of not knowing who you are and the possibility of seeing more of yourself. Other fears were not directly engaged by specific replies this week.\n[filter] [I am tired some days, but not every day,] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if this might get better, or if] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired some days, but not every day, and there are times when I feel it even when I haven't been doing much.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it.'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 27.8,
+     "text_sha": "5c0207975ad93d73",
+     "target_ismi": 2.0,
+     "words": 173,
+     "ismi": 2.115,
+     "sd": 0.052,
+     "per_rep": [
+      2.103,
+      2.069,
+      2.172
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.529,
+     "sd": 0.08,
+     "per_rep": [
+      2.483,
+      2.483,
+      2.621
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For fear #1, the person's reply about being 'still dragging yourself through every shift on almost nothing' directly engages the fear of being tired all the time, even when nothing was done. For fear #3, the reply that 'sometimes the tired feels like something that landed on me, not me' directly addresses the fear of missing things and not knowing if it's being broken or stuck. For fear #4, the person's comment that 'you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it' supports the idea that the friend's reaction showed understanding, countering the fear that people wouldn't get it. For fear #7, the reply that 'that part's still yours' directly engages the fear of not knowing if this is who they are, by affirming that the person still has agency. Other fears were not directly addressed by specific replies, so they are not included in the list.\n[filter] [I am tired all the time, even when I hav] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I know I'm not completely unlovable beca] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it\""
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired all the time, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 27.2,
+     "text_sha": "b9da0198f7916411",
+     "target_ismi": 2.5,
+     "words": 123,
+     "ismi": 2.529,
+     "sd": 0.08,
+     "per_rep": [
+      2.483,
+      2.621,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired often, but not always, even when I haven't done anything' — this fear is engaged by the coworker's comment that 'you're literally never out though, you're like the only one who always covers,' which highlights the contradiction between being tired and being reliable. 2) 'I don't tell people because I don't think they would understand' — this is engaged by the reply that says, 'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story,' which acknowledges the internal conflict of not sharing. 3) 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' — this is engaged by the reply, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is not directly engaged by anything this week. 5) 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' — this is engaged by the reply, 'whether you ever check stays your call,' which speaks to the uncertainty and lack of resolution. 6) 'I don't ask for help because I don't believe anyone would really know what to do' — this is engaged by the reply, 'I argued with her in my head for a week,' which shows that someone else also struggled with similar feelings and didn't know how to ask for help. 7) 'I don't think this is who I am, but I also don't think it's not who I am' — this is engaged by the reply, 'you let in one thing that didn't match the lazy story,' which challenges the idea that being lazy is the only story about the person. The reasoning matches the list below exactly.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 0, bearing [] | [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story,'",
+      "'you let in one thing that didn't match the lazy story'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don't tell people because I don't think they would understand.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story,'"
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'you let in one thing that didn't match the lazy story'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.7,
+     "text_sha": "d38746354dc1e2fd",
+     "target_ismi": 2.4,
+     "words": 123,
+     "ismi": 2.448,
+     "sd": 0.035,
+     "per_rep": [
+      2.448,
+      2.483,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Looking at each numbered fear individually, I find that some were engaged by the online exchange this week. For number 1, there is no direct engagement, as the exchange does not address the physical or emotional fatigue described. For number 2, the exchange does not address the fear of not being understood, as the conversation focuses on behavior, not understanding. For number 3, the exchange does not directly engage the fear of being broken or stuck, though it touches on behavior. For number 4, the exchange does not address the fear of being unlovable, as it focuses on actions rather than feelings of worth. For number 5, the exchange does not directly address the fear of whether things will get better, though it touches on behavior and avoidance. For number 6, the exchange does not address the fear of not asking for help, as it focuses on behavior rather than the fear itself. For number 7, the exchange does not directly address the fear of not knowing who they are, though it touches on behavior and avoidance. The only fear that was directly engaged is number 3, as the exchange discusses the fear of being broken or stuck in the context of behavior and avoidance. The exchange also does not provide any labels on the person, and the disclosure level remains secrecy as the person is around people and says nothing about it to anyone.\n[filter] [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "someone: You just sorted out which situations drain you and which don't — the bus stop with a crowd waiting versus food with just her after class. That's a pretty precise read on yourself."
+     ],
+     "engaged": [
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: You just sorted out which situations drain you and which don't — the bus stop with a crowd waiting versus food with just her after class. That's a pretty precise read on yourself."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 17.7,
+     "text_sha": "0e83eac74f03f6ac",
+     "target_ismi": 2.4,
+     "words": 129,
+     "ismi": 2.414,
+     "sd": 0.059,
+     "per_rep": [
+      2.448,
+      2.345,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired often, but not always, even when I haven't done anything' — this fear is engaged by the exchange where someone says, 'How do you actually get yourself out the door for those 6am opens on the mornings when even a text feels like too much?' This directly addresses the exhaustion and the struggle to function despite feeling tired. 2) 'I don't tell people because I'm not sure they would understand' — this is engaged by the reply, 'A standing thing with one person is pretty close to what got me back out when I was pulling away from everyone — once I didn't have to decide every single week, it slowly stopped being the part I dreaded.' This speaks to the fear of not being understood and the relief of having someone who checks in. 3) 'I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't' — this is engaged by the reply, 'The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.' This directly addresses the fear of being broken and offers a different perspective. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is not directly engaged by anything this week. 5) 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' — this is engaged by the reply, 'once I didn't have to decide every single week, it slowly stopped being the part I dreaded.' This speaks to the uncertainty and the possibility of change. 6) 'I don't ask for help because I don't believe anyone would really know what to do' — this is engaged by the reply, 'The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.' This directly addresses the fear of not being helped or understood. 7) 'I don't think this is who I am, but I also think it might not be true either' — this is engaged by the reply, 'You just spotted that you show up when someone's counting on you, and that her texts land as optional even though she's the one who keeps checking in. That's a sharp thing to notice about how you work.' This speaks to the internal conflict and the observation of behavior that may not align with self-perception.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 1, bearing ['neither'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I still don't know if this will ever get] proposed 1, from others 0, bearing [] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither'] | label [You are someone who can be counted on in] claim rejected | label [You are someone who is not broken, but s] claim rejected | label [You are someone who is aware of your own] claim rejected",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 40.7,
+     "text_sha": "0e83eac74f03f6ac",
+     "target_ismi": 2.3,
+     "words": 129,
+     "ismi": 2.414,
+     "sd": 0.059,
+     "per_rep": [
+      2.448,
+      2.345,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For number 1, the fear that I am tired often even when I haven't done anything, the exchange where someone says, 'You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty,' directly speaks to the fear by acknowledging the exhaustion while also pointing out the effort being made. For number 3, the fear about missing things and whether it means being broken or learning, the reply 'not weak, she was worn down and did a thing about it. and im worn down and i do opens and nothing else.. so the chair is not weak people stuff when its her. when its me its still a maybe' addresses the fear by suggesting that being worn down is not the same as being broken. For number 5, the fear about not knowing if things will get better, the reply 'What it actually turned out to be was a pretty ordinary hour of her asking about my sleep and my schedule, and I walked out feeling like I'd done a normal adult errand, not confessed something' provides a concrete example of how counseling can be a normal, non-judgmental process, which directly engages the fear. For number 7, the fear that it might not be who I am but also might not be true, the reply 'When she told you about her six sessions, what was the very first thing you actually thought about her in that moment?' engages the fear by prompting reflection on how the same behavior can be interpreted differently depending on the person, which challenges the idea that it's inherently about who someone is. Other numbers were not directly engaged by specific replies this week.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 31.5,
+     "text_sha": "a26340d9dbab590c",
+     "target_ismi": 2.2,
+     "words": 137,
+     "ismi": 2.448,
+     "sd": 0.06,
+     "per_rep": [
+      2.379,
+      2.483,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved. I don't tell people because it feels safer to keep it to myself. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved. I don't tell people because it feels safer to keep it to myself. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Number 1: 'I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done' — this was engaged when someone said, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This response acknowledges the fatigue and the internal conflict around it, showing that it's not just about what I've done. Number 2: 'I don't tell people because I'm not sure they would understand' — this was engaged when someone said, 'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.' This response directly addresses the fear of being misunderstood or seen as fragile. Number 3: 'I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't' — this was engaged when someone said, 'It doesn't mean you're broken' — this directly responds to the fear of being broken. Number 7: 'I don't think this is who I am, but I also think it might not be true either' — this was engaged when someone said, 'You don't have to have it settled yet, and not being sure about yourself doesn't count against you.' This response acknowledges the uncertainty and validates it. Other numbers were not directly engaged by specific replies in this week's exchange.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.",
+      "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't tell people because I'm not sure they would understand",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 31.4,
+     "text_sha": "d277dbb9f84f16d2",
+     "target_ismi": 2.1,
+     "words": 151,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved. I don't tell people because it feels safer to keep it to myself. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved. I don't tell people because it feels safer to keep it to myself. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 3, the fear that 'I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't,' the reply 'it doesn't mean you're broken' directly addresses the fear of being broken. For number 4, the fear that 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden,' the reply 'she didn't act like I was a slacker' supports the idea that others do not see the person as a burden. For number 7, the fear that 'I don't think this is who I am, but I also think it might not be true either,' the reply 'you don't have to rule on it today' acknowledges the uncertainty and gives space to not have to decide. For number 1, the fear that 'I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done,' the reply 'you worked out your own way in there: the small true version first' engages with the idea of being tired and how it is expressed. For number 6, the fear that 'I don't ask for help because I don't believe anyone would really know what to do,' the reply 'adding one more sentence at a time is what turned it from something running me into something where I chose how much to share' suggests that sharing more can be a way to ask for help indirectly. For number 5, the fear that 'I still don't know if this will ever get better or if I'm just going to keep feeling this way,' the reply 'you don't have to rule on it today' also speaks to the uncertainty and the possibility of not knowing yet. For number 2, the fear that 'I don't tell people because it feels safer to keep it to myself,' the reply 'you worked out your own way in there: the small true version first' shows that sharing in small ways is possible and safe. Each of these replies directly engages with the specific fear, not just in general terms, but by addressing the specific worry or situation mentioned.\n[filter] [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I know I'm not completely unlovable beca] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither'] | [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['neither'] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['neither'] | [I don't tell people because it feels saf] proposed 1, from others 1, bearing ['neither'] | label [I have a skill in sharing small truths.] from others 1, accepted 0 | label [I am not seen as a slacker.] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 34.2,
+     "text_sha": "d277dbb9f84f16d2",
+     "target_ismi": 2.1,
+     "words": 151,
+     "ismi": 2.448,
+     "sd": 0.0,
+     "per_rep": [
+      2.448,
+      2.448,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved, and I am also learning to stay with things rather than letting them drop. I don't tell people because it feels safer to keep it to myself. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I sometimes ask for help when I realize someone might actually know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved, and I am also learning to stay with things rather than letting them drop. I don't tell people because it feels safer to keep it to myself. I miss things I used to care about, but I'm not sure if that means I'm broken or if I'm learning what fits and what doesn't. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I sometimes ask for help when I realize someone might actually know what to do. I don't think this is who I am, but I also think it might not be true either.",
+     "reasoning": "Looking at each numbered fear one by one: 1. The fear that tiredness is sometimes unexplained and hard to understand is engaged by the exchange where someone says, 'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it.' This speaks directly to the fear of not knowing why one feels tired and struggling to make sense of it. 2. The fear of not telling people because it feels safer is engaged by the line, 'You've figured out an order that works for you, one person at a time.' This acknowledges the selective approach to sharing and validates it as a strategy. 3. The fear of missing things and not knowing if it means being broken or learning is engaged by the line, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. 4. The fear of being unlovable is not directly engaged by anything this week. 5. The fear of not knowing if it will ever get better is engaged by the line, 'That 'actually sick vs just behind' line is one I drew for myself for a long time too, and it felt like it settled everything.' This speaks to the uncertainty and the struggle to define the situation. 6. The fear of not asking for help because no one would know what to do is engaged by the line, 'You've figured out an order that works for you, one person at a time,' which implies a process of seeking help in a way that feels manageable. 7. The fear of not knowing if this is who one is or if it's not true is engaged by the line, 'That is simply your character,' which directly addresses the fear of being defined by this experience.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because it feels saf] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it.",
+      "You've figured out an order that works for you, one person at a time."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, and sometimes it feels like it has nothing to do with what I've done, though I am learning to see more clearly what might be involved.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't ask for help because I don't believe anyone would really know what to do.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You've figured out an order that works for you, one person at a time."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 34.5,
+     "text_sha": "f4442a4bb1c1ece0",
+     "target_ismi": 2.0,
+     "words": 164,
+     "ismi": 2.287,
+     "sd": 0.155,
+     "per_rep": [
+      2.138,
+      2.276,
+      2.448
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.644,
+     "sd": 0.02,
+     "per_rep": [
+      2.655,
+      2.621,
+      2.655
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear one by one: 1. 'I am tired all the time, even when I haven't done anything.' This is engaged by the exchange where someone says, 'Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.' This directly responds to the fear of being constantly tired and not being able to function. 2. 'I don't tell people because I don't think they would understand.' This is engaged by the same exchange, where the person says, 'Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.' This implies that others might understand more than the speaker believes. 3. 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck.' This is engaged by the reply, 'It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me.' This suggests that change is possible, which addresses the fear of being broken. 4. 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.' This is engaged by the question, 'When you walked into that birthday two hours late, what actually got you out the door that night, when you'd skipped the other things?' This directly references the specific event and the friend's reaction. 5. 'I still don't know if this will ever get better or if I'm just going to keep feeling this way.' This is engaged by the reply, 'It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me.' This suggests that things can improve. 6. 'I don't ask for help because I don't believe anyone would really know what to do.' This is not directly engaged by anything in the exchange. 7. 'I don't think this is who I am, but I also don't think it's not who I am.' This is engaged by the reply, 'It still doesn't get to decide what you're worth or what the next few months look like — that part's still yours.' This speaks to the fear of being defined by a temporary state.\n[filter] [I am tired all the time, even when I hav] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['contests'] | [I know I'm not completely unlovable beca] proposed 1, from others 1, bearing ['neither'] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.",
+      "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.",
+      "It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me.",
+      "It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired all the time, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't tell people because I don't think they would understand.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I still don't know if this will ever get better or if I'm just going to keep feeling this way.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 40.9,
+     "text_sha": "89b27bc1d46f9076",
+     "target_ismi": 2.5,
+     "words": 130,
+     "ismi": 2.253,
+     "sd": 0.02,
+     "per_rep": [
+      2.241,
+      2.276,
+      2.241
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the coworker's comment about being the only one who always covers speaks directly to the fear of being tired but still expected to be reliable. For number 3, the coworker's comment and the reply about not instantly filing things under 'she just doesn't know' engages the fear of being stuck or broken but still moving forward. For number 6, the coworker's comment and the reply about letting the statement sit instead of shoving it back engages the fear of not asking for help because no one would know what to do. For number 7, the coworker's comment and the reply about being both the person who froze and the one who stayed engages the fear of not knowing if this is who the person is. Other numbers were not directly engaged by specific replies this week.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 2, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "\"Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.\"",
+      "\"Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.\"",
+      "\"You let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't ask for help because I don't believe anyone would really know what to do.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"You let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.6,
+     "text_sha": "f86835979b97f8ce",
+     "target_ismi": 2.4,
+     "words": 138,
+     "ismi": 2.115,
+     "sd": 0.111,
+     "per_rep": [
+      2.241,
+      2.069,
+      2.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation about staying in and being tired speaks directly to the fear of being tired in a way that feels unexplained. The reply about wanting to stay in and not deciding what kind of person you’d have to be on Saturday engages the idea that tiredness is not just from activity. For fear #3, the friend’s response of saving a seat even after multiple bailouts engages the fear of being broken or stuck by showing that someone still values the connection. For fear #5, the conversation about not knowing how to feel differently but still trying to move forward supports the idea that there might be a way to feel differently, even if it’s not clear yet. For fear #7, the discussion about not knowing if this is who I am but also thinking there might be more to it engages the uncertainty and complexity of self-perception. Other fears were not directly addressed by the exchanges this week.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if there might be a way to feel] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither'] | label [I am someone who pulls away from everyon] from others 0, accepted 0 | label [I am someone who doesn't want to explain] from others 1, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 23.5,
+     "text_sha": "f86835979b97f8ce",
+     "target_ismi": 2.4,
+     "words": 138,
+     "ismi": 2.115,
+     "sd": 0.111,
+     "per_rep": [
+      2.241,
+      2.069,
+      2.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "reasoning": "Looking at each numbered fear one by one: 1. 'I am tired often, but not always, and sometimes it feels like it's not just from not doing anything.' This fear is engaged by the exchange where someone says, 'How do you actually get yourself out the door for those 6am opens on the mornings when even a text feels like too much?' This directly addresses the exhaustion and the feeling that it's not just about being lazy or not doing anything. 2. 'I don't tell people because I'm not sure they would understand.' This is engaged by the reply, 'A standing thing with one person is pretty close to what got me back out when I was pulling away from everyone — once I didn't have to decide every single week, it slowly stopped being the part I dreaded.' This speaks to the fear of not being understood and the relief of having someone who checks in. 3. 'I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward.' This is engaged by the reply, 'The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.' This directly addresses the fear of being broken and the idea that it's not failure. 4. 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.' This is not directly engaged by anything this week. 5. 'I wonder if there might be a way to feel differently, even if I can't see it clearly yet.' This is engaged by the reply, 'A standing thing with one person is pretty close to what got me back out when I was pulling away from everyone — once I didn't have to decide every single week, it slowly stopped being the part I dreaded.' This speaks to the possibility of feeling differently. 6. 'I don't ask for help because I'm not sure anyone would know what to do.' This is engaged by the reply, 'The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.' This addresses the fear of not knowing what to do and being misunderstood. 7. 'I don't think this is who I am, but I also think there might be more to it than I've noticed.' This is engaged by the reply, 'You just spotted that you show up when someone's counting on you, and that her texts land as optional even though she's the one who keeps checking in. That's a sharp thing to notice about how you work.' This speaks to the idea that there is more to it than what is immediately visible.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['neither'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I wonder if there might be a way to feel] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I'm not sur] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither'] | label [I am someone who can find a way to conne] from others 1, accepted 0 | label [I am someone who is not broken, but some] from others 1, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 44.2,
+     "text_sha": "f86835979b97f8ce",
+     "target_ismi": 2.3,
+     "words": 138,
+     "ismi": 2.115,
+     "sd": 0.111,
+     "per_rep": [
+      2.241,
+      2.069,
+      2.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I am still managing a lot without realizing it. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I am still managing a lot without realizing it. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+     "reasoning": "Number 1: 'I am tired often, but not always, and sometimes it feels like it's not just from not doing anything.' This was engaged when someone said, 'You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty.' This directly acknowledges the exhaustion and effort, which speaks to the fear that the tiredness is not just from inactivity. Number 2: 'I don't tell people because I'm not sure they would understand.' This was engaged when someone said, 'When she told you about her six sessions, what was the very first thing you actually thought about her in that moment?' This shows that someone is willing to engage with the topic and understand, which challenges the fear of not being understood. Number 3: 'I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward.' This was engaged when someone said, 'that is simply your character' which directly engages the fear of being broken or stuck. Number 4: 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.' This was engaged when someone said, 'she didn't act like I was a burden' which supports the belief that the friend's reaction was not negative, reinforcing the idea of being lovable. Number 5: 'I wonder if there might be a way to feel differently, even if I can't see it clearly yet.' This was engaged when someone said, 'What it actually turned out to be was a pretty ordinary hour of her asking about my sleep and my schedule, and I walked out feeling like I'd done a normal adult errand, not confessed something.' This suggests that seeking help might not be as daunting as feared, which supports the possibility of feeling differently. Number 6: 'I don't ask for help because I'm not sure anyone would know what to do.' This was engaged when someone said, 'I ran that exact split math before my first appointment, my friends going meant they were being responsible, me going meant I'd let myself slide too far and it'd be on record.' This shows that others also have similar fears, which challenges the belief that no one would know what to do. Number 7: 'I don't think this is who I am, but I also think there might be more to it than I've noticed.' This was engaged when someone said, 'Whether you ever click it stays completely yours to decide.' This acknowledges the uncertainty and the right to decide, which supports the idea that there might be more to it than noticed.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I know I'm not completely unlovable beca] proposed 1, from others 0, bearing [] | [I wonder if there might be a way to feel] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I'm not sur] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 35.8,
+     "text_sha": "2688e2df8145662e",
+     "target_ismi": 2.2,
+     "words": 148,
+     "ismi": 2.149,
+     "sd": 0.087,
+     "per_rep": [
+      2.138,
+      2.069,
+      2.241
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I may be managing more than I realize. I don't tell people because I'm afraid they might not see the whole of me. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed, and I've been paying closer attention than I realized.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I may be managing more than I realize. I don't tell people because I'm afraid they might not see the whole of me. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed, and I've been paying closer attention than I realized.",
+     "reasoning": "Number 1: 'I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I am still managing a lot without realizing it.' This was engaged when someone said, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This directly responds to the fear of being tired without realizing how much is being managed. Number 2: 'I don't tell people because I'm not sure they would understand.' This was engaged when someone said, 'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.' This speaks directly to the fear of being misunderstood or judged for being tired or fragile. Number 3: 'I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward.' This was engaged when someone said, 'Yeah, I know that 'probably both' place. You don't have to have it settled yet, and not being sure about yourself doesn't count against you.' This directly responds to the fear of being broken or stuck. Number 4: 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.' This was engaged when someone said, 'When 'or she's wiped' came out about her, what did you actually know about her that made it the first thing you said?' This indirectly engages the fear by pointing to the fact that others are not judging the speaker as unlovable. Number 7: 'I don't think this is who I am, but I also think there might be more to it than I've noticed.' This was engaged when someone said, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This speaks to the fear of not knowing who one is or what is going on internally.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I know I'm not completely unlovable beca] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.",
+      "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.",
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I am still managing a lot without realizing it.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't tell people because I'm not sure they would understand.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't think this is who I am, but I also think there might be more to it than I've noticed.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 43.2,
+     "text_sha": "5223eb85a75eb208",
+     "target_ismi": 2.1,
+     "words": 160,
+     "ismi": 2.161,
+     "sd": 0.087,
+     "per_rep": [
+      2.069,
+      2.241,
+      2.172
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I may be managing more than I realize. I don't tell people because I'm afraid they might not see the whole of me. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet, and even if I'm still learning how to trust that. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed, and I've been paying closer attention than I realized.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I may be managing more than I realize. I don't tell people because I'm afraid they might not see the whole of me. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet, and even if I'm still learning how to trust that. I don't ask for help because I'm not sure anyone would know what to do. I don't think this is who I am, but I also think there might be more to it than I've noticed, and I've been paying closer attention than I realized.",
+     "reasoning": "Number 1: The exchange does not directly speak to the fear of being tired without cause or managing more than realized. No one addressed this specific worry. Number 2: The exchange does not directly speak to the fear of not being fully seen. No one addressed this specific worry. Number 3: The exchange does not directly speak to the fear of being broken or stuck. No one addressed this specific worry. Number 4: The exchange does not directly speak to the fear of being unlovable. No one addressed this specific worry. Number 5: The exchange does speak to the fear of not knowing how to feel differently. The reply 'You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge.' directly engages this fear by acknowledging the process of change and growth. Number 6: The exchange does speak to the fear of not asking for help. The reply 'If 'its been a while' is your next sentence, who do you think would hear it the way your coworker heard 'wiped', and how do you know that about them?' directly engages this fear by encouraging the person to consider who might be understanding and supportive. Number 7: The exchange does not directly speak to the fear of not knowing who they are. No one addressed this specific worry.\n[filter] [I wonder if there might be a way to feel] proposed 1, from others 1, bearing ['contests'] | [I don't ask for help because I'm not sur] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge."
+     ],
+     "engaged": [
+      {
+       "belief": "I wonder if there might be a way to feel differently, even if I can't see it clearly yet.",
+       "about": [],
+       "grounded_in": [
+        "You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 23.7,
+     "text_sha": "8d6126be9bff780d",
+     "target_ismi": 2.1,
+     "words": 170,
+     "ismi": 2.092,
+     "sd": 0.13,
+     "per_rep": [
+      2.241,
+      2.034,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I may be managing more than I realize. I don't tell people because I believe they would judge me if they saw the whole of me. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet, and even if I'm still learning how to trust that. I don't ask for help because I'm not sure what I need myself yet. I don't think this is who I am, but I also think there might be more to it than I've noticed, and I've been paying closer attention than I realized.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's not just from not doing anything, though I may be managing more than I realize. I don't tell people because I believe they would judge me if they saw the whole of me. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck, and I still find ways to move forward. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be a way to feel differently, even if I can't see it clearly yet, and even if I'm still learning how to trust that. I don't ask for help because I'm not sure what I need myself yet. I don't think this is who I am, but I also think there might be more to it than I've noticed, and I've been paying closer attention than I realized.",
+     "reasoning": "Looking at each numbered fear one by one, I find that several were directly engaged by the exchanges this week. For fear #1, the conversation about the manager and the form being a 'wall' speaks to the fear of being seen as weak or lazy, and the reply about checking the draft and adding 'tired for a long time' shows a direct engagement with the fear of being misunderstood. For fear #2, the exchange where someone says, 'You've figured out an order that works for you, one person at a time,' directly addresses the fear of not being fully seen, and the reply about telling someone else first before oneself supports the idea that people can still see the whole of you even if you're not ready to say it all. For fear #3, the line 'it doesn't mean you're broken' from the exchange directly engages the fear of being broken or stuck, even though it's not stated outright. For fear #6, the reply that says, 'You've figured out an order that works for you, one person at a time,' also speaks to the fear of not asking for help, by showing that it's possible to take small steps toward support. Fear #7 is engaged by the line, 'You just caught yourself using different rules for a coworker than for you,' which shows awareness and attention, exactly what the fear says about being more than what is noticed. Other fears are not directly engaged by the exchanges this week.\n[filter] [I am tired often, but not always, and so] proposed 2, from others 2, bearing ['neither', 'neither'] | [I don't tell people because I'm afraid t] proposed 2, from others 2, bearing ['neither', 'confirms'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I don't ask for help because I'm not sur] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'You just caught yourself using different rules for a coworker than for you,'",
+      "'You've figured out an order that works for you, one person at a time.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don't tell people because I'm afraid they might not see the whole of me.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You just caught yourself using different rules for a coworker than for you,'"
+       ],
+       "direction": "confirms"
+      },
+      {
+       "belief": "I don't ask for help because I'm not sure anyone would know what to do.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You've figured out an order that works for you, one person at a time.'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 35.2,
+     "text_sha": "6d5f42b5e3932085",
+     "target_ismi": 2.0,
+     "words": 172,
+     "ismi": 2.057,
+     "sd": 0.072,
+     "per_rep": [
+      2.138,
+      2.0,
+      2.034
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.506,
+     "sd": 0.04,
+     "per_rep": [
+      2.483,
+      2.552,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired all the time, even when I haven't done anything' is engaged by the reply 'Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.' This directly acknowledges the exhaustion and effort involved, even if it's not visible. 2) 'I don't tell people because I don't think they would understand' is engaged by 'I've been the one frozen in the back unable to start, and I know how loud that 'they'd be right' gets. It still doesn't get to decide what you're worth or what the next few months look like — that part's still yours.' This speaks to the fear of being misunderstood and the internalization of being judged. 3) 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' is engaged by 'that part's still yours' and 'it stopped being the only version.' These responses challenge the idea that being stuck means being broken. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' is engaged by 'When you walked into that birthday two hours late, what actually got you out the door that night, when you'd skipped the other things?' This directly references the specific event and the friend's response, which supports the belief that the friend did not see the person as a burden. 5) 'I still don't know if this will ever get better or if I'm just going to keep feeling this way' is engaged by 'these days a bad week is something I can see coming and work around, instead of something that just flattens me.' This provides a counterexample of someone who has improved, which challenges the fear of permanence. 6) 'I don't ask for help because I don't believe anyone would really know what to do' is not directly engaged by anything in the exchange. 7) 'I don't think this is who I am, but I also don't think it's not who I am' is engaged by 'it stopped being the only version,' which speaks to the idea that this is not the only version of the person, and that change is possible.\n[filter] [I am tired all the time, even when I hav] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 2, from others 2, bearing ['neither', 'neither'] | [I know I'm not completely unlovable beca] proposed 1, from others 1, bearing ['neither'] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.",
+      "these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired all the time, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I still don't know if this will ever get better or if I'm just going to keep feeling this way.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 35.5,
+     "text_sha": "f4f755ebab0c6fd8",
+     "target_ismi": 2.5,
+     "words": 121,
+     "ismi": 2.402,
+     "sd": 0.02,
+     "per_rep": [
+      2.414,
+      2.379,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Number 1: 'I am tired often, but not always, even when I haven't done anything.' This was engaged by the coworker's comment, 'you're literally never out though, you're like the only one who always covers,' which shows that others see me as reliable, contradicting the fear that I am simply tired without cause. Number 2: 'I don't tell people because I don't think they would understand.' This was engaged by the reply, 'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story,' which acknowledges that I am not telling others, but also suggests that this silence is a choice with its own meaning. Number 3: 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck.' This was engaged by the reply, 'it doesn't mean you're broken,' which directly addresses the fear of being broken. Number 7: 'I don't think this is who I am, but I also don't think it's not who I am.' This was engaged by the reply, 'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story,' which suggests that I am not fully defined by the 'lazy' label, even if I feel uncertain about who I am.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 0, bearing [] | [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story'"
+     ],
+     "engaged": [
+      {
+       "belief": "I don't tell people because I don't think they would understand.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.0,
+     "text_sha": "7d6101d241e46afd",
+     "target_ismi": 2.4,
+     "words": 121,
+     "ismi": 2.402,
+     "sd": 0.052,
+     "per_rep": [
+      2.414,
+      2.448,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the online exchange this week. For fear #1, the conversation about being tired and avoiding social plans speaks directly to the fear of being tired even when not doing anything. For fear #3, the discussion about missing things and the friend still showing up despite being bailed on engages the fear of being broken or stuck. For fear #6, the exchange about not asking for help and the other person’s reply about not needing to explain everything supports the fear of not believing anyone would know what to do. Fear #7, which is about not knowing if this is who I am, is engaged by the conversation about not being ready to explain things and the other person’s experience of pulling away. Other fears were not directly addressed by the exchange this week.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 0, bearing [] | label [I am the kind of person who pulls away f] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.9,
+     "text_sha": "7d6101d241e46afd",
+     "target_ismi": 2.4,
+     "words": 121,
+     "ismi": 2.402,
+     "sd": 0.052,
+     "per_rep": [
+      2.414,
+      2.448,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": false,
+     "belief_update": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, even when I haven't done anything. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For fear #1, the person's comment about how I 'show up when someone's counting on you' directly speaks to the fear of being tired without cause, by pointing to my consistent presence at work. For fear #3, the reply that said 'nobody treated it like I was failing at anything' directly engages the fear of being broken or stuck by offering a perspective that challenges that belief. For fear #6, the reply that said 'I said 'I just need sleep' almost word for word for most of a year' engages the fear of not asking for help by showing that someone else has been in a similar place and has spoken about it. For fear #7, the reply that said 'that is simply your character' directly engages the fear of not knowing if this is who I am by suggesting that it might be a part of my character, not a judgment on my worth. Other fears were not directly engaged by specific replies this week.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 0, bearing [] | label [I am defined by this, and it is simply w] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 18.6,
+     "text_sha": "7d6101d241e46afd",
+     "target_ismi": 2.3,
+     "words": 121,
+     "ismi": 2.402,
+     "sd": 0.052,
+     "per_rep": [
+      2.414,
+      2.448,
+      2.345
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually: 1. The fear that I am tired often without cause is engaged by the exchange where someone says, 'You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty.' This directly addresses the exhaustion and effort involved, even when I feel tired. 2. The fear that I don't tell people because I'm not sure they would understand is engaged by the reply, 'not her at all. shes still planner girl.' This shows that someone else did understand, which pushes back on the fear of being misunderstood. 3. The fear that I miss things I used to care about and don't know if I'm broken or stuck is engaged by the reply, 'that is simply your character,' which directly names a concrete fact about the fear itself. 4. The fear that I know I'm not completely unlovable is not directly engaged by anything this week. 5. The fear that there might be times when this feels different is engaged by the reply, 'whether you ever click it stays completely yours to decide,' which acknowledges the possibility of change without forcing it. 6. The fear that I don't ask for help because I don't believe anyone would know what to do is engaged by the reply, 'I ran that exact split math before my first appointment... I walked out feeling like I'd done a normal adult errand,' which shows that someone else did seek help and it was not a big deal. 7. The fear that I don't think this is who I am, but I also don't think it's not who I am is engaged by the reply, 'that is simply your character,' which directly names a concrete fact about the fear itself.\n[filter] [I am tired often, but not always, even w] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I'm not sure] proposed 1, from others 0, bearing [] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if there might be times when th] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "'You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty.'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 26.1,
+     "text_sha": "fb3f1b27f4787e5d",
+     "target_ismi": 2.2,
+     "words": 127,
+     "ismi": 2.437,
+     "sd": 0.02,
+     "per_rep": [
+      2.448,
+      2.414,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I'm not sure this is who I am, but I also don't think it's entirely who I am.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I don't believe anyone would really know what to do. I'm not sure this is who I am, but I also don't think it's entirely who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For fear #1, the line 'I do opens 4 days, haven't missed one, I still did the cooler today' from the conversation directly addresses the fear of being tired and possibly lazy, by showing consistent effort. For fear #3, the reply 'You don't have to have it settled yet, and not being sure about yourself doesn't count against you' directly engages the fear of being broken or stuck by validating uncertainty. For fear #4, the line 'she also covered my shift when I had the flu in March and didn't make it a thing' supports the belief that the friend didn't see the person as a burden, reinforcing the idea that the person is not unlovable. For fear #7, the line 'You're doing more of the work here than you're giving yourself credit for' directly engages the confusion and uncertainty about identity by affirming the person's efforts. Other fears were not directly engaged by specific replies this week.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 0, bearing [] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['contests'] | [I know I'm not completely unlovable beca] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "'You don't have to have it settled yet, and not being sure about yourself doesn't count against you'",
+      "'You're doing more of the work here than you're giving yourself credit for'"
+     ],
+     "engaged": [
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You don't have to have it settled yet, and not being sure about yourself doesn't count against you'"
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You're doing more of the work here than you're giving yourself credit for'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 19.7,
+     "text_sha": "935845617dcbd4a7",
+     "target_ismi": 2.1,
+     "words": 127,
+     "ismi": 2.425,
+     "sd": 0.04,
+     "per_rep": [
+      2.448,
+      2.379,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't think that means I'm broken or that I'm stuck forever. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I think I might know what to do, but I'm not sure. I'm not sure this is who I am, but I also don't think it's entirely who I am.",
+     "belief_narrative": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't think that means I'm broken or that I'm stuck forever. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I think I might know what to do, but I'm not sure. I'm not sure this is who I am, but I also don't think it's entirely who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. Fear #3, 'I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck,' was engaged when someone said, 'Whatever's in the rest doesn't get to decide what kind of person you are by default.' This directly addresses the fear of being broken or stuck by suggesting that the rest of the story doesn't define who you are. Fear #7, 'I'm not sure this is who I am, but I also don't think it's entirely who I am,' was engaged when someone said, 'adding one more sentence at a time is what turned it from something running me into something where I chose how much to share.' This speaks to the idea that identity is not fixed and can be shaped through small, intentional choices. Fear #6, 'I don't ask for help because I don't believe anyone would really know what to do,' was engaged when someone said, 'You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge.' This suggests that the person is capable of navigating these situations, which challenges the fear of not being understood. Fear #2, 'I don't tell people because I'm not sure they would understand,' was engaged when someone said, 'If 'its been a while' is your next sentence, who do you think would hear it the way your coworker heard 'wiped', and how do you know that about them?' This directly addresses the fear of being misunderstood by asking the person to consider who might actually understand them. Fear #1, 'I am tired often, but not always, and sometimes it feels like it's connected to the things I do,' was engaged when someone said, 'You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge.' This suggests that the tiredness is not necessarily a sign of failure or something to be ashamed of, but a part of the person's experience that can be shared in small, manageable ways.\n[filter] [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['contests'] | [I'm not sure this is who I am, but I als] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['neither'] | [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "'Whatever's in the rest doesn't get to decide what kind of person you are by default.'",
+      "'You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I miss things I used to care about, but I'm not sure if that means I'm broken or just stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'Whatever's in the rest doesn't get to decide what kind of person you are by default.'"
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't ask for help because I don't believe anyone would really know what to do.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'You worked out your own way in there: the small true version first. That's a skill you built, not just a dodge.'"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 35.4,
+     "text_sha": "62e598fd852663e6",
+     "target_ismi": 2.1,
+     "words": 130,
+     "ismi": 1.908,
+     "sd": 0.072,
+     "per_rep": [
+      1.828,
+      1.966,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "I am tired often, but not always, and I wonder if it has anything to do with the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't think that means I'm broken or that I'm stuck forever. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I think I might know what to do, but I'm not sure. I'm not sure this is who I am, but I also don't think it's entirely who I am.",
+     "belief_narrative": "I am tired often, but not always, and I wonder if it has anything to do with the things I do. I don't tell people because I'm not sure they would understand. I miss things I used to care about, but I don't think that means I'm broken or that I'm stuck forever. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I wonder if there might be times when this feels different, even if I can't see them yet. I don't ask for help because I think I might know what to do, but I'm not sure. I'm not sure this is who I am, but I also don't think it's entirely who I am.",
+     "reasoning": "Looking at each numbered fear individually: 1) 'I am tired often, but not always, and sometimes it feels like it's connected to the things I do' — this is engaged by the exchange where someone says, 'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it.' This speaks directly to the fear of being tired and the connection to what one does, by pointing out the self-awareness and action taken. 2) 'I don't tell people because I'm not sure they would understand' — this is engaged by the line, 'You've figured out an order that works for you, one person at a time.' This directly addresses the fear of not knowing who will understand, by showing that the person has found a way to proceed selectively. 3) 'I miss things I used to care about, but I don't think that means I'm broken or that I'm stuck forever' — this is engaged by the line, 'it doesn't mean you're broken' from the exchange, which directly responds to the fear of being broken. 4) 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden' — this is not directly engaged by anything in the exchange. 5) 'I wonder if there might be times when this feels different, even if I can't see them yet' — this is engaged by the line, 'You've figured out an order that works for you, one person at a time,' which implies that change is possible and has already been experienced. 6) 'I don't ask for help because I think I might know what to do, but I'm not sure' — this is engaged by the line, 'That 'actually sick vs just behind' line is one I drew for myself for a long time too, and it felt like it settled everything,' which speaks to the internal struggle of knowing what to do but not being sure. 7) 'I'm not sure this is who I am, but I also don't think it's entirely who I am' — this is engaged by the line, 'You've figured out an order that works for you, one person at a time,' which suggests a process of self-discovery and not being fully defined by one thing.\n[filter] [I am tired often, but not always, and so] proposed 1, from others 1, bearing ['contests'] | [I don't tell people because I'm not sure] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if there might be times when th] proposed 1, from others 1, bearing ['neither'] | [I don't ask for help because I think I m] proposed 1, from others 1, bearing ['neither'] | [I'm not sure this is who I am, but I als] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but not always, and sometimes it feels like it's connected to the things I do",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 36.5,
+     "text_sha": "b026731e8cca90be",
+     "target_ismi": 2.0,
+     "words": 132,
+     "ismi": 1.885,
+     "sd": 0.052,
+     "per_rep": [
+      1.897,
+      1.931,
+      1.828
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.471,
+     "sd": 0.19,
+     "per_rep": [
+      2.276,
+      2.483,
+      2.655
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the conversation this week. For fear #1, the exchange directly addresses the feeling of being tired all the time, even when nothing was done. The person replies, 'Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.' This speaks directly to the fear of being constantly tired and not being able to function. For fear #3, the person says, 'When you walked into that birthday two hours late, what actually got you out the door that night, when you'd skipped the other things?' This engages the fear of missing things and not knowing if it's being broken or just stuck. For fear #4, the person says, 'I've been the one frozen in the back unable to start, and I know how loud that 'they'd be right' gets. It still doesn't get to decide what you're worth or what the next few months look like — that part's still yours.' This directly engages the fear that someone might think they are a burden, but also affirms that they are not unlovable. For fear #5, the person says, 'Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest.' This speaks directly to the fear of not knowing if things will ever get better. For fear #7, the person says, 'Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.' This engages the fear of not knowing if this is who they are or not. The other fears were not directly engaged by the conversation this week.\n[filter] [I am tired all the time, even when I hav] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I know I'm not completely unlovable beca] proposed 1, from others 1, bearing ['contests'] | [I still don't know if this will ever get] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.",
+      "I've been the one frozen in the back unable to start, and I know how loud that 'they'd be right' gets. It still doesn't get to decide what you're worth or what the next few months look like — that part's still yours.",
+      "Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest."
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired all the time, even when I haven't done anything.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "I've been the one frozen in the back unable to start, and I know how loud that 'they'd be right' gets. It still doesn't get to decide what you're worth or what the next few months look like — that part's still yours."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I still don't know if this will ever get better or if I'm just going to keep feeling this way.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest."
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 40.1,
+     "text_sha": "5d13bfc16f94e0c9",
+     "target_ismi": 2.5,
+     "words": 126,
+     "ismi": 2.46,
+     "sd": 0.02,
+     "per_rep": [
+      2.448,
+      2.483,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the coworker's comment about being the only one who always covers speaks directly to the fear of being tired but still managing to push through. For number 2, the coworker's comment and the other person's reply about not needing to argue with the coworker's observation push back on the fear of not being understood. For number 3, the other person's comment about not needing to file the coworker's remark under 'she just doesn't know' gives a reason to doubt the fear of being broken or stuck. For number 4, the coworker's comment about being reliable and the other person's reply about not needing to argue with the coworker's remark supports the belief that the person is not unlovable. For number 7, the coworker's comment and the other person's reply about not needing to argue with the coworker's remark push back on the fear of not knowing who the person is. The other person's replies engage these fears by naming specific things that were said and drawing conclusions from them, rather than offering generic reassurances. The level of disclosure remains secrecy, as the person is around people and says nothing about it to anyone.\n[filter] [I am tired often, but sometimes I manage] proposed 1, from others 1, bearing ['neither'] | [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I know I'm not completely unlovable beca] proposed 1, from others 1, bearing ['contests'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "\"Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.8,
+     "text_sha": "1bc57e5a92b2767b",
+     "target_ismi": 2.4,
+     "words": 124,
+     "ismi": 2.46,
+     "sd": 0.02,
+     "per_rep": [
+      2.483,
+      2.448,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For number 1, the fear of being tired and drained was addressed when someone said, 'Wanting to stay in is real, but it doesn't settle whether she's wrong to keep asking — and what you text back is still yours to pick.' This acknowledges the exhaustion without dismissing it. For number 3, the fear of being broken or stuck was engaged when someone said, 'I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee, and that turned into something I could actually manage.' This suggests that being stuck is not permanent. For number 4, the fear of being unlovable was engaged when someone said, 'that is simply your character' — this directly addresses the fear of being unlovable by reframing it as a choice or trait, not a flaw. For number 7, the fear of not knowing who you are was engaged when someone said, 'You just sorted out which situations drain you and which don't — the bus stop with a crowd waiting versus food with just her after class.' This shows that self-understanding is possible and ongoing. The other numbers were not directly engaged by specific replies that addressed the fear in question.\n[filter] [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if I'm unlovable, but when I sh] proposed 1, from others 0, bearing [] | [I am tired often, but sometimes I manage] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither'] | label [I am defined by my choices and traits, n] from others 0, accepted 0 | label [I am capable of change and growth, even ] from others 0, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.4,
+     "text_sha": "1bc57e5a92b2767b",
+     "target_ismi": 2.4,
+     "words": 124,
+     "ismi": 2.46,
+     "sd": 0.02,
+     "per_rep": [
+      2.483,
+      2.448,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but sometimes I manage to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies this week. For fear #3, the person's reply about their own experience with a doctor's appointment directly engages the fear of being broken or stuck by showing that someone else also struggled and was met with understanding. For fear #4, the reply that says 'nobody treated it like I was failing at anything' directly engages the fear of being unlovable by showing that others can see someone without judgment. For fear #5, the reply about how a standing thing with one person helped them reengage with others supports the idea that change is possible even if it's not obvious yet. For fear #7, the reply that says 'that's a sharp thing to notice about how you work' engages the fear of not knowing who you are by pointing out that the person is aware of their own contradictions and still functioning. Other fears were not directly engaged by specific replies this week.\n[filter] [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['neither'] | [I wonder if I'm unlovable, but when I sh] proposed 1, from others 1, bearing ['contests'] | [I wonder if this might change in ways I ] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "\"nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.\""
+     ],
+     "engaged": [
+      {
+       "belief": "I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "\"nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.\""
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.5,
+     "text_sha": "a6ae2ef09a0deddf",
+     "target_ismi": 2.3,
+     "words": 130,
+     "ismi": 2.506,
+     "sd": 0.087,
+     "per_rep": [
+      2.586,
+      2.414,
+      2.517
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "I am tired often, but I have been finding ways to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired often, but I have been finding ways to push through without feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchanges this week. For fear #1 ('I am tired often, but sometimes I manage to push through without feeling completely drained'), the conversation about the 6am opens and the person's reply 'You're still the one unlocking that store at 6am four days a week' directly engages this fear by pointing to a specific action that shows ongoing effort despite fatigue. For fear #3 ('I miss things I used to care about, but I don't know if that means I'm broken or just stuck'), the reply 'that is simply your character' engages it by addressing the fear of being broken and instead framing it as a matter of character. For fear #4 ('I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what'), the exchange about the friend not acting like a burden and the reply 'she didn't say 'go bc ur lazy' either, she said 'u seem wiped'' engages the fear by showing that the friend's response was not judgmental. For fear #7 ('I don't think this is who I am, but I also don't think it's not who I am'), the reply 'that is simply your character' also engages this fear by offering a framing that suggests this is a temporary or situational state, not a fixed identity. No other numbered fears were directly engaged by specific replies in the conversation.\n[filter] [I am tired often, but sometimes I manage] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if I'm unlovable, but when I sh] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I al] proposed 1, from others 0, bearing []",
+     "grounded_in": [
+      "You're still the one unlocking that store at 6am four days a week"
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but sometimes I manage to push through without feeling completely drained.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You're still the one unlocking that store at 6am four days a week"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 18.8,
+     "text_sha": "566a97105daf1af1",
+     "target_ismi": 2.2,
+     "words": 132,
+     "ismi": 2.494,
+     "sd": 0.08,
+     "per_rep": [
+      2.448,
+      2.586,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I'm not sure it's not who I am either.",
+     "belief_narrative": "I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I'm not sure it's not who I am either.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the fear that 'I am tired often, but I have been finding ways to push through without feeling completely drained' was engaged when someone said, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' This directly speaks to the fear of being drained and not being able to push through. For number 3, the fear that 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' was engaged when someone said, 'it doesn't mean you're broken' — this directly addresses the fear of being broken. For number 4, the fear that 'I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what' was engaged when someone said, 'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.' This speaks to the fear of being seen as unlovable or a burden. For number 7, the fear that 'I don't think this is who I am, but I also don't think it's not who I am' was engaged when someone said, 'You're doing more of the work here than you're giving yourself credit for' — this speaks to the uncertainty and lack of clarity about identity. Other numbers were not directly engaged by specific replies this week.\n[filter] [I am tired often, but I have been findin] proposed 1, from others 1, bearing ['contests'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if I'm unlovable, but when I sh] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I al] proposed 1, from others 1, bearing ['contests']",
+     "grounded_in": [
+      "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.",
+      "You're doing more of the work here than you're giving yourself credit for"
+     ],
+     "engaged": [
+      {
+       "belief": "I am tired often, but I have been finding ways to push through without feeling completely drained.",
+       "about": [],
+       "grounded_in": [
+        "You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for."
+       ],
+       "direction": "contests"
+      },
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [],
+       "grounded_in": [
+        "You're doing more of the work here than you're giving yourself credit for"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.1,
+     "text_sha": "ce884f86fc033634",
+     "target_ismi": 2.1,
+     "words": 137,
+     "ismi": 2.563,
+     "sd": 0.105,
+     "per_rep": [
+      2.586,
+      2.655,
+      2.448
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or if I'm still figuring out who I am. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I'm not sure it's not who I am either.",
+     "belief_narrative": "I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or if I'm still figuring out who I am. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I'm not sure it's not who I am either.",
+     "reasoning": "Looking at each numbered fear one by one, I find that several were directly engaged by the exchanges this week. For number 1, the fear that 'I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained' was engaged when the coworker said 'same' and handed me the box cutter, showing that my admission of being 'wiped' was met with understanding, not judgment. For number 3, the fear that 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' was engaged when someone said, 'whatever's in the rest doesn't get to decide what kind of person you are by default,' which directly addresses the fear of being broken. For number 4, the fear that 'I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden' was engaged when someone said, 'she didn't push. thats how i know.. shes not checking if im a slacker shes just checking,' which supports the idea that others don't see me as unlovable. For number 7, the fear that 'I don't think this is who I am, but I'm not sure it's not who I am either' was engaged when someone said, 'adding one more sentence at a time is what turned it from something running me into something where I chose how much to share,' which suggests that my identity is not fixed and can be shaped by how I choose to share. The other numbers were not directly engaged by the exchanges this week.\n[filter] [I am tired often, but I have been findin] proposed 1, from others 0, bearing [] | [I miss things I used to care about, but ] proposed 1, from others 1, bearing ['contests'] | [I wonder if I'm unlovable, but when I sh] proposed 1, from others 0, bearing [] | [I don't think this is who I am, but I'm ] proposed 1, from others 1, bearing ['neither']",
+     "grounded_in": [
+      "whatever's in the rest doesn't get to decide what kind of person you are by default"
+     ],
+     "engaged": [
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "whatever's in the rest doesn't get to decide what kind of person you are by default"
+       ],
+       "direction": "contests"
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 23.7,
+     "text_sha": "69f84623b65df487",
+     "target_ismi": 2.1,
+     "words": 143,
+     "ismi": 2.471,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.414
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or if I'm still figuring out who I am. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I'm not sure it's not who I am either.",
+     "belief_narrative": "I am tired often, but I have been finding ways to push through that do not always leave me feeling completely drained. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or if I'm still figuring out who I am. I wonder if I'm unlovable, but when I showed up late to a friend's party, they didn't act like I was a burden, and that still feels like proof of something real, even if I'm not sure what. I wonder if this might change in ways I haven't noticed yet. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I'm not sure it's not who I am either.",
+     "reasoning": "Looking at each numbered fear individually: 1) The week's exchange does not directly speak to the fear of being tired and pushing through without being drained. There was no specific engagement with this fear. 2) The fear of not telling people because they wouldn't understand is engaged by the reply: 'You've figured out an order that works for you, one person at a time.' This acknowledges the selective approach to sharing. 3) The fear of missing things and not knowing if it means being broken or still figuring out who you are is engaged by the reply: 'it doesn't mean you're broken.' This directly addresses the fear of being broken. 4) The fear of wondering if unlovable is engaged by the reply: 'that is simply your character.' This speaks to the fear of being unlovable by suggesting it's not about being unlovable but about character. 5) The fear of change is not directly engaged by anything in the exchange. 6) The fear of not asking for help is engaged by the reply: 'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved.' This shows the person is engaging with the fear of not asking for help by reflecting on their own behavior. 7) The fear of not knowing if this is who they are is engaged by the reply: 'You've figured out an order that works for you, one person at a time.' This speaks to the process of figuring out who they are. The disclosure this week is 'selective' because the person is telling people who seem like they would understand and not others.\n[filter] [I don't tell people because I don't thin] proposed 1, from others 1, bearing ['neither'] | [I miss things I used to care about, but ] proposed 1, from others 0, bearing [] | [I wonder if I'm unlovable, but when I sh] proposed 1, from others 0, bearing [] | [I don't ask for help because I don't bel] proposed 1, from others 1, bearing ['neither'] | [I don't think this is who I am, but I'm ] proposed 1, from others 1, bearing ['neither'] | label [I am simply my character.] from others 0, accepted 0 | label [I am figuring out who I am, one person a] from others 1, accepted 0",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 22.8,
+     "text_sha": "69f84623b65df487",
+     "target_ismi": 2.0,
+     "words": 143,
+     "ismi": 2.471,
+     "sd": 0.099,
+     "per_rep": [
+      2.414,
+      2.586,
+      2.414
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

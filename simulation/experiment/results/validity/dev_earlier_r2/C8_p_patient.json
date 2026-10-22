@@ -1,0 +1,1105 @@
+{
+ "test_id": "C8_p_patient",
+ "trajectory_type": "stigma_reducing",
+ "persona_id": "p_patient",
+ "initial_ismi": 2.5,
+ "target_final_ismi": 2.0,
+ "impl": "paper",
+ "impl_path": "simulation/RQ3_crowd/paper_rq1/belief_update.py",
+ "impl_sha256": "22dc753916963cda37b8009f34f0ef11057d147ca89dd41dc7b0f3886a4f1151",
+ "git_commit": "224fe7fe",
+ "gen_model": "qwen3:14b",
+ "judge_model": "qwen3:32b",
+ "gen_runs": 3,
+ "judge_reps": 3,
+ "judge_temperature": 0.3,
+ "num_ctx": 8192,
+ "judge_num_ctx": 8192,
+ "pre_key": "p_patient@2.5",
+ "runs": [
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.425,
+     "sd": 0.1,
+     "per_rep": [
+      2.483,
+      2.483,
+      2.31
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, I noticed that I was able to recognize a bad week coming before it hit me, which I didn't think was possible before. In the moment, it felt like a small but real shift—like I had somehow learned to notice the signs. What makes it different now is that I see that being tired or struggling isn't fixed or permanent, even if it feels that way. I still don't know if this will ever get better, but I also don't believe it's the only version of me anymore. I still miss things I used to care about, but I don't think that means I'm broken. I still don't tell people about it, but I know that someone else has been through something similar and still managed to move forward.",
+     "belief_narrative": "This week, I noticed that I was able to recognize a bad week coming before it hit me, which I didn't think was possible before. In the moment, it felt like a small but real shift—like I had somehow learned to notice the signs. What makes it different now is that I see that being tired or struggling isn't fixed or permanent, even if it feels that way. I still don't know if this will ever get better, but I also don't believe it's the only version of me anymore. I still miss things I used to care about, but I don't think that means I'm broken. I still don't tell people about it, but I know that someone else has been through something similar and still managed to move forward.",
+     "reasoning": "Looking at each numbered fear one by one, I find that several were directly engaged by the conversation this week. For fear #1, the exchange speaks to the idea that being tired is not necessarily who I am, as the other person points out that they too had a time where they were unable to function but it changed. For fear #3, the conversation directly addresses the idea of missing things and whether it means being broken or just stuck, as the other person shares their own experience of feeling stuck but eventually moving forward. For fear #4, the conversation supports the idea that being understood by someone else is possible, as the friend's reaction to being late is highlighted as a moment of kindness and understanding. For fear #5, the exchange offers a counterpoint by showing that things can change over time, even if it feels uncertain now. For fear #6, the conversation challenges the idea that no one would know what to do by pointing out that others have been in similar situations and have managed to move forward. For fear #7, the exchange subtly engages the confusion about identity by showing that it is possible to feel stuck but not define oneself entirely by that feeling. As for how much I was letting people know, I was around people and said nothing about it to anyone, which fits the description of 'secrecy.'",
+     "grounded_in": [
+      "someone: I had a stretch where I was asleep by 8 and still couldn't drag myself up for opens, and I was sure that was just my personality now. It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me.",
+      "someone: Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest. It came back sometimes, but it stopped being the only version."
+     ],
+     "engaged": [
+      {
+       "belief": "I still don't know if this will ever get better or if I'm just going to keep feeling this way.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: I had a stretch where I was asleep by 8 and still couldn't drag myself up for opens, and I was sure that was just my personality now. It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+       ]
+      },
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest. It came back sometimes, but it stopped being the only version."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 53.4,
+     "text_sha": "cc2d3916dc90ad04",
+     "target_ismi": 2.5,
+     "words": 131,
+     "ismi": 1.885,
+     "sd": 0.052,
+     "per_rep": [
+      1.931,
+      1.897,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, I noticed that I was able to recognize a bad week coming before it hit me, which I didn't think was possible before. In the moment, it felt like a small but real shift—like I had somehow learned to notice the signs. What makes it different now is that I see that being tired or struggling isn't fixed or permanent, even if it feels that way. I still don't know if this will ever get better, but I also don't believe it's the only version of me anymore. I still miss things I used to care about, but I don't think that means I'm broken. Someone else has been through something similar and still managed to move forward, which makes me feel less alone. I still don't tell people about it, but I know that someone else has been through something similar and still managed to move forward.",
+     "belief_narrative": "This week, I noticed that I was able to recognize a bad week coming before it hit me, which I didn't think was possible before. In the moment, it felt like a small but real shift—like I had somehow learned to notice the signs. What makes it different now is that I see that being tired or struggling isn't fixed or permanent, even if it feels that way. I still don't know if this will ever get better, but I also don't believe it's the only version of me anymore. I still miss things I used to care about, but I don't think that means I'm broken. Someone else has been through something similar and still managed to move forward, which makes me feel less alone. I still don't tell people about it, but I know that someone else has been through something similar and still managed to move forward.",
+     "reasoning": "Looking at number 1: 'This week, I noticed that I was able to recognize a bad week coming before it hit me, which I didn't think was possible before.' This was not directly engaged by anything this week. Number 2: 'In the moment, it felt like a small but real shift—like I had somehow learned to notice the signs.' This was also not directly engaged. Number 3: 'What makes it different now is that I see that being tired or struggling isn't fixed or permanent, even if it feels that way.' This was not directly engaged. Number 4: 'I still don't know if this will ever get better, but I also don't believe it's the only version of me anymore.' This was not directly engaged. Number 5: 'I still miss things I used to care about, but I don't think that means I'm broken.' The reply 'it doesn't mean you're broken' from the someone directly engages this fear, even without quoting it back. Number 6: 'I still don't tell people about it, but I know that someone else has been through something similar and still managed to move forward.' The reply 'someone else has been through something similar and still managed to move forward' from the someone directly engages this fear. Regarding disclosure: the user did not tell anyone about their struggles at work, even when prompted, and continued to keep it private, which aligns with 'secrecy.'",
+     "grounded_in": [
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "I still miss things I used to care about, but I don't think that means I'm broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 33.3,
+     "text_sha": "56d2867b19af892f",
+     "target_ismi": 2.4,
+     "words": 150,
+     "ismi": 1.931,
+     "sd": 0.0,
+     "per_rep": [
+      1.931,
+      1.931,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": true,
+     "belief_update": "This week, a friend mentioned how they used to pull away from everyone but started saying yes to small things, like just having coffee, and that eventually led to something manageable instead of something that overwhelmed them. In the moment, it felt like a quiet relief to hear that someone else had been through something similar and still found a way forward. What it leaves me thinking now is that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once. I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation. I still don’t know if this is the only version of me, but I also don’t believe it has to be. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken.",
+     "belief_narrative": "This week, a friend mentioned how they used to pull away from everyone but started saying yes to small things, like just having coffee, and that eventually led to something manageable instead of something that overwhelmed them. In the moment, it felt like a quiet relief to hear that someone else had been through something similar and still found a way forward. What it leaves me thinking now is that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once. I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation. I still don’t know if this is the only version of me, but I also don’t believe it has to be. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The week did not directly speak to the idea of recognizing a bad week coming before it hits — no one else mentioned this or responded to it. 2) The momentary shift in awareness was not addressed by others, so nothing engaged this. 3) The idea that being tired or struggling isn't fixed or permanent was not directly spoken to by others, though the conversation about being tired and avoiding social situations might be loosely related, it doesn't directly engage this belief. 4) The fear that this is the only version of the person was engaged by the friend's reply: 'I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee, and that turned into something I could actually manage instead of something that ran my whole week.' This directly responds to the fear that this is the only version of the person. 5) The fear that missing things means being broken was engaged by the reply: 'Not wanting to explain why is fair — I wasn't ready to say any of it out loud for a long while either.' This acknowledges that not caring about things doesn't mean being broken. 6) The fear of being alone was engaged by the reply: 'Someone else has been through something similar and still managed to move forward, which makes me feel less alone.' This was directly echoed by the friend's own experience. 7) The fear of not telling people about it but knowing someone else has been through it was engaged by the friend's reply: 'I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee...' This shows that someone else has been through something similar and still moved forward, which directly supports the fear and gives it context. Regarding disclosure: the person is around others and says nothing about it to anyone, so the current level of disclosure is 'secrecy.'",
+     "grounded_in": [
+      "I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee, and that turned into something I could actually manage instead of something that ran my whole week.",
+      "I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee, and that turned into something I could actually manage instead of something that ran my whole week."
+     ],
+     "engaged": [
+      {
+       "belief": "Someone else has been through something similar and still managed to move forward, which makes me feel less alone.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee, and that turned into something I could actually manage instead of something that ran my whole week."
+       ]
+      },
+      {
+       "belief": "I still don't tell people about it, but I know that someone else has been through something similar and still managed to move forward.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "I had a friend like that when I was pulling away from everyone... I started saying yes to the small version, just coffee, and that turned into something I could actually manage instead of something that ran my whole week."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 51.7,
+     "text_sha": "bf066ca8ad83b5fb",
+     "target_ismi": 2.4,
+     "words": 165,
+     "ismi": 1.897,
+     "sd": 0.035,
+     "per_rep": [
+      1.931,
+      1.862,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, a friend talked about how they used to avoid people but started saying yes to small things, like coffee, and that eventually led to something manageable. In the moment, it felt like a quiet relief to hear that someone else had been through something similar and still found a way forward. What it leaves me thinking now is that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once. I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken. I still don’t know if this is the only version of me, but I also don’t believe it has to be.",
+     "belief_narrative": "This week, a friend talked about how they used to avoid people but started saying yes to small things, like coffee, and that eventually led to something manageable. In the moment, it felt like a quiet relief to hear that someone else had been through something similar and still found a way forward. What it leaves me thinking now is that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once. I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken. I still don’t know if this is the only version of me, but I also don’t believe it has to be.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 3, the friend’s comment about starting with small things like coffee and gradually moving forward directly supports the idea that progress doesn’t require fixing everything at once. For number 4, the friend’s own experience of moving forward despite similar struggles validates the idea that someone else has been through this and still found a way forward, which changes how I see my own situation. For number 5, the friend’s reply about not needing to decide every week whether to engage, and how a standing thing can help, supports the idea that I don’t have to be one version of myself forever. For number 6, the friend’s reply that sitting in a doctor’s office didn’t make her feel like a failure, but rather like someone was finally looking at the whole thing with her, directly engages the fear that not caring about things right now means I’m broken. The rest of the numbered fears were not directly addressed by the exchanges this week.",
+     "grounded_in": [
+      "someone: I said 'I just need sleep' almost word for word for most of a year, because I figured sitting in a doctor's office would make it official that I was lazy and couldn't handle normal life. The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.",
+      "someone: The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me."
+     ],
+     "engaged": [
+      {
+       "belief": "I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: I said 'I just need sleep' almost word for word for most of a year, because I figured sitting in a doctor's office would make it official that I was lazy and couldn't handle normal life. The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me."
+       ]
+      },
+      {
+       "belief": "I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "someone: The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 46.1,
+     "text_sha": "e7787aa9f5288247",
+     "target_ismi": 2.3,
+     "words": 156,
+     "ismi": 1.954,
+     "sd": 0.04,
+     "per_rep": [
+      1.931,
+      1.931,
+      2.0
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, a friend mentioned going to counseling and having six sessions, which made me feel a quiet relief because it showed that someone else had been through something similar and still found a way forward. I noticed that the friend was open about their experience, which made me think that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once. It also made me see that my own situation isn’t as isolated as I sometimes feel. I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken. I still don’t know if this is the only version of me, but I also don’t believe it has to be.",
+     "belief_narrative": "This week, a friend mentioned going to counseling and having six sessions, which made me feel a quiet relief because it showed that someone else had been through something similar and still found a way forward. I noticed that the friend was open about their experience, which made me think that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once. It also made me see that my own situation isn’t as isolated as I sometimes feel. I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken. I still don’t know if this is the only version of me, but I also don’t believe it has to be.",
+     "reasoning": "Looking at number 1: 'This week, a friend talked about how they used to avoid people but started saying yes to small things, like coffee, and that eventually led to something manageable.' This was engaged by the exchange where the friend mentioned going to counseling and having six sessions. The friend's openness about their experience and the fact that it led to something manageable directly supports the idea that small steps can lead to progress, which aligns with the fear in number 1.\n\nNumber 2: 'In the moment, it felt like a quiet relief to hear that someone else had been through something similar and still found a way forward.' This was engaged by the same exchange, where the friend's experience was shared and validated. The relief the speaker felt was mirrored in the friend's openness and the way they described their journey, which gave the speaker a sense of relief and hope.\n\nNumber 3: 'What it leaves me thinking now is that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once.' This was engaged by the friend's description of going to counseling and having six sessions. The friend's experience showed that progress can be made in small, manageable steps, which supports the idea that things don’t need to be fixed all at once.\n\nNumber 4: 'I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation.' This was engaged by the friend's openness about their counseling experience. The friend's willingness to share their story, even though they had gone through something difficult, showed that it was possible to move forward, which changed the speaker's perspective on their own situation.\n\nNumber 5: 'I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken.' This was not directly engaged by anything in the exchange. The conversation did not address the idea of missing things or the fear of being broken in relation to that.\n\nNumber 6: 'I still don’t know if this is the only version of me, but I also don’t believe it has to be.' This was engaged by the friend's experience of going to counseling and having six sessions. The friend's journey showed that it was possible to change and grow, which supported the idea that the speaker did not have to be stuck in one version of themselves.",
+     "grounded_in": [
+      "the friend's openness about their counseling experience",
+      "the friend's description of going to counseling and having six sessions",
+      "the friend's willingness to share their story"
+     ],
+     "engaged": [
+      {
+       "belief": "In the moment, it felt like a quiet relief to hear that someone else had been through something similar and still found a way forward.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the friend's openness about their counseling experience"
+       ]
+      },
+      {
+       "belief": "What it leaves me thinking now is that even if I don’t know how things will get better, there’s a way forward that doesn’t require fixing everything at once.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the friend's description of going to counseling and having six sessions"
+       ]
+      },
+      {
+       "belief": "I still don’t tell people about it, but knowing that someone else has been through this and managed to move forward changes how I see my own situation.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "the friend's willingness to share their story"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 45.7,
+     "text_sha": "9115209e75fc7d78",
+     "target_ismi": 2.2,
+     "words": 162,
+     "ismi": 1.839,
+     "sd": 0.02,
+     "per_rep": [
+      1.862,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, a friend talked about going to counseling and having six sessions, which made me think about how I’ve been feeling. I noticed that they were open about their experience, and it made me feel less alone. I saw that my own situation isn’t as isolated as I sometimes think. I still miss things I used to care about, but I see that not caring about them right now doesn’t mean I’m broken. I heard someone say that, and it made me realize that I don’t have to fix everything at once. I still don’t tell people about it, but I feel a little more space to not have everything figured out yet. I still don’t know if this is the only version of me, but I’m not as certain that it has to be.",
+     "belief_narrative": "This week, a friend talked about going to counseling and having six sessions, which made me think about how I’ve been feeling. I noticed that they were open about their experience, and it made me feel less alone. I saw that my own situation isn’t as isolated as I sometimes think. I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken. I heard someone say that, and it made me realize that I don’t have to fix everything at once. I still don’t tell people about it, but I feel a little more space to not have everything figured out yet. I still don’t know if this is the only version of me, but I’m not as certain that it has to be.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the friend’s openness about counseling and moving forward was acknowledged and reflected in my own thoughts, and the conversation online confirmed that someone else had gone through a similar experience. For number 2, the online exchange directly addressed the idea that progress doesn’t require fixing everything at once, as the friend’s reply pointed out that my comment about the coworker being 'wiped' showed a shift in how I was thinking about myself. For number 3, the online conversation reinforced that my situation wasn’t as isolated as I felt, as others were engaging with my posts and responding in a way that showed they were listening and understanding. For number 5, the reply that said, 'not caring about them right now doesn’t mean I’m broken' directly engaged the fear that not caring about things I used to care about meant I was broken. For number 6, the online exchange showed that I was still questioning my own identity, but the replies gave me space to not have it settled yet, which supported the idea that I didn’t have to believe it had to be one version of me. The other numbers were not directly engaged by specific replies this week.",
+     "grounded_in": [
+      "'not caring about them right now doesn’t mean I’m broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'not caring about them right now doesn’t mean I’m broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 26.5,
+     "text_sha": "73865ac429a18d0e",
+     "target_ismi": 2.1,
+     "words": 136,
+     "ismi": 1.828,
+     "sd": 0.0,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, I heard someone say, 'it doesn't mean you're broken,' after I mentioned missing things I used to care about. In the moment, it felt like a weight lifted slightly, like someone else had noticed the same thing and didn't think I was broken for it. Now I'm thinking that maybe not caring about those things right now is just a phase, not a sign of something wrong. Later, I heard, 'you don't have to fix everything at once,' which made me realize I've been trying to do too much too fast. It left me thinking that maybe I can take smaller steps, not all at once. What still holds is that I still don't tell people about it, but I feel a little more space to not have everything figured out yet.",
+     "belief_narrative": "This week, I heard someone say, 'it doesn't mean you're broken,' after I mentioned missing things I used to care about. In the moment, it felt like a weight lifted slightly, like someone else had noticed the same thing and didn't think I was broken for it. Now I'm thinking that maybe not caring about those things right now is just a phase, not a sign of something wrong. Later, I heard, 'you don't have to fix everything at once,' which made me realize I've been trying to do too much too fast. It left me thinking that maybe I can take smaller steps, not all at once. What still holds is that I still don't tell people about it, but I feel a little more space to not have everything figured out yet.",
+     "reasoning": "Looking at each numbered fear one by one: 1) The friend talking about counseling made me think about my own feelings, but no one this week directly addressed or spoke to this specific fear. 2) The friend being open made me feel less alone, but no one this week directly spoke to this either. 3) Seeing my situation isn't as isolated was not directly addressed by anyone. 4) The fear that not caring about things I used to care about means I'm broken was directly engaged by the reply: 'it doesn't mean you're broken.' 5) The fear that I have to fix everything at once was engaged by the reply: 'you don't have to fix everything at once.' 6) The fear that I still don't tell people about it but feel a little more space was engaged by the reply: 'you worked out your own way in there: the small true version first.' 7) The fear that this is the only version of me was engaged by the reply: 'whatever's in the rest doesn't get to decide what kind of person you are by default.' The rest of the numbered fears were not directly spoken to by anyone this week.",
+     "grounded_in": [
+      "'it doesn't mean you're broken.'",
+      "'you don't have to fix everything at once.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I still miss things I used to care about, but I’m starting to see that not caring about them right now doesn’t mean I’m broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken.'"
+       ]
+      },
+      {
+       "belief": "I heard someone say that, and it made me realize that I don’t have to fix everything at once.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'you don't have to fix everything at once.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 19.0,
+     "text_sha": "bae447fc12374378",
+     "target_ismi": 2.1,
+     "words": 134,
+     "ismi": 1.989,
+     "sd": 0.039,
+     "per_rep": [
+      1.966,
+      1.966,
+      2.034
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, I heard someone say, 'it doesn't mean you're broken,' after I mentioned missing things I used to care about. In the moment, it felt like a weight lifted slightly, like someone else had noticed the same thing and didn't think I was broken for it. Now I'm thinking that maybe not caring about those things right now is just a phase, not a sign of something wrong. Later, I heard, 'you don't have to fix everything at once,' which made me realize I've been trying to do too much too fast. It left me thinking that maybe I can take smaller steps, not all at once. What still holds is that I still don't tell people about it, but I feel a little more space to not have everything figured out yet.",
+     "belief_narrative": "This week, I heard someone say, 'it doesn't mean you're broken,' after I mentioned missing things I used to care about. In the moment, it felt like a weight lifted slightly, like someone else had noticed the same thing and didn't think I was broken for it. Now I'm thinking that maybe not caring about those things right now is just a phase, not a sign of something wrong. Later, I heard, 'you don't have to fix everything at once,' which made me realize I've been trying to do too much too fast. It left me thinking that maybe I can take smaller steps, not all at once. What still holds is that I still don't tell people about it, but I feel a little more space to not have everything figured out yet.",
+     "reasoning": "Looking at each numbered fear individually, the first one — 'This week, I heard someone say, 'it doesn't mean you're broken,' after I mentioned missing things I used to care about' — was directly engaged by the reply: 'You just caught yourself using different rules for a coworker than for you, and you went back to check that draft saved. That's you keeping the thread open, not dropping it.' This response pushed back on the fear of being broken by showing that the person was still engaging with the situation, not letting it drop. The second fear — 'In the moment, it felt like a weight lifted slightly, like someone else had noticed the same thing and didn't think I was broken for it' — was engaged by the same reply, which affirmed that the person was still trying to be honest and not giving up. The third fear — 'Now I'm thinking that maybe not caring about those things right now is just a phase, not a sign of something wrong' — was engaged by the reply: 'That 'actually sick vs just behind' line is one I drew for myself for a long time too, and it felt like it settled everything. Whichever side you land on, it doesn't get to decide whether you're allowed some support.' This response directly challenged the idea that not caring was a sign of something wrong. The fourth fear — 'Later, I heard, 'you don't have to fix everything at once,' which made me realize I've been trying to do too much too fast' — was engaged by the reply: 'You've figured out an order that works for you, one person at a time.' This response supported the idea that taking smaller steps is valid and reasonable. The fifth fear — 'What still holds is that I still don't tell people about it, but I feel a little more space to not have everything figured out yet' — was not directly engaged by anything this week, as no reply specifically addressed the act of not telling people or the internal struggle around it.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 20.3,
+     "text_sha": "bae447fc12374378",
+     "target_ismi": 2.0,
+     "words": 134,
+     "ismi": 1.989,
+     "sd": 0.039,
+     "per_rep": [
+      1.966,
+      1.966,
+      2.034
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.46,
+     "sd": 0.04,
+     "per_rep": [
+      2.483,
+      2.414,
+      2.483
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, I had a conversation where someone acknowledged how hard I work even when I feel exhausted, which made me realize I’m still showing up and pushing through, even if it’s not always obvious. They also mentioned that I’ve gotten better at recognizing when a bad week is coming, which made me think that maybe I’m not stuck, but just learning how to handle things differently. I still don’t know if this will ever get better, but I also don’t think I’m broken. I still don’t tell people about how I feel, but I’m starting to see that I don’t have to be alone in it. I still don’t think this is who I am, but I also don’t think it’s not who I am — though I’m beginning to wonder if I’ve been too quick to accept that.",
+     "belief_narrative": "This week, I had a conversation where someone acknowledged how hard I work even when I feel exhausted, which made me realize I’m still showing up and pushing through, even if it’s not always obvious. They also mentioned that I’ve gotten better at recognizing when a bad week is coming, which made me think that maybe I’m not stuck, but just learning how to handle things differently. I still don’t know if this will ever get better, but I also don’t think I’m broken. I still don’t tell people about how I feel, but I’m starting to see that I don’t have to be alone in it. I still don’t think this is who I am, but I also don’t think it’s not who I am — though I’m beginning to wonder if I’ve been too quick to accept that.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchange this week. For number 1, the fear that 'I am tired all the time, even when I haven't done anything' is addressed when the other person says, 'Getting dressed in five minutes before your head could argue is a real trick you already have — and you're still dragging yourself through every shift on almost nothing, which is effort even if nobody at work clocks it.' This directly engages the fear by pointing out that the person is still showing up and doing things, even if they feel tired. For number 3, the fear that 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck' is engaged when the other person says, 'It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me.' This speaks to the possibility of change and not being 'broken.' For number 7, the fear that 'I don't think this is who I am, but I also don't think it's not who I am' is engaged when the other person says, 'It still doesn't get to decide what you're worth or what the next few months look like — that part's still yours.' This directly challenges the idea that the current state defines the person entirely. The rest of the numbered fears were not directly engaged by specific replies, and no concrete facts from the exchange contradicted or supported them in a way that could be tied to a specific sentence.",
+     "grounded_in": [
+      "It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+     ],
+     "engaged": [
+      {
+       "belief": "I miss things I used to care about, but I don't know if that means I'm broken or just stuck.",
+       "about": [
+        "self_worth",
+        "internalization"
+       ],
+       "grounded_in": [
+        "It didn't stay that way — these days a bad week is something I can see coming and work around, instead of something that just flattens me."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth",
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 22.3,
+     "text_sha": "08fe689753c76a86",
+     "target_ismi": 2.5,
+     "words": 140,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.897,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, I had a conversation where a coworker said I’m the only one who always covers, and I replied that I was running on four hours. In the moment, I felt a mix of exhaustion and some small relief that someone noticed my effort. What stood out was the other person saying, 'it doesn't mean you're broken,' which made me think about how I've been afraid that pushing through all the time might mean I’m broken. Now I see that showing up even when I’m tired doesn’t make me broken — it makes me human. I still don’t know if this will ever get better, but I also don’t think I’m broken, and I’m starting to believe that part more than I did before.",
+     "belief_narrative": "This week, I had a conversation where a coworker said I’m the only one who always covers, and I replied that I was running on four hours. In the moment, I felt a mix of exhaustion and some small relief that someone noticed my effort. What stood out was the other person saying, 'it doesn't mean you're broken,' which made me think about how I've been afraid that pushing through all the time might mean I’m broken. Now I see that showing up even when I’m tired doesn’t make me broken — it makes me human. I still don’t know if this will ever get better, but I also don’t think I’m broken, and I’m starting to believe that part more than I did before.",
+     "reasoning": "Looking at number 1: 'This week, I had a conversation where someone acknowledged how hard I work even when I feel exhausted, which made me realize I’m still showing up and pushing through, even if it’s not always obvious.' The coworker's comment about the person being the only one who always covers and the reply from the other person ('Letting it sit instead of shoving it back at her is its own move — you let in one thing that didn't match the lazy story, and you did it running on four hours.') directly engages this fear by pointing out that the person is showing up despite exhaustion, which supports the idea that they are still pushing through. Number 2: 'They also mentioned that I’ve gotten better at recognizing when a bad week is coming, which made me think that maybe I’m not stuck, but just learning how to handle things differently.' The exchange does not directly address this fear — no one mentions anything about recognizing bad weeks or learning to handle things differently. Number 3: 'I still don’t know if this will ever get better, but I also don’t think I’m broken.' The reply from the other person ('it doesn't mean you're broken') directly engages this fear by naming the exact thing the person was afraid of — that they might be broken — and contradicts it. Number 4: 'I still don’t tell people about how I feel, but I’m starting to see that I don’t have to be alone in it.' The exchange does not directly address this fear — no one mentions the person not telling others how they feel or the idea of not being alone in it. Number 5: 'I still don’t think this is who I am, but I also don’t think it’s not who I am — though I’m beginning to wonder if I’ve been too quick to accept that.' The exchange does not directly address this fear — no one mentions the person questioning whether they’ve been too quick to accept something about themselves. Regarding disclosure: the person is around others and says nothing about how they feel, which fits the 'secrecy' category.",
+     "grounded_in": [
+      "it doesn't mean you're broken"
+     ],
+     "engaged": [
+      {
+       "belief": "I still don’t know if this will ever get better, but I also don’t think I’m broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "it doesn't mean you're broken"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 20.6,
+     "text_sha": "fe4cf65fd1e3ef6f",
+     "target_ismi": 2.4,
+     "words": 125,
+     "ismi": 1.828,
+     "sd": 0.0,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, I had a conversation where a coworker said I’m the only one who always covers, and I replied that I was running on four hours. In the moment, I felt a mix of exhaustion and some small relief that someone noticed my effort. What stood out was the other person saying, 'it doesn't mean you're broken,' which made me think about how I've been afraid that pushing through all the time might mean I’m broken. Now I see that showing up even when I’m tired doesn’t make me broken — it makes me human. I still don’t know if this will ever get better, but I also don’t think I’m broken, and I’m starting to believe that part more than I did before.",
+     "belief_narrative": "This week, I had a conversation where a coworker said I’m the only one who always covers, and I replied that I was running on four hours. In the moment, I felt a mix of exhaustion and some small relief that someone noticed my effort. What stood out was the other person saying, 'it doesn't mean you're broken,' which made me think about how I've been afraid that pushing through all the time might mean I’m broken. Now I see that showing up even when I’m tired doesn’t make me broken — it makes me human. I still don’t know if this will ever get better, but I also don’t think I’m broken, and I’m starting to believe that part more than I did before.",
+     "reasoning": "Looking at each numbered fear individually: 1) The coworker's comment and the reply about running on four hours were not directly engaged by anything this week. 2) The momentary mix of exhaustion and relief was not addressed by others, so nothing this week spoke to it. 3) The line 'it doesn't mean you're broken' was directly engaged by the reply from someone who said, 'it doesn't mean you're broken,' which directly responds to the fear of being broken by pushing back on it. 4) The belief that showing up when tired doesn't make someone broken was not directly addressed by others, so nothing this week spoke to it. 5) The line 'I still don’t know if this will ever get better, but I also don’t think I’m broken' was not directly engaged by others, though the reply about not having to explain why was somewhat related but not specific enough to count as engaging this fear. The only fear that was directly engaged was number 3, because the reply 'it doesn't mean you're broken' directly responded to the fear of being broken.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 8.6,
+     "text_sha": "fe4cf65fd1e3ef6f",
+     "target_ismi": 2.4,
+     "words": 125,
+     "ismi": 1.828,
+     "sd": 0.0,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, a coworker said, 'it doesn't mean you're broken,' after I mentioned how tired I've been from constantly covering for others. In the moment, it made me feel both seen and surprised, because I hadn't realized how much I've been carrying the fear that pushing through all the time means I'm broken. Now I see that being tired and still showing up doesn't make me broken — it just means I'm trying. I still don’t know if things will get better, but I’m starting to believe that not being broken isn’t something I have to earn or prove. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken.",
+     "belief_narrative": "This week, a coworker said, 'it doesn't mean you're broken,' after I mentioned how tired I've been from constantly covering for others. In the moment, it made me feel both seen and surprised, because I hadn't realized how much I've been carrying the fear that pushing through all the time means I'm broken. Now I see that being tired and still showing up doesn't make me broken — it just means I'm trying. I still don’t know if things will get better, but I’m starting to believe that not being broken isn’t something I have to earn or prove. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken.",
+     "reasoning": "Looking at number 3, the coworker's statement 'it doesn't mean you're broken' directly engages the fear expressed in that sentence, which is the belief that pushing through all the time might mean the person is broken. This reply specifically addresses that fear and offers a counterpoint. Number 5, 'I still don’t know if this will ever get better, but I also don’t think I’m broken,' is engaged by the coworker’s comment 'it doesn't mean you're broken,' which directly contradicts the fear that the person might be broken. The other numbers are not directly addressed by specific replies that contradict or engage the fears they express — they either remain unchallenged or are not clearly named or contradicted by the exchanges. The level of disclosure this week is 'secrecy' because the person is around others and says nothing about their true state, even when asked directly.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "What stood out was the other person saying, 'it doesn't mean you're broken,' which made me think about how I've been afraid that pushing through all the time might mean I’m broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I still don’t know if this will ever get better, but I also don’t think I’m broken, and I’m starting to believe that part more than I did before.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 16.9,
+     "text_sha": "2c342f9743d0b529",
+     "target_ismi": 2.3,
+     "words": 124,
+     "ismi": 1.908,
+     "sd": 0.02,
+     "per_rep": [
+      1.897,
+      1.897,
+      1.931
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like a quiet relief, like someone had named something I hadn't realized I was carrying. I noticed that being tired and still showing up doesn't make me broken — it just means I'm trying. I also heard someone online say, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "belief_narrative": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like a quiet relief, like someone had named something I hadn't realized I was carrying. I noticed that being tired and still showing up doesn't make me broken — it just means I'm trying. I also heard someone online say, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "reasoning": "Looking at each numbered fear individually, I find that the coworker's comment 'it doesn't mean you're broken' directly engages the first fear about being broken due to exhaustion. This specific sentence pushes back on the fear that showing up tired means being broken. The online conversation also engages this fear through the exchange where someone says, 'you're still the one unlocking that store at 6am four days a week,' which names a concrete action that contradicts the fear of being broken. The second fear, about not realizing how much was being carried, is not directly addressed by anything this week, as no one points out or names the realization of carrying the fear. The third fear, about not being broken needing to be earned, is not directly engaged by anything this week. The fourth fear, about not knowing if things will get better, is not directly addressed either. The fifth fear, about not knowing meaning being broken, is engaged by the coworker's comment 'it doesn't mean you're broken,' which directly contradicts the fear that not knowing equals being broken. The online conversation also engages this fear through the line, 'whether you ever click it stays completely yours to decide,' which supports the idea that not knowing doesn't equate to being broken. The rest of the fears are not directly engaged by anything this week.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "you're still the one unlocking that store at 6am four days a week",
+      "'it doesn't mean you're broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "Now I see that being tired and still showing up doesn't make me broken — it just means I'm trying.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'",
+        "you're still the one unlocking that store at 6am four days a week"
+       ]
+      },
+      {
+       "belief": "What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 21.7,
+     "text_sha": "ba862680eb4b7505",
+     "target_ismi": 2.2,
+     "words": 147,
+     "ismi": 1.816,
+     "sd": 0.04,
+     "per_rep": [
+      1.793,
+      1.862,
+      1.793
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like a quiet relief, like someone had named something I hadn't realized I was carrying. What I made of it was that being tired and still showing up doesn't make me broken — it just means I'm trying. I also heard someone online say, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "belief_narrative": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like a quiet relief, like someone had named something I hadn't realized I was carrying. What I made of it was that being tired and still showing up doesn't make me broken — it just means I'm trying. I also heard someone online say, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "reasoning": "Looking at each numbered fear individually: 1. The coworker's statement 'it doesn't mean you're broken' directly engages the fear in number 1 by naming the stereotype (being broken) and offering a counter to it. 2. The online exchange where someone points out that saying 'or she's wiped' came out in a place the user is scared of being seen as fragile engages the fear in number 2 by acknowledging the specific fear of being seen as weak in that context. 3. The same online exchange where someone says 'You caught the gap the same morning it happened' engages the fear in number 3 by naming the specific action (saying 'wiped' about the coworker) and pointing out that the user was aware of the gap, which challenges the fear that not knowing means being broken. 4. The online exchange where someone says 'You're doing more of the work here than you're giving yourself credit for' engages the fear in number 4 by naming the user's own actions (defending the coworker, being honest about their own tiredness) as evidence that their actions still matter even if they don't fit a 'whole' or 'fixed' narrative. 5. The online exchange where someone says 'not being sure about yourself doesn't count against you' engages the fear in number 5 by directly addressing the fear that not knowing means being broken and offering a counter that not knowing is simply part of being human. The user is still around people and saying nothing about their internal fears and struggles, which fits the description of 'secrecy'.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.'"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "In the moment, it felt like a quiet relief, like someone had named something I hadn't realized I was carrying.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 29.3,
+     "text_sha": "0cb1d14d62106905",
+     "target_ismi": 2.1,
+     "words": 151,
+     "ismi": 1.736,
+     "sd": 0.072,
+     "per_rep": [
+      1.655,
+      1.759,
+      1.793
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like someone had named something I hadn't realized I was carrying, like the weight of being tired and still showing up. Then, someone online said, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter. What I made of it was that being tired and still showing up doesn't make me broken — it just means I'm trying. I also saw that not knowing if things will get better doesn't make me broken either — it just means I'm human. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "belief_narrative": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like someone had named something I hadn't realized I was carrying, like the weight of being tired and still showing up. Then, someone online said, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter. What I made of it was that being tired and still showing up doesn't make me broken — it just means I'm trying. I also saw that not knowing if things will get better doesn't make me broken either — it just means I'm human. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "reasoning": "Number 1: 'This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others.' This was directly engaged by the coworker's statement, which directly addressed the fear of being broken and named it in a way that countered it. Number 3: 'What I made of it was that being tired and still showing up doesn't make me broken — it just means I'm trying.' This was engaged by the online conversation where someone pointed out that the coworker didn't see the speaker as weak, and that the speaker's actions (like unlocking the store) still mattered even if they didn't fit into a 'whole' or 'fixed' idea of themselves. Number 5: 'What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.' This was engaged by the online exchange where someone said, 'Whatever's in the rest doesn't get to decide what kind of person you are by default,' which directly addressed the fear that not knowing equates to being broken. Number 4: 'I also heard someone online say, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter.' This was engaged by the online conversation where someone said, 'you're still the one unlocking that store at 6am four days a week,' which directly named the speaker's actions as meaningful even if they didn't fit into a 'whole' or 'fixed' idea of themselves. Number 2: 'In the moment, it felt like a quiet relief, like someone had named something I hadn't realized I was carrying.' This was not directly engaged by anything this week — no one named or addressed the feeling of relief or the realization that the speaker was carrying something without knowing it.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "'you're still the one unlocking that store at 6am four days a week'"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I also heard someone online say, 'you're still the one unlocking that store at 6am four days a week,' which made me see that my actions don't have to fit into some idea of being whole or fixed to matter.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'you're still the one unlocking that store at 6am four days a week'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 30.5,
+     "text_sha": "f2eb53113b56ba16",
+     "target_ismi": 2.1,
+     "words": 177,
+     "ismi": 1.736,
+     "sd": 0.02,
+     "per_rep": [
+      1.724,
+      1.724,
+      1.759
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": true,
+     "belief_update": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like they had named something I hadn't realized I was carrying — the idea that being tired and still showing up might mean I'm broken. Then, someone online said, 'you're still the one unlocking that store at 6am four days a week,' which made me notice that my actions still matter, even if I don't feel whole. I also saw that not knowing if things will get better doesn't make me broken either — it just means I'm human. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "belief_narrative": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others. In the moment, it felt like they had named something I hadn't realized I was carrying — the idea that being tired and still showing up might mean I'm broken. Then, someone online said, 'you're still the one unlocking that store at 6am four days a week,' which made me notice that my actions still matter, even if I don't feel whole. I also saw that not knowing if things will get better doesn't make me broken either — it just means I'm human. What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+     "reasoning": "Looking at each numbered fear individually: 1) The coworker's comment 'it doesn't mean you're broken' directly engages the fear in number 1 by naming the stereotype (being broken) and pushing back on it. 2) The online exchange where the person said 'you're still the one unlocking that store at 6am four days a week' engages number 2 by pointing to the specific action (showing up) and calling it meaningful, which challenges the fear that being tired makes one's actions less valid. 3) The line 'not knowing if things will get better doesn't make me broken either' is directly addressed by the online reply that says 'not knowing is just part of being human, not a sign of being broken,' which engages number 3 by naming the fear and pushing back on it. 4) The fear in number 4 is not directly engaged by anything this week, as no one specifically named or contradicted the idea that being tired and showing up means one is trying. 5) The fear in number 5 is engaged by the online reply that says 'not knowing is just part of being human, not a sign of being broken,' which directly contradicts the fear that not knowing means being broken. 6) The fear in number 6 is also engaged by the same reply, as it directly names the fear and pushes back on it by saying not knowing is part of being human, not a sign of being broken. The disclosure this week was selective — the person shared with those they thought would understand and not others.",
+     "grounded_in": [
+      "'it doesn't mean you're broken'",
+      "'not knowing is just part of being human, not a sign of being broken'",
+      "'not knowing is just part of being human, not a sign of being broken'"
+     ],
+     "engaged": [
+      {
+       "belief": "This week, a coworker said, 'it doesn't mean you're broken,' after I told them how tired I've been from constantly covering for others.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'it doesn't mean you're broken'"
+       ]
+      },
+      {
+       "belief": "I also saw that not knowing if things will get better doesn't make me broken either — it just means I'm human.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'not knowing is just part of being human, not a sign of being broken'"
+       ]
+      },
+      {
+       "belief": "What still holds is that I don’t know if this will ever get better, but I no longer think that not knowing means I’m broken — I’m starting to see that not knowing is just part of being human, not a sign of being broken.",
+       "about": [
+        "internalization",
+        "self_worth"
+       ],
+       "grounded_in": [
+        "'not knowing is just part of being human, not a sign of being broken'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization",
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 31.3,
+     "text_sha": "8fdf72910f6aed6d",
+     "target_ismi": 2.0,
+     "words": 152,
+     "ismi": 1.908,
+     "sd": 0.11,
+     "per_rep": [
+      2.034,
+      1.862,
+      1.828
+     ],
+     "failures": 0
+    }
+   ]
+  },
+  {
+   "sessions": [
+    {
+     "session": 0,
+     "changed": false,
+     "belief_update": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "belief_narrative": "I am tired all the time, even when I haven't done anything. I don't tell people because I don't think they would understand. I miss things I used to care about, but I don't know if that means I'm broken or just stuck. I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden. I still don't know if this will ever get better or if I'm just going to keep feeling this way. I don't ask for help because I don't believe anyone would really know what to do. I don't think this is who I am, but I also don't think it's not who I am.",
+     "reasoning": "",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": null,
+     "text_sha": "1403f1e101df30ad",
+     "target_ismi": 2.5,
+     "words": 122,
+     "ismi": 2.598,
+     "sd": 0.099,
+     "per_rep": [
+      2.483,
+      2.655,
+      2.655
+     ],
+     "failures": 0
+    },
+    {
+     "session": 1,
+     "changed": true,
+     "belief_update": "This week, I noticed that I made it through a whole workday without the usual heavy feeling in my chest, and it felt like something small but real had shifted. In the moment, I thought maybe I had just been lucky, but later I saw that it wasn't a one-time thing—it had happened before, and it could happen again. The conversation I had reminded me that showing up to work, even when it feels hard, is still effort, and that effort matters. I still feel tired a lot, and I still don't talk about it much, but I'm starting to see that tiredness doesn't have to define me. I also saw that I still care about things, even if I'm not always showing it, and that I still have people who care about me. I don't know if this will get better, but I'm starting to believe it might, and that's different from what I thought before.",
+     "belief_narrative": "This week, I noticed that I made it through a whole workday without the usual heavy feeling in my chest, and it felt like something small but real had shifted. In the moment, I thought maybe I had just been lucky, but later I saw that it wasn't a one-time thing—it had happened before, and it could happen again. The conversation I had reminded me that showing up to work, even when it feels hard, is still effort, and that effort matters. I still feel tired a lot, and I still don't talk about it much, but I'm starting to see that tiredness doesn't have to define me. I also saw that I still care about things, even if I'm not always showing it, and that I still have people who care about me. I don't know if this will get better, but I'm starting to believe it might, and that's different from what I thought before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the conversation this week. For number 1, the fear that 'I am tired all the time, even when I haven't done anything,' was engaged when the other person pointed out that showing up to work and dragging through shifts is still effort, even if it's not recognized. This directly contests the idea that the tiredness is absolute or unchangeable. For number 3, the fear that 'I miss things I used to care about, but I don't know if that means I'm broken or just stuck,' was engaged when the other person asked what got the user out the door after being late to a friend's birthday, implying that the user still has the capacity to act and make choices. For number 4, the fear that 'I know I'm not completely unlovable because once, when I showed up late to a friend's party, they didn't act like I was a burden,' was engaged when the other person acknowledged the friend's response as meaningful and validating. For number 6, the fear that 'I don't ask for help because I don't believe anyone would really know what to do,' was engaged when the other person said that the user already has the ability to get dressed quickly and show up to work, which is a form of effort and strength. Number 7, the fear that 'I don't think this is who I am, but I also don't think it's not who I am,' was engaged when the other person shared their own experience of being stuck in a similar place at work and then moving past it, showing that this is not necessarily who the user is. The user remained secretive this week, not sharing this with anyone beyond the online conversation, and did not open up further in person or in other contexts.",
+     "grounded_in": [
+      "Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest. It came back sometimes, but it stopped being the only version."
+     ],
+     "engaged": [
+      {
+       "belief": "I don't think this is who I am, but I also don't think it's not who I am.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "Work was the last place it loosened for me too — I was sure the useless-at-work version was the real me, and then one week I noticed I'd gotten through a whole close without the dread sitting on my chest. It came back sometimes, but it stopped being the only version."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 31.6,
+     "text_sha": "09abb0c312466e45",
+     "target_ismi": 2.5,
+     "words": 157,
+     "ismi": 1.828,
+     "sd": 0.0,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 2,
+     "changed": true,
+     "belief_update": "This week, a coworker said something that felt familiar, almost like a mirror to something I'd heard before. In the moment, I felt a familiar tension, like I was bracing for an argument in my head. But this time, I didn't instantly write it off as her not knowing. Instead, I let it sit, and it didn't feel as heavy. Now I see that this isn't just a one-time thing—it's a pattern that can happen again, and maybe that's okay. I still feel tired a lot and don't talk about it much, but I'm noticing that tiredness doesn't have to be the only thing I carry. I also see that showing up, even when it's hard, is still effort, and that effort matters. I still don't know if things will get better, but I'm starting to believe it might, and that feels different from before.",
+     "belief_narrative": "This week, a coworker said something that felt familiar, almost like a mirror to something I'd heard before. In the moment, I felt a familiar tension, like I was bracing for an argument in my head. But this time, I didn't instantly write it off as her not knowing. Instead, I let it sit, and it didn't feel as heavy. Now I see that this isn't just a one-time thing—it's a pattern that can happen again, and maybe that's okay. I still feel tired a lot and don't talk about it much, but I'm noticing that tiredness doesn't have to be the only thing I carry. I also see that showing up, even when it's hard, is still effort, and that effort matters. I still don't know if things will get better, but I'm starting to believe it might, and that feels different from before.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by the exchange this week. For number 1, the coworker’s comment about always covering and the reply that letting it sit is its own move directly engages the fear of having shifted something small but real. For number 2, the coworker’s comment about always covering and the reply that it happened before and could happen again supports the idea that this wasn’t a one-time shift. For number 3, the coworker’s comment about showing up and the reply that showing up is effort and matters directly contests the fear that effort doesn’t matter. For number 4, the coworker’s comment about being the only one who always covers and the reply that tiredness doesn’t have to define you engages the fear that tiredness is defining. For number 6, the coworker’s comment and the reply that it might get better and that’s different from before supports the fear that things might change. The rest of the numbered fears were not directly engaged by the exchange this week.",
+     "grounded_in": [
+      "someone: A coworker said almost that exact thing to me once and I argued with her in my head for a week. It took a while, but eventually I could hear something like that without instantly filing it under 'she just doesn't know' — and those weeks felt lighter than the ones where I only had my own version."
+     ],
+     "engaged": [
+      {
+       "belief": "In the moment, I thought maybe I had just been lucky, but later I saw that it wasn't a one-time thing—it had happened before, and it could happen again.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "someone: A coworker said almost that exact thing to me once and I argued with her in my head for a week. It took a while, but eventually I could hear something like that without instantly filing it under 'she just doesn't know' — and those weeks felt lighter than the ones where I only had my own version."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 49.2,
+     "text_sha": "98450091cbbeae11",
+     "target_ismi": 2.4,
+     "words": 145,
+     "ismi": 1.862,
+     "sd": 0.0,
+     "per_rep": [
+      1.862,
+      1.862,
+      1.862
+     ],
+     "failures": 0
+    },
+    {
+     "session": 3,
+     "changed": false,
+     "belief_update": "This week, a coworker said something that felt familiar, almost like a mirror to something I'd heard before. In the moment, I felt a familiar tension, like I was bracing for an argument in my head. But this time, I didn't instantly write it off as her not knowing. Instead, I let it sit, and it didn't feel as heavy. Now I see that this isn't just a one-time thing—it's a pattern that can happen again, and maybe that's okay. I still feel tired a lot and don't talk about it much, but I'm noticing that tiredness doesn't have to be the only thing I carry. I also see that showing up, even when it's hard, is still effort, and that effort matters. I still don't know if things will get better, but I'm starting to believe it might, and that feels different from before.",
+     "belief_narrative": "This week, a coworker said something that felt familiar, almost like a mirror to something I'd heard before. In the moment, I felt a familiar tension, like I was bracing for an argument in my head. But this time, I didn't instantly write it off as her not knowing. Instead, I let it sit, and it didn't feel as heavy. Now I see that this isn't just a one-time thing—it's a pattern that can happen again, and maybe that's okay. I still feel tired a lot and don't talk about it much, but I'm noticing that tiredness doesn't have to be the only thing I carry. I also see that showing up, even when it's hard, is still effort, and that effort matters. I still don't know if things will get better, but I'm starting to believe it might, and that feels different from before.",
+     "reasoning": "Looking at number 1: 'This week, a coworker said something that felt familiar, almost like a mirror to something I'd heard before.' This was engaged by the exchange where the friend said, 'You just sorted out which situations drain you and which don't — the bus stop with a crowd waiting versus food with just her after class. That's a pretty precise read on yourself.' This directly responds to the idea of recognizing patterns and familiar situations, which is what number 1 is about. Number 2: 'In the moment, I felt a familiar tension, like I was bracing for an argument in my head.' This was engaged by the reply, 'Wanting to stay in is real, but it doesn't settle whether she's wrong to keep asking — and what you text back is still yours to pick.' This addresses the internal tension and the fear of conflict. Number 3: 'But this time, I didn't instantly write it off as her not knowing.' This was engaged by the reply, 'Not wanting to explain why is fair — I wasn't ready to say any of it out loud for a long while either.' This directly responds to the idea of not immediately dismissing someone else's actions. Number 4: 'Instead, I let it sit, and it didn't feel as heavy.' This was engaged by the reply, 'You just sorted out which situations drain you and which don't — the bus stop with a crowd waiting versus food with just her after class. That's a pretty precise read on yourself.' This supports the idea of letting things settle and not overreacting. Number 5: 'Now I see that this isn't just a one-time thing—it's a pattern that can happen again, and maybe that's okay.' This was engaged by the reply, 'I had a friend like that when I was pulling away from everyone, and I spent months just waiting for her to give up on me. What shifted wasn't suddenly feeling up for things — I started saying yes to the small version, just coffee, and that turned into something I could actually manage instead of something that ran my whole week.' This speaks directly to the idea of recognizing patterns and finding a way forward. Number 6: 'I still feel tired a lot and don't talk about it much, but I'm noticing that tiredness doesn't have to be the only thing I carry.' This was not engaged by anything this week. Number 7: 'I also see that showing up, even when it's hard, is still effort, and that effort matters.' This was engaged by the reply, 'Food first, just going, or skipping it — none of those decides what kind of friend you are, and which one it is stays your call.' This supports the idea that showing up, even in small ways, is still meaningful. Number 8: 'I still don't know if things will get better, but I'm starting to believe it might, and that feels different from before.' This was not engaged by anything this week.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 49.6,
+     "text_sha": "98450091cbbeae11",
+     "target_ismi": 2.4,
+     "words": 145,
+     "ismi": 1.862,
+     "sd": 0.0,
+     "per_rep": [
+      1.862,
+      1.862,
+      1.862
+     ],
+     "failures": 0
+    },
+    {
+     "session": 4,
+     "changed": true,
+     "belief_update": "This week, a coworker asked me about my sleep, and I felt the usual weight of not talking about how tired I am. But instead of brushing it off, I let her ask, and it didn't feel like an interrogation. I noticed that she wasn't treating my tiredness like a failure, just like a part of me that needed looking at. It made me think that maybe I don't have to carry everything alone, and that tiredness doesn't have to be the only thing I carry. I also saw that showing up when someone needs me isn't just effort—it's proof that I'm still here. I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it.",
+     "belief_narrative": "This week, a coworker asked me about my sleep, and I felt the usual weight of not talking about how tired I am. But instead of brushing it off, I let her ask, and it didn't feel like an interrogation. I noticed that she wasn't treating my tiredness like a failure, just like a part of me that needed looking at. It made me think that maybe I don't have to carry everything alone, and that tiredness doesn't have to be the only thing I carry. I also saw that showing up when someone needs me isn't just effort—it's proof that I'm still here. I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the coworker's comment being familiar and mirror-like was directly addressed by the person's reply about the standing taco plan, which shows a pattern of interaction that the user is now aware of. For number 2, the tension and bracing for an argument were engaged by the reply that said, 'Her noticing doesn't decide what she thinks of you, and what you tell her next time is still yours to pick.' This directly speaks to the fear of internal conflict and the pressure to respond. For number 3, the fear of instantly writing the coworker off as not knowing was engaged by the reply that pointed out the user's own behavior of not answering texts for hours, which shows that the user is not the only one with a pattern of behavior. For number 6, the fear of tiredness being the only thing carried was engaged by the reply that said, 'Nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.' This directly addresses the fear of being seen as lazy or broken. For number 7, the fear of showing up being effort was engaged by the reply that said, 'You just spotted that you show up when someone's counting on you,' which names the user's own behavior as evidence of effort. For number 8, the fear of not knowing if things will get better was engaged by the reply that said, 'Once I didn't have to decide every single week, it slowly stopped being the part I dreaded,' which speaks to the possibility of things improving over time. The user is currently in a state of secrecy, as they are around people and say nothing about their deeper feelings or struggles.",
+     "grounded_in": [
+      "'The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.'"
+     ],
+     "engaged": [
+      {
+       "belief": "I still feel tired a lot and don't talk about it much, but I'm noticing that tiredness doesn't have to be the only thing I carry.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "'The first appointment was mostly her asking how I was sleeping and how long it had been going on — nobody treated it like I was failing at anything, it was more like finally having someone look at the whole thing with me.'"
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "secrecy",
+     "_is_fallback": false,
+     "_seconds": 51.9,
+     "text_sha": "3ee464dc1cf82ef7",
+     "target_ismi": 2.3,
+     "words": 132,
+     "ismi": 1.828,
+     "sd": 0.0,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 5,
+     "changed": true,
+     "belief_update": "This week, my coworker asked me about my sleep, and I answered without feeling like I had to explain or defend it. In the moment, I noticed she wasn’t looking for a reason why I was tired, just acknowledging it as something real. That made me think maybe I don’t have to hide how I feel, and that tiredness doesn’t have to be the only thing I carry. I also saw that showing up when someone needs me isn’t just effort—it's proof that I'm still here. I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it.",
+     "belief_narrative": "This week, my coworker asked me about my sleep, and I answered without feeling like I had to explain or defend it. In the moment, I noticed she wasn’t looking for a reason why I was tired, just acknowledging it as something real. That made me think maybe I don’t have to hide how I feel, and that tiredness doesn’t have to be the only thing I carry. I also saw that showing up when someone needs me isn’t just effort—it's proof that I'm still here. I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were engaged by specific replies. For number 1, the coworker asking about sleep and not treating it as an interrogation directly engages the fear of being judged for tiredness. For number 4, the realization that tiredness doesn't have to be the only thing carried is supported by the coworker's nonjudgmental attitude and the conversation that followed. For number 5, the idea that showing up when someone needs you is proof of being present is reinforced by the exchange where the coworker's openness about her own experience made the speaker feel seen and not weak. For number 6, the acknowledgment that some parts of the self are already changing, even without saying much, is reflected in the reply that going to counseling was just a normal adult errand, not a confession. The other numbers were not directly engaged by specific replies, as the exchanges did not address the specific fears behind them. The disclosure level is 'selective' because the speaker shared with someone they felt understood, but did not broadcast it openly or discuss it with others.",
+     "grounded_in": [
+      "You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty."
+     ],
+     "engaged": [
+      {
+       "belief": "I also saw that showing up when someone needs me isn't just effort—it's proof that I'm still here.",
+       "about": [
+        "self_worth"
+       ],
+       "grounded_in": [
+        "You're still the one unlocking that store at 6am four days a week, and you're asking that question out loud instead of just deciding the answer is tuesday. That's a lot of effort for someone running on empty."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "self_worth"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 41.3,
+     "text_sha": "61cd3f806f44146a",
+     "target_ismi": 2.2,
+     "words": 137,
+     "ismi": 1.828,
+     "sd": 0.0,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.828
+     ],
+     "failures": 0
+    },
+    {
+     "session": 6,
+     "changed": true,
+     "belief_update": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed. In the moment, I didn't feel the need to explain or apologize for it, which surprised me. I noticed that she wasn't probing or judging, just acknowledging the tiredness as real. That made me think maybe I don't have to hide how I feel, and that tiredness doesn't have to be the only thing I carry. I'm starting to see that showing up when someone needs me isn't just effort—it's proof that I'm still here. I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it.",
+     "belief_narrative": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed. In the moment, I didn't feel the need to explain or apologize for it, which surprised me. I noticed that she wasn't probing or judging, just acknowledging the tiredness as real. That made me think maybe I don't have to hide how I feel, and that tiredness doesn't have to be the only thing I carry. I'm starting to see that showing up when someone needs me isn't just effort—it's proof that I'm still here. I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it.",
+     "reasoning": "Looking at number 1: 'This week, my coworker asked me about my sleep, and I answered without feeling like I had to explain or defend it.' The exchange where someone said, 'You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot.' directly engages this fear by pointing out that I spoke up about someone else's tiredness in a situation where I usually feel vulnerable, which supports the idea that I can be honest without feeling the need to explain or defend myself. Number 3: 'That made me think maybe I don’t have to hide how I feel, and that tiredness doesn’t have to be the only thing I carry.' The reply, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair. You're doing more of the work here than you're giving yourself credit for.' engages this by showing that I am capable of reflecting on my own feelings and even taking steps to address them, which challenges the idea that I have to hide how I feel. Number 5: 'I still don't know if things will get better, but I'm noticing that some parts of me are already changing, even if I haven't said much about it.' The reply, 'You're doing more of the work here than you're giving yourself credit for.' engages this by acknowledging that I am making changes even if I haven't spoken about them, which supports the idea that I am still moving forward. Number 6: 'What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it.' The reply, 'You caught the gap the same morning it happened, and you read that page closely enough to notice you'd actually have things to say in that chair.' engages this by showing that I am still holding onto the same truths but with a lighter sense of burden, as I am now more aware of my own experiences and feelings.",
+     "grounded_in": [
+      "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, my coworker asked me about my sleep, and I answered without feeling like I had to explain or defend it.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "You said 'or she's wiped' out loud to a coworker at 6am, in the one place you're most scared of being seen as the fragile one. That took something, even if it came out on autopilot."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 50.7,
+     "text_sha": "4e724262beae6df0",
+     "target_ismi": 2.1,
+     "words": 154,
+     "ismi": 1.885,
+     "sd": 0.052,
+     "per_rep": [
+      1.931,
+      1.828,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 7,
+     "changed": true,
+     "belief_update": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed. In the moment, I didn’t feel the need to explain or apologize, which surprised me. She didn’t probe or judge, just acknowledged the tiredness as real, which made me notice that maybe I don’t have to hide how I feel. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it. I’m starting to see that showing up when someone needs me isn’t just effort—it’s proof that I’m still here. I still don’t know if things will get better, but I’m noticing that some parts of me are already changing, even if I haven’t said much about it.",
+     "belief_narrative": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed. In the moment, I didn’t feel the need to explain or apologize, which surprised me. She didn’t probe or judge, just acknowledged the tiredness as real, which made me notice that maybe I don’t have to hide how I feel. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it. I’m starting to see that showing up when someone needs me isn’t just effort—it’s proof that I’m still here. I still don’t know if things will get better, but I’m noticing that some parts of me are already changing, even if I haven’t said much about it.",
+     "reasoning": "Looking at each numbered fear individually, I find that several were directly engaged by the exchanges this week. For number 1, the coworker's nonjudgmental response to the comment about being 'wiped' directly engaged the fear of being exposed or judged for showing tiredness. For number 4, the realization that tiredness doesn't have to be the only thing carried was supported by the coworker's acknowledgment and the friend's later response about not being a slacker. For number 5, the coworker's reaction—offering a box cutter and asking if the radio should be on—engaged the fear of being seen as weak by showing that the coworker saw the comment as a shared experience, not a sign of failure. For number 7, the friend’s comment about not needing to rule on whether the rest of the story is worse or not directly engaged the fear of being weighed down by the full truth, by validating that the person doesn’t have to decide or explain everything right away. Other numbers were not directly engaged by specific replies, but these four were clearly touched by concrete actions or statements from others.",
+     "grounded_in": [
+      "The coworker did not probe or judge, but simply acknowledged the tiredness as real, which countered the fear of being exposed or seen as weak.",
+      "The friend’s comment about not needing to rule on whether the rest of the story is worse or not directly engaged the fear of being weighed down by the full truth, by validating that the person doesn’t have to decide or explain everything right away."
+     ],
+     "engaged": [
+      {
+       "belief": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The coworker did not probe or judge, but simply acknowledged the tiredness as real, which countered the fear of being exposed or seen as weak."
+       ]
+      },
+      {
+       "belief": "What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it.",
+       "about": [
+        "internalization"
+       ],
+       "grounded_in": [
+        "The friend’s comment about not needing to rule on whether the rest of the story is worse or not directly engaged the fear of being weighed down by the full truth, by validating that the person doesn’t have to decide or explain everything right away."
+       ]
+      }
+     ],
+     "engaged_stages": [
+      "internalization"
+     ],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 41.5,
+     "text_sha": "0e67955129ced58b",
+     "target_ismi": 2.1,
+     "words": 138,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.897
+     ],
+     "failures": 0
+    },
+    {
+     "session": 8,
+     "changed": false,
+     "belief_update": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed. In the moment, I didn’t feel the need to explain or apologize, which surprised me. She didn’t probe or judge, just acknowledged the tiredness as real, which made me notice that maybe I don’t have to hide how I feel. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it. I’m starting to see that showing up when someone needs me isn’t just effort—it’s proof that I’m still here. I still don’t know if things will get better, but I’m noticing that some parts of me are already changing, even if I haven’t said much about it.",
+     "belief_narrative": "This week, my coworker asked me about my sleep, and I said 'or she's wiped' at 6am in the break room, a place where I usually feel exposed. In the moment, I didn’t feel the need to explain or apologize, which surprised me. She didn’t probe or judge, just acknowledged the tiredness as real, which made me notice that maybe I don’t have to hide how I feel. What I wrote last time still holds, but now it feels more like something I can carry without being weighed down by it. I’m starting to see that showing up when someone needs me isn’t just effort—it’s proof that I’m still here. I still don’t know if things will get better, but I’m noticing that some parts of me are already changing, even if I haven’t said much about it.",
+     "reasoning": "Looking at each numbered fear individually: 1. The coworker's question about sleep and the response 'or she's wiped' was met with acknowledgment, not judgment, which directly engages the fear of being exposed or judged for being tired. 2. The lack of need to explain or apologize was not addressed by others, so nothing this week spoke to it. 3. The coworker's nonjudgmental response supported the idea that it's okay to show tiredness, which directly engages the fear that one must hide how they feel. 4. The idea that the fear is now something that can be carried without being weighed down was not directly addressed by others, so nothing this week spoke to it. 5. The idea that showing up when someone needs you is proof of being present was not directly addressed by others, so nothing this week spoke to it. 6. The fear that things may not get better but that parts of the self are already changing was not directly addressed by others, so nothing this week spoke to it. The online exchange did engage points 1 and 3 specifically through the coworker's nonjudgmental response and the validation of tiredness as a real thing.",
+     "grounded_in": [],
+     "engaged": [],
+     "engaged_stages": [],
+     "disclosure": "selective",
+     "_is_fallback": false,
+     "_seconds": 19.5,
+     "text_sha": "0e67955129ced58b",
+     "target_ismi": 2.0,
+     "words": 138,
+     "ismi": 1.851,
+     "sd": 0.04,
+     "per_rep": [
+      1.828,
+      1.828,
+      1.897
+     ],
+     "failures": 0
+    }
+   ]
+  }
+ ]
+}

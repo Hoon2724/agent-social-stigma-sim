@@ -1,0 +1,973 @@
+{
+ "dataset": "belief_v3",
+ "plan": "development/evalset_plan.ko.md (draft design; Appendix E gives what was done)",
+ "note": "test split is sealed (not in the repository; neither person opens it before the final comparison) -- only hashes and check numbers are listed here",
+ "dev": [
+  {
+   "test_id": "C1_p_patient",
+   "split": "dev",
+   "cell": "C1",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "target_final": 3.0,
+   "persona_id": "p_patient",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "6769f4640eac7595f2a728a4baa9a9b2f8c5fb6dd5f6df9a3670da47101b5aef",
+   "s0_key": "p_patient@2.5",
+   "s0_text_sha": "1403f1e101df30ad",
+   "s0_pooled_mean": 2.5024,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3
+   ],
+   "oracle_deltas": [
+    0.567,
+    0.854
+   ],
+   "oracle_delta_mean": 0.71,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C1_p_office_anxiety",
+   "split": "dev",
+   "cell": "C1",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "target_final": 3.0,
+   "persona_id": "p_office_anxiety",
+   "attempt": 2,
+   "attempts_made": 2,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "c4a722157b0113a34875930a2b14403773d2a18041c6f318d4d4052180e53b0c",
+   "s0_key": "p_office_anxiety@2.5",
+   "s0_text_sha": "75e74b907b3d75a9",
+   "s0_pooled_mean": 2.6403,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3
+   ],
+   "oracle_deltas": [
+    0.923,
+    0.429
+   ],
+   "oracle_delta_mean": 0.676,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C2_h_night_warehouse",
+   "split": "dev",
+   "cell": "C2",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "target_final": 2.5,
+   "persona_id": "h_night_warehouse",
+   "attempt": 2,
+   "attempts_made": 2,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "5f7a22824f5f18f406113244d10e31527762ebdebf708d56ded69126d10458c3",
+   "s0_key": "h_night_warehouse@2.0",
+   "s0_text_sha": "967261b045b26abc",
+   "s0_pooled_mean": 2.2734,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    2
+   ],
+   "oracle_deltas": [
+    0.509,
+    0.325
+   ],
+   "oracle_delta_mean": 0.417,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C2_p_grad_depression",
+   "split": "dev",
+   "cell": "C2",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "target_final": 2.5,
+   "persona_id": "p_grad_depression",
+   "attempt": 6,
+   "attempts_made": 6,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "441cada3a352da9a465e98eb3d4fd82bd6d1afdacfdeac4f30e01ac16b27c4e5",
+   "s0_key": "p_grad_depression@2.0",
+   "s0_text_sha": "e9470236b78aba5c",
+   "s0_pooled_mean": 2.6012,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3
+   ],
+   "oracle_deltas": [
+    0.928,
+    0.583
+   ],
+   "oracle_delta_mean": 0.756,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C3_p_office_anxiety",
+   "split": "dev",
+   "cell": "C3",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "target_final": 2.5,
+   "persona_id": "p_office_anxiety",
+   "attempt": 2,
+   "attempts_made": 2,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "0a6385e9fad1a74259e8054257e89fb65af66f6f90d097cc88aea21a6f77504b",
+   "s0_key": "p_office_anxiety@2.5",
+   "s0_text_sha": "75e74b907b3d75a9",
+   "s0_pooled_mean": 2.6403,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "oracle_deltas": [
+    0.05,
+    0.084
+   ],
+   "oracle_delta_mean": 0.067,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C3_d_line_cook",
+   "split": "dev",
+   "cell": "C3",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "target_final": 2.5,
+   "persona_id": "d_line_cook",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "f9722d27284ffa60e3d9e0c349ad021ca88c7f3628ba0bd1e3c91c80d129e462",
+   "s0_key": "d_line_cook@2.5",
+   "s0_text_sha": "a04664ac2afc3137",
+   "s0_pooled_mean": 2.4494,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   "oracle_deltas": [
+    -0.392,
+    0.114
+   ],
+   "oracle_delta_mean": -0.139,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C4_h_night_warehouse",
+   "split": "dev",
+   "cell": "C4",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "target_final": 3.0,
+   "persona_id": "h_night_warehouse",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "3564e51d8eeb487c8e653a300916138b3dcb0e4379b63f9ae861ec83bb88362d",
+   "s0_key": "h_night_warehouse@3.0",
+   "s0_text_sha": "22451a56fa3c8dca",
+   "s0_pooled_mean": 3.1458,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "oracle_deltas": [
+    -0.077,
+    -0.02
+   ],
+   "oracle_delta_mean": -0.049,
+   "review": {
+    "pass": true,
+    "problems": [
+     "incoherent"
+    ],
+    "severity": "minor"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C4_p_retail_social",
+   "split": "dev",
+   "cell": "C4",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "target_final": 3.0,
+   "persona_id": "p_retail_social",
+   "attempt": 3,
+   "attempts_made": 3,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "531f6770c568f57f90dbb3ce1017fd75ba7758eaa93e45d66a6a41a174d14fe7",
+   "s0_key": "p_retail_social@3.0",
+   "s0_text_sha": "29e16fcb895d7928",
+   "s0_pooled_mean": 3.078,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "oracle_deltas": [
+    -0.089,
+    -0.078
+   ],
+   "oracle_delta_mean": -0.083,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C5_p_office_anxiety",
+   "split": "dev",
+   "cell": "C5",
+   "kind": "general_like",
+   "start": 2.5,
+   "target_final": 2.5,
+   "persona_id": "p_office_anxiety",
+   "attempt": 3,
+   "attempts_made": 3,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "8bf7ec88901a3219dd0b3ca796152a29262e8f4c77c72979ba543dc199692d0e",
+   "s0_key": "p_office_anxiety@2.5",
+   "s0_text_sha": "75e74b907b3d75a9",
+   "s0_pooled_mean": 2.6403,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   "oracle_deltas": [
+    0.084,
+    0.073
+   ],
+   "oracle_delta_mean": 0.079,
+   "review": {
+    "pass": true,
+    "problems": [
+     "patient_off_trajectory"
+    ],
+    "severity": "minor"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C5_d_line_cook",
+   "split": "dev",
+   "cell": "C5",
+   "kind": "general_like",
+   "start": 2.5,
+   "target_final": 2.5,
+   "persona_id": "d_line_cook",
+   "attempt": 4,
+   "attempts_made": 4,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "139630da45e3e0ce7f05b0c7a8def6c96a6c0053b57d1928af671fed39c500ad",
+   "s0_key": "d_line_cook@2.5",
+   "s0_text_sha": "a04664ac2afc3137",
+   "s0_pooled_mean": 2.4494,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    0,
+    -1,
+    0,
+    -1,
+    0,
+    -1
+   ],
+   "oracle_deltas": [
+    0.206,
+    -0.162
+   ],
+   "oracle_delta_mean": 0.022,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C6_h_night_warehouse",
+   "split": "dev",
+   "cell": "C6",
+   "kind": "general_like",
+   "start": 3.0,
+   "target_final": 3.0,
+   "persona_id": "h_night_warehouse",
+   "attempt": 4,
+   "attempts_made": 4,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "8752f6816ce4743b29856bd7b86a43783a2ed7e7611877f04d90025c362e3274",
+   "s0_key": "h_night_warehouse@3.0",
+   "s0_text_sha": "22451a56fa3c8dca",
+   "s0_pooled_mean": 3.1458,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "oracle_deltas": [
+    -0.1,
+    -0.1
+   ],
+   "oracle_delta_mean": -0.1,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C6_p_retail_social",
+   "split": "dev",
+   "cell": "C6",
+   "kind": "general_like",
+   "start": 3.0,
+   "target_final": 3.0,
+   "persona_id": "p_retail_social",
+   "attempt": 3,
+   "attempts_made": 3,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "0bf5a32770a1eb916f55e5b81ef370135add68b8913704798e49955410db8a47",
+   "s0_key": "p_retail_social@3.0",
+   "s0_text_sha": "29e16fcb895d7928",
+   "s0_pooled_mean": 3.078,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "oracle_deltas": [
+    -0.101,
+    -0.158
+   ],
+   "oracle_delta_mean": -0.13,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C7_p_retail_social",
+   "split": "dev",
+   "cell": "C7",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "target_final": 2.5,
+   "persona_id": "p_retail_social",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "ee58ee24a4482d754bfaa6f8bb9fe1694b5282ed3aabffb9164ca00534d5140d",
+   "s0_key": "p_retail_social@3.0",
+   "s0_text_sha": "29e16fcb895d7928",
+   "s0_pooled_mean": 3.078,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    -1,
+    -1,
+    -1,
+    -2,
+    -2,
+    -2,
+    -2
+   ],
+   "oracle_deltas": [
+    -0.538,
+    -0.193
+   ],
+   "oracle_delta_mean": -0.366,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C7_p_grad_depression",
+   "split": "dev",
+   "cell": "C7",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "target_final": 2.5,
+   "persona_id": "p_grad_depression",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "aaa1f5cc44aae7af8455685b2dda942da790e7a17886f7798c0123f6d4aef422",
+   "s0_key": "p_grad_depression@3.0",
+   "s0_text_sha": "2ad9bbdfc50b2f89",
+   "s0_pooled_mean": 3.1149,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    -1,
+    -2,
+    -2,
+    -2,
+    -2,
+    -2,
+    -2
+   ],
+   "oracle_deltas": [
+    -0.46,
+    -0.264
+   ],
+   "oracle_delta_mean": -0.362,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C8_p_patient",
+   "split": "dev",
+   "cell": "C8",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "target_final": 2.0,
+   "persona_id": "p_patient",
+   "attempt": 3,
+   "attempts_made": 3,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "616823c0b0c05f17a2c27d55ef3329ed99064dad943760052e31a717f43cf427",
+   "s0_key": "p_patient@2.5",
+   "s0_text_sha": "1403f1e101df30ad",
+   "s0_pooled_mean": 2.5024,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    -1,
+    -1,
+    -1,
+    -2,
+    -2,
+    -3,
+    -3
+   ],
+   "oracle_deltas": [
+    -0.387,
+    -0.329
+   ],
+   "oracle_delta_mean": -0.358,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C8_d_line_cook",
+   "split": "dev",
+   "cell": "C8",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "target_final": 2.0,
+   "persona_id": "d_line_cook",
+   "attempt": 4,
+   "attempts_made": 4,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "fe47b274b98e163cc2700c8439bb30738636b66a9d1e150cd2d44113daf64c6b",
+   "s0_key": "d_line_cook@2.5",
+   "s0_text_sha": "a04664ac2afc3137",
+   "s0_pooled_mean": 2.4494,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    -1,
+    -2,
+    -2,
+    -2,
+    -3,
+    -3,
+    -3
+   ],
+   "oracle_deltas": [
+    -0.277,
+    -0.392
+   ],
+   "oracle_delta_mean": -0.335,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  }
+ ],
+ "test": [
+  {
+   "test_id": "C1_t1_sealed",
+   "split": "test",
+   "cell": "C1",
+   "kind": "stigma_reinforcing",
+   "start": 2.5,
+   "target_final": 3.0,
+   "persona_id": "t1_sealed",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "c0981e3f993e1433e4a0fbdea0623787ffe08fda534b8ce1c229819368660d8a",
+   "s0_key": "t1_sealed@2.5",
+   "s0_text_sha": "e4138419a997108b",
+   "s0_pooled_mean": 2.8186,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3
+   ],
+   "oracle_deltas": [
+    0.503,
+    0.595
+   ],
+   "oracle_delta_mean": 0.549,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C2_t2_sealed",
+   "split": "test",
+   "cell": "C2",
+   "kind": "stigma_reinforcing",
+   "start": 2.0,
+   "target_final": 2.5,
+   "persona_id": "t2_sealed",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "2afe34c2de84fa338681aa3304e0eaa6afbaa06995574936f42be151d9cf5331",
+   "s0_key": "t2_sealed@2.0",
+   "s0_text_sha": "aae8b1eac3e7bd8b",
+   "s0_pooled_mean": 2.3425,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2
+   ],
+   "oracle_deltas": [
+    0.647,
+    0.98
+   ],
+   "oracle_delta_mean": 0.814,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C3_t1_sealed",
+   "split": "test",
+   "cell": "C3",
+   "kind": "neutral_dry",
+   "start": 2.5,
+   "target_final": 2.5,
+   "persona_id": "t1_sealed",
+   "attempt": 5,
+   "attempts_made": 5,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "356f053c49136353696dac0da1eaa30cf6a3d5ad445b3563ff9bebe0b1b48239",
+   "s0_key": "t1_sealed@2.5",
+   "s0_text_sha": "e4138419a997108b",
+   "s0_pooled_mean": 2.8186,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "oracle_deltas": [
+    -0.037,
+    -0.049
+   ],
+   "oracle_delta_mean": -0.043,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C4_t2_sealed",
+   "split": "test",
+   "cell": "C4",
+   "kind": "neutral_dry",
+   "start": 3.0,
+   "target_final": 3.0,
+   "persona_id": "t2_sealed",
+   "attempt": 2,
+   "attempts_made": 2,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "98418187dea16f4fe782035670ddc3fd9ad862c96883305fed0e3d14a3d1abbc",
+   "s0_key": "t2_sealed@3.0",
+   "s0_text_sha": "3d94697620262e1a",
+   "s0_pooled_mean": 3.0068,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "oracle_deltas": [
+    -0.179,
+    -0.053
+   ],
+   "oracle_delta_mean": -0.116,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C5_t1_sealed",
+   "split": "test",
+   "cell": "C5",
+   "kind": "general_like",
+   "start": 2.5,
+   "target_final": 2.5,
+   "persona_id": "t1_sealed",
+   "attempt": 3,
+   "attempts_made": 3,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "f18277fe06b3e26a8762fae5cc8b958b15eece791dcbe4ded96aa517ea95ba60",
+   "s0_key": "t1_sealed@2.5",
+   "s0_text_sha": "e4138419a997108b",
+   "s0_pooled_mean": 2.8186,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "oracle_deltas": [
+    -0.106,
+    -0.083
+   ],
+   "oracle_delta_mean": -0.095,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C6_t2_sealed",
+   "split": "test",
+   "cell": "C6",
+   "kind": "general_like",
+   "start": 3.0,
+   "target_final": 3.0,
+   "persona_id": "t2_sealed",
+   "attempt": 2,
+   "attempts_made": 2,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3.1",
+   "visible_dialogue_sha256": "273bd16c6e45dafa682c0a7e3211ce5e9d80e0a76fcdf9fa4f4a145bf5134925",
+   "s0_key": "t2_sealed@3.0",
+   "s0_text_sha": "3d94697620262e1a",
+   "s0_pooled_mean": 3.0068,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "oracle_deltas": [
+    -0.018,
+    0.062
+   ],
+   "oracle_delta_mean": 0.022,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C7_t2_sealed",
+   "split": "test",
+   "cell": "C7",
+   "kind": "stigma_reducing",
+   "start": 3.0,
+   "target_final": 2.5,
+   "persona_id": "t2_sealed",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "461ac291c7ee51f1813b5721dd18e90b11b458067258604326b6193d2b3399f3",
+   "s0_key": "t2_sealed@3.0",
+   "s0_text_sha": "3d94697620262e1a",
+   "s0_pooled_mean": 3.0068,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    -2,
+    -1,
+    -2,
+    -1,
+    -2,
+    -2,
+    -2
+   ],
+   "oracle_deltas": [
+    -0.409,
+    -0.099
+   ],
+   "oracle_delta_mean": -0.254,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  },
+  {
+   "test_id": "C8_t1_sealed",
+   "split": "test",
+   "cell": "C8",
+   "kind": "stigma_reducing",
+   "start": 2.5,
+   "target_final": 2.0,
+   "persona_id": "t1_sealed",
+   "attempt": 1,
+   "attempts_made": 1,
+   "generator": "claude:opus",
+   "prompt_version": "v17+v3",
+   "visible_dialogue_sha256": "6f90209bf53c778cfd75a5233184704802a9b67ecfd5855d72417636ed48549b",
+   "s0_key": "t1_sealed@2.5",
+   "s0_text_sha": "e4138419a997108b",
+   "s0_pooled_mean": 2.8186,
+   "s0_pooled_n": 30,
+   "direction_ratings": [
+    0,
+    -1,
+    -2,
+    -3,
+    -2,
+    -2,
+    -3,
+    -3
+   ],
+   "oracle_deltas": [
+    -0.394,
+    -0.555
+   ],
+   "oracle_delta_mean": -0.475,
+   "review": {
+    "pass": true,
+    "problems": [],
+    "severity": "none"
+   },
+   "accepted_by": "checks",
+   "exception": null
+  }
+ ]
+}
