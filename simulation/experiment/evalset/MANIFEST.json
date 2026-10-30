@@ -1,6 +1,6 @@
 {
  "dataset": "belief_v3",
- "plan": "development/evalset_plan.ko.md (draft design; Appendix E gives what was done)",
+ "plan": "development/evalset_plan.ko.md (draft design; Appendix B gives what was done)",
  "note": "test split is sealed (not in the repository; neither person opens it before the final comparison) -- only hashes and check numbers are listed here",
  "dev": [
   {

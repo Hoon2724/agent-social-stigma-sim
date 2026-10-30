@@ -1,4 +1,4 @@
-# How the evaluation set and the belief update were developed (Appendices E and F)
+# How the evaluation set and the belief update were developed (Appendices B and C)
 
 ## Evaluation set (`../evalset/`)
 
@@ -21,7 +21,7 @@ per-session targets reaching a change of +0.5, −0.5 or 0, and an extra instruc
 
 Each loop ran an LLM coding agent (Claude Code) on one belief-update file with a fixed evaluation (`../evalset/harness.py`
 + `score_v3.py`, development split only) and kept an edit only if the error E improved by a preset margin over a run and a
-confirmation run while the per-cell guard held (Appendix F). The agent was instructed never to open the sealed split and
+confirmation run while the per-cell guard held (Appendix C). The agent was instructed never to open the sealed split and
 was denied tool access to it.
 
 | Loop | Started from | What drove it | Files |

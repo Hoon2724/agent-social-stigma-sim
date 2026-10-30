@@ -1,4 +1,4 @@
-"""Figure 7 (Appendix F): development error E per iteration of the four search loops.
+"""Figure 7 (Appendix C): development error E per iteration of the four search loops.
 
 Values are read from the loops' own records: loopA/iterations.json, loopB/autoresearch.jsonl,
 loopC/iterations.json, loopD/autoresearch_min.jsonl (SCORE = 1 - E in the jsonl logs).

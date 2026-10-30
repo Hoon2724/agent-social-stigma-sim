@@ -1,6 +1,6 @@
 # Sanity Check 1 — Static Measurement Validity
 
-Reproduces Section 4.1 and Figure 5 (Appendix D.1): does an ISMI-29 LLM judge
+Reproduces Section 4.1 and Figure 5 (Appendix A.1): does an ISMI-29 LLM judge
 recover a predefined ordering of self-stigma severity from persona text it was
 not told the levels of?
 
@@ -43,7 +43,7 @@ collapses into one band).
 ## Dependencies
 
 Python: `openai`, `matplotlib`. Reads (never writes) four modules of the main simulation in
-`../experiment/agents/`: `reddit_persona_profiles`, `measure_ismi29` (the ISMI-29 judge of Appendix B, Prompt 11),
+`../experiment/agents/`: `reddit_persona_profiles`, `measure_ismi29` (the ISMI-29 judge of Appendix E, Prompt 11),
 `ismi29_items`, `llm_client`. These are the modules the reported measurement used.
 
 Serving: Qwen3-32B via ollama (Q4_K_M, ~19GB, fits one 24GB GPU).

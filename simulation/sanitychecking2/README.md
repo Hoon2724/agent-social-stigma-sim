@@ -4,7 +4,7 @@ This folder generates **scripted SNS-style peer-support dialogues** in which a s
 the visible dialogue on purpose, while the hidden ground truth (condition, per-session intended ISMI, intended
 register) is stored separately.
 
-- **Section 4.2 / Appendices D.2 and E.** The evaluation set for the belief update was generated with this
+- **Section 4.2 / Appendices A.2 and B.** The evaluation set for the belief update was generated with this
   generator, with Claude Opus as the writer (`../experiment/evalset/gen_claude.py`, `gen_v3.py`). Its scoring with
   the belief state and with the accumulated dialogue, and Figure 6, are in `../experiment/` (`analysis/a4_validity.py`,
   `a4_figure.py`, `results/validity/`).

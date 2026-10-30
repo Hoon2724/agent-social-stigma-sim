@@ -1,4 +1,4 @@
-# Evaluation set for the belief update (Appendix E)
+# Evaluation set for the belief update (Appendix B)
 
 Scripted, model-written dialogues whose intended change in self-stigma is known, used to develop and test the belief
 update. Eight cells (four trajectory types x two starting levels), three dialogues per cell: two for development (here)
@@ -13,7 +13,7 @@ and one sealed (not released).
 
 Files:
 - `dev.jsonl` — 16 dialogues (eight sessions, eleven turns each), with hidden per-session targets and the checks
-  they passed; generated with Claude Opus and checked as described in Appendix E.
+  they passed; generated with Claude Opus and checked as described in Appendix B.
 - `pre/<person>@<start>.txt` — the fixed session-0 belief text every update starts from.
 - `s0_pooled.json` — the judge's mean score of each session-0 text (30 calls); changes are measured from it.
 - `MANIFEST.json` — hashes and acceptance numbers (for the sealed split: hashes and numbers only).

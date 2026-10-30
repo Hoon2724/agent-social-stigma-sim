@@ -1,4 +1,4 @@
-"""Section 4.2 and Appendix D.2: belief state vs accumulated dialogue as the input the ISMI judge reads, on the
+"""Section 4.2 and Appendix A.2: belief state vs accumulated dialogue as the input the ISMI judge reads, on the
 evaluation set (development 16, sealed test 8).
 
 Both arms start from the same session-0 note, so both are anchored to one session-0 score (the pooled mean of
