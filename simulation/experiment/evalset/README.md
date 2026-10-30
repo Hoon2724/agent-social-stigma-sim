@@ -18,7 +18,6 @@ Files:
 - `s0_pooled.json` — the judge's mean score of each session-0 text (30 calls); changes are measured from it.
 - `MANIFEST.json` — hashes and acceptance numbers (for the sealed split: hashes and numbers only).
 - `personas.json` — the development personas' facts.
-- `fig6_dialogues/` — the two GPT-5.5 dialogues of Section 4.3 and their session-0 text.
 - `sealed_scores/final_update_run{1,2,3}.json` — per-cell results of the final update on the sealed split
   (E = 0.121, 0.043, 0.106).
 

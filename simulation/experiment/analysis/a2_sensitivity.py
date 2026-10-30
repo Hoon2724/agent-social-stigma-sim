@@ -1,4 +1,4 @@
-"""Sensitivity checks of the Peer-General slope difference (Appendix C.4) on the released runs.
+"""Sensitivity checks of the Peer-General slope difference (Appendix G.4) on the released runs.
 
   python3 a2_sensitivity.py  ->  a2_sensitivity.json + printed tables
 """

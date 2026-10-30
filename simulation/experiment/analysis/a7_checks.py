@@ -1,4 +1,4 @@
-"""Further checks on the released runs (Appendix C).
+"""Further checks on the released runs (Appendix G).
 
   1. label channel   how many changed Peer sessions came through the label rewrite (engaged entry with new=True)
                      vs the numbered (confirm/contest) channel, and the mean one-session ISMI change of each
@@ -197,7 +197,7 @@ print(json.dumps({k: out[k] for k in ("persona_unit_slope_diff", "persona_unit_s
       "persona_unit_moderate_vs_mild_p", "persona_unit_norm_severe_vs_mild_p", "persona_unit_norm_moderate_vs_mild_p",
       "rewrites_by_severity")}, indent=1))
 
-# 9. LaTeX tables for Appendix C
+# 9. LaTeX tables for Appendix G
 TEX = HERE / "tables_final"
 TEX.mkdir(exist_ok=True)
 NAMES = [("hopeful_disclosure", "Positive self-disclosure"), ("treatment_modeling", "Role modeling"),

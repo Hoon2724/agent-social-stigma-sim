@@ -1,15 +1,15 @@
-# Sanity Check 2 — Dialogue generator for the longitudinal check (Section 4.3)
+# Sanity Check 2 — Dialogue generator for the longitudinal check (Section 4.2)
 
 This folder generates **scripted SNS-style peer-support dialogues** in which a self-stigma trajectory is written into
 the visible dialogue on purpose, while the hidden ground truth (condition, per-session intended ISMI, intended
-register) is stored separately. Two uses in the paper:
+register) is stored separately.
 
-- **Section 4.3 / Appendix A.2.** GPT-5.5 wrote the two dialogues in `data/synthetic/` (one stigma-reducing, one
-  flat). The paper scores them with the final belief update and with the accumulated dialogue; that measurement,
-  its records and Figure 6 are in `../experiment/` (`analysis/a4_validity.py`, `a4_figure.py`,
-  `results/validity/fig6_*`, the dialogues and their session-0 text in `evalset/fig6_dialogues/`).
-- **Section 4.2 / Appendix E.** The evaluation set for the belief update was generated with this same generator,
-  with Claude Opus in place of GPT-5.5 (`../experiment/evalset/gen_claude.py`, `gen_v3.py`).
+- **Section 4.2 / Appendices D.2 and E.** The evaluation set for the belief update was generated with this
+  generator, with Claude Opus as the writer (`../experiment/evalset/gen_claude.py`, `gen_v3.py`). Its scoring with
+  the belief state and with the accumulated dialogue, and Figure 6, are in `../experiment/` (`analysis/a4_validity.py`,
+  `a4_figure.py`, `results/validity/`).
+- `data/synthetic/` holds two example outputs of the generator written with GPT-5.5 (one stigma-reducing, one flat).
+  They are not part of the evaluation set and no number in the paper is computed from them.
 
 The judge never sees the hidden ground truth — only `visible_dialogue` (or the belief state derived from it).
 ISMI-29 item text is not stored in this folder.
@@ -34,7 +34,7 @@ sanitychecking2/
   configs/
     ismi_reducing_v2.yaml         # stigma-reducing dataset config
     ismi_general_neutral_v2.yaml  # neutral/no-change dataset config
-  data/synthetic/     # the two dialogues used in Section 4.3 (+ a README describing the schema)
+  data/synthetic/     # two example outputs written with GPT-5.5 (+ a README describing the schema)
 ```
 
 Run all commands **from this directory** so the relative paths in the configs

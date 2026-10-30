@@ -15,7 +15,7 @@ texts the reported runs loaded (`agents/config/`, `agents/outputs_v2/`); the scr
 
 ```
 agents/       the agents, the belief update, and the ISMI-29 judge (Python; flat imports, run from this folder)
-  prompts/    prompt templates (Appendix D reproduces them)
+  prompts/    prompt templates (Appendix B reproduces them)
   config/     experiment settings; session-0 belief texts and Peer personas exactly as loaded by the reported runs
   outputs_v2/ personas file (style examples removed, see STYLE_EXAMPLES.md) and the style-example manifest
 scripts/      run_cell.sh (one persona x severity cell), measure.sh (ISMI judge + long table), slurm_cell.sbatch
@@ -23,12 +23,11 @@ results/      runs/{peer,general}/level_<L>/run_0k.json   90 run records (dialog
               runs/.../run_0k.beliefonly.qwen.ismi29.json   judge records (3 calls per session: totals and subscale means)
               ismi_long.csv                                 one row per trajectory x session
               summaries/                                    numbers behind the tables and figures
-              validity/   belief-update runs and accumulated-dialogue scores behind Section 4.3 and Appendix A.2
-                          (development and Section 4.3 dialogues; the sealed split appears only as numbers)
-analysis/     Table 3, Figures 2-3 and the Appendix C analyses from results/
+              validity/   belief-update runs and accumulated-dialogue scores behind Section 4.2 and Appendix D.2
+                          (development dialogues; the sealed split appears only as numbers)
+analysis/     Table 3, Figures 2-3 and the Appendix G analyses from results/
 evalset/      the 16 development dialogues, the harness and scorer, the scripts that generated and checked the
-              evaluation set with Claude (Appendix E), the two Section 4.3 dialogues (fig6_dialogues/), and the sealed
-              split's scores only (sealed_scores/)
+              evaluation set with Claude (Appendix E), and the sealed split's scores only (sealed_scores/)
 development/  how the belief update was developed: the instructions, launch prompts and iteration logs of the four
               search loops (Appendix F) and the evaluation-set design document
 minibook/     replay the run records into a Minibook instance and browse them as platform threads
@@ -41,16 +40,16 @@ Levels: 110/111/112 Avery (severe/moderate/mild), 240–242 Jordan, 250–252 Ri
 ```bash
 pip install -r requirements.txt
 cd analysis
-python3 a3_tables.py --data final        # Table 3 and Appendix C tables -> tables_final/
+python3 a3_tables.py --data final        # Table 3 and Appendix G tables -> tables_final/
 python3 a3_figures.py --data final       # Figures 2-3 and the persona-level figure -> figures_final/
-python3 a2_sensitivity.py              # random slope, AR(1) GEE, normalised change (Appendix C)
-python3 a7_checks.py            # persona as the unit, strategy mix, subscales, rewrite sizes (Appendix C)
+python3 a2_sensitivity.py              # random slope, AR(1) GEE, normalised change (Appendix G)
+python3 a7_checks.py            # persona as the unit, strategy mix, subscales, rewrite sizes (Appendix G)
 ```
 
-Section 4.3 and Appendix A.2 (Figure 6 and its tables): `python3 a4_validity.py` recomputes the development and
-Section 4.3 parts from `results/validity/` (the sealed part needs the private test split and is taken from
+Section 4.2 and Appendix D.2 (Figure 6 and its table): `python3 a4_validity.py` recomputes the development
+part from `results/validity/` (the sealed part needs the private test split and is taken from
 `results/summaries/a4_validity.json`), then `python3 a4_figure.py` and `python3 a5_appendix_tables.py` draw Figure 6
-and write the Appendix A.2 and C.4 tables to `tables_final/`. The development-cell table of Appendix F comes from
+and write the Appendix D.2 and G.4 tables to `tables_final/`. The development-cell table of Appendix F comes from
 `../evalset/score_v3.py` on `results/validity/dev_{earlier,final}_r{1,2}`. Not included: the 1–5 ratings of Appendix F
 ("a further check", run separately) and the score files of the second sealed comparison (their E values are listed in
 `evalset/sealed_scores/README.md`).
@@ -80,7 +79,7 @@ Run records mark the persona source as `seed_mode: "fabricated"`, meaning a synt
 records do not store the belief update's hash; the file in `agents/` is the one the runs used (sha256 above).
 
 Python's random module is seeded per run (the seed is in each record); LLM sampling is not, so a rerun reproduces the
-distributions, not the exact texts. Settings per step are in Appendix G of the paper and in the commands above.
+distributions, not the exact texts. Settings per step are in Appendix C of the paper and in the commands above.
 
 ## Minibook
 

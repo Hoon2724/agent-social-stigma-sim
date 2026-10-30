@@ -1,10 +1,7 @@
 """Appendix tables generated from the analysis outputs, so no number is typed by hand.
 
-  tables_final/appendix_fig6_sessions.tex   per-session record of the two GPT-5.5 dialogues of Section 4.3:
-                                   target, the final update's mean score and how many of 5 generations changed
-                                   the belief state, earlier-update mean, accumulated-dialogue score
-  tables_final/appendix_validity_table.tex  evaluation set: trajectory error, belief state vs accumulated
-                                   dialogue, by split/type
+  tables_final/appendix_validity_table.tex  evaluation set: belief state vs accumulated dialogue, by split and
+                                   trajectory type (change at session 8 and trajectory error)
   tables_final/appendix_sensitivity.tex     Peer x session slope difference under alternative specifications
 
   python3 a5_appendix_tables.py
@@ -15,49 +12,21 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 TEX = HERE / "tables_final"
 TEX.mkdir(exist_ok=True)
-RV = HERE.parent / "results/validity"
 V = json.loads((HERE.parent / "results/summaries/a4_validity.json").read_text())
 A2 = json.loads((HERE / "a2_sensitivity.json").read_text()) if (HERE / "a2_sensitivity.json").exists() else json.loads((HERE.parent / "results/summaries/a2_sensitivity.json").read_text())
 
-
-def changed_counts(path):
-    runs = json.loads(path.read_text())["runs"]
-    return [sum(1 for r in runs for s in r["sessions"] if s["session"] == k and s.get("changed")) for k in range(9)]
-
-
-# 1. Figure 6 dialogues, session by session
-rows = []
-for r in V["items"]["fig6"]:
-    final_ch = changed_counts(RV / f"fig6_final/{r['id']}.json")
-    pap_ch = changed_counts(RV / f"fig6_earlier/{r['id']}.json")
-    name = {"F_reducing": "Stigma-reducing", "F_neutral": "No change"}[r["id"]]
-    rows.append(rf"\multicolumn{{6}}{{l}}{{\textit{{{name}}}}} \\")
-    for k in range(9):
-        upd = "--" if k == 0 else f"{final_ch[k]}/5"
-        pupd = "--" if k == 0 else f"{pap_ch[k]}/5"
-        rows.append(f"{k} & {r['targets'][k]:.1f} & {r['belief_final_curve'][k]:.2f} & {upd} & "
-                    f"{r['belief_earlier_curve'][k]:.2f} ({pupd}) & {r['cum_curve'][k]:.2f} \\\\")
-    rows.append(rf"Level MAE & & {r['belief_final']['abs']:.3f} & & {r['belief_earlier']['abs']:.3f} & {r['cumulative']['abs']:.3f} \\")
-    rows.append(rf"Traj.\ error & & {r['belief_final']['traj']:.3f} & & {r['belief_earlier']['traj']:.3f} & {r['cumulative']['traj']:.3f} \\")
-    rows.append(r"\midrule")
-rows = rows[:-1]
-(TEX / "appendix_fig6_sessions.tex").write_text("\n".join([
-    r"\begin{tabular}{lccccc}", r"\toprule",
-    r"Session & Target & \multicolumn{2}{c}{Belief state, final update} & Belief state, earlier & Accumulated \\",
-    r" & & mean score & updated in & update (updated in) & dialogue \\", r"\midrule", *rows,
-    r"\bottomrule", r"\end{tabular}"]) + "\n")
 
 # 2. Evaluation set: belief state vs accumulated dialogue
 S = V["summary"]
 order = ["worsening", "reducing", "flat (dry)", "flat (empathic)"]
 lines = [r"\begin{tabular}{llccccc}", r"\toprule",
          r"Split & Input & Overall & Worsening & Reducing & Flat (dry) & Flat (empathic) \\",
-         r" & & traj.\ error & \multicolumn{4}{c}{mean change at session 8 (target $+0.5$ / $-0.5$ / $0$ / $0$)} \\",
+         r" & & traj.\ error & \multicolumn{4}{c}{change at session 8 (trajectory error); target $+0.5$ / $-0.5$ / $0$ / $0$} \\",
          r"\midrule"]
-for split, label in (("dev", "Development (16)"), ("test", "Sealed test (8)")):
+for split, label in (("dev", "Development (16)"), ("test", "Test, held out (8)")):
     for arm, name in (("belief_final", "Belief state"), ("cumulative", "Accumulated dialogue")):
         s = S[split][arm]
-        cells = " & ".join(f"${s['by_kind'][k]['delta8']:+.2f}$" for k in order)
+        cells = " & ".join(f"${s['by_kind'][k]['delta8']:+.2f}$ ({s['by_kind'][k]['traj']:.2f})" for k in order)
         lines.append(f"{label if arm == 'belief_final' else ''} & {name} & {s['traj']:.3f} & {cells} \\\\")
     lines.append(r"\addlinespace")
 lines = lines[:-1] + [r"\bottomrule", r"\end{tabular}"]
@@ -95,5 +64,5 @@ lines.append(rf"\multicolumn{{4}}{{l}}{{Difference from mild: moderate ${100 * n
              rf"${fp(A7['persona_unit_norm_severe_vs_mild_p']).strip('$')}$)}} \\")
 lines += [r"\bottomrule", r"\end{tabular}"]
 (TEX / "appendix_sensitivity.tex").write_text("\n".join(lines).replace("+0\\%", "0\\%").replace("-0\\%", "0\\%") + "\n")
-for f in ("appendix_fig6_sessions.tex", "appendix_validity_table.tex", "appendix_sensitivity.tex"):
+for f in ("appendix_validity_table.tex", "appendix_sensitivity.tex"):
     print(f"== {f}\n" + (TEX / f).read_text())

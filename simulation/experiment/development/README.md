@@ -2,9 +2,9 @@
 
 ## Evaluation set (`../evalset/`)
 
-The 24 scripted dialogues were generated with the same generator as the longitudinal check of Section 4.3
-(`../../sanitychecking2/generate.py`, prompts in `../../sanitychecking2/prompts.py`), with Claude Opus in place of
-GPT-5.5, per-session targets reaching a change of +0.5, −0.5 or 0, and an extra instruction for the General-like replies.
+The 24 scripted dialogues were generated with the longitudinal-dialogue generator in
+`../../sanitychecking2/generate.py` (prompts in `../../sanitychecking2/prompts.py`), driven by Claude Opus, with
+per-session targets reaching a change of +0.5, −0.5 or 0, and an extra instruction for the General-like replies.
 
 | Step | Script (in `../evalset/`) | Model |
 |---|---|---|
@@ -32,7 +32,7 @@ was denied tool access to it.
 | D (control) | a single LLM call | autoresearch setup with no prior design | `loopD/` |
 
 `loopB/autoresearch.jsonl` and `loopD/autoresearch_min.jsonl` record every iteration (score = 1 − E, status, the change
-tried). `a6_search_figure.py` draws Figure 8 of the paper from these logs and the loop A/C progress records.
+tried). `a6_search_figure.py` draws Figure 7 of the paper from these logs and the loop A/C progress records.
 
 For Loops A and C, `driver.sh` called `claude -p` with `launch_prompt.ko.md` (named `prompt3.md` / `prompt4.md` in the
 driver) and the tool permissions in `agent_settings.json` (which also deny access to the sealed split); the iteration

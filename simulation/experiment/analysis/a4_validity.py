@@ -1,15 +1,14 @@
-"""Section 4.3 and Appendix A.2: belief state vs accumulated dialogue as the input the ISMI judge reads, on the
-evaluation set (development 16, sealed test 8) and on the two GPT-5.5 dialogues of Section 4.3.
+"""Section 4.2 and Appendix D.2: belief state vs accumulated dialogue as the input the ISMI judge reads, on the
+evaluation set (development 16, sealed test 8).
 
 Both arms start from the same session-0 note, so both are anchored to one session-0 score (the pooled mean of
 every judgment of that note) and compared on the change the dialogue was written to produce:
   trajectory error = mean over sessions 1..8 of |(S_s - S_0) - (T_s - T_1)|,  final error = same at session 8.
 Targets are taken as change from the session-1 target: the evaluation set wrote its per-session targets from the
 measured session-0 reading, so the nominal start (2.0/2.5/3.0) is not the target's own starting point.
-Absolute MAE over sessions 0..8 (|S_s - T_s|, the level MAE) is also reported for the two GPT-5.5 dialogues.
-Belief-state arm = runs of the final update (../results/validity/dev_final_r{1,2}: 2 x 5 generations;
-fig6_final: 5) and, for the GPT-5.5 dialogues, of the earlier update (fig6_earlier). Accumulated-dialogue arm =
-../results/validity/cumulative_*. The sealed test split is read only where it exists (the authors' machines).
+Belief-state arm = runs of the final update (../results/validity/dev_final_r{1,2}: 2 x 5 generations).
+Accumulated-dialogue arm = ../results/validity/cumulative_dev. The sealed test split is read only where it
+exists (the authors' machines).
 
   python3 a4_validity.py  ->  a4_validity.json + printed tables
 """
@@ -22,7 +21,7 @@ R = HERE.parent / "results/validity"
 EV = HERE.parent / "evalset"
 SEALED = Path.home() / "belief_v2_sealed"
 KIND = {"stigma_reinforcing": "worsening", "stigma_reducing": "reducing", "neutral_dry": "flat (dry)",
-        "general_like": "flat (empathic)", "general_neutral": "flat (Fig 6)"}
+        "general_like": "flat (empathic)"}
 SPLITS = {
     "dev": dict(items=EV / "dev.jsonl", pooled=EV / "s0_pooled.json",
                 belief={"final": [R / "dev_final_r1", R / "dev_final_r2"]},
@@ -30,9 +29,6 @@ SPLITS = {
     "test": dict(items=SEALED / "test.jsonl", pooled=SEALED / "s0_pooled.json",
                  belief={"final": [SEALED / f"runs/rerun_owf_r{r}" for r in (1, 2, 3)]},
                  cum=SEALED / "runs/cr_cumulative_test"),
-    "fig6": dict(items=EV / "fig6_dialogues/fig6.jsonl", pooled=None,
-                 belief={"final": [R / "fig6_final"], "earlier": [R / "fig6_earlier"]},
-                 cum=R / "cumulative_fig6"),
 }
 
 

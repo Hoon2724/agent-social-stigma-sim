@@ -1,4 +1,4 @@
-"""Table 3 (overall + severity), Tables 6/7 (persona-level trajectories) and Table 8 (gate / belief change) from
+"""Table 3 (overall + severity), Tables 11/12 (persona-level trajectories) and Table 13 (gate / belief change) from
 the released runs, in the paper's LaTeX layout. Session 0 uses the pooled pre (mean of every scoring of the same
 B0), so both conditions of a persona x severity cell start from one number.
 
@@ -135,7 +135,7 @@ out = HERE / f"tables_{a.data}"
 out.mkdir(exist_ok=True)
 res = {}
 builders = {"table3": table3(d), "table6_peer": table_traj(d, "peer"), "table7_general": table_traj(d, "general")}
-if a.data == "final":  # Table 8 needs the gate records kept in the run files
+if a.data == "final":  # Table 13 needs the gate records kept in the run files
     builders["table8_gate"] = table8(raw, d)
 for name, (tex, info) in builders.items():
     (out / f"{name}.tex").write_text(tex + "\n")
