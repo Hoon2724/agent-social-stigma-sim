@@ -60,9 +60,6 @@ for ax, (title, data, gens) in zip(axes, loops):
         if st in ("base", "keep") or best is None:
             best = v
         xs.append(it); ys.append(best)
-        if len(runs) > 1:
-            ax.scatter([it] * len(runs), runs, s=10, color=KEEP if st == "keep" else DISC, alpha=0.35,
-                       linewidths=0, zorder=2)
         style = {"keep": dict(s=46, color=KEEP, edgecolors="white", linewidths=1.0),
                  "base": dict(s=40, color=INK, edgecolors="white", linewidths=1.0),
                  "discard": dict(s=26, color=DISC, edgecolors="white", linewidths=0.8),
