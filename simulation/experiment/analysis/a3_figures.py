@@ -24,11 +24,6 @@ BANDS = [(1.0, 2.0, "#d9ead3", "Minimal"), (2.0, 2.5, "#fdf2cc", "Mild"),
          (2.5, 3.0, "#fbe0bd", "Moderate"), (3.0, 4.0, "#f5cccc", "Severe")]
 XL = ["pre"] + [f"s{i}" for i in range(1, 9)]
 plt.rcParams.update({"font.family": "DejaVu Sans", "axes.spines.top": False, "axes.spines.right": False})
-# The appendix grid (Figure 8) is drawn at the width it is printed at (\textwidth = 5.5 in times the
-# \includegraphics width), so these font sizes are the printed sizes. Figures 2-3 keep their original size.
-TEXTWIDTH = 5.5
-PRINTED = {"font.size": 8.5, "axes.labelsize": 8.5, "xtick.labelsize": 8, "ytick.labelsize": 8,
-           "legend.fontsize": 8, "axes.linewidth": 0.8}
 
 
 def load(path):
@@ -50,11 +45,11 @@ def bands(ax, ylo, yhi, labels=False):
     ax.yaxis.set_major_formatter(matplotlib.ticker.FormatStrFormatter("%.1f"))
 
 
-def curve(ax, d, cond, err=True, ms=4, lw=1.8):
+def curve(ax, d, cond, err=True, ms=4):
     traj = d[d.condition == cond].groupby(["trajectory_id", "session"])["ismi"].mean().unstack()
     mean, sem = traj.mean(), traj.std(ddof=1) / np.sqrt(len(traj))
     kw = dict(color=PEER, ls="-", marker="o") if cond == "peer" else dict(color=GEN, ls=(0, (4, 2)), marker="s")
-    ax.errorbar(range(9), mean.values, yerr=sem.values if err else None, capsize=2.5 if err else 0, lw=lw, ms=ms,
+    ax.errorbar(range(9), mean.values, yerr=sem.values if err else None, capsize=2.5 if err else 0, lw=1.8, ms=ms,
                 elinewidth=0.9, label="Peer" if cond == "peer" else "Neutral", zorder=3, **kw)
 
 
@@ -84,21 +79,22 @@ def by_severity(d, out):
 
 
 def grid(d, out):
-    fig, axes = plt.subplots(5, 3, figsize=(0.84 * TEXTWIDTH, 0.84 * TEXTWIDTH * 8.4 / 6.2), sharex=True, sharey=True)
+    fig, axes = plt.subplots(5, 3, figsize=(6.2, 8.4), sharex=True, sharey=True)
     for i, p in enumerate(PERSONAS):
         for j, s in enumerate(SEV):
             ax = axes[i, j]
             bands(ax, 1.8, 3.85)
             sub = d[(d.persona == p) & (d.severity == s)]
-            curve(ax, sub, "peer", err=False, ms=2.8, lw=1.5); curve(ax, sub, "general", err=False, ms=2.8, lw=1.5)
+            curve(ax, sub, "peer", err=False, ms=2.5); curve(ax, sub, "general", err=False, ms=2.5)
             if i == 0:
-                ax.set_title(s.capitalize(), fontweight="bold", fontsize=9)
+                ax.set_title(s.capitalize(), fontweight="bold", fontsize=10)
             if j == 0:
                 ax.set_ylabel(p, fontweight="bold")
-            ax.set_xticks([0, 2, 4, 6, 8]); ax.set_xticklabels(["pre", "s2", "s4", "s6", "s8"])
-    fig.supxlabel("Session", fontsize=8.5, y=0.035); fig.supylabel("ISMI mean", fontsize=8.5)
+            ax.set_xticks([0, 2, 4, 6, 8]); ax.set_xticklabels(["pre", "s2", "s4", "s6", "s8"], fontsize=7)
+            ax.tick_params(axis="y", labelsize=7)
+    fig.supxlabel("Session", fontsize=9, y=0.035); fig.supylabel("ISMI mean", fontsize=9)
     h, l = axes[0, 0].get_legend_handles_labels()
-    fig.legend(h, l, loc="lower center", ncol=2, frameon=False, bbox_to_anchor=(0.5, 0.0))
+    fig.legend(h, l, loc="lower center", ncol=2, fontsize=8, frameon=False, bbox_to_anchor=(0.5, 0.0))
     fig.tight_layout(rect=(0.02, 0.045, 1, 1)); fig.savefig(out / "appendix_ismi_persona_5x3.pdf"); plt.close(fig)
 
 
@@ -108,7 +104,5 @@ a = ap.parse_args()
 d = load(SRC[a.data])
 out = HERE / f"figures_{a.data}"
 out.mkdir(exist_ok=True)
-overall(d, out); by_severity(d, out)
-with plt.rc_context(PRINTED):
-    grid(d, out)
+overall(d, out); by_severity(d, out); grid(d, out)
 print(sorted(p.name for p in out.iterdir()))
