@@ -1,6 +1,6 @@
 """Manipulation check for test dialogues: does the visible text actually carry
 the intended direction? A rater that did NOT write the dialogue (default
-Claude Sonnet; the dialogues were written by Opus or GPT-5.5) reads the
+Claude Sonnet; the released dialogues were written by Opus) reads the
 thread with no trajectory label, no target and no persona sheet.
 
 Method "relative" (2026-10-11, replaces an absolute 1-7 rating): for each

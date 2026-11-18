@@ -38,9 +38,9 @@ ollama pull qwen3:14b
 ollama pull qwen3:32b
 ```
 
-**API models.** GPT-4o generated the Patient personas and the ten levels of Section 4.1; GPT-5.5 wrote the two
-example dialogues in `simulation/sanitychecking2/data/synthetic/`; Claude Opus and Sonnet generated and checked the evaluation set. None of them is needed to
-rerun the experiment from the released personas or to regenerate the tables and figures.
+**API models.** GPT-4o generated the Patient personas and the ten levels of Section 4.1; Claude Opus and Sonnet
+generated and checked the evaluation set of Section 4.2 (Appendix B). None of them is needed to rerun the experiment
+from the released personas or to regenerate the tables and figures.
 
 **Python.** `pip install -r requirements.txt`.
 

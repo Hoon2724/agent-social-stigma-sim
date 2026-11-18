@@ -1,11 +1,11 @@
 """Generate controlled-trajectory test dialogues with Claude (Max login, `claude -p`)
 through the SAME pipeline as the paper's Section 4.2 data: sanitychecking2's
 prompts.py (v17), trajectories.py, schema.py and generate.py's sequential
-one-session-per-call loop. Only the client differs -- GPT-5.5 credits are not
-available, so a Claude model writes the sessions.
+one-session-per-call loop. Only the client differs: a Claude model writes the
+sessions.
 
 Claude is called with a clean environment and every tool, setting source,
-MCP server and thinking turned off (memory: project_1007_claude_bystander_pilot),
+MCP server and thinking turned off,
 so the desktop app's own context does not leak into the dialogue. The CLI has
 no temperature or seed control; generation_params records that.
 
